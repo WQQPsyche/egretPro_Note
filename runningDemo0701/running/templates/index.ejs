@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+
+    <style>
+        html,
+        body {
+            touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <script>
+        var Module = {
+            TOTAL_MEMORY: 64 * 1024 * 1024
+        };
+    </script>
+    <script type="text/javascript" src="./libs/imgui/imgui.umd.js"></script>
+    <script type="text/javascript" src="./libs/imgui/imgui_impl.umd.js"></script>
+    <% htmlWebpackPlugin.options.egretModules.forEach(function(item){%>
+    <script type="text/javascript" src="./<%=item %>"></script><% }) %>
+
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+        data-scene="<%=htmlWebpackPlugin.options.scene %>"> 
+    </div>
+</body>
+
+</html>

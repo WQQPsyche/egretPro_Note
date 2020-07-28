@@ -1,0 +1,42 @@
+{
+  "engineVersion": "5.3.7",
+  "compilerVersion": "5.3.7",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "pro-library",
+      "path": "./running/pro-library"
+    }
+  ],
+  "vivo": {
+    "usePlugin": true
+  },
+  "targets": {
+    "ios": {
+      "appname": "跑酷",
+      "packagename": "com.egret.running"
+    },
+    "android": {
+      "appname": "pro测试",
+      "packagename": "com.egret.pro"
+    }
+  }
+}

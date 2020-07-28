@@ -1,0 +1,1 @@
+assets/scenes/test2.scene.json

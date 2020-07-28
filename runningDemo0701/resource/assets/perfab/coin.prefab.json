@@ -1,0 +1,89 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "builtin/sphere.mesh.bin",
+        "assets/materials/coin.mat.json"
+    ],
+    "entities": [
+        {
+            "uuid": "c5f2105d-dc5e-4d73-a0b8-e539c7493671",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "5c8d29ae-4571-43fe-850e-4966bdc402f5"
+                },
+                {
+                    "uuid": "87ba99f0-3722-43f1-9b4d-5cbe54629a9b"
+                }
+            ]
+        },
+        {
+            "uuid": "1fa61d25-f59d-4007-b944-36b3f5daa3b2",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "871b99d7-ca57-4ea6-a062-7d2006b8ce7e"
+                },
+                {
+                    "uuid": "24216ca5-d9f6-4337-abe9-dba4da9cac38"
+                },
+                {
+                    "uuid": "918b9071-280c-49bd-8c55-e90fd02571f3"
+                },
+                {
+                    "uuid": "abcbe326-c16c-46b7-9e94-029b8ab2d574"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "5c8d29ae-4571-43fe-850e-4966bdc402f5",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Root",
+            "children": [
+                {
+                    "uuid": "871b99d7-ca57-4ea6-a062-7d2006b8ce7e"
+                }
+            ]
+        },
+        {
+            "uuid": "871b99d7-ca57-4ea6-a062-7d2006b8ce7e",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Sphere"
+        },
+        {
+            "uuid": "24216ca5-d9f6-4337-abe9-dba4da9cac38",
+            "__class": "@egret/engine/Transform"
+        },
+        {
+            "uuid": "918b9071-280c-49bd-8c55-e90fd02571f3",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 0
+            }
+        },
+        {
+            "uuid": "abcbe326-c16c-46b7-9e94-029b8ab2d574",
+            "__class": "@egret/render/MeshRenderer",
+            "_localBoundingBox": [
+                -0.5,
+                -0.5,
+                -0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "materials": [
+                {
+                    "__asset": 1
+                }
+            ]
+        },
+        {
+            "uuid": "87ba99f0-3722-43f1-9b4d-5cbe54629a9b",
+            "__class": "@egret/engine/Transform"
+        }
+    ]
+}
