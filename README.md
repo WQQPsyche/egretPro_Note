@@ -8,5 +8,5 @@
 
 （二）meshDemoPro 主要是讲解模型之网格和材质的基础知识的demo。
 
-![image](https://github.com/WQQPsyche/egretPro_Note/blob/master/images/meshDemoPro.gif)
+
 
