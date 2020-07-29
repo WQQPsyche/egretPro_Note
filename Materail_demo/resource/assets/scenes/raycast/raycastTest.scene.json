@@ -1,0 +1,3599 @@
+{
+	"version": "5",
+	"minVersion": "5",
+	"assets": [
+		"builtin/triangle.mesh.bin",
+		"builtin/meshlambert.mat.json",
+		"builtin/line_z.mesh.bin",
+		"builtin/linedashed.mat.json",
+		"builtin/cylinder.mesh.bin",
+		"assets/Art/model/xiaohuangren/C_xiaohuangren_D_01_ANIM.prefab.json",
+		"builtin/pyramid.mesh.bin"
+	],
+	"entities": [
+		{
+			"uuid": "d51ba3c2-74b0-426c-b021-d704dc766043",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "c3d1fa03-0938-4e81-97a7-b84aad499474"
+				},
+				{
+					"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+				}
+			]
+		},
+		{
+			"uuid": "77e44f3e-c21d-4298-b581-6f4b76cbba6c",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "21395a8e-67bb-4eb2-8bb1-444427027313"
+				},
+				{
+					"uuid": "5a14bbca-7393-4eb5-8e6c-26031f03f366"
+				},
+				{
+					"uuid": "a0e0e789-0167-45f4-b83c-5e5c73e01ebb"
+				}
+			]
+		},
+		{
+			"uuid": "97aeba99-3d55-4107-8549-38de856fbeda",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "f5729bfe-fa3d-4a28-8549-d80a9ac9cb17"
+				},
+				{
+					"uuid": "0b30d987-c9ac-4a15-a8ca-fbab27bafea3"
+				},
+				{
+					"uuid": "f2b3dc0a-344f-4f06-bc17-69d5519e8e7f"
+				}
+			]
+		},
+		{
+			"uuid": "0fd7f6e1-3c19-4aff-9932-5c9c330121be",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "8d678af3-354a-4518-9479-2a44fe8e99b8"
+				},
+				{
+					"uuid": "1d183a45-4db2-4eb3-8c75-4f09a7d69c4e"
+				}
+			]
+		},
+		{
+			"uuid": "510c4a9f-04c6-4544-bd2d-92a656c980fe",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "91614839-ac08-4a31-a3a0-7a4851ea0036"
+				},
+				{
+					"uuid": "fcd31686-4c03-4b52-b8e6-73b161e8648e"
+				},
+				{
+					"uuid": "a0a1a04d-8013-4ad4-8406-60c0b21eb1ac"
+				},
+				{
+					"uuid": "ca33609a-bbfd-4215-b94a-082fb60b16de"
+				},
+				{
+					"uuid": "9b06973c-9ad2-4e61-ae02-b30ae2d81671"
+				}
+			]
+		},
+		{
+			"uuid": "a1e28b9d-9d11-4804-be68-ea1ec5b7b903",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "3097f30d-0ac3-4e60-bdb7-771dd7966373"
+				},
+				{
+					"uuid": "3fee41e7-c9e7-4acf-9b89-3d8194052ef0"
+				},
+				{
+					"uuid": "2ae5b69d-ac48-4fd0-83fe-a64d5e2ab7fb"
+				},
+				{
+					"uuid": "517f4f0a-ddd9-4015-821e-54577e07844c"
+				}
+			]
+		},
+		{
+			"uuid": "6251a90c-c163-4dec-baf6-54318f5a7170",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "781c5e7e-9bad-44c9-92f6-f2d59fb1439f"
+				},
+				{
+					"uuid": "b0185923-b434-47d4-a620-b4955c56e778"
+				},
+				{
+					"uuid": "3a039d16-dcf3-43fc-ad70-69a77887261f"
+				},
+				{
+					"uuid": "6ec86ba6-341a-41e9-b666-2200f4adefee"
+				}
+			]
+		},
+		{
+			"uuid": "0257cf68-cf09-41ec-8e12-9bf459986e17",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "43f04712-39a2-4f2d-8f20-017da0f5eab7"
+				},
+				{
+					"uuid": "78e70d97-2f94-4590-ad33-e0e388888e42"
+				},
+				{
+					"uuid": "ca288871-b09c-4113-aa37-ce8588cf5030"
+				},
+				{
+					"uuid": "4247bf19-5a1c-42a6-afd6-86f199ceeacf"
+				}
+			]
+		},
+		{
+			"uuid": "830061d2-cdbf-4880-b017-d40c57e7f08b",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "6594c1e4-f331-4347-b608-244576de1197"
+				},
+				{
+					"uuid": "f741b315-6431-4feb-8f7d-d6b98848b9b7"
+				},
+				{
+					"uuid": "c0e77e36-42c9-4508-908d-0b5aa8c6192b"
+				},
+				{
+					"uuid": "d473f0a2-af9e-457a-9b35-f48ca70bf234"
+				}
+			]
+		},
+		{
+			"uuid": "5bef4f78-a785-4546-8b37-020caf97ecbe",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "95682b53-1c3c-41e6-8ae5-046a348ad46b"
+				},
+				{
+					"uuid": "252dbf27-2a64-42bc-91e4-0ef6102596ea"
+				}
+			]
+		},
+		{
+			"uuid": "0346796c-86ae-4c18-b34f-be712df6c51b",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "2a228658-51d7-49b3-b64e-2331c6dd7851"
+				},
+				{
+					"uuid": "c8ad71f7-a062-4d54-8a5c-cbee9501b3f4"
+				},
+				{
+					"uuid": "a165d04a-21a7-454c-8460-442bdcab592d"
+				},
+				{
+					"uuid": "c079e6bf-8ed7-4c81-9c61-c7dfa6615bea"
+				}
+			]
+		},
+		{
+			"uuid": "60bc6359-33e9-4721-b242-4ad4dd488c0b",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "3ab95588-9ece-45df-997a-5003c79634ae"
+				},
+				{
+					"uuid": "5f820ef4-c764-408f-9520-64eb028ffc4a"
+				},
+				{
+					"uuid": "63965747-35d2-4b40-ac03-b3e035af0de3"
+				},
+				{
+					"uuid": "925102f6-a2bd-4970-a4e0-e2cea972df40"
+				}
+			]
+		},
+		{
+			"uuid": "4eddc535-0afc-4177-8bae-15f453ed6295",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "3b2c1a59-c93f-4cdf-8ca0-e2eb17d29ad3"
+				},
+				{
+					"uuid": "f1d372fa-d4b4-4ac1-8af6-33a23dc7ce88"
+				},
+				{
+					"uuid": "094c4cc4-9064-492d-a268-f36aebf90c4a"
+				},
+				{
+					"uuid": "2ea6c34f-0b5b-43bc-a9c5-33bb600f4f8d"
+				}
+			]
+		},
+		{
+			"uuid": "fea4aaf2-e00e-4e4b-b5ef-32075501dd17",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "dec7191f-9de4-4b3b-8067-3fafde10aa0a"
+				},
+				{
+					"uuid": "aed4660d-d354-4bdb-9f8e-a27bf74a27ec"
+				},
+				{
+					"uuid": "cccef207-561b-40dc-896d-95dcb2b0d774"
+				},
+				{
+					"uuid": "f30d1287-efd2-4580-a547-9dadac5e8ad1"
+				}
+			]
+		},
+		{
+			"uuid": "0cdcf4cd-70ec-4951-8a0c-22f6fe206a75",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "e07688a8-872c-4441-b9e0-9988202392a2"
+				},
+				{
+					"uuid": "3f90b053-c319-4266-b357-badf9e79fc53"
+				}
+			]
+		},
+		{
+			"uuid": "9a89566a-2ca3-403d-b1b9-08306ebe9e90",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "a2626233-4c34-4329-97f3-d58b0892f962"
+				},
+				{
+					"uuid": "b0fc4774-4f76-4c58-b472-72cb901c008a"
+				},
+				{
+					"uuid": "79fbac9f-bea2-4efb-9947-efc37cf2578b"
+				}
+			],
+			"__extras": {
+				"prefab": {
+					"__asset": 5
+				}
+			}
+		},
+		{
+			"uuid": "cc15061e-cc79-443f-ac70-13cf5e2a2cb0",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "88f2c407-76bf-48e7-9cbe-73a54835b636"
+				},
+				{
+					"uuid": "4c985f17-ef4a-4d12-a6ad-c78ad9d36107"
+				}
+			],
+			"__extras": {
+				"linkedID": "4",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "04b82faa-4efa-442a-af9f-228ffac51856",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "f654bb14-966e-46f9-8d9f-bc3d5d2c7946"
+				},
+				{
+					"uuid": "99c9d3a1-11df-48e1-979a-463f4689cace"
+				}
+			],
+			"__extras": {
+				"linkedID": "7",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "fcf4fef8-7223-4a87-8c06-dfc44d94e787",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "b127f396-8f7b-449c-94af-f17d31f9f931"
+				},
+				{
+					"uuid": "a266d917-9241-424f-8f22-918bec81ec43"
+				}
+			],
+			"__extras": {
+				"linkedID": "10",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "2cba1202-992b-4985-81e8-cef0b4a5d7f1",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "2879fe9f-6b8a-4e1e-a415-5524ca30282f"
+				},
+				{
+					"uuid": "63f3d406-0e3c-402c-9f24-5b1212858f68"
+				}
+			],
+			"__extras": {
+				"linkedID": "13",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "156b9c9e-a0fc-4b04-b0fe-620f00c2e33f",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "6a91dd90-640d-48ce-a266-52c2179909c3"
+				},
+				{
+					"uuid": "ecd009b3-7b2f-405d-b920-bf9195240e19"
+				}
+			],
+			"__extras": {
+				"linkedID": "16",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "c72ceb4c-aa06-4612-b598-da10dee83a35",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "6fc8a697-260d-4886-8cc0-c2257db166b2"
+				},
+				{
+					"uuid": "ed8b56b4-2978-482f-924b-ecbcac1ee2b0"
+				}
+			],
+			"__extras": {
+				"linkedID": "19",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "bd383a76-595d-448d-9139-8b4ca7532f2b",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "7f846fc7-b15a-451b-8786-600223016f9e"
+				},
+				{
+					"uuid": "9416e61d-0414-46cf-a00a-aeda3e0583db"
+				}
+			],
+			"__extras": {
+				"linkedID": "22",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "fa020a3a-e1b2-404c-921f-9732242a89e4",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "fa680fad-c030-4fec-8a98-50722e1860f6"
+				},
+				{
+					"uuid": "595b01be-3ea3-47c9-9cd8-baba870eb731"
+				}
+			],
+			"__extras": {
+				"linkedID": "25",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "b8131276-d0e0-4426-9823-5323f7a29e60",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "fd4840c1-c151-43aa-baaa-0220d65e7c4b"
+				},
+				{
+					"uuid": "b35d95f4-809b-4f9d-9c95-e6d0644a41ec"
+				}
+			],
+			"__extras": {
+				"linkedID": "28",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "d1a9ed07-30ab-45a1-9715-404edb9524ff",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "afe30bc6-f54d-46a5-ad96-24146c5bf145"
+				},
+				{
+					"uuid": "8b84eb4a-2ba9-4c3a-b69d-d7a71bf09495"
+				}
+			],
+			"__extras": {
+				"linkedID": "31",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "4c11f894-af5e-4dfd-b0e0-60d8f2555922",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "95d6ed96-abb0-47a2-8f82-160bfb905a9e"
+				},
+				{
+					"uuid": "9247bf7b-025d-42b2-a631-ddeb525d95ee"
+				}
+			],
+			"__extras": {
+				"linkedID": "34",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "2701d63e-9321-4992-976b-1b4bdc37f079",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "6777330b-77a7-4637-9a51-0769ee2e63a6"
+				},
+				{
+					"uuid": "0f70a60e-6e5a-48e8-868d-c6563db1e417"
+				}
+			],
+			"__extras": {
+				"linkedID": "37",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "8a959bdf-4fab-4423-8d11-8cc75149042f",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "bbd560db-1567-412f-88ec-db1a411943e6"
+				},
+				{
+					"uuid": "03a165a7-4c9a-49e3-b5b3-adcc1b747596"
+				}
+			],
+			"__extras": {
+				"linkedID": "40",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "939d7de5-7a10-44c4-9bff-318b1b6c8765",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "9ee96e4e-60f8-41ee-a6f3-8746dd8b57c7"
+				},
+				{
+					"uuid": "df333816-92a4-4e0c-b5a2-00349ce032e6"
+				}
+			],
+			"__extras": {
+				"linkedID": "43",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "52567694-d1e5-43ca-ab5f-2a1777f4570c",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "8c1070f7-b9f7-4d9c-ae59-5cf646a327c8"
+				},
+				{
+					"uuid": "eabc5790-5c92-4d19-9fa6-3f8b9d9c634d"
+				}
+			],
+			"__extras": {
+				"linkedID": "46",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "a98a0345-a460-4912-9dc3-9837cccea6f7",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "4a5930ab-ce9f-4bb1-b076-425284d9d737"
+				},
+				{
+					"uuid": "bc8c7e15-e69f-40c0-bac5-81126f85c437"
+				}
+			],
+			"__extras": {
+				"linkedID": "49",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "cf6d47e2-1729-4cec-9fb4-8ea8329977a6",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "68caeb02-a015-43c2-8a33-a18fd891bc4c"
+				},
+				{
+					"uuid": "eb413578-efb2-4b4b-8658-95cf28e74e3d"
+				}
+			],
+			"__extras": {
+				"linkedID": "52",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "3fe53225-27ad-4047-9533-12ea3d893829",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "2d49ecc0-3ca4-4808-8047-c89d3d4df8a3"
+				},
+				{
+					"uuid": "f7fb7cd4-d617-4795-a6f7-f652756f3882"
+				}
+			],
+			"__extras": {
+				"linkedID": "55",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "11f3c85b-8c5a-491d-b90f-2066b40a2f8e",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "aff7e82d-0029-42f8-87da-85d6574b47d9"
+				},
+				{
+					"uuid": "d50198e5-32e9-447f-93bf-9863a59e931c"
+				}
+			],
+			"__extras": {
+				"linkedID": "58",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "ada2cab1-5843-4a57-9dff-00b0742250bd",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "e42dfe89-1222-4111-8832-06480d8d587e"
+				},
+				{
+					"uuid": "5c4dd916-8278-448c-8460-072d055c341f"
+				}
+			],
+			"__extras": {
+				"linkedID": "61",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "ecfddf01-51ba-41fe-b20f-ec3e9a2397eb",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "627c57b5-817a-4923-9776-ff32bc27ac88"
+				},
+				{
+					"uuid": "4bd01ded-57b3-4ef2-962a-b230963a0d0c"
+				}
+			],
+			"__extras": {
+				"linkedID": "64",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "d18328b7-6cb0-4156-92cc-2cd75faf25b3",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "95e53292-da0e-4263-ba25-6fcd5052f7d6"
+				},
+				{
+					"uuid": "e666284d-8c29-4c2e-ae5c-85ad9ca64ee0"
+				}
+			],
+			"__extras": {
+				"linkedID": "67",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "fe0d4c9c-a4ae-40ce-a1d4-289db4aaeb4f",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "51e15eac-5412-4210-84f7-7028be023460"
+				},
+				{
+					"uuid": "8dd3e1d4-d18f-4425-85a6-b74a13c53bc5"
+				}
+			],
+			"__extras": {
+				"linkedID": "70",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "9f4d3b21-6768-4ba3-a35c-1e5c8b8fb2ea",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "46d84935-bbb7-4c1b-a3b9-6e0c38ffaa07"
+				},
+				{
+					"uuid": "15502543-6d9b-416e-81c6-1173910766e4"
+				}
+			],
+			"__extras": {
+				"linkedID": "73",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "fad4a4d5-5f6e-4a11-a95b-8cf930802432",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "de78ff62-b047-4893-a614-974645650cb6"
+				},
+				{
+					"uuid": "296b1c5c-f01f-40e1-a88b-d5a7871bda4f"
+				}
+			],
+			"__extras": {
+				"linkedID": "76",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "1486dcfb-4485-4e7f-a3b0-273002642a3a",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "193d267c-14c9-491a-bd2c-98da08672bdd"
+				},
+				{
+					"uuid": "4c516901-cd89-4da8-beab-e0ed3957042c"
+				}
+			],
+			"__extras": {
+				"linkedID": "79",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "d7bd40d1-7c11-4a16-9598-13815f5d9240",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "fc9457b5-c5f3-4fe3-a493-a4484c18d3c0"
+				},
+				{
+					"uuid": "6ba8cc05-fa5f-4897-8623-a8812149882a"
+				}
+			],
+			"__extras": {
+				"linkedID": "82",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "cb6eb6c6-319d-4418-a99e-bfdc8fa03dcd",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "eae11cb2-d653-493c-840b-77633bb4917a"
+				},
+				{
+					"uuid": "39cacd73-ef46-4122-9cdc-f55ce85c1470"
+				}
+			],
+			"__extras": {
+				"linkedID": "85",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "43af0b22-17b9-4aea-97b7-d9794dfad311",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "5a925fe5-3be4-47bf-898a-a54b92d19d73"
+				},
+				{
+					"uuid": "6a976e3c-cf70-4dcf-bb1b-fdda6b0591b5"
+				}
+			],
+			"__extras": {
+				"linkedID": "88",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "d3520787-e7ec-4271-8db9-d2f535e820c2",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "1fab608f-546c-4332-9527-d65e0dcb47e9"
+				},
+				{
+					"uuid": "88a44766-a4b2-462c-83a9-c62ca80b48de"
+				}
+			],
+			"__extras": {
+				"linkedID": "91",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "427d26cd-880e-4d81-8898-948bbecc7401",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "65ff5199-faf1-479b-94c5-4f06395b6e53"
+				},
+				{
+					"uuid": "ef5b9bc2-c693-4a88-99e2-baf9bf6371a7"
+				}
+			],
+			"__extras": {
+				"linkedID": "94",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "8df57dca-71bb-4a96-a528-0df87de57c2c",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "d148f4bf-eb81-46d3-b3af-8b20f1fb8d60"
+				},
+				{
+					"uuid": "a1676553-f572-4db2-b7f8-5024664f7a87"
+				}
+			],
+			"__extras": {
+				"linkedID": "97",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "d5680b1b-a69a-419b-b8b5-3b8d638d535a",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "eb54fbb2-8fa0-4750-ae94-58b257fbf512"
+				},
+				{
+					"uuid": "e964ab89-1bb8-4802-8777-f07a16954338"
+				}
+			],
+			"__extras": {
+				"linkedID": "100",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "9be5beb1-76aa-4133-9caa-9c9ce42c65fa",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "f3370c22-fd83-4e31-8dbd-3c537ec61959"
+				},
+				{
+					"uuid": "33adb091-f961-454b-95c4-fd04708d52f6"
+				}
+			],
+			"__extras": {
+				"linkedID": "103",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "6c9b92d3-afb1-4117-b503-dce9f172d514",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "322b51d8-8da0-4d0f-9ef8-807757c87f26"
+				},
+				{
+					"uuid": "71a6e02f-2a27-400a-b9dd-c172b9f6af21"
+				}
+			],
+			"__extras": {
+				"linkedID": "106",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "eef22b82-8f1c-4472-a021-58697357d029",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "b5ea938a-cb8e-48f6-85a8-788db66034cb"
+				},
+				{
+					"uuid": "6b9205f8-7809-4ed7-a849-cd92a7dfc387"
+				}
+			],
+			"__extras": {
+				"linkedID": "109",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "dc3e1e27-8fb2-4032-89f1-4fb50cd8a2e8",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "35f02f2e-44ee-46fd-a62b-a7d65184b2ff"
+				},
+				{
+					"uuid": "18f8673a-4e0c-4d72-b061-80bee91f2869"
+				}
+			],
+			"__extras": {
+				"linkedID": "112",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "bf206083-9a19-4fce-b5b5-ab22eee9f7ed",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "928874da-e2de-4d79-95d4-98e5dd8af576"
+				},
+				{
+					"uuid": "a4be2b76-e2fa-42f8-9034-2e566440aa65"
+				}
+			],
+			"__extras": {
+				"linkedID": "115",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "e3590dbd-4d0e-49ab-96f2-8e675ec34712",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "01c1e0c0-1fbb-4eaf-9fb3-1b190572c8be"
+				},
+				{
+					"uuid": "f85ef611-6f25-42d0-af39-ade7d02565e5"
+				}
+			],
+			"__extras": {
+				"linkedID": "118",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "5157f997-e54a-4dcb-b257-688688e73ccf",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "fd77929c-6ffe-4b15-89b3-da5d0835936e"
+				},
+				{
+					"uuid": "c9aad7cb-6972-4e7c-9cc5-49142dce8a38"
+				}
+			],
+			"__extras": {
+				"linkedID": "121",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "0443ee1b-81c7-4ca2-a8a3-ce0f7ccd1e69",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "56f87f59-bdd8-4185-a66b-13e91f67fd5e"
+				},
+				{
+					"uuid": "d5a70c7c-247e-4f98-bd44-9e4738f00b98"
+				}
+			],
+			"__extras": {
+				"linkedID": "124",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "a31443b6-bc6a-4b23-a335-fe5b16eb3d71",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "63bd4301-8029-45a5-b99c-e695fad30c45"
+				},
+				{
+					"uuid": "5ba09203-4679-4f7a-8202-9b3bbae2c7cc"
+				}
+			],
+			"__extras": {
+				"linkedID": "127",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "92432db6-deaf-4c55-83ac-a8a5f150a729",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "c163a5be-b022-4905-a489-41d98d192520"
+				},
+				{
+					"uuid": "929f9b12-42d6-4dde-b3ae-35d42757b1da"
+				}
+			],
+			"__extras": {
+				"linkedID": "130",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "72b95139-1331-4dc4-bd76-9d700a0c9bf2",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "2c23c4f6-7551-48ed-bd86-209113022e6a"
+				},
+				{
+					"uuid": "23b47f50-7912-4dc5-ae58-1ee5248a401b"
+				}
+			],
+			"__extras": {
+				"linkedID": "133",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "98df67bf-5c32-4370-936d-b26244047cd6",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "ed4fd9a4-c925-4b9b-af17-5b73ac2d2c0f"
+				},
+				{
+					"uuid": "ffc7ced9-1b8d-4d3d-b64d-d7c1ba68bcce"
+				}
+			],
+			"__extras": {
+				"linkedID": "136",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "ab55d9b1-695e-4545-bdd4-25dfd2c9f960",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "67af64d9-8e86-4c84-86af-2e64ae4d4047"
+				},
+				{
+					"uuid": "8c81da3b-8a66-419a-8026-7e15b138ba06"
+				}
+			],
+			"__extras": {
+				"linkedID": "139",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "1047fb5c-a44d-46b8-8cb7-57b805753cd7",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "fb2b1720-332b-4ade-a1b5-b15f47cd5171"
+				},
+				{
+					"uuid": "7914a031-34d0-456e-a90d-81f1c43ef149"
+				}
+			],
+			"__extras": {
+				"linkedID": "142",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "61f8ff0f-1cdb-4ea8-bf10-c5b28fbbd016",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "66a25ec5-8f17-46ad-88f3-a496539422e3"
+				},
+				{
+					"uuid": "3b9ed985-a300-45e4-9096-44dd52ea13a0"
+				}
+			],
+			"__extras": {
+				"linkedID": "145",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "d3aaf6f5-e29d-4bd9-852d-0c06bfc70739",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "b43e1cb6-1ee1-4fab-9d43-da356829ba83"
+				},
+				{
+					"uuid": "ba24771f-42e5-40b8-8b17-829a9323a9e5"
+				}
+			],
+			"__extras": {
+				"linkedID": "148",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "93ff07fa-33c5-4ab7-94a7-01f324756a44",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "ccfce5cd-ad22-4ed3-baad-b84c87a868fc"
+				},
+				{
+					"uuid": "5696d205-0e5f-462d-86e7-5b3728dbad65"
+				}
+			],
+			"__extras": {
+				"linkedID": "151",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "c73a672d-c5dc-455d-a5a8-40494dd8928d",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "adfd9937-ba7b-43d8-b659-9c1ef0401194"
+				},
+				{
+					"uuid": "ba058bad-b696-4b0d-b04c-58a4255573f0"
+				}
+			],
+			"__extras": {
+				"linkedID": "154",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "41212b23-caa9-4554-af0d-5d0225e2658c",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "da0402dd-d85c-474f-beb2-ff46573bccb3"
+				},
+				{
+					"uuid": "937583de-9f0b-4e0b-bf8d-dd115c06e4d8"
+				}
+			],
+			"__extras": {
+				"linkedID": "157",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "a354ea8c-316c-4e9d-b81b-749ef83f2df1",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "968c2808-bdf8-4da3-bea4-2b42a1c50d84"
+				},
+				{
+					"uuid": "1d63b46e-6ad4-40aa-922f-804cc6a6be5e"
+				}
+			],
+			"__extras": {
+				"linkedID": "160",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "1ed63793-2c35-4768-8dc1-80e2457bb23c",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "d94459b0-7d69-4513-a95e-f82de71a20d7"
+				},
+				{
+					"uuid": "c048afcb-40a4-4f93-ba28-26ad47801fb0"
+				}
+			],
+			"__extras": {
+				"linkedID": "163",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "56e66825-64f6-4784-b0fd-6d1bedb309cc",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "c0921811-aecf-4eba-8c4b-2767b73a2c14"
+				},
+				{
+					"uuid": "ad04f45c-81a6-4953-baa5-1859fce58f80"
+				}
+			],
+			"__extras": {
+				"linkedID": "166",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "06d12dcb-cd8c-4bae-8037-5798142e7292",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "f2bc7709-60b3-4d33-bf43-d475fb4484d4"
+				},
+				{
+					"uuid": "d24d0d55-8ce5-436a-9bd9-91b6d5535a03"
+				}
+			],
+			"__extras": {
+				"linkedID": "169",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "0bd9ec19-fe2b-42a6-bfb7-56703fbfcab8",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "ad493f19-e03f-42fe-adea-fbc132667215"
+				},
+				{
+					"uuid": "58d1880f-ce57-4b28-a284-3689ad8fb266"
+				},
+				{
+					"uuid": "da873040-a9de-423c-aca2-9075ad663739"
+				},
+				{
+					"uuid": "621c5bab-d541-4a79-ad92-a8fa94936392"
+				},
+				{
+					"uuid": "b43af5e8-bff5-4c4b-ba3c-045431711cdc"
+				}
+			],
+			"__extras": {
+				"linkedID": "172",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "7ff9e388-5b9d-422d-8c58-dc86fe7a5880",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "a464f7ab-b4c4-4479-b797-86dd9f38354a"
+				},
+				{
+					"uuid": "5118119e-f254-4586-8f81-f83cf23b9dd6"
+				}
+			],
+			"__extras": {
+				"linkedID": "177",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "9fd2f344-5513-4302-ae11-f755710f3b12",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "bb80b572-95ae-44cf-941e-e8bc1bccaa03"
+				},
+				{
+					"uuid": "6aa6162b-fca0-448b-b718-a029241c3ce7"
+				}
+			],
+			"__extras": {
+				"linkedID": "180",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "ee510c4c-074b-4901-963a-b474d54500a7",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "010b1579-4567-4772-836f-892cc7062166"
+				},
+				{
+					"uuid": "41d7aed5-2500-47db-9ba3-c722020a7477"
+				}
+			],
+			"__extras": {
+				"linkedID": "183",
+				"rootID": "9a89566a-2ca3-403d-b1b9-08306ebe9e90"
+			}
+		},
+		{
+			"uuid": "c15a234a-1ad8-42c2-b041-4f93b0a7a809",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "156bfaea-3675-4cd2-9475-323b474594d5"
+				},
+				{
+					"uuid": "f40f7f13-0902-4c63-9389-2789fbe3ac3a"
+				},
+				{
+					"uuid": "62a8993f-c0bc-4801-aa6e-97e62731f651"
+				}
+			]
+		},
+		{
+			"uuid": "7ee584f2-1f11-4839-9934-472ad602aa91",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "18ccdc95-74fa-4e62-8f3c-3addf1e6ed31"
+				},
+				{
+					"uuid": "a1c01c6f-1f42-4a9c-8af6-668c1914687a"
+				},
+				{
+					"uuid": "8b3480a7-b506-4def-a693-4d416f5bdf49"
+				},
+				{
+					"uuid": "925f5717-b98f-4650-b621-46e8e261ff1f"
+				}
+			]
+		},
+		{
+			"uuid": "f46784aa-a92d-4e21-93b6-e62fc540a8cf",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "30f46cd8-b208-4329-bb97-0fcb8b85841a"
+				},
+				{
+					"uuid": "c80c5bde-ef2a-46f5-907a-9389ec6f511a"
+				},
+				{
+					"uuid": "9523fbff-95f0-476f-b173-7e57fafcfb0d"
+				},
+				{
+					"uuid": "73d2e429-856e-4ceb-a520-d8cacbd39c96"
+				}
+			]
+		},
+		{
+			"uuid": "ad8115dd-ef3a-4f24-9c79-ef308f02e99b",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "03657ea0-84e7-46b2-a941-d621f118ab9b"
+				},
+				{
+					"uuid": "3c3b67de-7197-45a9-ade8-9dc52ed7b22a"
+				},
+				{
+					"uuid": "df5c4847-1744-492e-aa44-99ad79dddd32"
+				},
+				{
+					"uuid": "1414927f-3cb8-4b71-865b-2424f03f5aab"
+				}
+			]
+		},
+		{
+			"uuid": "19f8466e-5d6a-45c8-b4d9-e831c1523f71",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "e2573c0f-55d9-46c6-9fb9-e32b1ff685be"
+				},
+				{
+					"uuid": "d6b3f09d-a438-4e79-8bdb-6daeb8de1469"
+				}
+			],
+			"enabled": false
+		},
+		{
+			"uuid": "ff92cc3f-f2ad-4d3e-be14-7a44aa8abce6",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "c4be6875-cfd5-4728-b542-5f9ddadcf3fb"
+				},
+				{
+					"uuid": "2589fa33-fd35-4e09-94fd-e32496f10d6e"
+				},
+				{
+					"uuid": "9c0ac60e-fbd4-493d-88f9-3cdd9a5deb25"
+				},
+				{
+					"uuid": "367d855e-68dc-45b3-9d6e-84c70c1e1398"
+				},
+				{
+					"uuid": "a32be85e-1319-442f-845a-7d743ca42726"
+				},
+				{
+					"uuid": "6ec2bda3-e968-47ed-a9e1-6ebce165fdeb"
+				}
+			]
+		},
+		{
+			"uuid": "aa6c5276-5022-4bbf-a118-d57a7e5783f2",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "93b286ec-19ad-49fc-83a8-857bc842e4e9"
+				},
+				{
+					"uuid": "d6196d31-034b-4058-b750-2fe0b20b9a62"
+				},
+				{
+					"uuid": "b6d83d04-c4c6-4f7d-b502-1b98d27acfbb"
+				},
+				{
+					"uuid": "e1e2cce7-ad45-4954-a4e4-a1b709751c80"
+				}
+			]
+		},
+		{
+			"uuid": "7e7c1dba-ab2b-4822-b76a-c18971851765",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "a245b967-a4fe-48f4-bf1a-523b95534243"
+				},
+				{
+					"uuid": "18f6164d-c41b-4e8b-9eee-9a90e404f40f"
+				},
+				{
+					"uuid": "2ce89120-f92f-4a17-a420-87e71bda17fb"
+				},
+				{
+					"uuid": "3f3134d4-837e-4fe7-b5de-eaefb70b047a"
+				}
+			]
+		},
+		{
+			"uuid": "b4e258e5-7edc-423f-8cf9-3e14a20bb809",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "0a27106a-5a1f-4df0-882d-af66fcf668c1"
+				},
+				{
+					"uuid": "0f0210bd-4711-4fa1-97a2-a29e69b8faa8"
+				},
+				{
+					"uuid": "204d11ca-6b19-45e1-a8fb-e67ee47c097f"
+				},
+				{
+					"uuid": "26e93e46-76d0-49d0-a29f-d989a51612af"
+				}
+			]
+		}
+	],
+	"components": [
+		{
+			"uuid": "c3d1fa03-0938-4e81-97a7-b84aad499474",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Root",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"children": [
+				{
+					"uuid": "21395a8e-67bb-4eb2-8bb1-444427027313"
+				},
+				{
+					"uuid": "f5729bfe-fa3d-4a28-8549-d80a9ac9cb17"
+				},
+				{
+					"uuid": "8d678af3-354a-4518-9479-2a44fe8e99b8"
+				},
+				{
+					"uuid": "95682b53-1c3c-41e6-8ae5-046a348ad46b"
+				},
+				{
+					"uuid": "e07688a8-872c-4441-b9e0-9988202392a2"
+				},
+				{
+					"uuid": "e2573c0f-55d9-46c6-9fb9-e32b1ff685be"
+				}
+			]
+		},
+		{
+			"uuid": "21395a8e-67bb-4eb2-8bb1-444427027313",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Main Camera",
+			"tag": "MainCamera",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "5a14bbca-7393-4eb5-8e6c-26031f03f366",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				0,
+				10,
+				-10
+			],
+			"localRotation": [
+				0.3826834261417389,
+				0,
+				0,
+				0.9238795042037964
+			]
+		},
+		{
+			"uuid": "a0e0e789-0167-45f4-b83c-5e5c73e01ebb",
+			"__class": "@egret/render/Camera",
+			"bufferMask": 16640
+		},
+		{
+			"uuid": "f5729bfe-fa3d-4a28-8549-d80a9ac9cb17",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Directional Light",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "0b30d987-c9ac-4a15-a8ca-fbab27bafea3",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				1,
+				10,
+				-1
+			],
+			"localRotation": [
+				0.6058152318000793,
+				-0.28892436623573303,
+				0.2509368658065796,
+				0.697525143623352
+			]
+		},
+		{
+			"uuid": "f2b3dc0a-344f-4f06-bc17-69d5519e8e7f",
+			"__class": "@egret/render/DirectionalLight",
+			"intensity": 0.5
+		},
+		{
+			"uuid": "8d678af3-354a-4518-9479-2a44fe8e99b8",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Triangle",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"children": [
+				{
+					"uuid": "91614839-ac08-4a31-a3a0-7a4851ea0036"
+				},
+				{
+					"uuid": "3097f30d-0ac3-4e60-bdb7-771dd7966373"
+				},
+				{
+					"uuid": "6594c1e4-f331-4347-b608-244576de1197"
+				}
+			]
+		},
+		{
+			"uuid": "91614839-ac08-4a31-a3a0-7a4851ea0036",
+			"__class": "@egret/engine/TreeNode",
+			"name": "triangle",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "fcd31686-4c03-4b52-b8e6-73b161e8648e",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				0,
+				3,
+				0
+			]
+		},
+		{
+			"uuid": "a0a1a04d-8013-4ad4-8406-60c0b21eb1ac",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 0
+			}
+		},
+		{
+			"uuid": "ca33609a-bbfd-4215-b94a-082fb60b16de",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				-0.5,
+				-0.5,
+				0,
+				0.5,
+				0.5,
+				0
+			],
+			"materials": [
+				{
+					"__asset": 1
+				}
+			]
+		},
+		{
+			"uuid": "9b06973c-9ad2-4e61-ae02-b30ae2d81671",
+			"__class": "MeshTriangleFollower",
+			"rendererRaycaster": {
+				"uuid": "517f4f0a-ddd9-4015-821e-54577e07844c"
+			},
+			"_normal": {
+				"uuid": "830061d2-cdbf-4880-b017-d40c57e7f08b"
+			}
+		},
+		{
+			"uuid": "3097f30d-0ac3-4e60-bdb7-771dd7966373",
+			"__class": "@egret/engine/TreeNode",
+			"name": "triangle_raycast",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"children": [
+				{
+					"uuid": "781c5e7e-9bad-44c9-92f6-f2d59fb1439f"
+				},
+				{
+					"uuid": "43f04712-39a2-4f2d-8f20-017da0f5eab7"
+				}
+			]
+		},
+		{
+			"uuid": "781c5e7e-9bad-44c9-92f6-f2d59fb1439f",
+			"__class": "@egret/engine/TreeNode",
+			"name": "line",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "b0185923-b434-47d4-a620-b4955c56e778",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "3a039d16-dcf3-43fc-ad70-69a77887261f",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "6ec86ba6-341a-41e9-b666-2200f4adefee",
+			"__class": "@egret/render/MeshRenderer",
+			"_nativeLocalBoundingBox": true,
+			"_localBoundingBox": [
+				0,
+				0,
+				-0.5,
+				0,
+				0,
+				0.5
+			],
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "43f04712-39a2-4f2d-8f20-017da0f5eab7",
+			"__class": "@egret/engine/TreeNode",
+			"name": "normal",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "78e70d97-2f94-4590-ad33-e0e388888e42",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "ca288871-b09c-4113-aa37-ce8588cf5030",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "4247bf19-5a1c-42a6-afd6-86f199ceeacf",
+			"__class": "@egret/render/MeshRenderer",
+			"_nativeLocalBoundingBox": true,
+			"_localBoundingBox": [
+				0,
+				0,
+				-0.5,
+				0,
+				0,
+				0.5
+			],
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "3fee41e7-c9e7-4acf-9b89-3d8194052ef0",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				0,
+				3,
+				-2
+			]
+		},
+		{
+			"uuid": "2ae5b69d-ac48-4fd0-83fe-a64d5e2ab7fb",
+			"__class": "RotateAround"
+		},
+		{
+			"uuid": "517f4f0a-ddd9-4015-821e-54577e07844c",
+			"__class": "RendererRaycast",
+			"target": {
+				"uuid": "510c4a9f-04c6-4544-bd2d-92a656c980fe"
+			}
+		},
+		{
+			"uuid": "6594c1e4-f331-4347-b608-244576de1197",
+			"__class": "@egret/engine/TreeNode",
+			"name": "SkinnedMeshTriangleFollower",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "f741b315-6431-4feb-8f7d-d6b98848b9b7",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				0,
+				3,
+				0
+			],
+			"localRotation": [
+				0,
+				1,
+				0,
+				6.123234262925839e-17
+			]
+		},
+		{
+			"uuid": "c0e77e36-42c9-4508-908d-0b5aa8c6192b",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "d473f0a2-af9e-457a-9b35-f48ca70bf234",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "1d183a45-4db2-4eb3-8c75-4f09a7d69c4e",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "95682b53-1c3c-41e6-8ae5-046a348ad46b",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Cylinder",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"children": [
+				{
+					"uuid": "2a228658-51d7-49b3-b64e-2331c6dd7851"
+				},
+				{
+					"uuid": "3ab95588-9ece-45df-997a-5003c79634ae"
+				}
+			]
+		},
+		{
+			"uuid": "2a228658-51d7-49b3-b64e-2331c6dd7851",
+			"__class": "@egret/engine/TreeNode",
+			"name": "cylinder",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "c8ad71f7-a062-4d54-8a5c-cbee9501b3f4",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "a165d04a-21a7-454c-8460-442bdcab592d",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 4
+			}
+		},
+		{
+			"uuid": "c079e6bf-8ed7-4c81-9c61-c7dfa6615bea",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				-0.4755282700061798,
+				-0.5,
+				-0.5,
+				0.4755282700061798,
+				0.5,
+				0.5
+			],
+			"materials": [
+				{
+					"__asset": 1
+				}
+			]
+		},
+		{
+			"uuid": "3ab95588-9ece-45df-997a-5003c79634ae",
+			"__class": "@egret/engine/TreeNode",
+			"name": "raycast",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"children": [
+				{
+					"uuid": "3b2c1a59-c93f-4cdf-8ca0-e2eb17d29ad3"
+				},
+				{
+					"uuid": "dec7191f-9de4-4b3b-8067-3fafde10aa0a"
+				}
+			]
+		},
+		{
+			"uuid": "3b2c1a59-c93f-4cdf-8ca0-e2eb17d29ad3",
+			"__class": "@egret/engine/TreeNode",
+			"name": "line",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "f1d372fa-d4b4-4ac1-8af6-33a23dc7ce88",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "094c4cc4-9064-492d-a268-f36aebf90c4a",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "2ea6c34f-0b5b-43bc-a9c5-33bb600f4f8d",
+			"__class": "@egret/render/MeshRenderer",
+			"_nativeLocalBoundingBox": true,
+			"_localBoundingBox": [
+				0,
+				0,
+				-0.5,
+				0,
+				0,
+				0.5
+			],
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "dec7191f-9de4-4b3b-8067-3fafde10aa0a",
+			"__class": "@egret/engine/TreeNode",
+			"name": "normal",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "aed4660d-d354-4bdb-9f8e-a27bf74a27ec",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "cccef207-561b-40dc-896d-95dcb2b0d774",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "f30d1287-efd2-4580-a547-9dadac5e8ad1",
+			"__class": "@egret/render/MeshRenderer",
+			"_nativeLocalBoundingBox": true,
+			"_localBoundingBox": [
+				0,
+				0,
+				-0.5,
+				0,
+				0,
+				0.5
+			],
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "5f820ef4-c764-408f-9520-64eb028ffc4a",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				0,
+				0,
+				-2
+			]
+		},
+		{
+			"uuid": "63965747-35d2-4b40-ac03-b3e035af0de3",
+			"__class": "RotateAround"
+		},
+		{
+			"uuid": "925102f6-a2bd-4970-a4e0-e2cea972df40",
+			"__class": "RendererRaycast",
+			"target": {
+				"uuid": "0346796c-86ae-4c18-b34f-be712df6c51b"
+			}
+		},
+		{
+			"uuid": "252dbf27-2a64-42bc-91e4-0ef6102596ea",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "e07688a8-872c-4441-b9e0-9988202392a2",
+			"__class": "@egret/engine/TreeNode",
+			"name": "xiaohuangren",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"children": [
+				{
+					"uuid": "a2626233-4c34-4329-97f3-d58b0892f962"
+				},
+				{
+					"uuid": "156bfaea-3675-4cd2-9475-323b474594d5"
+				},
+				{
+					"uuid": "03657ea0-84e7-46b2-a941-d621f118ab9b"
+				}
+			]
+		},
+		{
+			"uuid": "a2626233-4c34-4329-97f3-d58b0892f962",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "3"
+			},
+			"children": [
+				{
+					"uuid": "88f2c407-76bf-48e7-9cbe-73a54835b636"
+				},
+				{
+					"uuid": "ad493f19-e03f-42fe-adea-fbc132667215"
+				},
+				{
+					"uuid": "a464f7ab-b4c4-4479-b797-86dd9f38354a"
+				},
+				{
+					"uuid": "bb80b572-95ae-44cf-941e-e8bc1bccaa03"
+				}
+			]
+		},
+		{
+			"uuid": "88f2c407-76bf-48e7-9cbe-73a54835b636",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "6"
+			},
+			"children": [
+				{
+					"uuid": "f654bb14-966e-46f9-8d9f-bc3d5d2c7946"
+				}
+			]
+		},
+		{
+			"uuid": "f654bb14-966e-46f9-8d9f-bc3d5d2c7946",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "9"
+			},
+			"children": [
+				{
+					"uuid": "b127f396-8f7b-449c-94af-f17d31f9f931"
+				},
+				{
+					"uuid": "ccfce5cd-ad22-4ed3-baad-b84c87a868fc"
+				},
+				{
+					"uuid": "adfd9937-ba7b-43d8-b659-9c1ef0401194"
+				}
+			]
+		},
+		{
+			"uuid": "b127f396-8f7b-449c-94af-f17d31f9f931",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "12"
+			},
+			"children": [
+				{
+					"uuid": "2879fe9f-6b8a-4e1e-a415-5524ca30282f"
+				},
+				{
+					"uuid": "95d6ed96-abb0-47a2-8f82-160bfb905a9e"
+				},
+				{
+					"uuid": "2d49ecc0-3ca4-4808-8047-c89d3d4df8a3"
+				}
+			]
+		},
+		{
+			"uuid": "2879fe9f-6b8a-4e1e-a415-5524ca30282f",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "15"
+			},
+			"children": [
+				{
+					"uuid": "6a91dd90-640d-48ce-a266-52c2179909c3"
+				}
+			]
+		},
+		{
+			"uuid": "6a91dd90-640d-48ce-a266-52c2179909c3",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "18"
+			},
+			"children": [
+				{
+					"uuid": "6fc8a697-260d-4886-8cc0-c2257db166b2"
+				}
+			]
+		},
+		{
+			"uuid": "6fc8a697-260d-4886-8cc0-c2257db166b2",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "21"
+			},
+			"children": [
+				{
+					"uuid": "7f846fc7-b15a-451b-8786-600223016f9e"
+				}
+			]
+		},
+		{
+			"uuid": "7f846fc7-b15a-451b-8786-600223016f9e",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "24"
+			},
+			"children": [
+				{
+					"uuid": "fa680fad-c030-4fec-8a98-50722e1860f6"
+				}
+			]
+		},
+		{
+			"uuid": "fa680fad-c030-4fec-8a98-50722e1860f6",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "27"
+			},
+			"children": [
+				{
+					"uuid": "fd4840c1-c151-43aa-baaa-0220d65e7c4b"
+				}
+			]
+		},
+		{
+			"uuid": "fd4840c1-c151-43aa-baaa-0220d65e7c4b",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "30"
+			},
+			"children": [
+				{
+					"uuid": "afe30bc6-f54d-46a5-ad96-24146c5bf145"
+				}
+			]
+		},
+		{
+			"uuid": "afe30bc6-f54d-46a5-ad96-24146c5bf145",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "33"
+			}
+		},
+		{
+			"uuid": "8b84eb4a-2ba9-4c3a-b69d-d7a71bf09495",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "32"
+			}
+		},
+		{
+			"uuid": "b35d95f4-809b-4f9d-9c95-e6d0644a41ec",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "29"
+			}
+		},
+		{
+			"uuid": "595b01be-3ea3-47c9-9cd8-baba870eb731",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "26"
+			}
+		},
+		{
+			"uuid": "9416e61d-0414-46cf-a00a-aeda3e0583db",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "23"
+			}
+		},
+		{
+			"uuid": "ed8b56b4-2978-482f-924b-ecbcac1ee2b0",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "20"
+			}
+		},
+		{
+			"uuid": "ecd009b3-7b2f-405d-b920-bf9195240e19",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "17"
+			}
+		},
+		{
+			"uuid": "63f3d406-0e3c-402c-9f24-5b1212858f68",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "14"
+			}
+		},
+		{
+			"uuid": "95d6ed96-abb0-47a2-8f82-160bfb905a9e",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "36"
+			},
+			"children": [
+				{
+					"uuid": "6777330b-77a7-4637-9a51-0769ee2e63a6"
+				}
+			]
+		},
+		{
+			"uuid": "6777330b-77a7-4637-9a51-0769ee2e63a6",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "39"
+			},
+			"children": [
+				{
+					"uuid": "bbd560db-1567-412f-88ec-db1a411943e6"
+				}
+			]
+		},
+		{
+			"uuid": "bbd560db-1567-412f-88ec-db1a411943e6",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "42"
+			},
+			"children": [
+				{
+					"uuid": "9ee96e4e-60f8-41ee-a6f3-8746dd8b57c7"
+				}
+			]
+		},
+		{
+			"uuid": "9ee96e4e-60f8-41ee-a6f3-8746dd8b57c7",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "45"
+			},
+			"children": [
+				{
+					"uuid": "8c1070f7-b9f7-4d9c-ae59-5cf646a327c8"
+				}
+			]
+		},
+		{
+			"uuid": "8c1070f7-b9f7-4d9c-ae59-5cf646a327c8",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "48"
+			},
+			"children": [
+				{
+					"uuid": "4a5930ab-ce9f-4bb1-b076-425284d9d737"
+				}
+			]
+		},
+		{
+			"uuid": "4a5930ab-ce9f-4bb1-b076-425284d9d737",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "51"
+			},
+			"children": [
+				{
+					"uuid": "68caeb02-a015-43c2-8a33-a18fd891bc4c"
+				}
+			]
+		},
+		{
+			"uuid": "68caeb02-a015-43c2-8a33-a18fd891bc4c",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "54"
+			}
+		},
+		{
+			"uuid": "eb413578-efb2-4b4b-8658-95cf28e74e3d",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "53"
+			}
+		},
+		{
+			"uuid": "bc8c7e15-e69f-40c0-bac5-81126f85c437",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "50"
+			}
+		},
+		{
+			"uuid": "eabc5790-5c92-4d19-9fa6-3f8b9d9c634d",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "47"
+			}
+		},
+		{
+			"uuid": "df333816-92a4-4e0c-b5a2-00349ce032e6",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "44"
+			}
+		},
+		{
+			"uuid": "03a165a7-4c9a-49e3-b5b3-adcc1b747596",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "41"
+			}
+		},
+		{
+			"uuid": "0f70a60e-6e5a-48e8-868d-c6563db1e417",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "38"
+			}
+		},
+		{
+			"uuid": "9247bf7b-025d-42b2-a631-ddeb525d95ee",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "35"
+			}
+		},
+		{
+			"uuid": "2d49ecc0-3ca4-4808-8047-c89d3d4df8a3",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "57"
+			},
+			"children": [
+				{
+					"uuid": "aff7e82d-0029-42f8-87da-85d6574b47d9"
+				},
+				{
+					"uuid": "b43e1cb6-1ee1-4fab-9d43-da356829ba83"
+				}
+			]
+		},
+		{
+			"uuid": "aff7e82d-0029-42f8-87da-85d6574b47d9",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "60"
+			},
+			"children": [
+				{
+					"uuid": "e42dfe89-1222-4111-8832-06480d8d587e"
+				},
+				{
+					"uuid": "35f02f2e-44ee-46fd-a62b-a7d65184b2ff"
+				},
+				{
+					"uuid": "c163a5be-b022-4905-a489-41d98d192520"
+				}
+			]
+		},
+		{
+			"uuid": "e42dfe89-1222-4111-8832-06480d8d587e",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "63"
+			},
+			"children": [
+				{
+					"uuid": "627c57b5-817a-4923-9776-ff32bc27ac88"
+				},
+				{
+					"uuid": "95e53292-da0e-4263-ba25-6fcd5052f7d6"
+				},
+				{
+					"uuid": "de78ff62-b047-4893-a614-974645650cb6"
+				},
+				{
+					"uuid": "5a925fe5-3be4-47bf-898a-a54b92d19d73"
+				},
+				{
+					"uuid": "eb54fbb2-8fa0-4750-ae94-58b257fbf512"
+				}
+			]
+		},
+		{
+			"uuid": "627c57b5-817a-4923-9776-ff32bc27ac88",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "66"
+			}
+		},
+		{
+			"uuid": "4bd01ded-57b3-4ef2-962a-b230963a0d0c",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "65"
+			}
+		},
+		{
+			"uuid": "95e53292-da0e-4263-ba25-6fcd5052f7d6",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "69"
+			},
+			"children": [
+				{
+					"uuid": "51e15eac-5412-4210-84f7-7028be023460"
+				},
+				{
+					"uuid": "46d84935-bbb7-4c1b-a3b9-6e0c38ffaa07"
+				}
+			]
+		},
+		{
+			"uuid": "51e15eac-5412-4210-84f7-7028be023460",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "72"
+			}
+		},
+		{
+			"uuid": "8dd3e1d4-d18f-4425-85a6-b74a13c53bc5",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "71"
+			}
+		},
+		{
+			"uuid": "46d84935-bbb7-4c1b-a3b9-6e0c38ffaa07",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "75"
+			}
+		},
+		{
+			"uuid": "15502543-6d9b-416e-81c6-1173910766e4",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "74"
+			}
+		},
+		{
+			"uuid": "e666284d-8c29-4c2e-ae5c-85ad9ca64ee0",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "68"
+			}
+		},
+		{
+			"uuid": "de78ff62-b047-4893-a614-974645650cb6",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "78"
+			},
+			"children": [
+				{
+					"uuid": "193d267c-14c9-491a-bd2c-98da08672bdd"
+				}
+			]
+		},
+		{
+			"uuid": "193d267c-14c9-491a-bd2c-98da08672bdd",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "81"
+			},
+			"children": [
+				{
+					"uuid": "fc9457b5-c5f3-4fe3-a493-a4484c18d3c0"
+				}
+			]
+		},
+		{
+			"uuid": "fc9457b5-c5f3-4fe3-a493-a4484c18d3c0",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "84"
+			},
+			"children": [
+				{
+					"uuid": "eae11cb2-d653-493c-840b-77633bb4917a"
+				}
+			]
+		},
+		{
+			"uuid": "eae11cb2-d653-493c-840b-77633bb4917a",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "87"
+			}
+		},
+		{
+			"uuid": "39cacd73-ef46-4122-9cdc-f55ce85c1470",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "86"
+			}
+		},
+		{
+			"uuid": "6ba8cc05-fa5f-4897-8623-a8812149882a",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "83"
+			}
+		},
+		{
+			"uuid": "4c516901-cd89-4da8-beab-e0ed3957042c",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "80"
+			}
+		},
+		{
+			"uuid": "296b1c5c-f01f-40e1-a88b-d5a7871bda4f",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "77"
+			}
+		},
+		{
+			"uuid": "5a925fe5-3be4-47bf-898a-a54b92d19d73",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "90"
+			},
+			"children": [
+				{
+					"uuid": "1fab608f-546c-4332-9527-d65e0dcb47e9"
+				}
+			]
+		},
+		{
+			"uuid": "1fab608f-546c-4332-9527-d65e0dcb47e9",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "93"
+			},
+			"children": [
+				{
+					"uuid": "65ff5199-faf1-479b-94c5-4f06395b6e53"
+				}
+			]
+		},
+		{
+			"uuid": "65ff5199-faf1-479b-94c5-4f06395b6e53",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "96"
+			},
+			"children": [
+				{
+					"uuid": "d148f4bf-eb81-46d3-b3af-8b20f1fb8d60"
+				}
+			]
+		},
+		{
+			"uuid": "d148f4bf-eb81-46d3-b3af-8b20f1fb8d60",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "99"
+			}
+		},
+		{
+			"uuid": "a1676553-f572-4db2-b7f8-5024664f7a87",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "98"
+			}
+		},
+		{
+			"uuid": "ef5b9bc2-c693-4a88-99e2-baf9bf6371a7",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "95"
+			}
+		},
+		{
+			"uuid": "88a44766-a4b2-462c-83a9-c62ca80b48de",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "92"
+			}
+		},
+		{
+			"uuid": "6a976e3c-cf70-4dcf-bb1b-fdda6b0591b5",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "89"
+			}
+		},
+		{
+			"uuid": "eb54fbb2-8fa0-4750-ae94-58b257fbf512",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "102"
+			},
+			"children": [
+				{
+					"uuid": "f3370c22-fd83-4e31-8dbd-3c537ec61959"
+				}
+			]
+		},
+		{
+			"uuid": "f3370c22-fd83-4e31-8dbd-3c537ec61959",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "105"
+			},
+			"children": [
+				{
+					"uuid": "322b51d8-8da0-4d0f-9ef8-807757c87f26"
+				}
+			]
+		},
+		{
+			"uuid": "322b51d8-8da0-4d0f-9ef8-807757c87f26",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "108"
+			},
+			"children": [
+				{
+					"uuid": "b5ea938a-cb8e-48f6-85a8-788db66034cb"
+				}
+			]
+		},
+		{
+			"uuid": "b5ea938a-cb8e-48f6-85a8-788db66034cb",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "111"
+			}
+		},
+		{
+			"uuid": "6b9205f8-7809-4ed7-a849-cd92a7dfc387",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "110"
+			}
+		},
+		{
+			"uuid": "71a6e02f-2a27-400a-b9dd-c172b9f6af21",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "107"
+			}
+		},
+		{
+			"uuid": "33adb091-f961-454b-95c4-fd04708d52f6",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "104"
+			}
+		},
+		{
+			"uuid": "e964ab89-1bb8-4802-8777-f07a16954338",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "101"
+			}
+		},
+		{
+			"uuid": "5c4dd916-8278-448c-8460-072d055c341f",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "62"
+			}
+		},
+		{
+			"uuid": "35f02f2e-44ee-46fd-a62b-a7d65184b2ff",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "114"
+			},
+			"children": [
+				{
+					"uuid": "928874da-e2de-4d79-95d4-98e5dd8af576"
+				}
+			]
+		},
+		{
+			"uuid": "928874da-e2de-4d79-95d4-98e5dd8af576",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "117"
+			},
+			"children": [
+				{
+					"uuid": "01c1e0c0-1fbb-4eaf-9fb3-1b190572c8be"
+				}
+			]
+		},
+		{
+			"uuid": "01c1e0c0-1fbb-4eaf-9fb3-1b190572c8be",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "120"
+			},
+			"children": [
+				{
+					"uuid": "fd77929c-6ffe-4b15-89b3-da5d0835936e"
+				}
+			]
+		},
+		{
+			"uuid": "fd77929c-6ffe-4b15-89b3-da5d0835936e",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "123"
+			},
+			"children": [
+				{
+					"uuid": "56f87f59-bdd8-4185-a66b-13e91f67fd5e"
+				}
+			]
+		},
+		{
+			"uuid": "56f87f59-bdd8-4185-a66b-13e91f67fd5e",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "126"
+			},
+			"children": [
+				{
+					"uuid": "63bd4301-8029-45a5-b99c-e695fad30c45"
+				}
+			]
+		},
+		{
+			"uuid": "63bd4301-8029-45a5-b99c-e695fad30c45",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "129"
+			}
+		},
+		{
+			"uuid": "5ba09203-4679-4f7a-8202-9b3bbae2c7cc",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "128"
+			}
+		},
+		{
+			"uuid": "d5a70c7c-247e-4f98-bd44-9e4738f00b98",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "125"
+			}
+		},
+		{
+			"uuid": "c9aad7cb-6972-4e7c-9cc5-49142dce8a38",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "122"
+			}
+		},
+		{
+			"uuid": "f85ef611-6f25-42d0-af39-ade7d02565e5",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "119"
+			}
+		},
+		{
+			"uuid": "a4be2b76-e2fa-42f8-9034-2e566440aa65",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "116"
+			}
+		},
+		{
+			"uuid": "18f8673a-4e0c-4d72-b061-80bee91f2869",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "113"
+			}
+		},
+		{
+			"uuid": "c163a5be-b022-4905-a489-41d98d192520",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "132"
+			},
+			"children": [
+				{
+					"uuid": "2c23c4f6-7551-48ed-bd86-209113022e6a"
+				}
+			]
+		},
+		{
+			"uuid": "2c23c4f6-7551-48ed-bd86-209113022e6a",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "135"
+			},
+			"children": [
+				{
+					"uuid": "ed4fd9a4-c925-4b9b-af17-5b73ac2d2c0f"
+				}
+			]
+		},
+		{
+			"uuid": "ed4fd9a4-c925-4b9b-af17-5b73ac2d2c0f",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "138"
+			},
+			"children": [
+				{
+					"uuid": "67af64d9-8e86-4c84-86af-2e64ae4d4047"
+				}
+			]
+		},
+		{
+			"uuid": "67af64d9-8e86-4c84-86af-2e64ae4d4047",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "141"
+			},
+			"children": [
+				{
+					"uuid": "fb2b1720-332b-4ade-a1b5-b15f47cd5171"
+				}
+			]
+		},
+		{
+			"uuid": "fb2b1720-332b-4ade-a1b5-b15f47cd5171",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "144"
+			},
+			"children": [
+				{
+					"uuid": "66a25ec5-8f17-46ad-88f3-a496539422e3"
+				}
+			]
+		},
+		{
+			"uuid": "66a25ec5-8f17-46ad-88f3-a496539422e3",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "147"
+			}
+		},
+		{
+			"uuid": "3b9ed985-a300-45e4-9096-44dd52ea13a0",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "146"
+			}
+		},
+		{
+			"uuid": "7914a031-34d0-456e-a90d-81f1c43ef149",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "143"
+			}
+		},
+		{
+			"uuid": "8c81da3b-8a66-419a-8026-7e15b138ba06",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "140"
+			}
+		},
+		{
+			"uuid": "ffc7ced9-1b8d-4d3d-b64d-d7c1ba68bcce",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "137"
+			}
+		},
+		{
+			"uuid": "23b47f50-7912-4dc5-ae58-1ee5248a401b",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "134"
+			}
+		},
+		{
+			"uuid": "929f9b12-42d6-4dde-b3ae-35d42757b1da",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "131"
+			}
+		},
+		{
+			"uuid": "d50198e5-32e9-447f-93bf-9863a59e931c",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "59"
+			}
+		},
+		{
+			"uuid": "b43e1cb6-1ee1-4fab-9d43-da356829ba83",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "150"
+			}
+		},
+		{
+			"uuid": "ba24771f-42e5-40b8-8b17-829a9323a9e5",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "149"
+			}
+		},
+		{
+			"uuid": "f7fb7cd4-d617-4795-a6f7-f652756f3882",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "56"
+			}
+		},
+		{
+			"uuid": "a266d917-9241-424f-8f22-918bec81ec43",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "11"
+			}
+		},
+		{
+			"uuid": "ccfce5cd-ad22-4ed3-baad-b84c87a868fc",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "153"
+			}
+		},
+		{
+			"uuid": "5696d205-0e5f-462d-86e7-5b3728dbad65",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "152"
+			}
+		},
+		{
+			"uuid": "adfd9937-ba7b-43d8-b659-9c1ef0401194",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "156"
+			},
+			"children": [
+				{
+					"uuid": "da0402dd-d85c-474f-beb2-ff46573bccb3"
+				}
+			]
+		},
+		{
+			"uuid": "da0402dd-d85c-474f-beb2-ff46573bccb3",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "159"
+			},
+			"children": [
+				{
+					"uuid": "968c2808-bdf8-4da3-bea4-2b42a1c50d84"
+				}
+			]
+		},
+		{
+			"uuid": "968c2808-bdf8-4da3-bea4-2b42a1c50d84",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "162"
+			},
+			"children": [
+				{
+					"uuid": "d94459b0-7d69-4513-a95e-f82de71a20d7"
+				}
+			]
+		},
+		{
+			"uuid": "d94459b0-7d69-4513-a95e-f82de71a20d7",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "165"
+			},
+			"children": [
+				{
+					"uuid": "c0921811-aecf-4eba-8c4b-2767b73a2c14"
+				}
+			]
+		},
+		{
+			"uuid": "c0921811-aecf-4eba-8c4b-2767b73a2c14",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "168"
+			},
+			"children": [
+				{
+					"uuid": "f2bc7709-60b3-4d33-bf43-d475fb4484d4"
+				}
+			]
+		},
+		{
+			"uuid": "f2bc7709-60b3-4d33-bf43-d475fb4484d4",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "171"
+			}
+		},
+		{
+			"uuid": "d24d0d55-8ce5-436a-9bd9-91b6d5535a03",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "170"
+			}
+		},
+		{
+			"uuid": "ad04f45c-81a6-4953-baa5-1859fce58f80",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "167"
+			}
+		},
+		{
+			"uuid": "c048afcb-40a4-4f93-ba28-26ad47801fb0",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "164"
+			}
+		},
+		{
+			"uuid": "1d63b46e-6ad4-40aa-922f-804cc6a6be5e",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "161"
+			}
+		},
+		{
+			"uuid": "937583de-9f0b-4e0b-bf8d-dd115c06e4d8",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "158"
+			}
+		},
+		{
+			"uuid": "ba058bad-b696-4b0d-b04c-58a4255573f0",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "155"
+			}
+		},
+		{
+			"uuid": "99c9d3a1-11df-48e1-979a-463f4689cace",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "8"
+			}
+		},
+		{
+			"uuid": "4c985f17-ef4a-4d12-a6ad-c78ad9d36107",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "5"
+			}
+		},
+		{
+			"uuid": "ad493f19-e03f-42fe-adea-fbc132667215",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "174"
+			}
+		},
+		{
+			"uuid": "58d1880f-ce57-4b28-a284-3689ad8fb266",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "173"
+			}
+		},
+		{
+			"uuid": "da873040-a9de-423c-aca2-9075ad663739",
+			"__class": "@egret/render/MeshFilter",
+			"__extras": {
+				"linkedID": "176"
+			}
+		},
+		{
+			"uuid": "621c5bab-d541-4a79-ad92-a8fa94936392",
+			"__class": "@egret/render/SkinnedMeshRenderer",
+			"_nativeLocalBoundingBox": true,
+			"_localBoundingBox": [
+				-0.899,
+				-0.345,
+				-0.5985,
+				0.43900000000000006,
+				0.345,
+				0.5985
+			],
+			"__extras": {
+				"linkedID": "175"
+			}
+		},
+		{
+			"uuid": "b43af5e8-bff5-4c4b-ba3c-045431711cdc",
+			"__class": "MeshTriangleFollower",
+			"rendererRaycaster": {
+				"uuid": "62a8993f-c0bc-4801-aa6e-97e62731f651"
+			},
+			"_normal": {
+				"uuid": "ad8115dd-ef3a-4f24-9c79-ef308f02e99b"
+			}
+		},
+		{
+			"uuid": "a464f7ab-b4c4-4479-b797-86dd9f38354a",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "179"
+			}
+		},
+		{
+			"uuid": "5118119e-f254-4586-8f81-f83cf23b9dd6",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "178"
+			}
+		},
+		{
+			"uuid": "bb80b572-95ae-44cf-941e-e8bc1bccaa03",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "182"
+			},
+			"children": [
+				{
+					"uuid": "010b1579-4567-4772-836f-892cc7062166"
+				}
+			]
+		},
+		{
+			"uuid": "010b1579-4567-4772-836f-892cc7062166",
+			"__class": "@egret/engine/TreeNode",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"__extras": {
+				"linkedID": "185"
+			}
+		},
+		{
+			"uuid": "41d7aed5-2500-47db-9ba3-c722020a7477",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "184"
+			}
+		},
+		{
+			"uuid": "6aa6162b-fca0-448b-b718-a029241c3ce7",
+			"__class": "@egret/engine/Transform",
+			"__extras": {
+				"linkedID": "181"
+			}
+		},
+		{
+			"uuid": "b0fc4774-4f76-4c58-b472-72cb901c008a",
+			"__class": "@egret/animation/Animation",
+			"__extras": {
+				"linkedID": "1"
+			}
+		},
+		{
+			"uuid": "79fbac9f-bea2-4efb-9947-efc37cf2578b",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				-3,
+				0,
+				0
+			],
+			"__extras": {
+				"linkedID": "2"
+			}
+		},
+		{
+			"uuid": "156bfaea-3675-4cd2-9475-323b474594d5",
+			"__class": "@egret/engine/TreeNode",
+			"name": "xiaohunagren_raycast",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"children": [
+				{
+					"uuid": "18ccdc95-74fa-4e62-8f3c-3addf1e6ed31"
+				},
+				{
+					"uuid": "30f46cd8-b208-4329-bb97-0fcb8b85841a"
+				}
+			]
+		},
+		{
+			"uuid": "18ccdc95-74fa-4e62-8f3c-3addf1e6ed31",
+			"__class": "@egret/engine/TreeNode",
+			"name": "line",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "a1c01c6f-1f42-4a9c-8af6-668c1914687a",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "8b3480a7-b506-4def-a693-4d416f5bdf49",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "925f5717-b98f-4650-b621-46e8e261ff1f",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "30f46cd8-b208-4329-bb97-0fcb8b85841a",
+			"__class": "@egret/engine/TreeNode",
+			"name": "normal",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "c80c5bde-ef2a-46f5-907a-9389ec6f511a",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "9523fbff-95f0-476f-b173-7e57fafcfb0d",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "73d2e429-856e-4ceb-a520-d8cacbd39c96",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "f40f7f13-0902-4c63-9389-2789fbe3ac3a",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				-3,
+				0.5,
+				-2
+			]
+		},
+		{
+			"uuid": "62a8993f-c0bc-4801-aa6e-97e62731f651",
+			"__class": "RendererRaycast",
+			"target": {
+				"uuid": "0bd9ec19-fe2b-42a6-bfb7-56703fbfcab8"
+			}
+		},
+		{
+			"uuid": "03657ea0-84e7-46b2-a941-d621f118ab9b",
+			"__class": "@egret/engine/TreeNode",
+			"name": "xiaohuangren_follower",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "3c3b67de-7197-45a9-ade8-9dc52ed7b22a",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "df5c4847-1744-492e-aa44-99ad79dddd32",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "1414927f-3cb8-4b71-865b-2424f03f5aab",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"materials": [
+				{
+					"__asset": 3
+				},
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "3f90b053-c319-4266-b357-badf9e79fc53",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "e2573c0f-55d9-46c6-9fb9-e32b1ff685be",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Collider",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"children": [
+				{
+					"uuid": "c4be6875-cfd5-4728-b542-5f9ddadcf3fb"
+				},
+				{
+					"uuid": "93b286ec-19ad-49fc-83a8-857bc842e4e9"
+				}
+			]
+		},
+		{
+			"uuid": "c4be6875-cfd5-4728-b542-5f9ddadcf3fb",
+			"__class": "@egret/engine/TreeNode",
+			"name": "pyramid",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "2589fa33-fd35-4e09-94fd-e32496f10d6e",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				3,
+				0,
+				0
+			]
+		},
+		{
+			"uuid": "9c0ac60e-fbd4-493d-88f9-3cdd9a5deb25",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 6
+			}
+		},
+		{
+			"uuid": "367d855e-68dc-45b3-9d6e-84c70c1e1398",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				-0.5,
+				-0.5,
+				-0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"materials": [
+				{
+					"__asset": 1
+				}
+			]
+		},
+		{
+			"uuid": "a32be85e-1319-442f-845a-7d743ca42726",
+			"__class": "@egret/collision/SphereCollider",
+			"sphere": [
+				1,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"uuid": "6ec2bda3-e968-47ed-a9e1-6ebce165fdeb",
+			"__class": "@egret/box2d/BoxCollider"
+		},
+		{
+			"uuid": "93b286ec-19ad-49fc-83a8-857bc842e4e9",
+			"__class": "@egret/engine/TreeNode",
+			"name": "collider_raycast",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			},
+			"children": [
+				{
+					"uuid": "a245b967-a4fe-48f4-bf1a-523b95534243"
+				},
+				{
+					"uuid": "0a27106a-5a1f-4df0-882d-af66fcf668c1"
+				}
+			]
+		},
+		{
+			"uuid": "a245b967-a4fe-48f4-bf1a-523b95534243",
+			"__class": "@egret/engine/TreeNode",
+			"name": "line",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "18f6164d-c41b-4e8b-9eee-9a90e404f40f",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "2ce89120-f92f-4a17-a420-87e71bda17fb",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "3f3134d4-837e-4fe7-b5de-eaefb70b047a",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "0a27106a-5a1f-4df0-882d-af66fcf668c1",
+			"__class": "@egret/engine/TreeNode",
+			"name": "normal",
+			"scene": {
+				"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3"
+			}
+		},
+		{
+			"uuid": "0f0210bd-4711-4fa1-97a2-a29e69b8faa8",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "204d11ca-6b19-45e1-a8fb-e67ee47c097f",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "26e93e46-76d0-49d0-a29f-d989a51612af",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			],
+			"materials": [
+				{
+					"__asset": 3
+				},
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "d6196d31-034b-4058-b750-2fe0b20b9a62",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				3,
+				2,
+				-2
+			]
+		},
+		{
+			"uuid": "b6d83d04-c4c6-4f7d-b502-1b98d27acfbb",
+			"__class": "RotateAround"
+		},
+		{
+			"uuid": "e1e2cce7-ad45-4954-a4e4-a1b709751c80",
+			"__class": "RendererRaycast",
+			"target": {
+				"uuid": "ff92cc3f-f2ad-4d3e-be14-7a44aa8abce6"
+			}
+		},
+		{
+			"uuid": "d6b3f09d-a438-4e79-8bdb-6daeb8de1469",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "76d80f69-4ef9-40b4-9bf4-ceb7ae39bea3",
+			"__class": "@egret/engine/Scene"
+		}
+	]
+}

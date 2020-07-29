@@ -1,0 +1,104 @@
+{
+	"asset": {
+		"version": "2.0"
+	},
+	"extensionsRequired": [
+		"egret"
+	],
+	"extensionsUsed": [
+		"egret"
+	],
+	"extensions": {
+		"KHR_techniques_webgl": {
+			"shaders": [],
+			"techniques": [
+				{
+					"attributes": {},
+					"uniforms": {},
+					"states": {
+						"enable": [
+							2929,
+							2884
+						],
+						"functions": {
+							"depthFunc": [
+								515
+							],
+							"depthMask": [
+								true
+							],
+							"frontFace": [
+								2305
+							],
+							"cullFace": [
+								1028
+							]
+						}
+					}
+				}
+			],
+			"programs": []
+		},
+		"egret": {
+			"version": "5",
+			"minVersion": "5",
+			"assets": [
+				"builtin/equirect.shader.json"
+			],
+			"entities": [
+				{
+					"uuid": "6abdb007-e405-42ac-afcb-54655b142a03",
+					"__class": "@egret/core/AssetEntity",
+					"components": [
+						{
+							"uuid": "91ed6146-7646-423d-a7dd-c1f36a702666"
+						},
+						{
+							"uuid": "dfe4383a-6334-42ed-825f-4b749235f804"
+						},
+						{
+							"uuid": "06ea821e-1b70-43ad-b866-e8faad8f4dff"
+						},
+						{
+							"uuid": "8d1b26aa-162f-4192-b7e9-69ea2ce3e09f"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"uuid": "91ed6146-7646-423d-a7dd-c1f36a702666",
+					"__class": "@egret/core/AssetBasis"
+				},
+				{
+					"uuid": "dfe4383a-6334-42ed-825f-4b749235f804",
+					"__class": "AssetRefCount"
+				},
+				{
+					"uuid": "06ea821e-1b70-43ad-b866-e8faad8f4dff",
+					"__class": "@egret/render/Defines"
+				},
+				{
+					"uuid": "8d1b26aa-162f-4192-b7e9-69ea2ce3e09f",
+					"__class": "@egret/render/Material",
+					"glTF": 0,
+					"shader": {
+						"__asset": 0
+					}
+				}
+			]
+		}
+	},
+	"materials": [
+		{
+			"extensions": {
+				"KHR_techniques_webgl": {
+					"technique": 0,
+					"values": {
+						"tEquirect": "threejs/textures/2294472375_24a3b8ef46_o.image.json"
+					}
+				}
+			}
+		}
+	]
+}

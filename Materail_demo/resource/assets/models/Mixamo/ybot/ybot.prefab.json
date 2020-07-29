@@ -1,0 +1,3174 @@
+{
+	"assets": [
+		"assets/models/Mixamo/ybot/Alpha_Joints.mesh.bin",
+		"assets/models/Mixamo/ybot/ybot.fbx.Alpha_Joints_MAT.mat.json",
+		"assets/models/Mixamo/ybot/Alpha_Surface.mesh.bin",
+		"assets/models/Mixamo/ybot/ybot.fbx.Alpha_Body_MAT.mat.json"
+	],
+	"entities": [
+		{
+			"uuid": "0",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "2"
+				},
+				{
+					"uuid": "1"
+				}
+			]
+		},
+		{
+			"uuid": "3",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "5"
+				},
+				{
+					"uuid": "4"
+				},
+				{
+					"uuid": "7"
+				},
+				{
+					"uuid": "6"
+				}
+			]
+		},
+		{
+			"uuid": "8",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "10"
+				},
+				{
+					"uuid": "9"
+				},
+				{
+					"uuid": "12"
+				},
+				{
+					"uuid": "11"
+				}
+			]
+		},
+		{
+			"uuid": "13",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "15"
+				},
+				{
+					"uuid": "14"
+				}
+			]
+		},
+		{
+			"uuid": "16",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "18"
+				},
+				{
+					"uuid": "17"
+				}
+			]
+		},
+		{
+			"uuid": "19",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "21"
+				},
+				{
+					"uuid": "20"
+				}
+			]
+		},
+		{
+			"uuid": "22",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "24"
+				},
+				{
+					"uuid": "23"
+				}
+			]
+		},
+		{
+			"uuid": "25",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "27"
+				},
+				{
+					"uuid": "26"
+				}
+			]
+		},
+		{
+			"uuid": "28",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "30"
+				},
+				{
+					"uuid": "29"
+				}
+			]
+		},
+		{
+			"uuid": "31",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "33"
+				},
+				{
+					"uuid": "32"
+				}
+			]
+		},
+		{
+			"uuid": "34",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "36"
+				},
+				{
+					"uuid": "35"
+				}
+			]
+		},
+		{
+			"uuid": "37",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "39"
+				},
+				{
+					"uuid": "38"
+				}
+			]
+		},
+		{
+			"uuid": "40",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "42"
+				},
+				{
+					"uuid": "41"
+				}
+			]
+		},
+		{
+			"uuid": "43",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "45"
+				},
+				{
+					"uuid": "44"
+				}
+			]
+		},
+		{
+			"uuid": "46",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "48"
+				},
+				{
+					"uuid": "47"
+				}
+			]
+		},
+		{
+			"uuid": "49",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "51"
+				},
+				{
+					"uuid": "50"
+				}
+			]
+		},
+		{
+			"uuid": "52",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "54"
+				},
+				{
+					"uuid": "53"
+				}
+			]
+		},
+		{
+			"uuid": "55",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "57"
+				},
+				{
+					"uuid": "56"
+				}
+			]
+		},
+		{
+			"uuid": "58",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "60"
+				},
+				{
+					"uuid": "59"
+				}
+			]
+		},
+		{
+			"uuid": "61",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "63"
+				},
+				{
+					"uuid": "62"
+				}
+			]
+		},
+		{
+			"uuid": "64",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "66"
+				},
+				{
+					"uuid": "65"
+				}
+			]
+		},
+		{
+			"uuid": "67",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "69"
+				},
+				{
+					"uuid": "68"
+				}
+			]
+		},
+		{
+			"uuid": "70",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "72"
+				},
+				{
+					"uuid": "71"
+				}
+			]
+		},
+		{
+			"uuid": "73",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "75"
+				},
+				{
+					"uuid": "74"
+				}
+			]
+		},
+		{
+			"uuid": "76",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "78"
+				},
+				{
+					"uuid": "77"
+				}
+			]
+		},
+		{
+			"uuid": "79",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "81"
+				},
+				{
+					"uuid": "80"
+				}
+			]
+		},
+		{
+			"uuid": "82",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "84"
+				},
+				{
+					"uuid": "83"
+				}
+			]
+		},
+		{
+			"uuid": "85",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "87"
+				},
+				{
+					"uuid": "86"
+				}
+			]
+		},
+		{
+			"uuid": "88",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "90"
+				},
+				{
+					"uuid": "89"
+				}
+			]
+		},
+		{
+			"uuid": "91",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "93"
+				},
+				{
+					"uuid": "92"
+				}
+			]
+		},
+		{
+			"uuid": "94",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "96"
+				},
+				{
+					"uuid": "95"
+				}
+			]
+		},
+		{
+			"uuid": "97",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "99"
+				},
+				{
+					"uuid": "98"
+				}
+			]
+		},
+		{
+			"uuid": "100",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "102"
+				},
+				{
+					"uuid": "101"
+				}
+			]
+		},
+		{
+			"uuid": "103",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "105"
+				},
+				{
+					"uuid": "104"
+				}
+			]
+		},
+		{
+			"uuid": "106",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "108"
+				},
+				{
+					"uuid": "107"
+				}
+			]
+		},
+		{
+			"uuid": "109",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "111"
+				},
+				{
+					"uuid": "110"
+				}
+			]
+		},
+		{
+			"uuid": "112",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "114"
+				},
+				{
+					"uuid": "113"
+				}
+			]
+		},
+		{
+			"uuid": "115",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "117"
+				},
+				{
+					"uuid": "116"
+				}
+			]
+		},
+		{
+			"uuid": "118",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "120"
+				},
+				{
+					"uuid": "119"
+				}
+			]
+		},
+		{
+			"uuid": "121",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "123"
+				},
+				{
+					"uuid": "122"
+				}
+			]
+		},
+		{
+			"uuid": "124",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "126"
+				},
+				{
+					"uuid": "125"
+				}
+			]
+		},
+		{
+			"uuid": "127",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "129"
+				},
+				{
+					"uuid": "128"
+				}
+			]
+		},
+		{
+			"uuid": "130",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "132"
+				},
+				{
+					"uuid": "131"
+				}
+			]
+		},
+		{
+			"uuid": "133",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "135"
+				},
+				{
+					"uuid": "134"
+				}
+			]
+		},
+		{
+			"uuid": "136",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "138"
+				},
+				{
+					"uuid": "137"
+				}
+			]
+		},
+		{
+			"uuid": "139",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "141"
+				},
+				{
+					"uuid": "140"
+				}
+			]
+		},
+		{
+			"uuid": "142",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "144"
+				},
+				{
+					"uuid": "143"
+				}
+			]
+		},
+		{
+			"uuid": "145",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "147"
+				},
+				{
+					"uuid": "146"
+				}
+			]
+		},
+		{
+			"uuid": "148",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "150"
+				},
+				{
+					"uuid": "149"
+				}
+			]
+		},
+		{
+			"uuid": "151",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "153"
+				},
+				{
+					"uuid": "152"
+				}
+			]
+		},
+		{
+			"uuid": "154",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "156"
+				},
+				{
+					"uuid": "155"
+				}
+			]
+		},
+		{
+			"uuid": "157",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "159"
+				},
+				{
+					"uuid": "158"
+				}
+			]
+		},
+		{
+			"uuid": "160",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "162"
+				},
+				{
+					"uuid": "161"
+				}
+			]
+		},
+		{
+			"uuid": "163",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "165"
+				},
+				{
+					"uuid": "164"
+				}
+			]
+		},
+		{
+			"uuid": "166",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "168"
+				},
+				{
+					"uuid": "167"
+				}
+			]
+		},
+		{
+			"uuid": "169",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "171"
+				},
+				{
+					"uuid": "170"
+				}
+			]
+		},
+		{
+			"uuid": "172",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "174"
+				},
+				{
+					"uuid": "173"
+				}
+			]
+		},
+		{
+			"uuid": "175",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "177"
+				},
+				{
+					"uuid": "176"
+				}
+			]
+		},
+		{
+			"uuid": "178",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "180"
+				},
+				{
+					"uuid": "179"
+				}
+			]
+		},
+		{
+			"uuid": "181",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "183"
+				},
+				{
+					"uuid": "182"
+				}
+			]
+		},
+		{
+			"uuid": "184",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "186"
+				},
+				{
+					"uuid": "185"
+				}
+			]
+		},
+		{
+			"uuid": "187",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "189"
+				},
+				{
+					"uuid": "188"
+				}
+			]
+		},
+		{
+			"uuid": "190",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "192"
+				},
+				{
+					"uuid": "191"
+				}
+			]
+		},
+		{
+			"uuid": "193",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "195"
+				},
+				{
+					"uuid": "194"
+				}
+			]
+		},
+		{
+			"uuid": "196",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "198"
+				},
+				{
+					"uuid": "197"
+				}
+			]
+		},
+		{
+			"uuid": "199",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "201"
+				},
+				{
+					"uuid": "200"
+				}
+			]
+		},
+		{
+			"uuid": "202",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "204"
+				},
+				{
+					"uuid": "203"
+				}
+			]
+		},
+		{
+			"uuid": "205",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "207"
+				},
+				{
+					"uuid": "206"
+				}
+			]
+		},
+		{
+			"uuid": "208",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "210"
+				},
+				{
+					"uuid": "209"
+				}
+			]
+		},
+		{
+			"uuid": "211",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "213"
+				},
+				{
+					"uuid": "212"
+				}
+			]
+		}
+	],
+	"components": [
+		{
+			"uuid": "2",
+			"__class": "@egret/engine/TreeNode",
+			"name": "ybot",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "5"
+				},
+				{
+					"uuid": "10"
+				},
+				{
+					"uuid": "15"
+				}
+			]
+		},
+		{
+			"uuid": "1",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "5",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Alpha_Joints",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "4",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "7",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 0
+			}
+		},
+		{
+			"uuid": "6",
+			"__class": "@egret/render/SkinnedMeshRenderer",
+			"_castShadows": true,
+			"_receiveShadows": true,
+			"materials": [
+				{
+					"__asset": 1
+				}
+			]
+		},
+		{
+			"uuid": "10",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Alpha_Surface",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "9",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "12",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 2
+			}
+		},
+		{
+			"uuid": "11",
+			"__class": "@egret/render/SkinnedMeshRenderer",
+			"_castShadows": true,
+			"_receiveShadows": true,
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "15",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:Hips",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "18"
+				},
+				{
+					"uuid": "33"
+				},
+				{
+					"uuid": "48"
+				}
+			]
+		},
+		{
+			"uuid": "14",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0.997919,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "18",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftUpLeg",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "21"
+				}
+			]
+		},
+		{
+			"uuid": "17",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.091245,
+				-0.066564,
+				-0.000554
+			],
+			"_localRotation": [
+				-0.000018,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "21",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftLeg",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "24"
+				}
+			]
+		},
+		{
+			"uuid": "20",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.002447,
+				-0.405954,
+				-0.00517
+			],
+			"_localRotation": [
+				0.000036,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "24",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftFoot",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "27"
+				}
+			]
+		},
+		{
+			"uuid": "23",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.002447,
+				-0.42048,
+				-0.020576
+			],
+			"_localRotation": [
+				-0.000018,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "27",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftToeBase",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "30"
+				}
+			]
+		},
+		{
+			"uuid": "26",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.003734,
+				-0.104922,
+				0.126407
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "30",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftToe_End",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "29",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0,
+				0.099925
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "33",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightUpLeg",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "36"
+				}
+			]
+		},
+		{
+			"uuid": "32",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.091245,
+				-0.066564,
+				-0.000554
+			],
+			"_localRotation": [
+				-0.000003,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "36",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightLeg",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "39"
+				}
+			]
+		},
+		{
+			"uuid": "35",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.002447,
+				-0.405954,
+				-0.005145
+			],
+			"_localRotation": [
+				0.000007,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "39",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightFoot",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "42"
+				}
+			]
+		},
+		{
+			"uuid": "38",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.002447,
+				-0.420479,
+				-0.020602
+			],
+			"_localRotation": [
+				-0.000004,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "42",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightToeBase",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "45"
+				}
+			]
+		},
+		{
+			"uuid": "41",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.003734,
+				-0.104922,
+				0.126407
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "45",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightToe_End",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "44",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0,
+				0.099925
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "48",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:Spine",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "51"
+				}
+			]
+		},
+		{
+			"uuid": "47",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0.099235,
+				-0.012273
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "51",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:Spine1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "54"
+				}
+			]
+		},
+		{
+			"uuid": "50",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.000001,
+				0.116454,
+				-0.014223
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "54",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:Spine2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "57"
+				},
+				{
+					"uuid": "129"
+				},
+				{
+					"uuid": "144"
+				}
+			]
+		},
+		{
+			"uuid": "53",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.000001,
+				0.133602,
+				-0.016265
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "57",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftShoulder",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "60"
+				}
+			]
+		},
+		{
+			"uuid": "56",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.061058,
+				0.091104,
+				0.007056
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "60",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftArm",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "63"
+				}
+			]
+		},
+		{
+			"uuid": "59",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.12655,
+				-0.002659,
+				-0.026009
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "63",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftForeArm",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "66"
+				}
+			]
+		},
+		{
+			"uuid": "62",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.274047,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "66",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHand",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "69"
+				},
+				{
+					"uuid": "81"
+				},
+				{
+					"uuid": "93"
+				},
+				{
+					"uuid": "105"
+				},
+				{
+					"uuid": "117"
+				}
+			]
+		},
+		{
+			"uuid": "65",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.276145,
+				0,
+				0
+			],
+			"_localRotation": [
+				0.000026,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "69",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandIndex1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "72"
+				}
+			]
+		},
+		{
+			"uuid": "68",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.122666,
+				-0.002317,
+				0.028221
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "72",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandIndex2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "75"
+				}
+			]
+		},
+		{
+			"uuid": "71",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.03892,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "75",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandIndex3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "78"
+				}
+			]
+		},
+		{
+			"uuid": "74",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.034152,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "78",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandIndex4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "77",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.03078,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "81",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandMiddle1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "84"
+				}
+			]
+		},
+		{
+			"uuid": "80",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.127755,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "84",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandMiddle2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "87"
+				}
+			]
+		},
+		{
+			"uuid": "83",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.03614,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "87",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandMiddle3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "90"
+				}
+			]
+		},
+		{
+			"uuid": "86",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.034598,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "90",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandMiddle4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "89",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.036802,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "93",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandPinky1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "96"
+				}
+			]
+		},
+		{
+			"uuid": "92",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.109082,
+				-0.002264,
+				-0.047258
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "96",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandPinky2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "99"
+				}
+			]
+		},
+		{
+			"uuid": "95",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.041367,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "99",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandPinky3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "102"
+				}
+			]
+		},
+		{
+			"uuid": "98",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.025948,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "102",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandPinky4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "101",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.029239,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "105",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandRing1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "108"
+				}
+			]
+		},
+		{
+			"uuid": "104",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.12147,
+				0.000099,
+				-0.022166
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "108",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandRing2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "111"
+				}
+			]
+		},
+		{
+			"uuid": "107",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.036012,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "111",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandRing3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "114"
+				}
+			]
+		},
+		{
+			"uuid": "110",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.033073,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "114",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandRing4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "113",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.036601,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "117",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandThumb1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "120"
+				}
+			]
+		},
+		{
+			"uuid": "116",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.037888,
+				-0.02167,
+				0.030031
+			],
+			"_localRotation": [
+				-0.00001,
+				0.000008,
+				-0.00001,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "120",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandThumb2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "123"
+				}
+			]
+		},
+		{
+			"uuid": "119",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.036754,
+				-0.02122,
+				0.02122
+			],
+			"_localRotation": [
+				0.000005,
+				-0.000003,
+				0.000006,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "123",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandThumb3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "126"
+				}
+			]
+		},
+		{
+			"uuid": "122",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.033944,
+				-0.019597,
+				0.019598
+			],
+			"_localRotation": [
+				-0.000005,
+				0.00001,
+				0.000001,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "126",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftHandThumb4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "125",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.026794,
+				-0.015469,
+				0.015469
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "129",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:Neck",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "132"
+				}
+			]
+		},
+		{
+			"uuid": "128",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0.150325,
+				0.007929
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "132",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:Head",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "135"
+				},
+				{
+					"uuid": "138"
+				},
+				{
+					"uuid": "141"
+				}
+			]
+		},
+		{
+			"uuid": "131",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0.103218,
+				0.031424
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "135",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:HeadTop_End",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "134",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.000002,
+				0.184747,
+				0.066364
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "138",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:LeftEye",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "137",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.029479,
+				0.076817,
+				0.091207
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "141",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightEye",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "140",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.029445,
+				0.076817,
+				0.091205
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "144",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightShoulder",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "147"
+				}
+			]
+		},
+		{
+			"uuid": "143",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.061057,
+				0.091105,
+				0.007056
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "147",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightArm",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "150"
+				}
+			]
+		},
+		{
+			"uuid": "146",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.12655,
+				-0.00266,
+				-0.026009
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "150",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightForeArm",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "153"
+				}
+			]
+		},
+		{
+			"uuid": "149",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.274047,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "153",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHand",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "156"
+				},
+				{
+					"uuid": "168"
+				},
+				{
+					"uuid": "180"
+				},
+				{
+					"uuid": "192"
+				},
+				{
+					"uuid": "204"
+				}
+			]
+		},
+		{
+			"uuid": "152",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.276145,
+				0,
+				0
+			],
+			"_localRotation": [
+				0.000026,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "156",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandIndex1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "159"
+				}
+			]
+		},
+		{
+			"uuid": "155",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.122666,
+				-0.002317,
+				0.028221
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "159",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandIndex2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "162"
+				}
+			]
+		},
+		{
+			"uuid": "158",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.03892,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "162",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandIndex3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "165"
+				}
+			]
+		},
+		{
+			"uuid": "161",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.034152,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "165",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandIndex4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "164",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.03078,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "168",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandMiddle1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "171"
+				}
+			]
+		},
+		{
+			"uuid": "167",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.127755,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "171",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandMiddle2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "174"
+				}
+			]
+		},
+		{
+			"uuid": "170",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.03614,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "174",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandMiddle3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "177"
+				}
+			]
+		},
+		{
+			"uuid": "173",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.034598,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "177",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandMiddle4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "176",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.036802,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "180",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandPinky1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "183"
+				}
+			]
+		},
+		{
+			"uuid": "179",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.109082,
+				-0.002264,
+				-0.047258
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "183",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandPinky2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "186"
+				}
+			]
+		},
+		{
+			"uuid": "182",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.041367,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "186",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandPinky3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "189"
+				}
+			]
+		},
+		{
+			"uuid": "185",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.025948,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "189",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandPinky4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "188",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.029239,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "192",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandRing1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "195"
+				}
+			]
+		},
+		{
+			"uuid": "191",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.12147,
+				0.000099,
+				-0.022166
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "195",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandRing2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "198"
+				}
+			]
+		},
+		{
+			"uuid": "194",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.036012,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "198",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandRing3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "201"
+				}
+			]
+		},
+		{
+			"uuid": "197",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.033073,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "201",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandRing4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "200",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.036601,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "204",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandThumb1",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "207"
+				}
+			]
+		},
+		{
+			"uuid": "203",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.037888,
+				-0.02167,
+				0.030031
+			],
+			"_localRotation": [
+				-0.00001,
+				-0.000008,
+				0.00001,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "207",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandThumb2",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "210"
+				}
+			]
+		},
+		{
+			"uuid": "206",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.036754,
+				-0.02122,
+				0.02122
+			],
+			"_localRotation": [
+				0.000005,
+				0.000003,
+				-0.000006,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "210",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandThumb3",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "213"
+				}
+			]
+		},
+		{
+			"uuid": "209",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.033944,
+				-0.019597,
+				0.019598
+			],
+			"_localRotation": [
+				-0.000005,
+				-0.00001,
+				-0.000001,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "213",
+			"__class": "@egret/engine/TreeNode",
+			"name": "mixamorig:RightHandThumb4",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "212",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0.026794,
+				-0.015469,
+				0.015469
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		}
+	],
+	"version": "5"
+}

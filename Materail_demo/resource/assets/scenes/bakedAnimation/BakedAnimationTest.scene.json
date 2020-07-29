@@ -1,0 +1,142 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [],
+    "entities": [
+        {
+            "uuid": "72414dca-3dbd-4e9d-99a5-a0fa71b07a23",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "7c3bf9bb-b525-423f-9104-bac050b6327b"
+                },
+                {
+                    "uuid": "fefcc94d-abea-4c9f-a2fb-8bc21162d23b"
+                }
+            ]
+        },
+        {
+            "uuid": "a94448ed-50c1-4e57-a129-f70898028235",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "38a28061-0975-4dc4-90e3-8263ce659cc9"
+                },
+                {
+                    "uuid": "a5dbad40-8ba8-4fe6-b190-30e88932a31b"
+                },
+                {
+                    "uuid": "4513c018-31c6-40bb-8ce1-cc37e3279e2e"
+                }
+            ]
+        },
+        {
+            "uuid": "aa81c477-d75f-4b36-9022-dbdf026b01a6",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "b6444ee1-2804-4c91-b210-da89ff7d403f"
+                },
+                {
+                    "uuid": "02353ac7-9767-45db-8b61-d451b3591504"
+                },
+                {
+                    "uuid": "9a8a858d-6a3d-496e-bf0e-eada4b880074"
+                }
+            ]
+        },
+        {
+            "uuid": "ebc01265-8bd7-4ef7-a097-631bfd70227f",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "d85e1877-979a-4188-9dac-31a710bd492a"
+                },
+                {
+                    "uuid": "8a4e2add-076a-4b37-97ad-9b53dc177395"
+                },
+                {
+                    "uuid": "855cf6d7-4f78-4be0-a30a-acc31c2ba42c"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "7c3bf9bb-b525-423f-9104-bac050b6327b",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Root",
+            "children": [
+                {
+                    "uuid": "38a28061-0975-4dc4-90e3-8263ce659cc9"
+                },
+                {
+                    "uuid": "b6444ee1-2804-4c91-b210-da89ff7d403f"
+                },
+                {
+                    "uuid": "d85e1877-979a-4188-9dac-31a710bd492a"
+                }
+            ]
+        },
+        {
+            "uuid": "38a28061-0975-4dc4-90e3-8263ce659cc9",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Main Camera",
+            "tag": "MainCamera"
+        },
+        {
+            "uuid": "a5dbad40-8ba8-4fe6-b190-30e88932a31b",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                1,
+                -10
+            ]
+        },
+        {
+            "uuid": "4513c018-31c6-40bb-8ce1-cc37e3279e2e",
+            "__class": "@egret/render/Camera"
+        },
+        {
+            "uuid": "b6444ee1-2804-4c91-b210-da89ff7d403f",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Directional Light"
+        },
+        {
+            "uuid": "02353ac7-9767-45db-8b61-d451b3591504",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                3,
+                0
+            ],
+            "localRotation": [
+                0.4082179069519043,
+                -0.23456971347332,
+                0.10938165336847305,
+                0.8754261136054993
+            ]
+        },
+        {
+            "uuid": "9a8a858d-6a3d-496e-bf0e-eada4b880074",
+            "__class": "@egret/render/DirectionalLight"
+        },
+        {
+            "uuid": "d85e1877-979a-4188-9dac-31a710bd492a",
+            "__class": "@egret/engine/TreeNode",
+            "name": "GameEntity"
+        },
+        {
+            "uuid": "8a4e2add-076a-4b37-97ad-9b53dc177395",
+            "__class": "@egret/engine/Transform"
+        },
+        {
+            "uuid": "855cf6d7-4f78-4be0-a30a-acc31c2ba42c",
+            "__class": "LoadBakedAnimation"
+        },
+        {
+            "uuid": "fefcc94d-abea-4c9f-a2fb-8bc21162d23b",
+            "__class": "@egret/engine/Scene"
+        }
+    ]
+}

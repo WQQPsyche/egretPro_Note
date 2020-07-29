@@ -1,0 +1,94 @@
+{
+	"extensionsUsed": [
+		"KHR_techniques_webgl",
+		"egret"
+	],
+	"extensionsRequired": [
+		"KHR_techniques_webgl",
+		"egret"
+	],
+	"asset": {
+		"generator": "Unity plugin for egret",
+		"version": "2.0"
+	},
+	"materials": [
+		{
+			"name": "light0066",
+			"extensions": {
+				"KHR_techniques_webgl": {
+					"technique": 0,
+					"values": {
+						"map": "assets/Art/effect/Textures/light0066.image.json",
+						"diffuse": [
+							0.5,
+							0.5,
+							0.5
+						],
+						"opacity": 0.5
+					}
+				}
+			}
+		}
+	],
+	"extensions": {
+		"egret": {
+			"version": "5.0",
+			"minVersion": "5.0",
+			"assets": [
+				"builtin/particle.shader.json"
+			],
+			"entities": [
+				{
+					"uuid": "0",
+					"__class": "@egret/core/AssetEntity",
+					"components": [
+						{
+							"uuid": "1"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"uuid": "1",
+					"__class": "@egret/render/Material",
+					"glTF": 0,
+					"shader": {
+						"__asset": 0
+					}
+				}
+			]
+		},
+		"KHR_techniques_webgl": {
+			"techniques": [
+				{
+					"states": {
+						"enable": [
+							3042,
+							2929
+						],
+						"functions": {
+							"blendEquationSeparate": [
+								32774,
+								32774
+							],
+							"blendFuncSeparate": [
+								770,
+								1,
+								770,
+								1
+							],
+							"depthFunc": [
+								515
+							],
+							"depthMask": [
+								false
+							]
+						}
+					},
+					"uniforms": {}
+				}
+			]
+		}
+	}
+}

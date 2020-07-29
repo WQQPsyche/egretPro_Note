@@ -1,0 +1,57 @@
+{
+	"version": "5",
+	"minVersion": "5",
+	"assets": [
+		"threejs/models/walt/WaltHead_Mesh_Mesh_head_geo.001_lambert2SG.001.mesh.bin"
+	],
+	"entities": [
+		{
+			"uuid": "47e3afab-ce35-400a-a2d5-6611a0cc9f69",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "5e262a4d-ff6d-4931-8ba2-729de46c26e6"
+				},
+				{
+					"uuid": "7de74fda-9ed2-4ae5-b19f-c8c9a0516675"
+				},
+				{
+					"uuid": "1b1aec7e-48ba-467d-a5d0-4786c0f1a1eb"
+				},
+				{
+					"uuid": "3efbc874-1d45-473d-be04-bc502bfeb09b"
+				}
+			]
+		}
+	],
+	"components": [
+		{
+			"uuid": "5e262a4d-ff6d-4931-8ba2-729de46c26e6",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Walt"
+		},
+		{
+			"uuid": "7de74fda-9ed2-4ae5-b19f-c8c9a0516675",
+			"__class": "@egret/engine/Transform"
+		},
+		{
+			"uuid": "1b1aec7e-48ba-467d-a5d0-4786c0f1a1eb",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 0
+			}
+		},
+		{
+			"uuid": "3efbc874-1d45-473d-be04-bc502bfeb09b",
+			"__class": "@egret/render/MeshRenderer",
+			"_localBoundingBox": [
+				-28.16547393798828,
+				-2.8307740688323975,
+				-31.3985595703125,
+				28.17205238342285,
+				75.8121337890625,
+				26.041017532348633
+			]
+		}
+	]
+}

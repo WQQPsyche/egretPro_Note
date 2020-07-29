@@ -1,0 +1,101 @@
+{
+	"asset": {
+		"version": "2.0"
+	},
+	"extensionsRequired": [
+		"egret"
+	],
+	"extensionsUsed": [
+		"egret"
+	],
+	"extensions": {
+		"KHR_techniques_webgl": {
+			"shaders": [],
+			"techniques": [
+				{
+					"attributes": {},
+					"uniforms": {},
+					"states": {
+						"enable": [
+							2929,
+							2884
+						],
+						"functions": {
+							"depthFunc": [
+								515
+							],
+							"depthMask": [
+								true
+							],
+							"frontFace": [
+								2305
+							],
+							"cullFace": [
+								1029
+							]
+						}
+					}
+				}
+			],
+			"programs": []
+		},
+		"egret": {
+			"version": "5",
+			"minVersion": "5",
+			"assets": [
+				"builtin/meshlambert.shader.json"
+			],
+			"entities": [
+				{
+					"uuid": "5d4cf070-1c30-48cc-85bf-3c0121288e3c",
+					"__class": "@egret/core/AssetEntity",
+					"components": [
+						{
+							"uuid": "cc1f4d48-8e47-43b7-b8f5-259ef870ae3a"
+						},
+						{
+							"uuid": "65308a83-3979-469c-bc25-692ace55bf13"
+						},
+						{
+							"uuid": "ece7a415-3328-4721-b386-3800c5c541e8"
+						},
+						{
+							"uuid": "cbaa2dc0-8701-40aa-9f88-31a76caf4564"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"uuid": "cc1f4d48-8e47-43b7-b8f5-259ef870ae3a",
+					"__class": "@egret/core/AssetBasis"
+				},
+				{
+					"uuid": "65308a83-3979-469c-bc25-692ace55bf13",
+					"__class": "AssetRefCount"
+				},
+				{
+					"uuid": "ece7a415-3328-4721-b386-3800c5c541e8",
+					"__class": "@egret/render/Defines"
+				},
+				{
+					"uuid": "cbaa2dc0-8701-40aa-9f88-31a76caf4564",
+					"__class": "@egret/render/Material",
+					"glTF": 0,
+					"shader": {
+						"__asset": 0
+					}
+				}
+			]
+		}
+	},
+	"materials": [
+		{
+			"extensions": {
+				"KHR_techniques_webgl": {
+					"technique": 0
+				}
+			}
+		}
+	]
+}

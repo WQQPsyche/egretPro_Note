@@ -1,0 +1,114 @@
+{
+	"version": "5",
+	"minVersion": "5",
+	"assets": [
+		"h5/Scenes/Group54004.mesh.bin",
+		"h5/Scenes/oldlady.mat.json"
+	],
+	"entities": [
+		{
+			"uuid": "842d3b81-6cab-4b81-801b-91cbab61f906",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "22d862a1-7a6a-44a9-bfd2-a128708c112d"
+				},
+				{
+					"uuid": "19c90a41-d188-4f09-91fc-0fd0d841426a"
+				}
+			]
+		},
+		{
+			"uuid": "494f192c-cb61-4b47-b429-aa187f3ac954",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "86ceb6c2-6bbe-4445-9865-938fb7be609e"
+				},
+				{
+					"uuid": "d67e5bfe-32d7-4449-a528-c1d38f9476e8"
+				},
+				{
+					"uuid": "942955c3-63c0-4df4-9ec5-fb09e4d1b19b"
+				},
+				{
+					"uuid": "6afaa782-44c9-4825-981f-8d39a9b9fd54"
+				}
+			]
+		}
+	],
+	"components": [
+		{
+			"uuid": "22d862a1-7a6a-44a9-bfd2-a128708c112d",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Root",
+			"scene": {
+				"uuid": "e2a63e41-4555-49a9-8f1e-f312bec6561c"
+			},
+			"children": [
+				{
+					"uuid": "86ceb6c2-6bbe-4445-9865-938fb7be609e"
+				}
+			]
+		},
+		{
+			"uuid": "86ceb6c2-6bbe-4445-9865-938fb7be609e",
+			"__class": "@egret/engine/TreeNode",
+			"name": "oldlady",
+			"scene": {
+				"uuid": "e2a63e41-4555-49a9-8f1e-f312bec6561c"
+			}
+		},
+		{
+			"uuid": "d67e5bfe-32d7-4449-a528-c1d38f9476e8",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				-0.010138107576183303,
+				0,
+				0
+			],
+			"localRotation": [
+				0,
+				0.7071067690849304,
+				0.7071067690849304,
+				0
+			]
+		},
+		{
+			"uuid": "942955c3-63c0-4df4-9ec5-fb09e4d1b19b",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 0
+			}
+		},
+		{
+			"uuid": "6afaa782-44c9-4825-981f-8d39a9b9fd54",
+			"__class": "@egret/render/MeshRenderer",
+			"_receiveShadows": true,
+			"_castShadows": true,
+			"_localBoundingBox": [
+				-0.060177456587553024,
+				-0.03252500668168068,
+				-0.006722001824527979,
+				0.060177456587553024,
+				0.06316249817609787,
+				0.12284299731254578
+			],
+			"materials": [
+				{
+					"__asset": 1
+				}
+			],
+			"lightmapScaleOffset": [
+				1,
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"uuid": "19c90a41-d188-4f09-91fc-0fd0d841426a",
+			"__class": "@egret/engine/Transform"
+		}
+	]
+}

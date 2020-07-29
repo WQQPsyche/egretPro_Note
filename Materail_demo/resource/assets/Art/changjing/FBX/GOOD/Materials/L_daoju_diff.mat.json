@@ -1,0 +1,80 @@
+{
+	"extensionsUsed": [
+		"KHR_techniques_webgl",
+		"egret"
+	],
+	"extensionsRequired": [
+		"KHR_techniques_webgl",
+		"egret"
+	],
+	"asset": {
+		"generator": "Unity plugin for egret",
+		"version": "2.0"
+	},
+	"materials": [
+		{
+			"name": "L_daoju_diff",
+			"extensions": {
+				"KHR_techniques_webgl": {
+					"technique": 0,
+					"values": {
+						"map": "assets/Art/changjing/FBX/GOOD/L_daoju.image.json",
+						"diffuse": [
+							0.786765,
+							0.786765,
+							0.786765
+						]
+					}
+				}
+			}
+		}
+	],
+	"extensions": {
+		"egret": {
+			"version": "5.0",
+			"minVersion": "5.0",
+			"assets": [
+				"builtin/meshbasic.shader.json"
+			],
+			"entities": [
+				{
+					"uuid": "0",
+					"__class": "@egret/core/AssetEntity",
+					"components": [
+						{
+							"uuid": "1"
+						},
+						{
+							"uuid": "2"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"uuid": "1",
+					"__class": "@egret/render/Defines",
+					"defines": [
+						"ALPHATEST 0.5"
+					]
+				},
+				{
+					"uuid": "2",
+					"__class": "@egret/render/Material",
+					"renderQueue": 2450,
+					"glTF": 0,
+					"shader": {
+						"__asset": 0
+					}
+				}
+			]
+		},
+		"KHR_techniques_webgl": {
+			"techniques": [
+				{
+					"uniforms": {}
+				}
+			]
+		}
+	}
+}

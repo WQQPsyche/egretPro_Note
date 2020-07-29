@@ -1,0 +1,76 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [],
+    "entities": [
+        {
+            "uuid": "36",
+            "__class": "@egret/engine/GlobalEntity",
+            "components": [
+                {
+                    "uuid": "37"
+                },
+                {
+                    "uuid": "38"
+                },
+                {
+                    "uuid": "40"
+                },
+                {
+                    "uuid": "42"
+                },
+                {
+                    "uuid": "44"
+                },
+                {
+                    "uuid": "52"
+                },
+                {
+                    "uuid": "65"
+                },
+                {
+                    "uuid": "70"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "37",
+            "__class": "@egret/engine/Clock"
+        },
+        {
+            "uuid": "38",
+            "__class": "@egret/engine/Stage"
+        },
+        {
+            "uuid": "40",
+            "__class": "@egret/render/SceneLight"
+        },
+        {
+            "uuid": "42",
+            "__class": "@egret/render/RenderContext",
+            "shadowQuality": 2
+        },
+        {
+            "uuid": "44",
+            "__class": "@egret/box2d/PhysicsWorld"
+        },
+        {
+            "uuid": "52",
+            "__class": "@egret/input/InputManager"
+        },
+        {
+            "uuid": "65",
+            "__class": "@egret/collision/CollisionManager"
+        },
+        {
+            "uuid": "70",
+            "__class": "@egret/core/MissingComponent",
+            "missingObject": {
+                "uuid": "1493",
+                "__class": "EditorManager"
+            }
+        }
+    ]
+}

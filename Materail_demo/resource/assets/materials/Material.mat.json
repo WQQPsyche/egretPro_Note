@@ -1,0 +1,133 @@
+{
+	"asset": {
+		"version": "2.0"
+	},
+	"extensionsRequired": [
+		"egret"
+	],
+	"extensionsUsed": [
+		"egret"
+	],
+	"extensions": {
+		"KHR_techniques_webgl": {
+			"shaders": [],
+			"techniques": [
+				{
+					"attributes": {},
+					"uniforms": {},
+					"states": {
+						"enable": [
+							2929,
+							2884
+						],
+						"functions": {
+							"depthFunc": [
+								515
+							],
+							"depthMask": [
+								true
+							],
+							"frontFace": [
+								2305
+							],
+							"cullFace": [
+								1029
+							]
+						}
+					}
+				}
+			],
+			"programs": []
+		},
+		"egret": {
+			"version": "5",
+			"minVersion": "5",
+			"assets": [
+				"builtin/meshbasic.shader.json"
+			],
+			"entities": [
+				{
+					"uuid": "8446d42a-1e78-4899-830d-02c03ddf537b",
+					"__class": "@egret/core/AssetEntity",
+					"components": [
+						{
+							"uuid": "3686b673-97ac-42b6-a697-8341da71b776"
+						},
+						{
+							"uuid": "ce3a1f5a-e1e5-46f5-a031-c10eb571bfbb"
+						},
+						{
+							"uuid": "aa9e0305-3052-44d2-8674-09db7bd2c6bf"
+						},
+						{
+							"uuid": "bb2b5834-9c77-4207-9a09-b688cd154671"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"uuid": "3686b673-97ac-42b6-a697-8341da71b776",
+					"__class": "@egret/core/AssetBasis"
+				},
+				{
+					"uuid": "ce3a1f5a-e1e5-46f5-a031-c10eb571bfbb",
+					"__class": "AssetRefCount"
+				},
+				{
+					"uuid": "aa9e0305-3052-44d2-8674-09db7bd2c6bf",
+					"__class": "@egret/render/Defines"
+				},
+				{
+					"uuid": "bb2b5834-9c77-4207-9a09-b688cd154671",
+					"__class": "@egret/render/Material",
+					"glTF": 0,
+					"shader": {
+						"__asset": 0
+					}
+				}
+			]
+		}
+	},
+	"materials": [
+		{
+			"extensions": {
+				"KHR_techniques_webgl": {
+					"technique": 0,
+					"values": {
+						"uvTransform": [
+							1,
+							0,
+							0,
+							0,
+							1,
+							0,
+							0,
+							0,
+							1
+						],
+						"refractionRatio": 0.98,
+						"morphTargetInfluences[0]": [],
+						"diffuse": [
+							1,
+							1,
+							1
+						],
+						"opacity": 1,
+						"map": null,
+						"alphaMap": null,
+						"aoMap": null,
+						"aoMapIntensity": 1,
+						"reflectivity": 1,
+						"envMapIntensity": 1,
+						"envMap": null,
+						"flipEnvMap": 1,
+						"maxMipLevel": [],
+						"specularMap": null,
+						"clippingPlanes[0]": []
+					}
+				}
+			}
+		}
+	]
+}

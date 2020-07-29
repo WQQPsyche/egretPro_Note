@@ -1,0 +1,83 @@
+{
+	"assets": [
+		"threejs/models/cerberus/Cerberus_default.mesh.bin",
+		"threejs/models/cerberus/Cerberus.mat.json"
+	],
+	"entities": [
+		{
+			"uuid": "0",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "2"
+				},
+				{
+					"uuid": "1"
+				},
+				{
+					"uuid": "3"
+				},
+				{
+					"uuid": "4"
+				}
+			]
+		}
+	],
+	"components": [
+		{
+			"uuid": "2",
+			"__class": "@egret/engine/TreeNode",
+			"name": "cerberus",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "1",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "3",
+			"__class": "@egret/render/MeshFilter",
+			"mesh": {
+				"__asset": 0
+			}
+		},
+		{
+			"uuid": "4",
+			"__class": "@egret/render/MeshRenderer",
+			"isStatic": false,
+			"lightmapIndex": -1,
+			"lightmapScaleOffset": [
+				1,
+				1,
+				0,
+				0
+			],
+			"_castShadows": true,
+			"_receiveShadows": true,
+			"materials": [
+				{
+					"__asset": 1
+				}
+			]
+		}
+	],
+	"version": "5"
+}
