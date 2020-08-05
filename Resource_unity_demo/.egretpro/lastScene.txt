@@ -1,1 +1,0 @@
-assets/scenes/SampleScene.scene.json
