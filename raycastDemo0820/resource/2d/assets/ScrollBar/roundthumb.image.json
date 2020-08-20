@@ -1,0 +1,36 @@
+{
+	"asset": {
+		"version": "2.0"
+	},
+	"extensions": {
+		"egret": {
+			"version": "5",
+			"compatibleVersion": "5"
+		}
+	},
+	"extensionsRequired": ["egret"],
+	"extensionsUsed": ["egret"],
+	"images": [{
+			"uri": "2d/assets/ScrollBar/roundthumb.png"
+		}
+	],
+	"samplers": [{
+			"magFilter": 9729,
+			"minFilter": 9729
+		}
+	],
+	"textures": [{
+			"sampler": 0,
+			"source": 0,
+			"extensions": {
+				"egret": {
+					"width": 6,
+					"height": 6,
+					"format": 6408,
+					"levels": 0,
+					"anisotropy": 4
+				}
+			}
+		}
+	]
+}

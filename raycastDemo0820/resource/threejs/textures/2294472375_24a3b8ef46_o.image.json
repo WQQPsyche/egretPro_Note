@@ -1,0 +1,46 @@
+{
+	"asset": {
+		"version": "2.0"
+	},
+	"extensions": {
+		"egret": {
+			"version": "5",
+			"compatibleVersion": "5"
+		}
+	},
+	"extensionsRequired": [
+		"egret"
+	],
+	"extensionsUsed": [
+		"egret"
+	],
+	"images": [
+		{
+			"uri": "threejs/textures/2294472375_24a3b8ef46_o.jpg"
+		}
+	],
+	"samplers": [
+		{
+			"wrapS": 33648,
+			"wrapT": 33648,
+			"magFilter": 9729,
+			"minFilter": 9987
+		}
+	],
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0,
+			"extensions": {
+				"egret": {
+					"format":6407,
+					"levels": 0,
+					"encoding": 2,
+					"mapping": 3,
+					"anisotropy": 4,
+					"format":6407
+				}
+			}
+		}
+	]
+}

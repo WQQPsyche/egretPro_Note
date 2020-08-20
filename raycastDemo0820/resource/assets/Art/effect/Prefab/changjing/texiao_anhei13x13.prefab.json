@@ -1,0 +1,5993 @@
+{
+	"assets": [
+		"assets/Art/effect/Materials/daoguang01_5x10.mat.json",
+		"assets/Art/effect/Materials/xiangshangguangshu02.mat.json",
+		"assets/Art/effect/Materials/effect_huojiantong_hm_001.mat.json",
+		"assets/Art/effect/Materials/light0066.mat.json",
+		"assets/Art/effect/Materials/light0067.mat.json",
+		"assets/Art/effect/animation/xuanzhuan_3_xuanzhuan_3.ani.bin",
+		"assets/Art/effect/Materials/simpleSmoke3.mat.json",
+		"assets/Art/effect/Textures/gui_3.mat.json",
+		"assets/Art/effect/Modle/41_A.mat.json"
+	],
+	"entities": [
+		{
+			"uuid": "0",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "2"
+				},
+				{
+					"uuid": "1"
+				}
+			]
+		},
+		{
+			"uuid": "3",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "5"
+				},
+				{
+					"uuid": "4"
+				},
+				{
+					"uuid": "6"
+				},
+				{
+					"uuid": "7"
+				}
+			]
+		},
+		{
+			"uuid": "8",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "10"
+				},
+				{
+					"uuid": "9"
+				},
+				{
+					"uuid": "11"
+				},
+				{
+					"uuid": "12"
+				}
+			]
+		},
+		{
+			"uuid": "13",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "15"
+				},
+				{
+					"uuid": "14"
+				},
+				{
+					"uuid": "16"
+				},
+				{
+					"uuid": "17"
+				}
+			]
+		},
+		{
+			"uuid": "18",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "20"
+				},
+				{
+					"uuid": "19"
+				},
+				{
+					"uuid": "21"
+				},
+				{
+					"uuid": "22"
+				}
+			]
+		},
+		{
+			"uuid": "23",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "25"
+				},
+				{
+					"uuid": "24"
+				},
+				{
+					"uuid": "26"
+				},
+				{
+					"uuid": "27"
+				}
+			]
+		},
+		{
+			"uuid": "28",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "30"
+				},
+				{
+					"uuid": "29"
+				},
+				{
+					"uuid": "31"
+				},
+				{
+					"uuid": "32"
+				}
+			]
+		},
+		{
+			"uuid": "33",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "35"
+				},
+				{
+					"uuid": "34"
+				},
+				{
+					"uuid": "36"
+				},
+				{
+					"uuid": "37"
+				}
+			]
+		},
+		{
+			"uuid": "38",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "40"
+				},
+				{
+					"uuid": "39"
+				},
+				{
+					"uuid": "41"
+				}
+			]
+		},
+		{
+			"uuid": "42",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "44"
+				},
+				{
+					"uuid": "43"
+				}
+			]
+		},
+		{
+			"uuid": "45",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "47"
+				},
+				{
+					"uuid": "46"
+				},
+				{
+					"uuid": "48"
+				}
+			]
+		},
+		{
+			"uuid": "49",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "51"
+				},
+				{
+					"uuid": "50"
+				},
+				{
+					"uuid": "52"
+				},
+				{
+					"uuid": "53"
+				}
+			]
+		},
+		{
+			"uuid": "54",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "56"
+				},
+				{
+					"uuid": "55"
+				},
+				{
+					"uuid": "57"
+				},
+				{
+					"uuid": "58"
+				}
+			]
+		},
+		{
+			"uuid": "59",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "61"
+				},
+				{
+					"uuid": "60"
+				},
+				{
+					"uuid": "62"
+				},
+				{
+					"uuid": "63"
+				}
+			]
+		},
+		{
+			"uuid": "64",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "66"
+				},
+				{
+					"uuid": "65"
+				},
+				{
+					"uuid": "67"
+				},
+				{
+					"uuid": "68"
+				}
+			]
+		},
+		{
+			"uuid": "69",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "71"
+				},
+				{
+					"uuid": "70"
+				},
+				{
+					"uuid": "72"
+				},
+				{
+					"uuid": "73"
+				}
+			]
+		},
+		{
+			"uuid": "74",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "76"
+				},
+				{
+					"uuid": "75"
+				},
+				{
+					"uuid": "77"
+				},
+				{
+					"uuid": "78"
+				}
+			]
+		},
+		{
+			"uuid": "79",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "81"
+				},
+				{
+					"uuid": "80"
+				},
+				{
+					"uuid": "82"
+				},
+				{
+					"uuid": "83"
+				}
+			]
+		},
+		{
+			"uuid": "84",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "86"
+				},
+				{
+					"uuid": "85"
+				},
+				{
+					"uuid": "87"
+				},
+				{
+					"uuid": "88"
+				}
+			]
+		},
+		{
+			"uuid": "89",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "91"
+				},
+				{
+					"uuid": "90"
+				},
+				{
+					"uuid": "92"
+				},
+				{
+					"uuid": "93"
+				}
+			]
+		},
+		{
+			"uuid": "94",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "96"
+				},
+				{
+					"uuid": "95"
+				},
+				{
+					"uuid": "97"
+				},
+				{
+					"uuid": "98"
+				}
+			]
+		},
+		{
+			"uuid": "99",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "101"
+				},
+				{
+					"uuid": "100"
+				},
+				{
+					"uuid": "102"
+				},
+				{
+					"uuid": "103"
+				}
+			]
+		},
+		{
+			"uuid": "104",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "106"
+				},
+				{
+					"uuid": "105"
+				},
+				{
+					"uuid": "107"
+				},
+				{
+					"uuid": "108"
+				}
+			]
+		},
+		{
+			"uuid": "109",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "111"
+				},
+				{
+					"uuid": "110"
+				},
+				{
+					"uuid": "112"
+				},
+				{
+					"uuid": "113"
+				}
+			]
+		},
+		{
+			"uuid": "114",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "116"
+				},
+				{
+					"uuid": "115"
+				},
+				{
+					"uuid": "117"
+				},
+				{
+					"uuid": "118"
+				}
+			]
+		}
+	],
+	"components": [
+		{
+			"uuid": "2",
+			"__class": "@egret/engine/TreeNode",
+			"name": "texiao_anhei13x13",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "5"
+				},
+				{
+					"uuid": "10"
+				},
+				{
+					"uuid": "15"
+				},
+				{
+					"uuid": "20"
+				},
+				{
+					"uuid": "25"
+				},
+				{
+					"uuid": "30"
+				},
+				{
+					"uuid": "35"
+				},
+				{
+					"uuid": "40"
+				},
+				{
+					"uuid": "44"
+				},
+				{
+					"uuid": "51"
+				},
+				{
+					"uuid": "56"
+				},
+				{
+					"uuid": "61"
+				},
+				{
+					"uuid": "66"
+				},
+				{
+					"uuid": "71"
+				},
+				{
+					"uuid": "76"
+				},
+				{
+					"uuid": "81"
+				},
+				{
+					"uuid": "86"
+				},
+				{
+					"uuid": "91"
+				},
+				{
+					"uuid": "96"
+				},
+				{
+					"uuid": "101"
+				},
+				{
+					"uuid": "106"
+				},
+				{
+					"uuid": "111"
+				},
+				{
+					"uuid": "116"
+				}
+			]
+		},
+		{
+			"uuid": "1",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				0,
+				0,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "5",
+			"__class": "@egret/engine/TreeNode",
+			"name": "xingxing",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "4",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-1.7,
+				0.69,
+				7.54
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				0,
+				0.707107
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "6",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 1,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSizeY": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSizeZ": {
+					"mode": 0,
+					"constant": 1
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 0,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 1,
+				"playOnAwake": true,
+				"_maxParticles": 1
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 0
+				},
+				"bursts": [
+					[
+						0,
+						0,
+						1,
+						1,
+						0.01
+					]
+				]
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 0.517647,
+								"time": 0.502937
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "7",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 0
+				}
+			]
+		},
+		{
+			"uuid": "10",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Particle System (2)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "9",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				6.57,
+				-1.47,
+				6.38
+			],
+			"_localRotation": [
+				0.027485,
+				0.706572,
+				-0.706572,
+				-0.027485
+			],
+			"_localScale": [
+				3.9142,
+				3.91419,
+				3.914191
+			]
+		},
+		{
+			"uuid": "11",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 2,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 1,
+					"constantMax": 1.5
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 1,
+					"constantMax": 1.5
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 1,
+					"constantMax": 1.5
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0,
+						0.023986,
+						0.080882,
+						1
+					],
+					"colorMax": [
+						0.657153,
+						0.063581,
+						0.720588,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 1,
+				"playOnAwake": true,
+				"_maxParticles": 100
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 20
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 4,
+				"angle": 1,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 0.2,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 0.482353,
+								"time": 0.167651
+							},
+							{
+								"alpha": 0.45098,
+								"time": 0.770596
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "12",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 1,
+			"materials": [
+				{
+					"__asset": 1
+				}
+			]
+		},
+		{
+			"uuid": "15",
+			"__class": "@egret/engine/TreeNode",
+			"name": "xingxing (1)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "14",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				2.964,
+				1.456,
+				16.115999
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				0,
+				0.707107
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "16",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 1,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSizeY": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSizeZ": {
+					"mode": 0,
+					"constant": 1
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 0,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 1,
+				"playOnAwake": true,
+				"_maxParticles": 1
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 0
+				},
+				"bursts": [
+					[
+						0,
+						0,
+						1,
+						1,
+						0.01
+					]
+				]
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 0.517647,
+								"time": 0.502937
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "17",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 0
+				}
+			]
+		},
+		{
+			"uuid": "20",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yanwu (1)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "19",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				8.684951,
+				-1.28,
+				13.9
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				0,
+				0.707107
+			],
+			"_localScale": [
+				22.78503,
+				0.78498,
+				3.564982
+			]
+		},
+		{
+			"uuid": "21",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 2,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 15
+				},
+				"startSpeed": {
+					"mode": 3,
+					"constantMin": 0.2,
+					"constantMax": 0.1
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 5,
+					"constantMax": 3
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 5,
+					"constantMax": 3
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 5,
+					"constantMax": 3
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 6.283185
+				},
+				"startRotationY": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 6.283185
+				},
+				"startRotationZ": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 6.283185
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.032911,
+						0,
+						0.433824,
+						1
+					],
+					"colorMax": [
+						0.249493,
+						0,
+						0.882353,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 45
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 3
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 5,
+				"angle": 25,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 1,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 0.211765,
+								"time": 0.111772
+							},
+							{
+								"alpha": 0.164706,
+								"time": 0.817655
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "22",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 2
+				}
+			]
+		},
+		{
+			"uuid": "25",
+			"__class": "@egret/engine/TreeNode",
+			"name": "xingxing (2)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "24",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				16.011999,
+				1.933,
+				5.583
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				0,
+				0.707107
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "26",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 1,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSizeY": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSizeZ": {
+					"mode": 0,
+					"constant": 1
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 0,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 1,
+				"playOnAwake": true,
+				"_maxParticles": 1
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 0
+				},
+				"bursts": [
+					[
+						0,
+						0,
+						1,
+						1,
+						0.01
+					]
+				]
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 0.419608,
+								"time": 0.517647
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "27",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 0
+				}
+			]
+		},
+		{
+			"uuid": "30",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yinhuoqiong (4)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "29",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-2.04,
+				0.78,
+				7.73
+			],
+			"_localRotation": [
+				-0.498859,
+				0.501139,
+				0.501139,
+				0.498859
+			],
+			"_localScale": [
+				18.382677,
+				2.036141,
+				3.564982
+			]
+		},
+		{
+			"uuid": "31",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 1,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 8
+				},
+				"startSpeed": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0,
+						1,
+						0.131035,
+						1
+					],
+					"colorMax": [
+						0,
+						0.751724,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 24
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 3
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 5,
+				"angle": 25,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 1,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 2,
+				"_space": 0,
+				"_x": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.053659,
+							-0.626728
+						],
+						[
+							0.108,
+							0.601064
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.243901,
+							-0.534559
+						],
+						[
+							0.519707,
+							0.443824
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_y": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.143562,
+							0.711766
+						],
+						[
+							0.429272,
+							-0.470048
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.263415,
+							-0.534562
+						],
+						[
+							0.307946,
+							0.336387
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_z": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.302442,
+							-0.672807
+						],
+						[
+							0.593042,
+							0.772469
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.146817,
+							0.60466
+						],
+						[
+							0.557373,
+							-0.671277
+						],
+						[
+							1,
+							0
+						]
+					]
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 0.100008
+							},
+							{
+								"alpha": 1,
+								"time": 0.232349
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "32",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "35",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yinhuochong",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "34",
+			"__class": "@egret/engine/Transform",
+			"isStatic": true,
+			"_localPosition": [
+				6.65,
+				1.15,
+				6.7
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				0,
+				0.707107
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "36",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 5,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 0.06,
+					"constantMax": 0.08
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 0.06,
+					"constantMax": 0.08
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 0.06,
+					"constantMax": 0.08
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 0,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 15
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 3
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 0,
+				"angle": 25,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 2.241776,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 2,
+				"_space": 0,
+				"_x": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0.006135,
+							-0.251256
+						],
+						[
+							0.25,
+							1
+						],
+						[
+							0.37186,
+							-0.454358
+						],
+						[
+							1,
+							0.592965
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.216258,
+							-0.698492
+						],
+						[
+							0.359758,
+							0.301124
+						],
+						[
+							1,
+							-0.381909
+						]
+					]
+				},
+				"_y": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.087423,
+							-0.547738
+						],
+						[
+							0.236186,
+							0.778556
+						],
+						[
+							0.984663,
+							0.954774
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.111963,
+							0.19598
+						],
+						[
+							0.480141,
+							0.401955
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_z": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.162577,
+							0.874372
+						],
+						[
+							0.336766,
+							-0.768844
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.187117,
+							-0.512563
+						],
+						[
+							0.567081,
+							0.292086
+						],
+						[
+							1,
+							0.743718
+						]
+					]
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 1,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									0.848276,
+									0,
+									1
+								],
+								"time": 0.317647
+							},
+							{
+								"color": [
+									1,
+									0.972414,
+									0,
+									1
+								],
+								"time": 0.650004
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "37",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 1.7,
+			"_renderMode": 1,
+			"materials": [
+				{
+					"__asset": 4
+				}
+			]
+		},
+		{
+			"uuid": "40",
+			"__class": "@egret/engine/TreeNode",
+			"name": "tianguang",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "39",
+			"__class": "@egret/engine/Transform",
+			"isStatic": true,
+			"_localPosition": [
+				6.8,
+				0.29,
+				5.97
+			],
+			"_localRotation": [
+				0,
+				0,
+				0.143146,
+				0.989702
+			],
+			"_localScale": [
+				0.364304,
+				0.364304,
+				0.364304
+			]
+		},
+		{
+			"uuid": "41",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 4,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 4
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 0.6,
+					"constantMax": 1.6
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 0.6,
+					"constantMax": 1.6
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 0.6,
+					"constantMax": 1.6
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 0,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 3
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 0.6
+				},
+				"bursts": []
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 1,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									0.457829,
+									0.754844,
+									0.852941,
+									1
+								],
+								"time": 0.332357
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "44",
+			"__class": "@egret/engine/TreeNode",
+			"name": "GameObject (2)",
+			"tag": "Untagged",
+			"layer": 1,
+			"children": [
+				{
+					"uuid": "47"
+				}
+			]
+		},
+		{
+			"uuid": "43",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				14.48,
+				0.23,
+				0
+			],
+			"_localRotation": [
+				0,
+				0,
+				0,
+				1
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "47",
+			"__class": "@egret/engine/TreeNode",
+			"name": "zhuiwei (1)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "46",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-13.235,
+				1.616,
+				17.042
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				-0.707107,
+				0
+			],
+			"_localScale": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"uuid": "48",
+			"__class": "@egret/animation/Animation",
+			"autoPlay": true,
+			"_animations": [
+				{
+					"__asset": 5
+				}
+			]
+		},
+		{
+			"uuid": "51",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yinhuoqiong (5)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "50",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				6.05,
+				0.61,
+				14.16
+			],
+			"_localRotation": [
+				-0.707099,
+				0.003259,
+				0.003259,
+				0.707099
+			],
+			"_localScale": [
+				18.382687,
+				2.036141,
+				3.564982
+			]
+		},
+		{
+			"uuid": "52",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 1,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 8
+				},
+				"startSpeed": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0,
+						1,
+						0.131035,
+						1
+					],
+					"colorMax": [
+						0,
+						0.751724,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 24
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 3
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 5,
+				"angle": 25,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 1,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 2,
+				"_space": 0,
+				"_x": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.053659,
+							-0.626728
+						],
+						[
+							0.108,
+							0.601064
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.243901,
+							-0.534559
+						],
+						[
+							0.519707,
+							0.443824
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_y": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.143562,
+							0.711766
+						],
+						[
+							0.429272,
+							-0.470048
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.263415,
+							-0.534562
+						],
+						[
+							0.307946,
+							0.336387
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_z": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.302442,
+							-0.672807
+						],
+						[
+							0.593042,
+							0.772469
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.146817,
+							0.60466
+						],
+						[
+							0.557373,
+							-0.671277
+						],
+						[
+							1,
+							0
+						]
+					]
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 0.100008
+							},
+							{
+								"alpha": 1,
+								"time": 0.232349
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "53",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "56",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yinhuoqiong (6)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "55",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				14.79,
+				0.61,
+				6.2
+			],
+			"_localRotation": [
+				-0.498859,
+				0.501139,
+				0.501139,
+				0.498859
+			],
+			"_localScale": [
+				18.382687,
+				2.036141,
+				3.564982
+			]
+		},
+		{
+			"uuid": "57",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 1,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 8
+				},
+				"startSpeed": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0,
+						1,
+						0.131035,
+						1
+					],
+					"colorMax": [
+						0,
+						0.751724,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 24
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 3
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 5,
+				"angle": 25,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 1,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 2,
+				"_space": 0,
+				"_x": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.053659,
+							-0.626728
+						],
+						[
+							0.108,
+							0.601064
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.243901,
+							-0.534559
+						],
+						[
+							0.519707,
+							0.443824
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_y": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.143562,
+							0.711766
+						],
+						[
+							0.429272,
+							-0.470048
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.263415,
+							-0.534562
+						],
+						[
+							0.307946,
+							0.336387
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_z": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.302442,
+							-0.672807
+						],
+						[
+							0.593042,
+							0.772469
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.146817,
+							0.60466
+						],
+						[
+							0.557373,
+							-0.671277
+						],
+						[
+							1,
+							0
+						]
+					]
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 0.100008
+							},
+							{
+								"alpha": 1,
+								"time": 0.232349
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "58",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "61",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yinhuoqiong (7)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "60",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				7.19,
+				-0.72,
+				-1.96
+			],
+			"_localRotation": [
+				-0.70711,
+				-0.014829,
+				0.00681,
+				0.706915
+			],
+			"_localScale": [
+				30.906633,
+				2.036139,
+				3.56498
+			]
+		},
+		{
+			"uuid": "62",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 1,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 8
+				},
+				"startSpeed": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 0.1,
+					"constantMax": 0.2
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0,
+						1,
+						0.131035,
+						1
+					],
+					"colorMax": [
+						0,
+						0.751724,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 24
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 3
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 5,
+				"angle": 25,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 1,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 2,
+				"_space": 0,
+				"_x": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.053659,
+							-0.626728
+						],
+						[
+							0.108,
+							0.601064
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.243901,
+							-0.534559
+						],
+						[
+							0.519707,
+							0.443824
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_y": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.143562,
+							0.711766
+						],
+						[
+							0.429272,
+							-0.470048
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.263415,
+							-0.534562
+						],
+						[
+							0.307946,
+							0.336387
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_z": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.302442,
+							-0.672807
+						],
+						[
+							0.593042,
+							0.772469
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.146817,
+							0.60466
+						],
+						[
+							0.557373,
+							-0.671277
+						],
+						[
+							1,
+							0
+						]
+					]
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 0.100008
+							},
+							{
+								"alpha": 1,
+								"time": 0.232349
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "63",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 3
+				}
+			]
+		},
+		{
+			"uuid": "66",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yanwu_blue (1)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "65",
+			"__class": "@egret/engine/Transform",
+			"isStatic": true,
+			"_localPosition": [
+				17.360001,
+				-1.4,
+				6.68
+			],
+			"_localRotation": [
+				0.02958,
+				0.705869,
+				0.706488,
+				0.041823
+			],
+			"_localScale": [
+				0.955268,
+				1.570579,
+				1
+			]
+		},
+		{
+			"uuid": "67",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 5,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 7,
+					"constantMax": 10
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 7,
+					"constantMax": 10
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 7,
+					"constantMax": 10
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationY": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationZ": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.904868,
+						0.014706,
+						1,
+						1
+					],
+					"colorMax": [
+						0,
+						0.58499,
+						0.823529,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 100
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 20
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 4,
+				"angle": 0,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 6,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 3,
+				"_space": 0,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0.002945
+							},
+							{
+								"alpha": 0.145098,
+								"time": 0.441184
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0.34548,
+									0.405152,
+									0.522059,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									0.477941,
+									0.477941,
+									0.477941,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									0.477941,
+									0.477941,
+									0.477941,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									0.477941,
+									0.477941,
+									0.477941,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			},
+			"rotationOverLifetime": {
+				"_separateAxes": false,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": -0.261799,
+					"constantMax": 0.261799
+				}
+			}
+		},
+		{
+			"uuid": "68",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 2,
+			"materials": [
+				{
+					"__asset": 6
+				}
+			]
+		},
+		{
+			"uuid": "71",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yanwu_blue (2)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "70",
+			"__class": "@egret/engine/Transform",
+			"isStatic": true,
+			"_localPosition": [
+				7.58,
+				-1.44,
+				2.07
+			],
+			"_localRotation": [
+				-0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"_localScale": [
+				0.697393,
+				1.272241,
+				1
+			]
+		},
+		{
+			"uuid": "72",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 5,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 3,
+					"constantMax": 5
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 3,
+					"constantMax": 5
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 3,
+					"constantMax": 5
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationY": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationZ": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.256085,
+						0,
+						0.367647,
+						1
+					],
+					"colorMax": [
+						0.49035,
+						0.299416,
+						0.573529,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 25
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 4,
+				"angle": 0,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 6,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 3,
+				"_space": 0,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 1,
+								"time": 0
+							},
+							{
+								"alpha": 0.709804,
+								"time": 0.420584
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									0.25,
+									0.596552,
+									1,
+									1
+								],
+								"time": 0.423529
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			},
+			"rotationOverLifetime": {
+				"_separateAxes": false,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": -0.261799,
+					"constantMax": 0.261799
+				}
+			}
+		},
+		{
+			"uuid": "73",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 2,
+			"materials": [
+				{
+					"__asset": 7
+				}
+			]
+		},
+		{
+			"uuid": "76",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yanwu_blue (5)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "75",
+			"__class": "@egret/engine/Transform",
+			"isStatic": true,
+			"_localPosition": [
+				6.48,
+				-0.73,
+				10.56
+			],
+			"_localRotation": [
+				-0.474118,
+				0.474118,
+				0.524607,
+				0.524606
+			],
+			"_localScale": [
+				-0.174325,
+				0.976598,
+				1
+			]
+		},
+		{
+			"uuid": "77",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 5,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 8,
+					"constantMax": 3
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 8,
+					"constantMax": 3
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 8,
+					"constantMax": 3
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationY": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationZ": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.491684,
+						0,
+						0.705882,
+						1
+					],
+					"colorMax": [
+						0,
+						0.12571,
+						0.272059,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 5
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 1
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 4,
+				"angle": 0,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 6,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 3,
+				"_space": 0,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 1,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 0.411765
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									0.25,
+									0.596552,
+									1,
+									1
+								],
+								"time": 0.423529
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			},
+			"rotationOverLifetime": {
+				"_separateAxes": false,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": -0.261799,
+					"constantMax": 0.261799
+				}
+			}
+		},
+		{
+			"uuid": "78",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 2,
+			"materials": [
+				{
+					"__asset": 2
+				}
+			]
+		},
+		{
+			"uuid": "81",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yanwu (2)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "80",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-1.9,
+				0.72,
+				7.72
+			],
+			"_localRotation": [
+				-0.022317,
+				-0.706755,
+				-0.022317,
+				0.706755
+			],
+			"_localScale": [
+				22.78503,
+				0.78498,
+				3.564982
+			]
+		},
+		{
+			"uuid": "82",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 2,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 15
+				},
+				"startSpeed": {
+					"mode": 3,
+					"constantMin": 0.2,
+					"constantMax": 0.1
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 5,
+					"constantMax": 3
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 5,
+					"constantMax": 3
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 5,
+					"constantMax": 3
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 6.283185
+				},
+				"startRotationY": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 6.283185
+				},
+				"startRotationZ": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 6.283185
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.032911,
+						0,
+						0.433824,
+						1
+					],
+					"colorMax": [
+						0.249493,
+						0,
+						0.882353,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 150
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 10
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 5,
+				"angle": 25,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 1,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 3,
+				"_space": 0,
+				"_x": {
+					"mode": 3,
+					"constantMin": -0.3,
+					"constantMax": 0.3
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": -0.3,
+					"constantMax": 0.3
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": -0.3,
+					"constantMax": 0.3
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 0.341176,
+								"time": 0.111772
+							},
+							{
+								"alpha": 0.435294,
+								"time": 0.817655
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "83",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 2
+				}
+			]
+		},
+		{
+			"uuid": "86",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yanwu_blue (6)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "85",
+			"__class": "@egret/engine/Transform",
+			"isStatic": true,
+			"_localPosition": [
+				10.72,
+				-1.09,
+				6.49
+			],
+			"_localRotation": [
+				0,
+				-0.707107,
+				0.707107,
+				0
+			],
+			"_localScale": [
+				-0.142851,
+				0.598956,
+				1
+			]
+		},
+		{
+			"uuid": "87",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 5,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 6,
+					"constantMax": 3
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 6,
+					"constantMax": 3
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 6,
+					"constantMax": 3
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationY": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationZ": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.491684,
+						0,
+						0.705882,
+						1
+					],
+					"colorMax": [
+						0,
+						0.12571,
+						0.272059,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 5
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 1
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 4,
+				"angle": 0,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 6,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 3,
+				"_space": 0,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 1,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 0.411765
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									0.25,
+									0.596552,
+									1,
+									1
+								],
+								"time": 0.423529
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			},
+			"rotationOverLifetime": {
+				"_separateAxes": false,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": -0.261799,
+					"constantMax": 0.261799
+				}
+			}
+		},
+		{
+			"uuid": "88",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 2,
+			"materials": [
+				{
+					"__asset": 2
+				}
+			]
+		},
+		{
+			"uuid": "91",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yanwu_blue (7)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "90",
+			"__class": "@egret/engine/Transform",
+			"isStatic": true,
+			"_localPosition": [
+				2.13,
+				-1.09,
+				6.49
+			],
+			"_localRotation": [
+				0,
+				-0.707107,
+				0.707107,
+				0
+			],
+			"_localScale": [
+				-0.14285,
+				0.59896,
+				1
+			]
+		},
+		{
+			"uuid": "92",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 5,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 6,
+					"constantMax": 3
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 6,
+					"constantMax": 3
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 6,
+					"constantMax": 3
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationY": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationZ": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.491684,
+						0,
+						0.705882,
+						1
+					],
+					"colorMax": [
+						0,
+						0.12571,
+						0.272059,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 5
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 1
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 4,
+				"angle": 0,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 6,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 3,
+				"_space": 0,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 1,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 0.411765
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									0.25,
+									0.596552,
+									1,
+									1
+								],
+								"time": 0.423529
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			},
+			"rotationOverLifetime": {
+				"_separateAxes": false,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": -0.261799,
+					"constantMax": 0.261799
+				}
+			}
+		},
+		{
+			"uuid": "93",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 2,
+			"materials": [
+				{
+					"__asset": 2
+				}
+			]
+		},
+		{
+			"uuid": "96",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yanwu_blue (8)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "95",
+			"__class": "@egret/engine/Transform",
+			"isStatic": true,
+			"_localPosition": [
+				6.48,
+				-1.14,
+				3.01
+			],
+			"_localRotation": [
+				-0.474118,
+				0.474118,
+				0.524607,
+				0.524606
+			],
+			"_localScale": [
+				-0.17432,
+				0.9766,
+				1
+			]
+		},
+		{
+			"uuid": "97",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 5,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 8,
+					"constantMax": 3
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 8,
+					"constantMax": 3
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 8,
+					"constantMax": 3
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationY": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startRotationZ": {
+					"mode": 3,
+					"constantMin": -3.141593,
+					"constantMax": 6.283185
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.491684,
+						0,
+						0.705882,
+						1
+					],
+					"colorMax": [
+						0,
+						0.12571,
+						0.272059,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 5
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 1
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 4,
+				"angle": 0,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 6,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 3,
+				"_space": 0,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0.5,
+					"constantMax": -0.5
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 1,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 0.411765
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									0.25,
+									0.596552,
+									1,
+									1
+								],
+								"time": 0.423529
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			},
+			"rotationOverLifetime": {
+				"_separateAxes": false,
+				"_x": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_y": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 0
+				},
+				"_z": {
+					"mode": 3,
+					"constantMin": -0.261799,
+					"constantMax": 0.261799
+				}
+			}
+		},
+		{
+			"uuid": "98",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 2,
+			"materials": [
+				{
+					"__asset": 2
+				}
+			]
+		},
+		{
+			"uuid": "101",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yanwu (3)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "100",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				8.684951,
+				-1.28,
+				-3.08
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				0,
+				0.707107
+			],
+			"_localScale": [
+				22.78503,
+				0.78498,
+				3.564982
+			]
+		},
+		{
+			"uuid": "102",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 2,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 15
+				},
+				"startSpeed": {
+					"mode": 3,
+					"constantMin": 0.2,
+					"constantMax": 0.1
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 5,
+					"constantMax": 3
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 5,
+					"constantMax": 3
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 5,
+					"constantMax": 3
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 6.283185
+				},
+				"startRotationY": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 6.283185
+				},
+				"startRotationZ": {
+					"mode": 3,
+					"constantMin": 0,
+					"constantMax": 6.283185
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.032911,
+						0,
+						0.433824,
+						1
+					],
+					"colorMax": [
+						0.249493,
+						0,
+						0.882353,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 45
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 3
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 5,
+				"angle": 25,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 1,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 0.211765,
+								"time": 0.111772
+							},
+							{
+								"alpha": 0.164706,
+								"time": 0.817655
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "103",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 2
+				}
+			]
+		},
+		{
+			"uuid": "106",
+			"__class": "@egret/engine/TreeNode",
+			"name": "yinhuochong (1)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "105",
+			"__class": "@egret/engine/Transform",
+			"isStatic": true,
+			"_localPosition": [
+				-0.29,
+				1.87,
+				6.4
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				0,
+				0.707107
+			],
+			"_localScale": [
+				0.368598,
+				0.368598,
+				0.368598
+			]
+		},
+		{
+			"uuid": "107",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 5,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 0.06,
+					"constantMax": 0.08
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 0.06,
+					"constantMax": 0.08
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 0.06,
+					"constantMax": 0.08
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						0.21856,
+						1,
+						0.154412,
+						1
+					],
+					"colorMax": [
+						0.729082,
+						0.992647,
+						0.430634,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 2,
+				"playOnAwake": true,
+				"_maxParticles": 15
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 3
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 0,
+				"angle": 25,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 2.241776,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"velocityOverLifetime": {
+				"_mode": 2,
+				"_space": 0,
+				"_x": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0.006135,
+							-0.251256
+						],
+						[
+							0.25,
+							1
+						],
+						[
+							0.37186,
+							-0.454358
+						],
+						[
+							1,
+							0.592965
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.216258,
+							-0.698492
+						],
+						[
+							0.359758,
+							0.301124
+						],
+						[
+							1,
+							-0.381909
+						]
+					]
+				},
+				"_y": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.087423,
+							-0.547738
+						],
+						[
+							0.236186,
+							0.778556
+						],
+						[
+							0.984663,
+							0.954774
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.111963,
+							0.19598
+						],
+						[
+							0.480141,
+							0.401955
+						],
+						[
+							1,
+							0
+						]
+					]
+				},
+				"_z": {
+					"mode": 2,
+					"curveMin": [
+						[
+							0,
+							0
+						],
+						[
+							0.162577,
+							0.874372
+						],
+						[
+							0.336766,
+							-0.768844
+						],
+						[
+							1,
+							0
+						]
+					],
+					"curveMax": [
+						[
+							0,
+							0
+						],
+						[
+							0.187117,
+							-0.512563
+						],
+						[
+							0.567081,
+							0.292086
+						],
+						[
+							1,
+							0.743718
+						]
+					]
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 1,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							},
+							{
+								"alpha": 1,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									0.848276,
+									0,
+									1
+								],
+								"time": 0.317647
+							},
+							{
+								"color": [
+									1,
+									0.972414,
+									0,
+									1
+								],
+								"time": 0.650004
+							},
+							{
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "108",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 1.7,
+			"_renderMode": 1,
+			"materials": [
+				{
+					"__asset": 4
+				}
+			]
+		},
+		{
+			"uuid": "111",
+			"__class": "@egret/engine/TreeNode",
+			"name": "xingxing (3)",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "110",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-0.768,
+				1.38,
+				2.747
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				0,
+				0.707107
+			],
+			"_localScale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"uuid": "112",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 1,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSizeY": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSizeZ": {
+					"mode": 0,
+					"constant": 1
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 0,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 1,
+				"playOnAwake": true,
+				"_maxParticles": 1
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 0
+				},
+				"bursts": [
+					[
+						0,
+						0,
+						1,
+						1,
+						0.01
+					]
+				]
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 0.419608,
+								"time": 0.517647
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"time": 1
+							},
+							{
+								"color": [
+									1,
+									1,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "113",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 2,
+			"_renderMode": 0,
+			"materials": [
+				{
+					"__asset": 0
+				}
+			]
+		},
+		{
+			"uuid": "116",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Particle System",
+			"tag": "Untagged",
+			"layer": 1
+		},
+		{
+			"uuid": "115",
+			"__class": "@egret/engine/Transform",
+			"isStatic": false,
+			"_localPosition": [
+				-1.1,
+				2.91,
+				8.76
+			],
+			"_localRotation": [
+				-0.707107,
+				0,
+				0,
+				0.707107
+			],
+			"_localScale": [
+				1.00288,
+				1.00288,
+				1.00288
+			]
+		},
+		{
+			"uuid": "117",
+			"__class": "@egret/particle/ParticleComponent",
+			"main": {
+				"duration": 1,
+				"loop": true,
+				"startDelay": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startLifetime": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSpeed": {
+					"mode": 0,
+					"constant": 1
+				},
+				"startSize3D": false,
+				"startSizeX": {
+					"mode": 3,
+					"constantMin": 0.3,
+					"constantMax": 0.1
+				},
+				"startSizeY": {
+					"mode": 3,
+					"constantMin": 0.3,
+					"constantMax": 0.1
+				},
+				"startSizeZ": {
+					"mode": 3,
+					"constantMin": 0.3,
+					"constantMax": 0.1
+				},
+				"_startRotation3D": false,
+				"startRotationX": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationY": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startRotationZ": {
+					"mode": 0,
+					"constant": 0
+				},
+				"startColor": {
+					"mode": 2,
+					"colorMin": [
+						1,
+						1,
+						1,
+						1
+					],
+					"colorMax": [
+						0,
+						1,
+						0.627586,
+						1
+					]
+				},
+				"gravityModifier": {
+					"mode": 0,
+					"constant": 0
+				},
+				"_simulationSpace": 0,
+				"scaleMode": 1,
+				"playOnAwake": true,
+				"_maxParticles": 5
+			},
+			"emission": {
+				"rateOverTime": {
+					"mode": 0,
+					"constant": 5
+				},
+				"bursts": []
+			},
+			"shape": {
+				"shapeType": 4,
+				"angle": 1,
+				"length": 5,
+				"arcMode": 0,
+				"arc": 360,
+				"arcSpread": 0,
+				"radiusMode": 0,
+				"radius": 0.4,
+				"radiusSpread": 0,
+				"box": [
+					1,
+					1,
+					1
+				],
+				"randomDirection": false,
+				"spherizeDirection": false,
+				"arcSpeed": {
+					"mode": 0,
+					"constant": 1
+				}
+			},
+			"colorOverLifetime": {
+				"_color": {
+					"mode": 1,
+					"gradient": {
+						"mode": 0,
+						"alphaKeys": [
+							{
+								"alpha": 0,
+								"time": 0
+							},
+							{
+								"alpha": 1,
+								"time": 0.138231
+							},
+							{
+								"alpha": 1,
+								"time": 0.844114
+							},
+							{
+								"alpha": 0,
+								"time": 1
+							}
+						],
+						"colorKeys": [
+							{
+								"color": [
+									0.757353,
+									0.879513,
+									1,
+									1
+								],
+								"time": 0
+							},
+							{
+								"color": [
+									0.81501,
+									0.161765,
+									1,
+									1
+								],
+								"time": 0.997055
+							},
+							{
+								"color": [
+									0.81501,
+									0.161765,
+									1,
+									1
+								],
+								"time": 0.997055
+							},
+							{
+								"color": [
+									0.81501,
+									0.161765,
+									1,
+									0
+								],
+								"time": 1
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"uuid": "118",
+			"__class": "@egret/particle/ParticleRenderer",
+			"velocityScale": 0,
+			"lengthScale": 10,
+			"_renderMode": 1,
+			"materials": [
+				{
+					"__asset": 8
+				}
+			]
+		}
+	],
+	"version": "5"
+}

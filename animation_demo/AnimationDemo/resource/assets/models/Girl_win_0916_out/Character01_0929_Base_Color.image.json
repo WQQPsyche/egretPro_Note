@@ -1,0 +1,51 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "extensionsUsed": [
+        "egret"
+    ],
+    "extensionsRequired": [
+        "egret"
+    ],
+    "extensions": {
+        "egret": {
+            "version": "5.0",
+            "minVersion": "5.0"
+        }
+    },
+    "images": [
+        {
+            "uri": "assets/models/Girl_win_0916_out/Character01_0929_Base_Color.png"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0,
+            "extensions": {
+                "egret": {
+                    "flipY": 0,
+                    "premultiplyAlpha": 0,
+                    "width": 2048,
+                    "height": 2048,
+                    "anisotropy": 4,
+                    "format": 6408,
+                    "type": 5121,
+                    "unpackAlignment": 4,
+                    "encoding": 1,
+                    "depth": 1,
+                    "layers": 1,
+                    "faces": 1,
+                    "levels": 1,
+                    "depthBuffer": true,
+                    "stencilBuffer": false,
+                    "mapping": 0
+                }
+            }
+        }
+    ]
+}

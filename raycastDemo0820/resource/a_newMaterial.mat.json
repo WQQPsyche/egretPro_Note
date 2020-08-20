@@ -1,0 +1,141 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "extensionsRequired": [
+        "egret"
+    ],
+    "extensionsUsed": [
+        "egret"
+    ],
+    "extensions": {
+        "KHR_techniques_webgl": {
+            "shaders": [],
+            "techniques": [
+                {
+                    "attributes": {},
+                    "uniforms": {},
+                    "program": 4,
+                    "states": {
+                        "enable": [
+                            2929,
+                            2884
+                        ],
+                        "functions": {
+                            "depthFunc": [
+                                515
+                            ],
+                            "depthMask": [
+                                true
+                            ],
+                            "frontFace": [
+                                2305
+                            ],
+                            "cullFace": [
+                                1029
+                            ]
+                        }
+                    }
+                }
+            ],
+            "programs": []
+        },
+        "egret": {
+            "version": "5",
+            "minVersion": "5",
+            "assets": [
+                "builtin/meshphong.shader.json"
+            ],
+            "entities": [
+                {
+                    "uuid": "08fe9296-9c8f-46c1-90d9-f460edbe0c0c",
+                    "__class": "@egret/core/AssetEntity",
+                    "components": [
+                        {
+                            "uuid": "120e4c96-bbff-4595-88b0-38443c888baf"
+                        }
+                    ]
+                }
+            ],
+            "components": [
+                {
+                    "uuid": "120e4c96-bbff-4595-88b0-38443c888baf",
+                    "__class": "@egret/render/Material",
+                    "glTF": 0,
+                    "shader": {
+                        "__asset": 0
+                    }
+                }
+            ]
+        }
+    },
+    "materials": [
+        {
+            "extensions": {
+                "KHR_techniques_webgl": {
+                    "technique": 0,
+                    "values": {
+                        "uvTransform": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "displacementMap": null,
+                        "displacementScale": 1,
+                        "displacementBias": [],
+                        "refractionRatio": 0.98,
+                        "bindMatrix": [],
+                        "bindMatrixInverse": [],
+                        "aniTexture": null,
+                        "widthAndHeight": [],
+                        "frame": [],
+                        "diffuse": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "emissive": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "specular": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "shininess": 30,
+                        "opacity": 1,
+                        "map": null,
+                        "alphaMap": null,
+                        "aoMap": null,
+                        "aoMapIntensity": 1,
+                        "emissiveMap": null,
+                        "envMapIntensity": 1,
+                        "flipEnvMap": 1,
+                        "maxMipLevel": [],
+                        "envMap": null,
+                        "reflectivity": 1,
+                        "gradientMap": null,
+                        "lightProbe[0]": [],
+                        "bumpMap": null,
+                        "bumpScale": 1,
+                        "normalMap": null,
+                        "normalScale": [
+                            1,
+                            1
+                        ],
+                        "specularMap": null,
+                        "clippingPlanes[0]": []
+                    }
+                }
+            }
+        }
+    ]
+}

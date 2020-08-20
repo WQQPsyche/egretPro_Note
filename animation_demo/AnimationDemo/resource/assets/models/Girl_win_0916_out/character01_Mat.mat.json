@@ -1,0 +1,99 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "extensionsRequired": [
+        "egret",
+        "KHR_techniques_webgl"
+    ],
+    "extensionsUsed": [
+        "egret",
+        "KHR_techniques_webgl"
+    ],
+    "extensions": {
+        "KHR_techniques_webgl": {
+            "techniques": [
+                {
+                    "states": {
+                        "enable": [
+                            2929,
+                            2884
+                        ],
+                        "functions": {
+                            "depthFunc": [
+                                515
+                            ],
+                            "depthMask": [
+                                true
+                            ],
+                            "frontFace": [
+                                2305
+                            ],
+                            "cullFace": [
+                                1029
+                            ]
+                        }
+                    },
+                    "uniforms": {},
+                    "attributes": {}
+                }
+            ]
+        },
+        "egret": {
+            "version": "5.0",
+            "minVersion": "5.0",
+            "assets": [
+                "builtin/meshphysical.shader.json"
+            ],
+            "entities": [
+                {
+                    "uuid": "0",
+                    "__class": "@egret/core/AssetEntity",
+                    "components": [
+                        {
+                            "uuid": "1"
+                        },
+                        {
+                            "uuid": "2"
+                        }
+                    ]
+                }
+            ],
+            "components": [
+                {
+                    "uuid": "1",
+                    "__class": "@egret/render/Defines"
+                },
+                {
+                    "uuid": "2",
+                    "__class": "@egret/render/Material",
+                    "glTF": 0,
+                    "renderQueue": 2000,
+                    "shader": {
+                        "__asset": 0
+                    }
+                }
+            ]
+        }
+    },
+    "materials": [
+        {
+            "extensions": {
+                "KHR_techniques_webgl": {
+                    "technique": 0,
+                    "values": {
+                        "map": "assets/models/Girl_win_0916_out/Character01_0929_Base_Color.image.json",
+                        "diffuse": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "metalness": 0,
+                        "roughness": 1,
+                        "normalMap": "assets/models/Girl_win_0916_out/Character01_0929_Normal_DirectX.image.json"
+                    }
+                }
+            }
+        }
+    ]
+}

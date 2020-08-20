@@ -1,0 +1,9 @@
+{
+	"skinnedMeshAssets": [
+		"assets/animations/Mixamo/baked/Beta_Joints-Walking_InPlace.gan.bin",
+		"assets/animations/Mixamo/baked/Beta_Surface-Walking_InPlace.gan.bin",
+		"assets/animations/Mixamo/baked/Beta_Joints-Running_W_InPlace.gan.bin",
+		"assets/animations/Mixamo/baked/Beta_Surface-Running_W_InPlace.gan.bin"
+	],
+	"meshAssets": []
+}

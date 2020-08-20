@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"baseUrl": "../",
+		"paths": {
+			"@egret/*": [
+				"../../../../../Library/Application Support/egretpro/engine/release/1.6.0/packages/*"
+			]
+		}
+	}
+}

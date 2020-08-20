@@ -1,0 +1,140 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "builtin/sphere.mesh.bin",
+        "builtin/meshphysical.mat.json"
+    ],
+    "entities": [
+        {
+            "uuid": "4dbf6a61-abc3-4ec3-8553-b66194053e27",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "9d59d1f0-1940-4b94-b71b-26f081ea1603"
+                },
+                {
+                    "uuid": "02a4ee18-dd28-4b5f-a239-6a245a45c17f"
+                },
+                {
+                    "uuid": "c5f04833-3532-465c-8bd0-2d3548c5b5f0"
+                },
+                {
+                    "uuid": "e0f03a02-4c66-4c5b-be53-3e4229a9ead4"
+                },
+                {
+                    "uuid": "e2b20a7b-5a76-4b92-8cf1-49dd8a4ac6e5"
+                }
+            ]
+        },
+        {
+            "uuid": "fd9ea315-e87c-45b8-a3ad-7c874465495b",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "6b55a006-4835-4dca-bfb0-47162e2ff1d9"
+                },
+                {
+                    "uuid": "ba0a71c3-aa46-423c-a178-e3f862eb2bb9"
+                },
+                {
+                    "uuid": "0d450f8d-b14e-46e8-9841-77ec1acf345e"
+                },
+                {
+                    "uuid": "19511c75-36a1-4715-896f-60cd949cf307"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "9d59d1f0-1940-4b94-b71b-26f081ea1603",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Spere",
+            "layer": 8,
+            "children": [
+                {
+                    "uuid": "6b55a006-4835-4dca-bfb0-47162e2ff1d9"
+                }
+            ]
+        },
+        {
+            "uuid": "6b55a006-4835-4dca-bfb0-47162e2ff1d9",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Sphere"
+        },
+        {
+            "uuid": "ba0a71c3-aa46-423c-a178-e3f862eb2bb9",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                0.15,
+                0
+            ],
+            "localScale": [
+                0.3,
+                0.3,
+                0.3
+            ]
+        },
+        {
+            "uuid": "0d450f8d-b14e-46e8-9841-77ec1acf345e",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 0
+            }
+        },
+        {
+            "uuid": "19511c75-36a1-4715-896f-60cd949cf307",
+            "__class": "@egret/render/MeshRenderer",
+            "_localBoundingBox": [
+                -0.5,
+                -0.5,
+                -0.4755282700061798,
+                0.5,
+                0.5,
+                0.4755282700061798
+            ],
+            "materials": [
+                {
+                    "__asset": 1
+                }
+            ]
+        },
+        {
+            "uuid": "02a4ee18-dd28-4b5f-a239-6a245a45c17f",
+            "__class": "@egret/engine/Transform"
+        },
+        {
+            "uuid": "c5f04833-3532-465c-8bd0-2d3548c5b5f0",
+            "__class": "@egret/box2d/Rigidbody"
+        },
+        {
+            "uuid": "e0f03a02-4c66-4c5b-be53-3e4229a9ead4",
+            "__class": "GroupIndex",
+            "groupIndex": -1,
+            "maskBits": [
+                2,
+                8,
+                16
+            ]
+        },
+        {
+            "uuid": "e2b20a7b-5a76-4b92-8cf1-49dd8a4ac6e5",
+            "__class": "@egret/box2d/CircleCollider",
+            "_values": [
+                0.15000000596046448,
+                0.5,
+                0.5,
+                1,
+                0,
+                0,
+                65535
+            ],
+            "center": [
+                0,
+                0.15
+            ]
+        }
+    ]
+}

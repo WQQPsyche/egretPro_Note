@@ -1,0 +1,1034 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "assets/prefabs/room.prefab.json",
+        "builtin/cube.mesh.bin",
+        "assets/materials/logo.mat.json",
+        "builtin/sphere.mesh.bin",
+        "builtin/cylinder.mesh.bin",
+        "builtin/cone.mesh.bin"
+    ],
+    "entities": [
+        {
+            "uuid": "4254473e-2339-4689-8b5d-e3eecf873a5e",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "2dcbdb18-eb2f-4aae-b1c5-9de3679bfc6f"
+                },
+                {
+                    "uuid": "b1708cf9-76ee-40b4-a98a-5f71f17d0a62"
+                }
+            ]
+        },
+        {
+            "uuid": "65f2abe8-68fb-4a06-ae13-da3b80e935d0",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "5418c2c3-5753-418f-a969-7d66dfe6f0e7"
+                },
+                {
+                    "uuid": "54ab447f-08b3-491b-bbd5-69f0681fac92"
+                },
+                {
+                    "uuid": "e77380f2-ff48-4bc5-92a9-e754d5db2c36"
+                }
+            ]
+        },
+        {
+            "uuid": "df8e9f59-758e-47b4-a0ab-4315a3e56760",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "36595b3e-ae36-49d9-ac63-ab0dd449e5ea"
+                },
+                {
+                    "uuid": "8f1b60bf-ab38-4411-9dd1-88a6b19b7f54"
+                }
+            ],
+            "__extras": {
+                "prefab": {
+                    "__asset": 0
+                }
+            }
+        },
+        {
+            "uuid": "29eefab0-d984-498e-ac58-858079991429",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "37070651-cdc9-4b5b-bb88-58f96d0e8d40"
+                },
+                {
+                    "uuid": "0ee9f72a-5047-42be-98bf-01a8c7126b1c"
+                },
+                {
+                    "uuid": "44f3a6c1-db11-49b3-997e-67ecd8a90c1a"
+                },
+                {
+                    "uuid": "9aab26be-8eaf-408a-8ef0-67fbf9176913"
+                }
+            ],
+            "__extras": {
+                "linkedID": "4d79e69c-1112-45cd-8e7c-485d348349e7",
+                "rootID": "df8e9f59-758e-47b4-a0ab-4315a3e56760"
+            }
+        },
+        {
+            "uuid": "146f38a9-33c3-4d07-9312-62e38087a7c5",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "457ceeca-73ba-426e-a38a-a89cfa2d9623"
+                },
+                {
+                    "uuid": "2314fc3f-4b33-4928-9d91-7894b4bf6793"
+                },
+                {
+                    "uuid": "bc13cfca-7902-4feb-a973-4fe8b6e313e4"
+                },
+                {
+                    "uuid": "71c648f5-32f9-4aac-ab99-3be17a2ae797"
+                }
+            ],
+            "__extras": {
+                "linkedID": "34d3f546-2816-4e2b-94d9-24034b316180",
+                "rootID": "df8e9f59-758e-47b4-a0ab-4315a3e56760"
+            }
+        },
+        {
+            "uuid": "47fb7de1-2fa0-4a22-a7d5-046c5f791d3c",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "624c193d-f644-4f61-aca1-032e6acc3005"
+                },
+                {
+                    "uuid": "43a1ba50-139e-4dad-832e-465588f944eb"
+                },
+                {
+                    "uuid": "cd7180ce-46a4-4f72-9a2b-9cc8880162ba"
+                }
+            ],
+            "__extras": {
+                "linkedID": "f8796b7e-b12c-4881-9a73-dbd15c830ed3",
+                "rootID": "df8e9f59-758e-47b4-a0ab-4315a3e56760"
+            }
+        },
+        {
+            "uuid": "65400233-35cc-4248-b843-5282dc948827",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "c8679f40-b8d8-4c59-b80f-4569ba711a2f"
+                },
+                {
+                    "uuid": "4638e671-5682-4077-8113-448c0e6438f1"
+                },
+                {
+                    "uuid": "ecf3ff1b-042c-49cb-829d-e144ab803ad9"
+                },
+                {
+                    "uuid": "5a7aacfc-970f-458a-b2a2-dcc5dac7ecc6"
+                },
+                {
+                    "uuid": "422d33c3-f24a-4bdc-8406-fe4da5893dfc"
+                }
+            ]
+        },
+        {
+            "uuid": "ecc4e836-64d5-4856-9281-a09e89085ee6",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "5883b46a-97f3-4c27-9af4-d6f3560d8a00"
+                },
+                {
+                    "uuid": "081a9725-204d-40aa-8db7-fab352e77e0b"
+                },
+                {
+                    "uuid": "d1f01a2b-b8d5-4171-8f5c-e278d4dfce29"
+                },
+                {
+                    "uuid": "3243bdd4-a7f6-4efb-b45a-08a76dfdafa0"
+                },
+                {
+                    "uuid": "9f638fe0-c04e-49b8-836c-a8cc88b2913e"
+                }
+            ]
+        },
+        {
+            "uuid": "d2addcea-d871-4bd3-b1c8-96330fb2a2fa",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "d7568011-76e7-44f0-a67c-ad0f9d2a900c"
+                },
+                {
+                    "uuid": "ca36f13b-e79e-4954-aca8-2d9845cadc4d"
+                },
+                {
+                    "uuid": "0a8fda6c-9e7e-4f9a-8c93-afec0d2bd687"
+                },
+                {
+                    "uuid": "9858f670-2adf-4e5b-8e25-acd9a3969463"
+                },
+                {
+                    "uuid": "bec91217-bc2e-48cf-8740-9f1e120e71cf"
+                }
+            ]
+        },
+        {
+            "uuid": "d21e63a3-02fc-435d-ab15-8f9671860c80",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "f343272d-d6da-43cd-8852-1eebb53c3b67"
+                },
+                {
+                    "uuid": "6a77fb7e-d48a-4b40-830f-0fe6c5a0353c"
+                },
+                {
+                    "uuid": "951b732b-680f-4791-9d65-333dfa12163d"
+                },
+                {
+                    "uuid": "78068ffe-85b5-4edb-b5e9-0f5b085624f1"
+                }
+            ]
+        },
+        {
+            "uuid": "ed547d64-7867-44fe-b162-d3a2d525811c",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "eda8dd12-1f80-4c00-ba81-87a3a10841be"
+                },
+                {
+                    "uuid": "29424af3-cf9a-4e39-aa78-d9c125e8263e"
+                },
+                {
+                    "uuid": "17a9b3bc-e2c3-4d55-9d51-916024487d44"
+                },
+                {
+                    "uuid": "5dc88b66-bb0d-4f2e-ba9e-b81e02439d9d"
+                }
+            ]
+        },
+        {
+            "uuid": "f452c563-7bd9-4da2-81ca-000406ac113f",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "ddb62040-e5bb-4ab1-963a-64f1179544c2"
+                },
+                {
+                    "uuid": "2b8973f6-5809-4bed-8e94-a53e8db798b7"
+                },
+                {
+                    "uuid": "e031b979-2f5a-4510-94d9-a2e51f690cef"
+                },
+                {
+                    "uuid": "4d8264d5-313f-4aaa-99f0-b03f5a91ce29"
+                },
+                {
+                    "uuid": "000ef729-38f9-45f8-9509-d40deb6e999f"
+                }
+            ]
+        },
+        {
+            "uuid": "d0351d62-44fe-4aee-aa7f-cb136e28d17b",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "11269667-e9f7-46c6-9d39-a0facbd9d077"
+                },
+                {
+                    "uuid": "deaf52c2-aad1-4439-96fa-564dab290413"
+                },
+                {
+                    "uuid": "0cfd129c-0328-4962-892f-dc2b62716884"
+                },
+                {
+                    "uuid": "59d444fc-1ea4-4780-917d-d6b95c32f57a"
+                },
+                {
+                    "uuid": "09836c86-32e4-42f4-8a6c-c7e2d1abb25b"
+                }
+            ]
+        },
+        {
+            "uuid": "318182c1-ed4f-464b-b121-81ab1277b095",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "70b8a66c-aae7-4643-b938-1414d4189b9a"
+                },
+                {
+                    "uuid": "7b25fc7b-3666-40a4-9781-95928d7cd566"
+                },
+                {
+                    "uuid": "4d681d6b-e5b8-4a22-b8c5-927c534df610"
+                },
+                {
+                    "uuid": "6fe44c1b-02fc-4b76-8a3e-372bfd7b0465"
+                },
+                {
+                    "uuid": "1cf66f30-b7ad-4616-a0ee-63fc1cede913"
+                }
+            ]
+        },
+        {
+            "uuid": "d0a5152c-944a-428d-bd8d-e2651ac8b91e",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "ff2776ef-9406-46e1-9935-30ed3fdf0f4c"
+                },
+                {
+                    "uuid": "3d9e54b4-50df-4751-8c70-04c54d6faf05"
+                },
+                {
+                    "uuid": "b816d9e4-b27e-45a0-9a04-13c6f86c3a3d"
+                },
+                {
+                    "uuid": "331635d3-d256-4e28-8aad-088a38452740"
+                },
+                {
+                    "uuid": "90df8ff7-f2a0-4e62-9a7f-513d691a2bdf"
+                }
+            ]
+        },
+        {
+            "uuid": "91612fd5-34d0-42a4-83ac-a06a2c90efea",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "3733a35c-4c47-4dca-9086-c4ea08493a74"
+                },
+                {
+                    "uuid": "d67aead0-a7df-468c-9454-f68d7c59251f"
+                },
+                {
+                    "uuid": "d7e336b9-eb70-4363-acb4-163bfdfb7085"
+                },
+                {
+                    "uuid": "2313bef2-dfea-4a07-b407-3d69cb21f284"
+                },
+                {
+                    "uuid": "a2d84522-61e2-45c7-89da-b8d8e2c86887"
+                }
+            ]
+        },
+        {
+            "uuid": "2ac508d8-c1a9-41d0-ad38-87a64b672399",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "b76c0483-21ac-4bc5-bbfc-16b538af7d33"
+                },
+                {
+                    "uuid": "aebcc8c6-989c-466d-ad73-d652c7055dc4"
+                },
+                {
+                    "uuid": "c452720f-00b3-421e-8903-247494772d0f"
+                },
+                {
+                    "uuid": "6b0266a7-7ed3-44da-8d03-a04926ff0935"
+                },
+                {
+                    "uuid": "b7bd7b9c-d08b-4f47-b586-1c928d53f5eb"
+                }
+            ]
+        },
+        {
+            "uuid": "abf44776-eabf-44ce-93f0-ca17d92b624e",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "1aa4a8a9-5342-4851-978b-48d1faad6ab6"
+                },
+                {
+                    "uuid": "5c240082-23de-471e-82b8-d67a18c58795"
+                },
+                {
+                    "uuid": "25f738ba-1a08-4f5c-9941-43d3aa236e43"
+                },
+                {
+                    "uuid": "8b93b401-87a7-498a-9649-b34e804f33be"
+                },
+                {
+                    "uuid": "972b1c78-9230-4ff6-ae98-135b47f3c250"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "2dcbdb18-eb2f-4aae-b1c5-9de3679bfc6f",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Root",
+            "children": [
+                {
+                    "uuid": "5418c2c3-5753-418f-a969-7d66dfe6f0e7"
+                },
+                {
+                    "uuid": "36595b3e-ae36-49d9-ac63-ab0dd449e5ea"
+                },
+                {
+                    "uuid": "c8679f40-b8d8-4c59-b80f-4569ba711a2f"
+                },
+                {
+                    "uuid": "5883b46a-97f3-4c27-9af4-d6f3560d8a00"
+                },
+                {
+                    "uuid": "d7568011-76e7-44f0-a67c-ad0f9d2a900c"
+                },
+                {
+                    "uuid": "ddb62040-e5bb-4ab1-963a-64f1179544c2"
+                },
+                {
+                    "uuid": "11269667-e9f7-46c6-9d39-a0facbd9d077"
+                },
+                {
+                    "uuid": "70b8a66c-aae7-4643-b938-1414d4189b9a"
+                },
+                {
+                    "uuid": "ff2776ef-9406-46e1-9935-30ed3fdf0f4c"
+                },
+                {
+                    "uuid": "3733a35c-4c47-4dca-9086-c4ea08493a74"
+                },
+                {
+                    "uuid": "b76c0483-21ac-4bc5-bbfc-16b538af7d33"
+                },
+                {
+                    "uuid": "1aa4a8a9-5342-4851-978b-48d1faad6ab6"
+                }
+            ]
+        },
+        {
+            "uuid": "5418c2c3-5753-418f-a969-7d66dfe6f0e7",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Main Camera",
+            "tag": "MainCamera"
+        },
+        {
+            "uuid": "54ab447f-08b3-491b-bbd5-69f0681fac92",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                10,
+                -10
+            ],
+            "localRotation": [
+                0.3826834261417389,
+                0,
+                0,
+                0.9238795042037964
+            ]
+        },
+        {
+            "uuid": "e77380f2-ff48-4bc5-92a9-e754d5db2c36",
+            "__class": "@egret/render/Camera"
+        },
+        {
+            "uuid": "36595b3e-ae36-49d9-ac63-ab0dd449e5ea",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "1"
+            },
+            "children": [
+                {
+                    "uuid": "37070651-cdc9-4b5b-bb88-58f96d0e8d40"
+                },
+                {
+                    "uuid": "457ceeca-73ba-426e-a38a-a89cfa2d9623"
+                },
+                {
+                    "uuid": "624c193d-f644-4f61-aca1-032e6acc3005"
+                }
+            ]
+        },
+        {
+            "uuid": "37070651-cdc9-4b5b-bb88-58f96d0e8d40",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "2"
+            }
+        },
+        {
+            "uuid": "0ee9f72a-5047-42be-98bf-01a8c7126b1c",
+            "__class": "@egret/engine/Transform",
+            "__extras": {
+                "linkedID": "d26862de-6b04-40de-a44c-d5515f82a285"
+            }
+        },
+        {
+            "uuid": "44f3a6c1-db11-49b3-997e-67ecd8a90c1a",
+            "__class": "@egret/render/MeshFilter",
+            "__extras": {
+                "linkedID": "7a96a582-44bb-4772-a818-abd1cf25fd89"
+            }
+        },
+        {
+            "uuid": "9aab26be-8eaf-408a-8ef0-67fbf9176913",
+            "__class": "@egret/render/MeshRenderer",
+            "__extras": {
+                "linkedID": "a2e11ca3-9ba5-4a9a-bcd7-727f65924799"
+            }
+        },
+        {
+            "uuid": "457ceeca-73ba-426e-a38a-a89cfa2d9623",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "3"
+            }
+        },
+        {
+            "uuid": "2314fc3f-4b33-4928-9d91-7894b4bf6793",
+            "__class": "@egret/engine/Transform",
+            "__extras": {
+                "linkedID": "adee2c93-e686-4df3-92cb-2ac72753c639"
+            }
+        },
+        {
+            "uuid": "bc13cfca-7902-4feb-a973-4fe8b6e313e4",
+            "__class": "@egret/render/DirectionalLight",
+            "__extras": {
+                "linkedID": "a8c2a67a-d06d-48fe-b347-204006f66009"
+            }
+        },
+        {
+            "uuid": "71c648f5-32f9-4aac-ab99-3be17a2ae797",
+            "__class": "@egret/render/LightShadow",
+            "__extras": {
+                "linkedID": "35799c6e-cb80-4931-a033-9f35d8e0fa0c"
+            }
+        },
+        {
+            "uuid": "624c193d-f644-4f61-aca1-032e6acc3005",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "4"
+            }
+        },
+        {
+            "uuid": "43a1ba50-139e-4dad-832e-465588f944eb",
+            "__class": "@egret/engine/Transform",
+            "__extras": {
+                "linkedID": "0d016c03-0d6c-451e-9a70-b13595c17ca6"
+            }
+        },
+        {
+            "uuid": "cd7180ce-46a4-4f72-9a2b-9cc8880162ba",
+            "__class": "@egret/render/PointLight",
+            "__extras": {
+                "linkedID": "8b7fbce8-eb3b-420c-8a9c-c8ae8ccb0026"
+            }
+        },
+        {
+            "uuid": "8f1b60bf-ab38-4411-9dd1-88a6b19b7f54",
+            "__class": "@egret/engine/Transform",
+            "__extras": {
+                "linkedID": "c311233f-eafb-4803-8b9d-ad3d621407ec"
+            }
+        },
+        {
+            "uuid": "c8679f40-b8d8-4c59-b80f-4569ba711a2f",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Box"
+        },
+        {
+            "uuid": "4638e671-5682-4077-8113-448c0e6438f1",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                -4,
+                2,
+                0
+            ]
+        },
+        {
+            "uuid": "ecf3ff1b-042c-49cb-829d-e144ab803ad9",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 1
+            }
+        },
+        {
+            "uuid": "5a7aacfc-970f-458a-b2a2-dcc5dac7ecc6",
+            "__class": "@egret/render/MeshRenderer",
+            "_castShadows": true,
+            "_localBoundingBox": [
+                -0.5,
+                -0.5,
+                -0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "materials": [
+                {
+                    "__asset": 2
+                }
+            ]
+        },
+        {
+            "uuid": "422d33c3-f24a-4bdc-8406-fe4da5893dfc",
+            "__class": "@egret/collision/BoxCollider"
+        },
+        {
+            "uuid": "5883b46a-97f3-4c27-9af4-d6f3560d8a00",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Sphere"
+        },
+        {
+            "uuid": "081a9725-204d-40aa-8db7-fab352e77e0b",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                -2,
+                2,
+                0
+            ]
+        },
+        {
+            "uuid": "d1f01a2b-b8d5-4171-8f5c-e278d4dfce29",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 3
+            }
+        },
+        {
+            "uuid": "3243bdd4-a7f6-4efb-b45a-08a76dfdafa0",
+            "__class": "@egret/render/MeshRenderer",
+            "_castShadows": true,
+            "_localBoundingBox": [
+                -0.5,
+                -0.5,
+                -0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "materials": [
+                {
+                    "__asset": 2
+                }
+            ]
+        },
+        {
+            "uuid": "9f638fe0-c04e-49b8-836c-a8cc88b2913e",
+            "__class": "@egret/collision/SphereCollider"
+        },
+        {
+            "uuid": "d7568011-76e7-44f0-a67c-ad0f9d2a900c",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Capsule",
+            "children": [
+                {
+                    "uuid": "f343272d-d6da-43cd-8852-1eebb53c3b67"
+                },
+                {
+                    "uuid": "eda8dd12-1f80-4c00-ba81-87a3a10841be"
+                }
+            ]
+        },
+        {
+            "uuid": "f343272d-d6da-43cd-8852-1eebb53c3b67",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Sphere Top"
+        },
+        {
+            "uuid": "6a77fb7e-d48a-4b40-830f-0fe6c5a0353c",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                0.5,
+                0
+            ]
+        },
+        {
+            "uuid": "951b732b-680f-4791-9d65-333dfa12163d",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 3
+            }
+        },
+        {
+            "uuid": "78068ffe-85b5-4edb-b5e9-0f5b085624f1",
+            "__class": "@egret/render/MeshRenderer",
+            "_localBoundingBox": [
+                -0.5,
+                -0.5,
+                -0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "materials": [
+                {
+                    "__asset": 2
+                }
+            ]
+        },
+        {
+            "uuid": "eda8dd12-1f80-4c00-ba81-87a3a10841be",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Sphere Bottom"
+        },
+        {
+            "uuid": "29424af3-cf9a-4e39-aa78-d9c125e8263e",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                -0.5,
+                0
+            ]
+        },
+        {
+            "uuid": "17a9b3bc-e2c3-4d55-9d51-916024487d44",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 3
+            }
+        },
+        {
+            "uuid": "5dc88b66-bb0d-4f2e-ba9e-b81e02439d9d",
+            "__class": "@egret/render/MeshRenderer",
+            "_localBoundingBox": [
+                -0.5,
+                -0.5,
+                -0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "materials": [
+                {
+                    "__asset": 2
+                }
+            ]
+        },
+        {
+            "uuid": "ca36f13b-e79e-4954-aca8-2d9845cadc4d",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                4,
+                2,
+                0
+            ]
+        },
+        {
+            "uuid": "0a8fda6c-9e7e-4f9a-8c93-afec0d2bd687",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 4
+            }
+        },
+        {
+            "uuid": "9858f670-2adf-4e5b-8e25-acd9a3969463",
+            "__class": "@egret/render/MeshRenderer",
+            "_castShadows": true,
+            "_localBoundingBox": [
+                -0.4755282700061798,
+                -0.5,
+                -0.5,
+                0.4755282700061798,
+                0.5,
+                0.5
+            ],
+            "materials": [
+                {
+                    "__asset": 2
+                }
+            ]
+        },
+        {
+            "uuid": "bec91217-bc2e-48cf-8740-9f1e120e71cf",
+            "__class": "@egret/collision/CapsuleCollider",
+            "capsule": [
+                0,
+                0,
+                0,
+                0.5,
+                1
+            ]
+        },
+        {
+            "uuid": "ddb62040-e5bb-4ab1-963a-64f1179544c2",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Cylinder"
+        },
+        {
+            "uuid": "2b8973f6-5809-4bed-8e94-a53e8db798b7",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                2,
+                2,
+                0
+            ]
+        },
+        {
+            "uuid": "e031b979-2f5a-4510-94d9-a2e51f690cef",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 4
+            }
+        },
+        {
+            "uuid": "4d8264d5-313f-4aaa-99f0-b03f5a91ce29",
+            "__class": "@egret/render/MeshRenderer",
+            "_castShadows": true,
+            "_localBoundingBox": [
+                -0.4755282700061798,
+                -0.5,
+                -0.5,
+                0.4755282700061798,
+                0.5,
+                0.5
+            ],
+            "materials": [
+                {
+                    "__asset": 2
+                }
+            ]
+        },
+        {
+            "uuid": "000ef729-38f9-45f8-9509-d40deb6e999f",
+            "__class": "@egret/collision/FrustumConeCollider"
+        },
+        {
+            "uuid": "11269667-e9f7-46c6-9d39-a0facbd9d077",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Cone"
+        },
+        {
+            "uuid": "deaf52c2-aad1-4439-96fa-564dab290413",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                2,
+                0
+            ]
+        },
+        {
+            "uuid": "0cfd129c-0328-4962-892f-dc2b62716884",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 5
+            }
+        },
+        {
+            "uuid": "59d444fc-1ea4-4780-917d-d6b95c32f57a",
+            "__class": "@egret/render/MeshRenderer",
+            "_castShadows": true,
+            "_localBoundingBox": [
+                -0.4755282700061798,
+                -0.5,
+                -0.5,
+                0.4755282700061798,
+                0.5,
+                0.5
+            ],
+            "materials": [
+                {
+                    "__asset": 2
+                }
+            ]
+        },
+        {
+            "uuid": "09836c86-32e4-42f4-8a6c-c7e2d1abb25b",
+            "__class": "@egret/collision/FrustumConeCollider",
+            "frustumCone": [
+                0,
+                0,
+                0,
+                0,
+                0.5,
+                1
+            ]
+        },
+        {
+            "uuid": "70b8a66c-aae7-4643-b938-1414d4189b9a",
+            "__class": "@egret/engine/TreeNode",
+            "name": "BoxColliderRaycaster"
+        },
+        {
+            "uuid": "7b25fc7b-3666-40a4-9781-95928d7cd566",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                -4,
+                3,
+                -2
+            ]
+        },
+        {
+            "uuid": "4d681d6b-e5b8-4a22-b8c5-927c534df610",
+            "__class": "ColliderRaycaster",
+            "target": {
+                "uuid": "4638e671-5682-4077-8113-448c0e6438f1"
+            }
+        },
+        {
+            "uuid": "6fe44c1b-02fc-4b76-8a3e-372bfd7b0465",
+            "__class": "RotateAround",
+            "target": {
+                "uuid": "4638e671-5682-4077-8113-448c0e6438f1"
+            }
+        },
+        {
+            "uuid": "1cf66f30-b7ad-4616-a0ee-63fc1cede913",
+            "__class": "LookAtTarget",
+            "target": {
+                "uuid": "4638e671-5682-4077-8113-448c0e6438f1"
+            }
+        },
+        {
+            "uuid": "ff2776ef-9406-46e1-9935-30ed3fdf0f4c",
+            "__class": "@egret/engine/TreeNode",
+            "name": "SphereColliderRaycaster"
+        },
+        {
+            "uuid": "3d9e54b4-50df-4751-8c70-04c54d6faf05",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                -2,
+                3,
+                -2
+            ]
+        },
+        {
+            "uuid": "b816d9e4-b27e-45a0-9a04-13c6f86c3a3d",
+            "__class": "ColliderRaycaster",
+            "target": {
+                "uuid": "081a9725-204d-40aa-8db7-fab352e77e0b"
+            }
+        },
+        {
+            "uuid": "331635d3-d256-4e28-8aad-088a38452740",
+            "__class": "RotateAround",
+            "target": {
+                "uuid": "081a9725-204d-40aa-8db7-fab352e77e0b"
+            }
+        },
+        {
+            "uuid": "90df8ff7-f2a0-4e62-9a7f-513d691a2bdf",
+            "__class": "LookAtTarget",
+            "target": {
+                "uuid": "081a9725-204d-40aa-8db7-fab352e77e0b"
+            }
+        },
+        {
+            "uuid": "3733a35c-4c47-4dca-9086-c4ea08493a74",
+            "__class": "@egret/engine/TreeNode",
+            "name": "ConeColliderRaycaster"
+        },
+        {
+            "uuid": "d67aead0-a7df-468c-9454-f68d7c59251f",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                2,
+                -2
+            ]
+        },
+        {
+            "uuid": "d7e336b9-eb70-4363-acb4-163bfdfb7085",
+            "__class": "ColliderRaycaster",
+            "target": {
+                "uuid": "deaf52c2-aad1-4439-96fa-564dab290413"
+            }
+        },
+        {
+            "uuid": "2313bef2-dfea-4a07-b407-3d69cb21f284",
+            "__class": "RotateAround",
+            "target": {
+                "uuid": "deaf52c2-aad1-4439-96fa-564dab290413"
+            },
+            "enabled": false
+        },
+        {
+            "uuid": "a2d84522-61e2-45c7-89da-b8d8e2c86887",
+            "__class": "LookAtTarget",
+            "target": {
+                "uuid": "deaf52c2-aad1-4439-96fa-564dab290413"
+            },
+            "enabled": false
+        },
+        {
+            "uuid": "b76c0483-21ac-4bc5-bbfc-16b538af7d33",
+            "__class": "@egret/engine/TreeNode",
+            "name": "CylinderColliderRaycaster"
+        },
+        {
+            "uuid": "aebcc8c6-989c-466d-ad73-d652c7055dc4",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                2,
+                3,
+                -2
+            ]
+        },
+        {
+            "uuid": "c452720f-00b3-421e-8903-247494772d0f",
+            "__class": "ColliderRaycaster",
+            "target": {
+                "uuid": "2b8973f6-5809-4bed-8e94-a53e8db798b7"
+            }
+        },
+        {
+            "uuid": "6b0266a7-7ed3-44da-8d03-a04926ff0935",
+            "__class": "RotateAround",
+            "target": {
+                "uuid": "2b8973f6-5809-4bed-8e94-a53e8db798b7"
+            }
+        },
+        {
+            "uuid": "b7bd7b9c-d08b-4f47-b586-1c928d53f5eb",
+            "__class": "LookAtTarget",
+            "target": {
+                "uuid": "2b8973f6-5809-4bed-8e94-a53e8db798b7"
+            }
+        },
+        {
+            "uuid": "1aa4a8a9-5342-4851-978b-48d1faad6ab6",
+            "__class": "@egret/engine/TreeNode",
+            "name": "CapsuleColliderRaycaster"
+        },
+        {
+            "uuid": "5c240082-23de-471e-82b8-d67a18c58795",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                4,
+                3,
+                -2
+            ]
+        },
+        {
+            "uuid": "25f738ba-1a08-4f5c-9941-43d3aa236e43",
+            "__class": "ColliderRaycaster",
+            "target": {
+                "uuid": "ca36f13b-e79e-4954-aca8-2d9845cadc4d"
+            }
+        },
+        {
+            "uuid": "8b93b401-87a7-498a-9649-b34e804f33be",
+            "__class": "RotateAround",
+            "target": {
+                "uuid": "ca36f13b-e79e-4954-aca8-2d9845cadc4d"
+            }
+        },
+        {
+            "uuid": "972b1c78-9230-4ff6-ae98-135b47f3c250",
+            "__class": "LookAtTarget",
+            "target": {
+                "uuid": "ca36f13b-e79e-4954-aca8-2d9845cadc4d"
+            }
+        },
+        {
+            "uuid": "b1708cf9-76ee-40b4-a98a-5f71f17d0a62",
+            "__class": "@egret/engine/Scene"
+        }
+    ]
+}

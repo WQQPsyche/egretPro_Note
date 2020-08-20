@@ -1,0 +1,111 @@
+{
+	"asset": {
+		"version": "2.0"
+	},
+	"extensionsRequired": [
+		"egret"
+	],
+	"extensionsUsed": [
+		"egret"
+	],
+	"extensions": {
+		"KHR_techniques_webgl": {
+			"shaders": [],
+			"techniques": [
+				{
+					"attributes": {},
+					"uniforms": {},
+					"states": {
+						"enable": [
+							2929,
+							2884
+						],
+						"functions": {
+							"depthFunc": [
+								515
+							],
+							"depthMask": [
+								true
+							],
+							"frontFace": [
+								2305
+							],
+							"cullFace": [
+								1029
+							]
+						}
+					}
+				}
+			],
+			"programs": []
+		},
+		"egret": {
+			"version": "5",
+			"minVersion": "5",
+			"assets": [
+				"builtin/meshphysical.shader.json"
+			],
+			"entities": [
+				{
+					"uuid": "886fa5c5-133e-4ecd-a6e7-a5e21ce70cad",
+					"__class": "@egret/core/AssetEntity",
+					"components": [
+						{
+							"uuid": "70913feb-a2f6-45c7-bf2e-ad6f2c18d5d9"
+						},
+						{
+							"uuid": "8850d587-4967-425c-ad4e-993267e95fd1"
+						},
+						{
+							"uuid": "ca08d15d-ac4c-4df6-93cb-8270bba0c7d3"
+						},
+						{
+							"uuid": "f81facf6-e431-4fed-a068-4f76c11b06e5"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"uuid": "70913feb-a2f6-45c7-bf2e-ad6f2c18d5d9",
+					"__class": "@egret/core/AssetBasis"
+				},
+				{
+					"uuid": "8850d587-4967-425c-ad4e-993267e95fd1",
+					"__class": "AssetRefCount"
+				},
+				{
+					"uuid": "ca08d15d-ac4c-4df6-93cb-8270bba0c7d3",
+					"__class": "@egret/render/Defines",
+					"defines": [
+						"STANDARD"
+					]
+				},
+				{
+					"uuid": "f81facf6-e431-4fed-a068-4f76c11b06e5",
+					"__class": "@egret/render/Material",
+					"glTF": 0,
+					"shader": {
+						"__asset": 0
+					}
+				}
+			]
+		}
+	},
+	"materials": [
+		{
+			"extensions": {
+				"KHR_techniques_webgl": {
+					"technique": 0,
+					"values": {
+						"metalness": 1,
+						"roughness": 1,
+						"map": "threejs/models/cerberus/Cerberus_A.image.json",
+						"metalnessMap": "threejs/models/cerberus/Cerberus_RM.image.json",
+						"roughnessMap": "threejs/models/cerberus/Cerberus_RM.image.json"
+					}
+				}
+			}
+		}
+	]
+}

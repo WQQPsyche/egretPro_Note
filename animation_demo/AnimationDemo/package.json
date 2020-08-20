@@ -1,0 +1,21 @@
+{
+  "name": "@egret/pro-template-library",
+  "version": "1.0.2",
+  "description": "",
+  "scripts": {
+    "build": "echo build-success",
+    "start": "egret-pro start .",
+    "start:serverdebug": "egret-pro start . --target serverdebug",
+    "start:pro": "egret-pro start . --reporter",
+    "build:web": "egret-pro build . --target web",
+    "build:library": "egret-pro build . --target pro-library",
+    "print": "egret-pro print . --target web",
+    "upgrade": "egret-pro upgrade .",
+    "bake": "egret-pro bake ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@egret/pro-cli-proxy": "2.3.0"
+  }
+}

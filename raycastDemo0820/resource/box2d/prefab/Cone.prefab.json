@@ -1,0 +1,115 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "builtin/cone.mesh.bin",
+        "assets/materials/sphere.mat.json"
+    ],
+    "entities": [
+        {
+            "uuid": "e8751b81-d7ff-49b2-834b-dcb041a28fcc",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "0ab178a4-9fbd-47de-8397-3241b7303768"
+                },
+                {
+                    "uuid": "758bc917-9300-41d5-ba7a-2edbc02cf8db"
+                },
+                {
+                    "uuid": "bf88f03a-df4e-4a83-816c-c81f10d0178e"
+                },
+                {
+                    "uuid": "a5f28076-8c4d-4758-88b0-53e1ec1b3beb"
+                },
+                {
+                    "uuid": "3eec7c89-f962-45e9-b546-f14591d1d6e2"
+                },
+                {
+                    "uuid": "ca2018dd-83f0-43df-bdf2-73900744b4d5"
+                },
+                {
+                    "uuid": "2a94861a-a43e-401b-ab69-e55a6bcb0f7d"
+                },
+                {
+                    "uuid": "6625b9ba-a3f1-4316-98a7-081e2d0b3e11"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "0ab178a4-9fbd-47de-8397-3241b7303768",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Cone"
+        },
+        {
+            "uuid": "758bc917-9300-41d5-ba7a-2edbc02cf8db",
+            "__class": "@egret/engine/Transform"
+        },
+        {
+            "uuid": "bf88f03a-df4e-4a83-816c-c81f10d0178e",
+            "__class": "@egret/box2d/Rigidbody"
+        },
+        {
+            "uuid": "a5f28076-8c4d-4758-88b0-53e1ec1b3beb",
+            "__class": "@egret/box2d/EdgeCollider",
+            "start": [
+                0,
+                0.5
+            ],
+            "end": [
+                0.475,
+                -0.5
+            ]
+        },
+        {
+            "uuid": "3eec7c89-f962-45e9-b546-f14591d1d6e2",
+            "__class": "@egret/box2d/EdgeCollider",
+            "start": [
+                -0.475,
+                -0.5
+            ],
+            "end": [
+                0.475,
+                -0.5
+            ]
+        },
+        {
+            "uuid": "ca2018dd-83f0-43df-bdf2-73900744b4d5",
+            "__class": "@egret/box2d/EdgeCollider",
+            "start": [
+                0,
+                0.5
+            ],
+            "end": [
+                -0.475,
+                -0.5
+            ]
+        },
+        {
+            "uuid": "2a94861a-a43e-401b-ab69-e55a6bcb0f7d",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 0
+            }
+        },
+        {
+            "uuid": "6625b9ba-a3f1-4316-98a7-081e2d0b3e11",
+            "__class": "@egret/render/MeshRenderer",
+            "_localBoundingBox": [
+                -0.4755282700061798,
+                -0.5,
+                -0.5,
+                0.4755282700061798,
+                0.5,
+                0.5
+            ],
+            "materials": [
+                {
+                    "__asset": 1
+                }
+            ]
+        }
+    ]
+}

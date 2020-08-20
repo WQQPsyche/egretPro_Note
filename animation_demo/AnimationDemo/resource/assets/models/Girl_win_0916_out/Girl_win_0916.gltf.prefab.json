@@ -1,0 +1,3062 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "assets/models/Girl_win_0916_out/LittleGirl01.mesh.bin",
+        "assets/models/Girl_win_0916_out/character01_Mat.mat.json",
+        "assets/models/Girl_win_0916_out/LittleGirl02.mesh.bin",
+        "assets/models/Girl_win_0916_out/character01_Mat.mat.json"
+    ],
+    "entities": [
+        {
+            "uuid": "0",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "1"
+                },
+                {
+                    "uuid": "2"
+                }
+            ]
+        },
+        {
+            "uuid": "3",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "4"
+                },
+                {
+                    "uuid": "5"
+                },
+                {
+                    "uuid": "6"
+                },
+                {
+                    "uuid": "7"
+                }
+            ]
+        },
+        {
+            "uuid": "8",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "9"
+                },
+                {
+                    "uuid": "10"
+                }
+            ]
+        },
+        {
+            "uuid": "11",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "12"
+                },
+                {
+                    "uuid": "13"
+                }
+            ]
+        },
+        {
+            "uuid": "14",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "15"
+                },
+                {
+                    "uuid": "16"
+                }
+            ]
+        },
+        {
+            "uuid": "17",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "18"
+                },
+                {
+                    "uuid": "19"
+                }
+            ]
+        },
+        {
+            "uuid": "20",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "21"
+                },
+                {
+                    "uuid": "22"
+                }
+            ]
+        },
+        {
+            "uuid": "23",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "24"
+                },
+                {
+                    "uuid": "25"
+                }
+            ]
+        },
+        {
+            "uuid": "26",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "27"
+                },
+                {
+                    "uuid": "28"
+                }
+            ]
+        },
+        {
+            "uuid": "29",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "30"
+                },
+                {
+                    "uuid": "31"
+                }
+            ]
+        },
+        {
+            "uuid": "32",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "33"
+                },
+                {
+                    "uuid": "34"
+                }
+            ]
+        },
+        {
+            "uuid": "35",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "36"
+                },
+                {
+                    "uuid": "37"
+                }
+            ]
+        },
+        {
+            "uuid": "38",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "39"
+                },
+                {
+                    "uuid": "40"
+                }
+            ]
+        },
+        {
+            "uuid": "41",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "42"
+                },
+                {
+                    "uuid": "43"
+                }
+            ]
+        },
+        {
+            "uuid": "44",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "45"
+                },
+                {
+                    "uuid": "46"
+                }
+            ]
+        },
+        {
+            "uuid": "47",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "48"
+                },
+                {
+                    "uuid": "49"
+                }
+            ]
+        },
+        {
+            "uuid": "50",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "51"
+                },
+                {
+                    "uuid": "52"
+                }
+            ]
+        },
+        {
+            "uuid": "53",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "54"
+                },
+                {
+                    "uuid": "55"
+                }
+            ]
+        },
+        {
+            "uuid": "56",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "57"
+                },
+                {
+                    "uuid": "58"
+                }
+            ]
+        },
+        {
+            "uuid": "59",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "60"
+                },
+                {
+                    "uuid": "61"
+                }
+            ]
+        },
+        {
+            "uuid": "62",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "63"
+                },
+                {
+                    "uuid": "64"
+                }
+            ]
+        },
+        {
+            "uuid": "65",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "66"
+                },
+                {
+                    "uuid": "67"
+                }
+            ]
+        },
+        {
+            "uuid": "68",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "69"
+                },
+                {
+                    "uuid": "70"
+                }
+            ]
+        },
+        {
+            "uuid": "71",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "72"
+                },
+                {
+                    "uuid": "73"
+                }
+            ]
+        },
+        {
+            "uuid": "74",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "75"
+                },
+                {
+                    "uuid": "76"
+                }
+            ]
+        },
+        {
+            "uuid": "77",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "78"
+                },
+                {
+                    "uuid": "79"
+                }
+            ]
+        },
+        {
+            "uuid": "80",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "81"
+                },
+                {
+                    "uuid": "82"
+                }
+            ]
+        },
+        {
+            "uuid": "83",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "84"
+                },
+                {
+                    "uuid": "85"
+                }
+            ]
+        },
+        {
+            "uuid": "86",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "87"
+                },
+                {
+                    "uuid": "88"
+                }
+            ]
+        },
+        {
+            "uuid": "89",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "90"
+                },
+                {
+                    "uuid": "91"
+                }
+            ]
+        },
+        {
+            "uuid": "92",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "93"
+                },
+                {
+                    "uuid": "94"
+                }
+            ]
+        },
+        {
+            "uuid": "95",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "96"
+                },
+                {
+                    "uuid": "97"
+                }
+            ]
+        },
+        {
+            "uuid": "98",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "99"
+                },
+                {
+                    "uuid": "100"
+                }
+            ]
+        },
+        {
+            "uuid": "101",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "102"
+                },
+                {
+                    "uuid": "103"
+                }
+            ]
+        },
+        {
+            "uuid": "104",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "105"
+                },
+                {
+                    "uuid": "106"
+                }
+            ]
+        },
+        {
+            "uuid": "107",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "108"
+                },
+                {
+                    "uuid": "109"
+                }
+            ]
+        },
+        {
+            "uuid": "110",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "111"
+                },
+                {
+                    "uuid": "112"
+                }
+            ]
+        },
+        {
+            "uuid": "113",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "114"
+                },
+                {
+                    "uuid": "115"
+                }
+            ]
+        },
+        {
+            "uuid": "116",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "117"
+                },
+                {
+                    "uuid": "118"
+                }
+            ]
+        },
+        {
+            "uuid": "119",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "120"
+                },
+                {
+                    "uuid": "121"
+                }
+            ]
+        },
+        {
+            "uuid": "122",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "123"
+                },
+                {
+                    "uuid": "124"
+                }
+            ]
+        },
+        {
+            "uuid": "125",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "126"
+                },
+                {
+                    "uuid": "127"
+                }
+            ]
+        },
+        {
+            "uuid": "128",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "129"
+                },
+                {
+                    "uuid": "130"
+                }
+            ]
+        },
+        {
+            "uuid": "131",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "132"
+                },
+                {
+                    "uuid": "133"
+                }
+            ]
+        },
+        {
+            "uuid": "134",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "135"
+                },
+                {
+                    "uuid": "136"
+                }
+            ]
+        },
+        {
+            "uuid": "137",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "138"
+                },
+                {
+                    "uuid": "139"
+                }
+            ]
+        },
+        {
+            "uuid": "140",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "141"
+                },
+                {
+                    "uuid": "142"
+                }
+            ]
+        },
+        {
+            "uuid": "143",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "144"
+                },
+                {
+                    "uuid": "145"
+                }
+            ]
+        },
+        {
+            "uuid": "146",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "147"
+                },
+                {
+                    "uuid": "148"
+                }
+            ]
+        },
+        {
+            "uuid": "149",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "150"
+                },
+                {
+                    "uuid": "151"
+                }
+            ]
+        },
+        {
+            "uuid": "152",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "153"
+                },
+                {
+                    "uuid": "154"
+                }
+            ]
+        },
+        {
+            "uuid": "155",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "156"
+                },
+                {
+                    "uuid": "157"
+                }
+            ]
+        },
+        {
+            "uuid": "158",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "159"
+                },
+                {
+                    "uuid": "160"
+                }
+            ]
+        },
+        {
+            "uuid": "161",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "162"
+                },
+                {
+                    "uuid": "163"
+                }
+            ]
+        },
+        {
+            "uuid": "164",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "165"
+                },
+                {
+                    "uuid": "166"
+                }
+            ]
+        },
+        {
+            "uuid": "167",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "168"
+                },
+                {
+                    "uuid": "169"
+                }
+            ]
+        },
+        {
+            "uuid": "170",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "171"
+                },
+                {
+                    "uuid": "172"
+                }
+            ]
+        },
+        {
+            "uuid": "173",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "174"
+                },
+                {
+                    "uuid": "175"
+                }
+            ]
+        },
+        {
+            "uuid": "176",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "177"
+                },
+                {
+                    "uuid": "178"
+                }
+            ]
+        },
+        {
+            "uuid": "179",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "180"
+                },
+                {
+                    "uuid": "181"
+                }
+            ]
+        },
+        {
+            "uuid": "182",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "183"
+                },
+                {
+                    "uuid": "184"
+                }
+            ]
+        },
+        {
+            "uuid": "185",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "186"
+                },
+                {
+                    "uuid": "187"
+                }
+            ]
+        },
+        {
+            "uuid": "188",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "189"
+                },
+                {
+                    "uuid": "190"
+                }
+            ]
+        },
+        {
+            "uuid": "191",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "192"
+                },
+                {
+                    "uuid": "193"
+                }
+            ]
+        },
+        {
+            "uuid": "194",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "195"
+                },
+                {
+                    "uuid": "196"
+                }
+            ]
+        },
+        {
+            "uuid": "197",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "198"
+                },
+                {
+                    "uuid": "199"
+                }
+            ]
+        },
+        {
+            "uuid": "200",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "201"
+                },
+                {
+                    "uuid": "202"
+                }
+            ]
+        },
+        {
+            "uuid": "203",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "204"
+                },
+                {
+                    "uuid": "205"
+                }
+            ]
+        },
+        {
+            "uuid": "206",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "207"
+                },
+                {
+                    "uuid": "208"
+                }
+            ]
+        },
+        {
+            "uuid": "209",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "210"
+                },
+                {
+                    "uuid": "211"
+                }
+            ]
+        },
+        {
+            "uuid": "212",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "213"
+                },
+                {
+                    "uuid": "214"
+                }
+            ]
+        },
+        {
+            "uuid": "215",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "216"
+                },
+                {
+                    "uuid": "217"
+                },
+                {
+                    "uuid": "218"
+                },
+                {
+                    "uuid": "219"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "1",
+            "__class": "@egret/engine/TreeNode",
+            "name": "RootNode",
+            "children": [
+                {
+                    "uuid": "4"
+                },
+                {
+                    "uuid": "9"
+                },
+                {
+                    "uuid": "216"
+                }
+            ]
+        },
+        {
+            "uuid": "2",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                0,
+                0
+            ],
+            "localRotation": [
+                0,
+                0,
+                0,
+                -1
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "4",
+            "__class": "@egret/engine/TreeNode",
+            "name": "LittleGirl01",
+            "children": []
+        },
+        {
+            "uuid": "5",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                0,
+                0
+            ],
+            "localRotation": [
+                -0.707106828689575,
+                0,
+                0,
+                -0.707106709480286
+            ],
+            "localScale": [
+                100,
+                100,
+                100
+            ]
+        },
+        {
+            "uuid": "6",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 0
+            }
+        },
+        {
+            "uuid": "7",
+            "__class": "@egret/render/SkinnedMeshRenderer",
+            "_castShadows": true,
+            "_receiveShadows": true,
+            "materials": [
+                {
+                    "__asset": 1
+                }
+            ]
+        },
+        {
+            "uuid": "9",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001",
+            "children": [
+                {
+                    "uuid": "12"
+                }
+            ]
+        },
+        {
+            "uuid": "10",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                0.219933390617371,
+                -0.0665886029601097
+            ],
+            "localRotation": [
+                -0.500000357627869,
+                -0.499999642372131,
+                0.499999642372131,
+                -0.500000357627869
+            ],
+            "localScale": [
+                0.999999940395355,
+                0.999999940395355,
+                1
+            ]
+        },
+        {
+            "uuid": "12",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 Pelvis",
+            "children": [
+                {
+                    "uuid": "15"
+                }
+            ]
+        },
+        {
+            "uuid": "13",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                0,
+                0
+            ],
+            "localRotation": [
+                -0.5,
+                -0.5,
+                0.499999314546585,
+                -0.500000715255737
+            ],
+            "localScale": [
+                1,
+                0.999999940395355,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "15",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 Spine",
+            "children": [
+                {
+                    "uuid": "18"
+                },
+                {
+                    "uuid": "186"
+                },
+                {
+                    "uuid": "201"
+                }
+            ]
+        },
+        {
+            "uuid": "16",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0353817753493786,
+                -0.0000791644997661933,
+                -4.91772489397135e-8
+            ],
+            "localRotation": [
+                -0.00000208047595151584,
+                -6.93676042828884e-7,
+                -0.000398158997995779,
+                -0.999999940395355
+            ],
+            "localScale": [
+                1,
+                0.999999940395355,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "18",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 Spine1",
+            "children": [
+                {
+                    "uuid": "21"
+                },
+                {
+                    "uuid": "168"
+                },
+                {
+                    "uuid": "177"
+                }
+            ]
+        },
+        {
+            "uuid": "19",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0994344726204872,
+                -0.0000818252519820817,
+                2.26991689333822e-10
+            ],
+            "localRotation": [
+                -1.69204372193164e-13,
+                -4.05485849341858e-8,
+                -0.0146194556728005,
+                -0.999893128871918
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "21",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 Neck",
+            "children": [
+                {
+                    "uuid": "24"
+                },
+                {
+                    "uuid": "81"
+                },
+                {
+                    "uuid": "138"
+                }
+            ]
+        },
+        {
+            "uuid": "22",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.160389050841331,
+                -0.0175553560256958,
+                8.85120240989856e-11
+            ],
+            "localRotation": [
+                2.07833750209829e-13,
+                5.6843418860808e-14,
+                5.20417042793042e-18,
+                -1
+            ],
+            "localScale": [
+                1,
+                1,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "24",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Clavicle",
+            "children": [
+                {
+                    "uuid": "27"
+                }
+            ]
+        },
+        {
+            "uuid": "25",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                -0.073527105152607,
+                0.017567865550518,
+                -0.0568960458040237
+            ],
+            "localRotation": [
+                0.694190084934235,
+                0.134536564350128,
+                -0.694082796573639,
+                -0.135089337825775
+            ],
+            "localScale": [
+                1,
+                1.00000011920929,
+                1
+            ]
+        },
+        {
+            "uuid": "27",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L UpperArm",
+            "children": [
+                {
+                    "uuid": "30"
+                }
+            ]
+        },
+        {
+            "uuid": "28",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0621878430247307,
+                -9.53674295089968e-9,
+                3.81469718035987e-8
+            ],
+            "localRotation": [
+                -0.174383386969566,
+                -0.0302053950726986,
+                0.44747793674469,
+                -0.876607954502106
+            ],
+            "localScale": [
+                0.999999940395355,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "30",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Forearm",
+            "children": [
+                {
+                    "uuid": "33"
+                }
+            ]
+        },
+        {
+            "uuid": "31",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0709539800882339,
+                -9.53674295089968e-9,
+                -7.62939436071974e-8
+            ],
+            "localRotation": [
+                4.10589295896102e-9,
+                -2.32002879130278e-8,
+                0.146063804626465,
+                -0.98927515745163
+            ],
+            "localScale": [
+                0.99999988079071,
+                1.00000011920929,
+                1
+            ]
+        },
+        {
+            "uuid": "33",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Hand",
+            "children": [
+                {
+                    "uuid": "36"
+                },
+                {
+                    "uuid": "45"
+                },
+                {
+                    "uuid": "54"
+                },
+                {
+                    "uuid": "63"
+                },
+                {
+                    "uuid": "72"
+                }
+            ]
+        },
+        {
+            "uuid": "34",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0698257610201836,
+                9.53674295089968e-9,
+                7.10542719878232e-17
+            ],
+            "localRotation": [
+                -0.580989599227905,
+                -0.0598391108214855,
+                0.0564059875905514,
+                -0.809746086597443
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "36",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger0",
+            "children": [
+                {
+                    "uuid": "39"
+                }
+            ]
+        },
+        {
+            "uuid": "37",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0403277575969696,
+                0.0108345411717892,
+                0.0306047815829515
+            ],
+            "localRotation": [
+                0.788478016853333,
+                0.269462883472443,
+                0.193986281752586,
+                -0.517746567726135
+            ],
+            "localScale": [
+                1.00000011920929,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "39",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger01",
+            "children": [
+                {
+                    "uuid": "42"
+                }
+            ]
+        },
+        {
+            "uuid": "40",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0204216372221708,
+                3.81469718035987e-8,
+                1.42108543975646e-16
+            ],
+            "localRotation": [
+                4.04713533338187e-17,
+                2.94241080989892e-17,
+                -0.0406272560358047,
+                -0.999174356460571
+            ],
+            "localScale": [
+                1,
+                1.00000011920929,
+                1
+            ]
+        },
+        {
+            "uuid": "42",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger0Nub",
+            "children": []
+        },
+        {
+            "uuid": "43",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.00951047893613577,
+                -3.81469718035987e-8,
+                0
+            ],
+            "localRotation": [
+                2.77555756156289e-17,
+                8.32667268468867e-17,
+                -7.45057970874541e-9,
+                -1
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "45",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger1",
+            "children": [
+                {
+                    "uuid": "48"
+                }
+            ]
+        },
+        {
+            "uuid": "46",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0616181157529354,
+                -0.0000151062004078995,
+                0.0189588442444801
+            ],
+            "localRotation": [
+                -0.000396658026147634,
+                0.0867350399494171,
+                0.0000345395674230531,
+                -0.996231317520142
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "48",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger11",
+            "children": [
+                {
+                    "uuid": "51"
+                }
+            ]
+        },
+        {
+            "uuid": "49",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0204653162509203,
+                7.10542719878232e-17,
+                3.81469718035987e-8
+            ],
+            "localRotation": [
+                -2.19768043763224e-8,
+                -1.18962342199325e-8,
+                -0.0324925929307938,
+                -0.999471962451935
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1
+            ]
+        },
+        {
+            "uuid": "51",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger1Nub",
+            "children": []
+        },
+        {
+            "uuid": "52",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0166972726583481,
+                -3.81469718035987e-8,
+                -1.90734859017994e-8
+            ],
+            "localRotation": [
+                7.45058059692383e-9,
+                3.7252896323281e-9,
+                2.98023188349816e-8,
+                -1
+            ],
+            "localScale": [
+                1.00000011920929,
+                1,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "54",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger2",
+            "children": [
+                {
+                    "uuid": "57"
+                }
+            ]
+        },
+        {
+            "uuid": "55",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0680329874157906,
+                -0.00437400816008449,
+                -0.00196161260828376
+            ],
+            "localRotation": [
+                -0.047417938709259,
+                -0.0152403460815549,
+                -0.157111987471581,
+                -0.98632401227951
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1
+            ]
+        },
+        {
+            "uuid": "57",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger21",
+            "children": [
+                {
+                    "uuid": "60"
+                }
+            ]
+        },
+        {
+            "uuid": "58",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0214094929397106,
+                -3.81469718035987e-8,
+                -1.90734859017994e-8
+            ],
+            "localRotation": [
+                7.32407745562824e-10,
+                -7.53642773188012e-11,
+                -0.217460587620735,
+                -0.976069092750549
+            ],
+            "localScale": [
+                1.00000023841858,
+                1.00000011920929,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "60",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger2Nub",
+            "children": []
+        },
+        {
+            "uuid": "61",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0133146280422807,
+                -3.81469718035987e-8,
+                -9.53674295089968e-9
+            ],
+            "localRotation": [
+                4.85722440924608e-17,
+                3.60887453254577e-9,
+                1.49011594174908e-8,
+                -1
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "63",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger3",
+            "children": [
+                {
+                    "uuid": "66"
+                }
+            ]
+        },
+        {
+            "uuid": "64",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0627200677990913,
+                0.00227245315909386,
+                -0.0187254138290882
+            ],
+            "localRotation": [
+                -0.181906506419182,
+                -0.130151569843292,
+                -0.238676935434341,
+                -0.94498884677887
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "66",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger31",
+            "children": [
+                {
+                    "uuid": "69"
+                }
+            ]
+        },
+        {
+            "uuid": "67",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0232748594135046,
+                0,
+                3.33786012163273e-8
+            ],
+            "localRotation": [
+                -1.50751375826985e-8,
+                -3.16134718403305e-9,
+                0.0492467619478703,
+                -0.998786628246307
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "69",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger3Nub",
+            "children": []
+        },
+        {
+            "uuid": "70",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.011412582360208,
+                0,
+                -2.8610228852699e-8
+            ],
+            "localRotation": [
+                -1.4901157641134e-8,
+                3.87080856256716e-9,
+                1.16415288520244e-9,
+                -1
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1
+            ]
+        },
+        {
+            "uuid": "72",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger4",
+            "children": [
+                {
+                    "uuid": "75"
+                }
+            ]
+        },
+        {
+            "uuid": "73",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0493708029389381,
+                0.00888450630009174,
+                -0.0319906435906887
+            ],
+            "localRotation": [
+                -0.165679082274437,
+                -0.189506664872169,
+                -0.175340086221695,
+                -0.951784372329712
+            ],
+            "localScale": [
+                0.999999940395355,
+                1.00000011920929,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "75",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger41",
+            "children": [
+                {
+                    "uuid": "78"
+                }
+            ]
+        },
+        {
+            "uuid": "76",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0102989198639989,
+                0,
+                9.53674295089968e-9
+            ],
+            "localRotation": [
+                -1.50023904410546e-8,
+                6.65097255048153e-10,
+                -0.079965777695179,
+                -0.996797621250153
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "78",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Finger4Nub",
+            "children": []
+        },
+        {
+            "uuid": "79",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0125903505831957,
+                3.81469718035987e-8,
+                -9.53674295089968e-9
+            ],
+            "localRotation": [
+                -5.72458416200101e-17,
+                9.31322396979795e-9,
+                -7.45057882056699e-9,
+                -1
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "81",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Clavicle",
+            "children": [
+                {
+                    "uuid": "84"
+                }
+            ]
+        },
+        {
+            "uuid": "82",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                -0.073527105152607,
+                0.0175681840628386,
+                0.0568960458040237
+            ],
+            "localRotation": [
+                0.691762328147888,
+                0.146508753299713,
+                0.691645503044128,
+                0.147059589624405
+            ],
+            "localScale": [
+                0.999999940395355,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "84",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R UpperArm",
+            "children": [
+                {
+                    "uuid": "87"
+                }
+            ]
+        },
+        {
+            "uuid": "85",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0621878355741501,
+                -4.44089199923895e-18,
+                0
+            ],
+            "localRotation": [
+                0.182971775531769,
+                0.0648859292268753,
+                0.483956962823868,
+                -0.853285908699036
+            ],
+            "localScale": [
+                1.00000011920929,
+                1,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "87",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Forearm",
+            "children": [
+                {
+                    "uuid": "90"
+                }
+            ]
+        },
+        {
+            "uuid": "88",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0709539577364922,
+                -9.53674295089968e-9,
+                3.81469718035987e-8
+            ],
+            "localRotation": [
+                7.01963748504037e-18,
+                5.55010099969479e-17,
+                0.00145469408016652,
+                -0.999998927116394
+            ],
+            "localScale": [
+                0.999999821186066,
+                1.00000011920929,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "90",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Hand",
+            "children": [
+                {
+                    "uuid": "93"
+                },
+                {
+                    "uuid": "102"
+                },
+                {
+                    "uuid": "111"
+                },
+                {
+                    "uuid": "120"
+                },
+                {
+                    "uuid": "129"
+                }
+            ]
+        },
+        {
+            "uuid": "91",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0698257610201836,
+                -9.53674295089968e-9,
+                -7.10542719878232e-17
+            ],
+            "localRotation": [
+                0.641569972038269,
+                0.0393440946936607,
+                0.0468145236372948,
+                -0.76462310552597
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "93",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger0",
+            "children": [
+                {
+                    "uuid": "96"
+                }
+            ]
+        },
+        {
+            "uuid": "94",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0403278358280659,
+                0.0108345411717892,
+                -0.0306047704070807
+            ],
+            "localRotation": [
+                -0.788477957248688,
+                -0.269462883472443,
+                0.193986192345619,
+                -0.517746686935425
+            ],
+            "localScale": [
+                1.00000011920929,
+                0.99999988079071,
+                1
+            ]
+        },
+        {
+            "uuid": "96",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger01",
+            "children": [
+                {
+                    "uuid": "99"
+                }
+            ]
+        },
+        {
+            "uuid": "97",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0204216372221708,
+                0,
+                0
+            ],
+            "localRotation": [
+                -1.57969477498909e-8,
+                2.17278941505583e-8,
+                -0.0406272448599339,
+                -0.999174356460571
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "99",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger0Nub",
+            "children": []
+        },
+        {
+            "uuid": "100",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.00951044075191021,
+                7.10542719878232e-17,
+                1.90734859017994e-8
+            ],
+            "localRotation": [
+                -7.4505792646562e-9,
+                5.9604651880818e-8,
+                -1,
+                -2.9802325940409e-8
+            ],
+            "localScale": [
+                -1,
+                -0.999999940395355,
+                -1
+            ]
+        },
+        {
+            "uuid": "102",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger1",
+            "children": [
+                {
+                    "uuid": "105"
+                }
+            ]
+        },
+        {
+            "uuid": "103",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0616181939840317,
+                -0.0000151062004078995,
+                -0.0189588200300932
+            ],
+            "localRotation": [
+                -0.00189724238589406,
+                -0.0867152065038681,
+                -0.0263114143162966,
+                -0.995883822441101
+            ],
+            "localScale": [
+                1.00000011920929,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "105",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger11",
+            "children": [
+                {
+                    "uuid": "108"
+                }
+            ]
+        },
+        {
+            "uuid": "106",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0204653162509203,
+                3.81469718035987e-8,
+                0
+            ],
+            "localRotation": [
+                -6.82944922836271e-10,
+                1.98106131499287e-9,
+                -0.325914055109024,
+                -0.945399403572083
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1
+            ]
+        },
+        {
+            "uuid": "108",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger1Nub",
+            "children": []
+        },
+        {
+            "uuid": "109",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0166972726583481,
+                7.10542719878232e-17,
+                0
+            ],
+            "localRotation": [
+                -9.31322685637781e-10,
+                4.16333733496107e-17,
+                -1,
+                -4.47034871342566e-8
+            ],
+            "localScale": [
+                -1,
+                -1,
+                -1
+            ]
+        },
+        {
+            "uuid": "111",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger2",
+            "children": [
+                {
+                    "uuid": "114"
+                }
+            ]
+        },
+        {
+            "uuid": "112",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0680329874157906,
+                -0.00437400816008449,
+                0.00196163170039654
+            ],
+            "localRotation": [
+                0.0492953807115555,
+                0.00711982883512974,
+                -0.319385647773743,
+                -0.946314990520477
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "114",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger21",
+            "children": [
+                {
+                    "uuid": "117"
+                }
+            ]
+        },
+        {
+            "uuid": "115",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0214095488190651,
+                7.10542719878232e-17,
+                -9.53674295089968e-9
+            ],
+            "localRotation": [
+                7.10761893785161e-9,
+                2.23448393121828e-9,
+                -0.299907326698303,
+                -0.953968346118927
+            ],
+            "localScale": [
+                0.999999940395355,
+                0.999999940395355,
+                1
+            ]
+        },
+        {
+            "uuid": "117",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger2Nub",
+            "children": []
+        },
+        {
+            "uuid": "118",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0133146662265062,
+                -3.81469718035987e-8,
+                8.88178399847791e-18
+            ],
+            "localRotation": [
+                1.52655665885959e-16,
+                3.72529029846191e-9,
+                -1,
+                -4.4703483581543e-8
+            ],
+            "localScale": [
+                -1,
+                -1,
+                -1
+            ]
+        },
+        {
+            "uuid": "120",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger3",
+            "children": [
+                {
+                    "uuid": "123"
+                }
+            ]
+        },
+        {
+            "uuid": "121",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0627201050519943,
+                0.00227252952754498,
+                0.0187254417687654
+            ],
+            "localRotation": [
+                0.191965565085411,
+                0.114798232913017,
+                -0.315355688333511,
+                -0.922237157821655
+            ],
+            "localScale": [
+                1.00000011920929,
+                1,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "123",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger31",
+            "children": [
+                {
+                    "uuid": "126"
+                }
+            ]
+        },
+        {
+            "uuid": "124",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0232748128473759,
+                7.62939436071974e-8,
+                1.90734859017994e-8
+            ],
+            "localRotation": [
+                2.77218994385307e-17,
+                -1.36687243186414e-18,
+                0.0492467656731606,
+                -0.998786628246307
+            ],
+            "localScale": [
+                0.999999940395355,
+                0.999999940395355,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "126",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger3Nub",
+            "children": []
+        },
+        {
+            "uuid": "127",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0114125441759825,
+                7.62939436071974e-8,
+                5.72204577053981e-8
+            ],
+            "localRotation": [
+                1.86264532686664e-8,
+                -2.98023223876953e-8,
+                -1,
+                -3.72529065373328e-8
+            ],
+            "localScale": [
+                -0.999999940395355,
+                -0.999999940395355,
+                -1
+            ]
+        },
+        {
+            "uuid": "129",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger4",
+            "children": [
+                {
+                    "uuid": "132"
+                }
+            ]
+        },
+        {
+            "uuid": "130",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0493708401918411,
+                0.0088845444843173,
+                0.0319906212389469
+            ],
+            "localRotation": [
+                0.165679067373276,
+                0.189506620168686,
+                -0.175340116024017,
+                -0.951784372329712
+            ],
+            "localScale": [
+                1,
+                1,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "132",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger41",
+            "children": [
+                {
+                    "uuid": "135"
+                }
+            ]
+        },
+        {
+            "uuid": "133",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0102988434955478,
+                0,
+                0
+            ],
+            "localRotation": [
+                -1.34454252176397e-8,
+                -9.83749437466486e-9,
+                -0.167223572731018,
+                -0.985918998718262
+            ],
+            "localScale": [
+                1,
+                1,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "135",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Finger4Nub",
+            "children": []
+        },
+        {
+            "uuid": "136",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0125903701409698,
+                7.62939436071974e-8,
+                -3.81469718035987e-8
+            ],
+            "localRotation": [
+                2.77555706525452e-17,
+                -9.71445014198114e-17,
+                -1,
+                -4.4703483581543e-8
+            ],
+            "localScale": [
+                -1,
+                -1.00000011920929,
+                -1.00000011920929
+            ]
+        },
+        {
+            "uuid": "138",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 Head",
+            "children": [
+                {
+                    "uuid": "141"
+                },
+                {
+                    "uuid": "144"
+                },
+                {
+                    "uuid": "150"
+                },
+                {
+                    "uuid": "156"
+                },
+                {
+                    "uuid": "162"
+                }
+            ]
+        },
+        {
+            "uuid": "139",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.040069617331028,
+                2.38418573772492e-9,
+                -3.63797872577655e-14
+            ],
+            "localRotation": [
+                2.03699036804839e-13,
+                3.78517448496041e-8,
+                0.0136478524655104,
+                -0.999906837940216
+            ],
+            "localScale": [
+                1,
+                1,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "141",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 HeadNub",
+            "children": []
+        },
+        {
+            "uuid": "142",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.374567657709122,
+                8.88178399847791e-18,
+                1.45519149031062e-13
+            ],
+            "localRotation": [
+                2.90878432451791e-14,
+                5.6843418860808e-14,
+                -1.16415321826935e-10,
+                -1
+            ],
+            "localScale": [
+                1,
+                1,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "144",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone003",
+            "children": [
+                {
+                    "uuid": "147"
+                }
+            ]
+        },
+        {
+            "uuid": "145",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.324817538261414,
+                -0.0166624132543802,
+                0.133729994297028
+            ],
+            "localRotation": [
+                -0.630433320999146,
+                0.250854849815369,
+                -0.320240050554276,
+                -0.66111421585083
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "147",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone004",
+            "children": []
+        },
+        {
+            "uuid": "148",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.108387142419815,
+                1.52587887214395e-7,
+                -4.76837147544984e-9
+            ],
+            "localRotation": [
+                3.34549170588616e-8,
+                -7.77046604838461e-9,
+                0.00955112464725971,
+                -0.999954402446747
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                1
+            ]
+        },
+        {
+            "uuid": "150",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone001",
+            "children": [
+                {
+                    "uuid": "153"
+                }
+            ]
+        },
+        {
+            "uuid": "151",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.382748812437057,
+                0.00611258950084448,
+                0.0352761074900627
+            ],
+            "localRotation": [
+                -0.694514632225037,
+                0.0509234555065632,
+                -0.13319143652916,
+                -0.705206573009491
+            ],
+            "localScale": [
+                1.00000011920929,
+                1.00000011920929,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "153",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone002",
+            "children": []
+        },
+        {
+            "uuid": "154",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.096175841987133,
+                -3.81469718035987e-8,
+                0
+            ],
+            "localRotation": [
+                0.0000915200434974395,
+                0.00000115936268230143,
+                0.012366465292871,
+                -0.999923527240753
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "156",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone005",
+            "children": [
+                {
+                    "uuid": "159"
+                }
+            ]
+        },
+        {
+            "uuid": "157",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.355035811662674,
+                -0.0982623249292374,
+                -0.0819340944290161
+            ],
+            "localRotation": [
+                0.753178656101227,
+                -0.528079330921173,
+                -0.265863388776779,
+                -0.288393557071686
+            ],
+            "localScale": [
+                1.00000023841858,
+                1,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "159",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone006",
+            "children": []
+        },
+        {
+            "uuid": "160",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.093419685959816,
+                0,
+                4.76837147544984e-9
+            ],
+            "localRotation": [
+                -2.00710221776035e-8,
+                6.40892778847046e-8,
+                -0.599431276321411,
+                -0.800426244735718
+            ],
+            "localScale": [
+                1,
+                0.999999940395355,
+                1
+            ]
+        },
+        {
+            "uuid": "162",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone007",
+            "children": [
+                {
+                    "uuid": "165"
+                }
+            ]
+        },
+        {
+            "uuid": "163",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.194285079836845,
+                -0.159034341573715,
+                -0.000316772406222299
+            ],
+            "localRotation": [
+                0.0627442374825478,
+                -0.703369677066803,
+                -0.704352498054504,
+                0.0722624510526657
+            ],
+            "localScale": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "165",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone008",
+            "children": []
+        },
+        {
+            "uuid": "166",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.162417560815811,
+                4.76837147544984e-9,
+                -1.90734859017994e-8
+            ],
+            "localRotation": [
+                -0.0000507867989654187,
+                -3.72119188796205e-7,
+                0.00675657950341702,
+                -0.999977171421051
+            ],
+            "localScale": [
+                0.999999940395355,
+                0.999999940395355,
+                1
+            ]
+        },
+        {
+            "uuid": "168",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone009",
+            "children": [
+                {
+                    "uuid": "171"
+                }
+            ]
+        },
+        {
+            "uuid": "169",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.093963161110878,
+                0.096249632537365,
+                0.0146919628605247
+            ],
+            "localRotation": [
+                0.0183374341577291,
+                0.955513656139374,
+                0.172786593437195,
+                -0.238332167267799
+            ],
+            "localScale": [
+                0.999999940395355,
+                1.00000011920929,
+                1
+            ]
+        },
+        {
+            "uuid": "171",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone010",
+            "children": [
+                {
+                    "uuid": "174"
+                }
+            ]
+        },
+        {
+            "uuid": "172",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0334306322038174,
+                1.90734859017994e-8,
+                0
+            ],
+            "localRotation": [
+                -2.63778682551137e-17,
+                -8.63597156302613e-18,
+                -0.311143666505814,
+                -0.950362861156464
+            ],
+            "localScale": [
+                1.21675312519073,
+                1,
+                1.00000023841858
+            ]
+        },
+        {
+            "uuid": "174",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone011",
+            "children": []
+        },
+        {
+            "uuid": "175",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0288028996437788,
+                0,
+                -1.90734859017994e-8
+            ],
+            "localRotation": [
+                0.0834646672010422,
+                0.130300283432007,
+                -0.0464555881917477,
+                -0.986862361431122
+            ],
+            "localScale": [
+                0.99999988079071,
+                0.99999988079071,
+                1
+            ]
+        },
+        {
+            "uuid": "177",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone012",
+            "children": [
+                {
+                    "uuid": "180"
+                }
+            ]
+        },
+        {
+            "uuid": "178",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0921581983566284,
+                0.0961418002843857,
+                -0.0136786969378591
+            ],
+            "localRotation": [
+                0.980616748332977,
+                -0.076325349509716,
+                0.0535678118467331,
+                0.172324329614639
+            ],
+            "localScale": [
+                -1,
+                -0.999999940395355,
+                -1.00000011920929
+            ]
+        },
+        {
+            "uuid": "180",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone013",
+            "children": [
+                {
+                    "uuid": "183"
+                }
+            ]
+        },
+        {
+            "uuid": "181",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0334307104349136,
+                0,
+                -1.19209282445354e-8
+            ],
+            "localRotation": [
+                8.02143773626085e-9,
+                -7.35850325117582e-10,
+                -0.294004112482071,
+                -0.955804169178009
+            ],
+            "localScale": [
+                1.21675324440002,
+                1,
+                1.00000035762787
+            ]
+        },
+        {
+            "uuid": "183",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bone014",
+            "children": []
+        },
+        {
+            "uuid": "184",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.028802927583456,
+                -7.10542719878232e-17,
+                1.19209282445354e-8
+            ],
+            "localRotation": [
+                0.0297481212764978,
+                -0.147818133234978,
+                -0.296227127313614,
+                -0.943140685558319
+            ],
+            "localScale": [
+                0.999999642372131,
+                0.999999821186066,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "186",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Thigh",
+            "children": [
+                {
+                    "uuid": "189"
+                }
+            ]
+        },
+        {
+            "uuid": "187",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                -0.0353816971182823,
+                0.000107188221591059,
+                -0.0587197132408619
+            ],
+            "localRotation": [
+                -0.00106113136280328,
+                0.999883115291595,
+                0.00292187952436507,
+                0.0149689363315701
+            ],
+            "localScale": [
+                1.00000011920929,
+                0.999999940395355,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "189",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Calf",
+            "children": [
+                {
+                    "uuid": "192"
+                }
+            ]
+        },
+        {
+            "uuid": "190",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.108289584517479,
+                4.76837147544984e-9,
+                8.88178399847791e-18
+            ],
+            "localRotation": [
+                2.50329179607434e-9,
+                -1.2408809535458e-9,
+                0.444128632545471,
+                -0.89596301317215
+            ],
+            "localScale": [
+                0.999999940395355,
+                1,
+                1
+            ]
+        },
+        {
+            "uuid": "192",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Foot",
+            "children": [
+                {
+                    "uuid": "195"
+                }
+            ]
+        },
+        {
+            "uuid": "193",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0839579850435257,
+                8.88178399847791e-18,
+                0
+            ],
+            "localRotation": [
+                0.00402318919077516,
+                -0.0147117171436548,
+                -0.445383608341217,
+                -0.895209908485413
+            ],
+            "localScale": [
+                0.99999988079071,
+                0.999999940395355,
+                1
+            ]
+        },
+        {
+            "uuid": "195",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Toe0",
+            "children": [
+                {
+                    "uuid": "198"
+                }
+            ]
+        },
+        {
+            "uuid": "196",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.059322465211153,
+                0.0910587683320045,
+                0
+            ],
+            "localRotation": [
+                1.05039653419681e-7,
+                1.05039674735963e-7,
+                -0.707106947898865,
+                -0.707106649875641
+            ],
+            "localScale": [
+                1,
+                0.999999940395355,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "198",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 L Toe0Nub",
+            "children": []
+        },
+        {
+            "uuid": "199",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.00456502893939614,
+                1.49011608607807e-10,
+                -4.76837147544984e-9
+            ],
+            "localRotation": [
+                -2.16506500227975e-14,
+                9.62252589138037e-19,
+                -1,
+                -4.37113953921653e-8
+            ],
+            "localScale": [
+                -1,
+                -0.999999940395355,
+                -0.999999940395355
+            ]
+        },
+        {
+            "uuid": "201",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Thigh",
+            "children": [
+                {
+                    "uuid": "204"
+                }
+            ]
+        },
+        {
+            "uuid": "202",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                -0.0353816971182823,
+                0.000107512474642135,
+                0.0587197057902813
+            ],
+            "localRotation": [
+                -0.00106130342464894,
+                0.999883115291595,
+                -0.00292454403825104,
+                -0.0149685749784112
+            ],
+            "localScale": [
+                1,
+                1,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "204",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Calf",
+            "children": [
+                {
+                    "uuid": "207"
+                }
+            ]
+        },
+        {
+            "uuid": "205",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.108289562165737,
+                0,
+                -1.77635679969558e-17
+            ],
+            "localRotation": [
+                -8.34430802232333e-10,
+                4.13626688455793e-10,
+                0.44412824511528,
+                -0.895963251590729
+            ],
+            "localScale": [
+                1,
+                1,
+                1.00000011920929
+            ]
+        },
+        {
+            "uuid": "207",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Foot",
+            "children": [
+                {
+                    "uuid": "210"
+                }
+            ]
+        },
+        {
+            "uuid": "208",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0839579552412033,
+                1.43051144263495e-8,
+                4.76837147544984e-9
+            ],
+            "localRotation": [
+                -0.00402303552255034,
+                0.0147110046818852,
+                -0.445383578538895,
+                -0.895209968090057
+            ],
+            "localScale": [
+                0.99999988079071,
+                0.999999940395355,
+                1
+            ]
+        },
+        {
+            "uuid": "210",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Toe0",
+            "children": [
+                {
+                    "uuid": "213"
+                }
+            ]
+        },
+        {
+            "uuid": "211",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0593224689364433,
+                0.0910587459802628,
+                -8.88178399847791e-18
+            ],
+            "localRotation": [
+                9.51703427176653e-8,
+                1.79463938820845e-7,
+                -0.70710688829422,
+                -0.707106709480286
+            ],
+            "localScale": [
+                1,
+                0.999999940395355,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "213",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Bip001 R Toe0Nub",
+            "children": []
+        },
+        {
+            "uuid": "214",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0.0045650196261704,
+                0,
+                4.76837147544984e-9
+            ],
+            "localRotation": [
+                1.03017319056598e-19,
+                -8.2413358093187e-14,
+                -5.68434256370716e-14,
+                -1
+            ],
+            "localScale": [
+                1,
+                0.999999940395355,
+                0.999999940395355
+            ]
+        },
+        {
+            "uuid": "216",
+            "__class": "@egret/engine/TreeNode",
+            "name": "LittleGirl02",
+            "children": []
+        },
+        {
+            "uuid": "217",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                0,
+                0
+            ],
+            "localRotation": [
+                -0.707106828689575,
+                0,
+                0,
+                -0.707106709480286
+            ],
+            "localScale": [
+                100,
+                100,
+                100
+            ]
+        },
+        {
+            "uuid": "218",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 2
+            }
+        },
+        {
+            "uuid": "219",
+            "__class": "@egret/render/SkinnedMeshRenderer",
+            "_castShadows": true,
+            "_receiveShadows": true,
+            "materials": [
+                {
+                    "__asset": 3
+                }
+            ]
+        }
+    ]
+}

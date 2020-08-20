@@ -1,0 +1,122 @@
+{
+	"version": "5",
+	"minVersion": "5",
+	"assets": [],
+	"entities": [
+		{
+			"uuid": "62dfb96f-2d08-49a7-8bc0-ff4eed2654dd",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "d4031c30-c74f-4f03-9e56-5cda85ad9d70"
+				},
+				{
+					"uuid": "1c3e4325-72a7-4ec6-ae10-72dcec607b1f"
+				}
+			]
+		},
+		{
+			"uuid": "0620494b-5949-4413-945b-7f861832b010",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "ae517438-a617-4117-9590-e954d1aad3fe"
+				},
+				{
+					"uuid": "0ba9dca8-bff8-4a5e-93a4-69ddbd6b9975"
+				},
+				{
+					"uuid": "b4f97935-b329-430c-a8a2-903a8f8b1afa"
+				},
+				{
+					"uuid": "e92d0191-bad8-4046-9c18-9b83de3a7a73"
+				}
+			]
+		},
+		{
+			"uuid": "cc196727-3ec0-46b7-b051-5d562c2d4ab5",
+			"__class": "@egret/engine/GameEntity",
+			"components": [
+				{
+					"uuid": "8cf9bad3-2a2f-4f33-8d00-6a66037911d9"
+				},
+				{
+					"uuid": "1623767f-260a-4b40-bfa4-f9e266062540"
+				},
+				{
+					"uuid": "625f4ff9-05b4-4e93-8bfc-1938fea69b4e"
+				}
+			],
+			"enabled": false
+		}
+	],
+	"components": [
+		{
+			"uuid": "d4031c30-c74f-4f03-9e56-5cda85ad9d70",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Root",
+			"children": [
+				{
+					"uuid": "ae517438-a617-4117-9590-e954d1aad3fe"
+				},
+				{
+					"uuid": "8cf9bad3-2a2f-4f33-8d00-6a66037911d9"
+				}
+			]
+		},
+		{
+			"uuid": "ae517438-a617-4117-9590-e954d1aad3fe",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Main Camera",
+			"tag": "MainCamera"
+		},
+		{
+			"uuid": "0ba9dca8-bff8-4a5e-93a4-69ddbd6b9975",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				0,
+				40,
+				-140
+			]
+		},
+		{
+			"uuid": "b4f97935-b329-430c-a8a2-903a8f8b1afa",
+			"__class": "@egret/render/Camera",
+			"near": 1,
+			"far": 2000,
+			"fov": 3.1315926535897933
+		},
+		{
+			"uuid": "e92d0191-bad8-4046-9c18-9b83de3a7a73",
+			"__class": "CreateToneMappingObject"
+		},
+		{
+			"uuid": "8cf9bad3-2a2f-4f33-8d00-6a66037911d9",
+			"__class": "@egret/engine/TreeNode",
+			"name": "Directional Light"
+		},
+		{
+			"uuid": "1623767f-260a-4b40-bfa4-f9e266062540",
+			"__class": "@egret/engine/Transform",
+			"localPosition": [
+				0,
+				3,
+				0
+			],
+			"localRotation": [
+				0.4082179069519043,
+				-0.23456971347332,
+				0.10938165336847305,
+				0.8754261136054993
+			]
+		},
+		{
+			"uuid": "625f4ff9-05b4-4e93-8bfc-1938fea69b4e",
+			"__class": "@egret/render/DirectionalLight"
+		},
+		{
+			"uuid": "1c3e4325-72a7-4ec6-ae10-72dcec607b1f",
+			"__class": "@egret/engine/Scene"
+		}
+	]
+}

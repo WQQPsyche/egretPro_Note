@@ -1,0 +1,176 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "threejs/textures/cube/Bridge2/Bridge2.mat.json",
+        "builtin/sphere.mesh.bin",
+        "assets/prefabs/sphere.prefab.json"
+    ],
+    "entities": [
+        {
+            "uuid": "f055a8f3-e3c0-42d4-bbf6-8c2d18b10b11",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "d19b66b2-7be6-49a7-a44e-cba4eb725c6b"
+                },
+                {
+                    "uuid": "170b4b77-498d-4e90-bb0c-ffe4e6ffd770"
+                },
+                {
+                    "uuid": "34db3267-995d-47d9-a1c1-8c2b95692f4b"
+                }
+            ]
+        },
+        {
+            "uuid": "74b39abb-9d1c-4a9d-89cf-e4fd56f4632e",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "62f1bd96-4fa2-4d95-b629-f44588ebfb8f"
+                },
+                {
+                    "uuid": "918faa14-efe7-49a6-9221-8bdaa6824da1"
+                },
+                {
+                    "uuid": "6d0c524c-9a6a-4242-bd41-1951775f4d9e"
+                },
+                {
+                    "uuid": "b1c9bf59-4556-4529-ab77-ca42c107f912"
+                },
+                {
+                    "uuid": "28c85ff6-e130-49e6-a927-59ee48555ed2"
+                },
+                {
+                    "uuid": "01702068-ec26-4579-9c30-9741d13908c5"
+                }
+            ]
+        },
+        {
+            "uuid": "2cdeb51c-f9e9-42ff-b7e4-f43b7043956c",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "7924aa1f-be19-4338-82b1-5ede5dca9bd5"
+                },
+                {
+                    "uuid": "2a83ee9a-3a60-4b07-b0c1-63ac9c8354b3"
+                },
+                {
+                    "uuid": "8c7ddd5c-b09c-44af-99e5-58fb7e4a66ac"
+                },
+                {
+                    "uuid": "87dd04be-d9a8-4095-a4fa-0aeeea34a7e6"
+                }
+            ],
+            "__extras": {
+                "prefab": {
+                    "__asset": 2
+                }
+            }
+        }
+    ],
+    "components": [
+        {
+            "uuid": "d19b66b2-7be6-49a7-a44e-cba4eb725c6b",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Root",
+            "children": [
+                {
+                    "uuid": "62f1bd96-4fa2-4d95-b629-f44588ebfb8f"
+                },
+                {
+                    "uuid": "7924aa1f-be19-4338-82b1-5ede5dca9bd5"
+                }
+            ]
+        },
+        {
+            "uuid": "62f1bd96-4fa2-4d95-b629-f44588ebfb8f",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Main Camera",
+            "tag": "MainCamera"
+        },
+        {
+            "uuid": "918faa14-efe7-49a6-9221-8bdaa6824da1",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                0,
+                -1000
+            ]
+        },
+        {
+            "uuid": "6d0c524c-9a6a-4242-bd41-1951775f4d9e",
+            "__class": "@egret/render/Camera",
+            "far": 3000
+        },
+        {
+            "uuid": "b1c9bf59-4556-4529-ab77-ca42c107f912",
+            "__class": "RotateAround"
+        },
+        {
+            "uuid": "28c85ff6-e130-49e6-a927-59ee48555ed2",
+            "__class": "@egret/render/Skybox",
+            "materials": [
+                {
+                    "__asset": 0
+                }
+            ]
+        },
+        {
+            "uuid": "01702068-ec26-4579-9c30-9741d13908c5",
+            "__class": "SetRenderContext",
+            "gammaOutput": true
+        },
+        {
+            "uuid": "7924aa1f-be19-4338-82b1-5ede5dca9bd5",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "f1e925ea-cb95-4bd9-83eb-2b179ed76028"
+            }
+        },
+        {
+            "uuid": "2a83ee9a-3a60-4b07-b0c1-63ac9c8354b3",
+            "__class": "@egret/engine/Transform",
+            "localScale": [
+                400,
+                400,
+                400
+            ],
+            "__extras": {
+                "linkedID": "e694acba-7a15-4bc5-916f-293d4281d858"
+            }
+        },
+        {
+            "uuid": "8c7ddd5c-b09c-44af-99e5-58fb7e4a66ac",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 1
+            },
+            "__extras": {
+                "linkedID": "8409a551-9f8d-4bb9-bd33-fbec34247624"
+            }
+        },
+        {
+            "uuid": "87dd04be-d9a8-4095-a4fa-0aeeea34a7e6",
+            "__class": "@egret/render/MeshRenderer",
+            "__extras": {
+                "linkedID": "d3d8243e-0e11-4b3f-9b6e-ee5ceabb81f0"
+            }
+        },
+        {
+            "uuid": "170b4b77-498d-4e90-bb0c-ffe4e6ffd770",
+            "__class": "@egret/engine/Scene"
+        },
+        {
+            "uuid": "34db3267-995d-47d9-a1c1-8c2b95692f4b",
+            "__class": "@egret/render/SceneLight",
+            "ambientColor": [
+                1,
+                1,
+                1,
+                1
+            ]
+        }
+    ]
+}

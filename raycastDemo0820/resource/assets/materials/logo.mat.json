@@ -1,0 +1,98 @@
+{
+	"asset": {
+		"version": "2.0"
+	},
+	"materials": [
+		{
+			"extensions": {
+				"KHR_techniques_webgl": {
+					"technique": 0,
+					"values": {
+						"uvTransform": [
+							1,
+							0,
+							0,
+							0,
+							1,
+							0,
+							0,
+							0,
+							1
+						],
+						"diffuse": [
+							1,
+							1,
+							1
+						],
+						"map": "assets/textures/logo.image.json"
+					}
+				}
+			}
+		}
+	],
+	"extensions": {
+		"KHR_techniques_webgl": {
+			"techniques": [
+				{
+					"states": {
+						"enable": [
+							2929,
+							2884
+						],
+						"functions": {
+							"depthFunc": [
+								515
+							],
+							"depthMask": [
+								true
+							],
+							"frontFace": [
+								2305
+							],
+							"cullFace": [
+								1029
+							]
+						}
+					},
+					"uniforms": {}
+				}
+			]
+		},
+		"egret": {
+			"version": "5",
+			"compatibleVersion": "5",
+			"assets": [
+				"builtin/meshphysical.shader.json"
+			],
+			"entities": [
+				{
+					"uuid": "0",
+					"__class": "@egret/core/AssetEntity",
+					"components": [
+						{
+							"uuid": "1"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"uuid": "1",
+					"__class": "@egret/render/Material",
+					"glTF": 0,
+					"shader": {
+						"__asset": 0
+					}
+				}
+			]
+		}
+	},
+	"extensionsRequired": [
+		"egret",
+		"KHR_techniques_webgl"
+	],
+	"extensionsUsed": [
+		"egret",
+		"KHR_techniques_webgl"
+	]
+}

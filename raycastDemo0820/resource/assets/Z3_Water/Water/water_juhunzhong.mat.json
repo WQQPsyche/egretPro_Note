@@ -1,0 +1,65 @@
+{
+	"extensionsUsed": [
+		"KHR_techniques_webgl",
+		"egret"
+	],
+	"extensionsRequired": [
+		"KHR_techniques_webgl",
+		"egret"
+	],
+	"asset": {
+		"generator": "Unity plugin for egret",
+		"version": "2.0"
+	},
+	"materials": [
+		{
+			"name": "water_juhunzhong",
+			"extensions": {
+				"KHR_techniques_webgl": {
+					"technique": 0,
+					"values": {
+						"map": "Assets/Z3_Water/Water/Tasharen_Water.image.json"
+					}
+				}
+			}
+		}
+	],
+	"extensions": {
+		"egret": {
+			"version": "5.0",
+			"minVersion": "5.0",
+			"assets": [
+				"builtin/meshbasic.shader.json"
+			],
+			"entities": [
+				{
+					"uuid": "0",
+					"__class": "@egret/core/AssetEntity",
+					"components": [
+						{
+							"uuid": "1"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"uuid": "1",
+					"__class": "@egret/render/Material",
+					"renderQueue": 2990,
+					"glTF": 0,
+					"shader": {
+						"__asset": 0
+					}
+				}
+			]
+		},
+		"KHR_techniques_webgl": {
+			"techniques": [
+				{
+					"uniforms": {}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "extensionsUsed": [
+    "egret"
+  ],
+  "extensionsRequired": [
+    "egret"
+  ],
+  "asset": {
+    "generator": "Unity plugin for egret",
+    "version": "2.0"
+  },
+  "images": [
+    {
+      "uri": "assets/Art/effect/Textures/light_009_0777.png"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "extensions": {
+        "egret": {
+          "levels": 0
+        }
+      }
+    }
+  ],
+  "extensions": {
+    "egret": {
+      "version": "5.0",
+      "minVersion": "5.0"
+    }
+  }
+}
