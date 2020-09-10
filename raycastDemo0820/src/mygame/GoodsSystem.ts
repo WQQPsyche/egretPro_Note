@@ -1,9 +1,11 @@
 import { System, system, Matcher } from "@egret/ecs";
 import { GameEntity, Ray, RaycastInfo, Application } from "@egret/engine";
 import { InputManager, InputState } from "@egret/input";
-import { Camera } from "@egret/render";
+import { Camera, MeshFilter } from "@egret/render";
 import {Tween } from "@egret/tween";
 import { Goods } from "./Goods";
+import { RendererRaycast } from "src/behaviors/raycast/RaycastTest";
+import { InputTest } from "src/behaviors/input/InputTest";
 
 
 @system()
@@ -37,10 +39,12 @@ export class GoodsSystem extends System{
             const raycastInfo = this._raycastInfo.clear();
            
             for(const item of this._goods){
+                
+                
                 if( (item.renderer as any).raycast(this._ray,this._raycastInfo) )
                 {
                 
-                    Tween.toScale(item.transform,0.5,{x:0,y:0,z:0,onComplete:()=>{
+                    Tween.toScale(item.transform,0.1,{x:0,y:0,z:0,onComplete:()=>{
                         if(item){
                             this._deleteGoods.push( item );
                         }
@@ -57,6 +61,8 @@ export class GoodsSystem extends System{
         for (const deleteItem of this._deleteGoods) {
             for (var i = 0; i < this._goods.length; i++ ) {
                 if(deleteItem == this._goods[i]){
+                    deleteItem.parent&&deleteItem.parent.destroy();
+                    
                     deleteItem.destroy();
                     this._goods.splice(i,1);
                     i--;
@@ -69,6 +75,3 @@ export class GoodsSystem extends System{
 
     }
     }
-
-   
-}

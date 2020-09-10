@@ -1,8 +1,9 @@
 import { EditType, property, serializedField } from "@egret/core";
 import { component } from "@egret/ecs";
-import { Behaviour, Color, GameEntity, Ray, RaycastInfo, Transform, Vector3 } from "@egret/engine";
+import { Behaviour, Color, GameEntity, Ray, RaycastInfo, Transform, Vector3, Application } from "@egret/engine";
 import { AttributeSemantics, MeshPrimitiveMode } from "@egret/gltf";
 import { DefaultShaders, Material, Mesh, MeshFilter, MeshRenderer, SkinnedMeshRenderer, UniformName } from "@egret/render";
+import { InputManager } from "@egret/input";
 
 export abstract class BaseRaycast extends Behaviour {
     public readonly ray: Ray = Ray.create();
@@ -14,23 +15,29 @@ export abstract class BaseRaycast extends Behaviour {
     protected _line: GameEntity<Transform>;
     protected _normal: GameEntity<Transform>;
 
+
+    
+
     public onStart() {
         this._line = this.entity.node.getChildByName("line").entity;//获取line实体
         this._normal = this.entity.node.getChildByName("normal").entity;//获取normal实体
 
         //获取line实体的网格
-        const lineMesh = this._line.getComponent(MeshFilter).mesh!;
-        lineMesh.setIndices([2, 3], lineMesh.addSubMesh(2, 1, MeshPrimitiveMode.Points));
-        lineMesh.setAttribute(AttributeSemantics.COLOR_0, [
-            0.0, 0.0, 0.0, 0.0,
-            0.0, 0.0, 0.0, 0.0,
-        ], 2);
+        // const lineMesh = this._line.getComponent(MeshFilter).mesh!;
+        // lineMesh.setIndices([2, 3], lineMesh.addSubMesh(2, 0, MeshPrimitiveMode.Points));
+        // lineMesh.setAttribute(AttributeSemantics.COLOR_0, [
+        //     0.0, 0.0, 0.0, 0.0,
+        //     0.0, 0.0, 0.0, 0.0,
+        // ], 2);
 
-        //获取line实体的材质
-        const lineMeshRender = this._line.getComponent(MeshRenderer);
-        lineMeshRender.materials = lineMeshRender.materials.concat(Material.create(DefaultShaders.POINTS)
-            .setColor(Color.RED)
-            .setFloat(UniformName.Size, 10.0));
+        // //获取line实体的材质
+        // const lineMeshRender = this._line.getComponent(MeshRenderer);
+        // lineMeshRender.materials = lineMeshRender.materials.concat(Material.create(DefaultShaders.POINTS)
+        //     .setColor(Color.RED)
+        //     .setFloat(UniformName.Size, 10.0));
+
+
+        
     }
 
     protected _updateRay() {

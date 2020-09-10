@@ -2,6 +2,8 @@
     "version": "5",
     "minVersion": "5",
     "assets": [
+        "assets/Art/model/xiaohuangren/C_xiaohuangren_D_01_ANIM/C_xiaohuangren_D_01.mesh.bin",
+        "assets/Art/model/xiaohuangren/C_xiaohuangren_D_01_ANIM/C_xiaohuangren_D_01_ANIM.mat.json",
         "builtin/cube.mesh.bin",
         "builtin/meshphysical.mat.json"
     ],
@@ -219,6 +221,12 @@
         {
             "uuid": "bc83d88c-c72d-469e-8700-4f54ef1c68bc",
             "__class": "@egret/engine/Transform",
+            "localRotation": [
+                0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ],
             "localScale": [
                 0.5,
                 0.5,
@@ -236,12 +244,12 @@
             "uuid": "5a5dc340-1c10-41aa-9ffa-e2ad49f5aab1",
             "__class": "@egret/render/MeshRenderer",
             "_localBoundingBox": [
-                -0.5,
-                -0.5,
-                -0.5,
-                0.5,
-                0.5,
-                0.5
+                -0.5982503890991211,
+                -0.36095285415649414,
+                -0.00011722564522642642,
+                0.5982504487037659,
+                0.328756183385849,
+                1.337503433227539
             ],
             "materials": [
                 {
@@ -271,7 +279,7 @@
             "uuid": "2c1ced7f-70bd-49ff-b893-4cf38e11a83c",
             "__class": "@egret/render/MeshFilter",
             "mesh": {
-                "__asset": 0
+                "__asset": 2
             }
         },
         {
@@ -287,7 +295,7 @@
             ],
             "materials": [
                 {
-                    "__asset": 1
+                    "__asset": 3
                 }
             ]
         },
@@ -317,7 +325,7 @@
             "uuid": "913cc8ee-3ebc-4a32-a446-fa10056bed15",
             "__class": "@egret/render/MeshFilter",
             "mesh": {
-                "__asset": 0
+                "__asset": 2
             }
         },
         {
@@ -333,7 +341,7 @@
             ],
             "materials": [
                 {
-                    "__asset": 1
+                    "__asset": 3
                 }
             ]
         },
@@ -363,7 +371,7 @@
             "uuid": "82474317-f6c1-4106-b9b5-e4624947065d",
             "__class": "@egret/render/MeshFilter",
             "mesh": {
-                "__asset": 0
+                "__asset": 2
             }
         },
         {
@@ -379,7 +387,7 @@
             ],
             "materials": [
                 {
-                    "__asset": 1
+                    "__asset": 3
                 }
             ]
         },

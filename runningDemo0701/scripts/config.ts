@@ -28,12 +28,12 @@ const config: ResourceManagerConfig = {
                     //     groupSelector: p => "preload"
                     // }),
                     new ExmlPlugin('debug'), // 非 EUI 项目关闭此设置
-                    // new IncrementCompilePlugin(),
-                    new WebpackDevServerPlugin({ //新的 Webpack 编译器
-                        libraryType: "debug",
-                        defines: { DEBUG: true, RELEASE: false },
-                        typescript: { mode: 'legacy' }
-                    }),
+                    new IncrementCompilePlugin(),
+                    // new WebpackDevServerPlugin({ //新的 Webpack 编译器
+                    //     libraryType: "debug",
+                    //     defines: { DEBUG: true, RELEASE: false },
+                    //     typescript: { mode: 'legacy' }
+                    // }),
                 ]
             }
         }

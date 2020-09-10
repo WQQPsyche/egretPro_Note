@@ -72,7 +72,8 @@ class Main extends eui.UILayer {
      * 创建场景界面
      * Create scene interface
      */
-    protected createGameScene(): void {
+    private UILayer:egret.Sprite;
+    protected  createGameScene(){
         let sky = this.createBitmapByName("bg_jpg");
         this.addChild(sky);
         let stageW = this.stage.stageWidth;
@@ -132,7 +133,34 @@ class Main extends eui.UILayer {
 
         this.addEventListener(egret.TouchEvent.TOUCH_BEGIN,this.onTouchBegin,this);
         this.addEventListener(egret.TouchEvent.TOUCH_MOVE,this.onTouchMove,this);
+
+        let UILayer:egret.Sprite = new egret.Sprite();
+        this.addChildAt(UILayer,50);
+        this.UILayer = UILayer;
+        let removeBtn:eui.Button = new eui.Button();
+        removeBtn.label = "移除";
+        removeBtn.left = 200;
+        removeBtn.top = 100;
+        UILayer.addChild(removeBtn);
+
+        removeBtn.addEventListener(egret.TouchEvent.TOUCH_TAP,()=>{
+            this.removeChild(this.Bt3D);
+            this.Bt3D = null;
+        },this);
+
+
+        let addBtn:eui.Button = new eui.Button();
+        addBtn.label = "添加";
+        addBtn.x = 400;
+        addBtn.y = 100;
+        UILayer.addChild(addBtn);
+
+        addBtn.addEventListener(egret.TouchEvent.TOUCH_TAP,(e:egret.TouchEvent)=>{
+          this.onButtonClick(e);
+        },this);
     }
+
+    
     private startPostionX:number;
 
     private onTouchBegin(e:egret.TouchEvent){
@@ -185,15 +213,18 @@ class Main extends eui.UILayer {
 
         change();
     }
-
+        private Bt3D:egret.Bitmap;
     /**
      * 点击按钮
      * Click the button
      */
     private async onButtonClick(e: egret.TouchEvent) {
-        const texture = await egret.pro.createTextureFrom3dScene("assets/scenes/test2.scene.json", 640, 1136);
+        const texture = await egret.pro.createTextureFrom3dScene("assets/scenes/test2.scene.json", 640, 900);
         const bitmap = new egret.Bitmap(texture);
-        this.addChild(bitmap);
+        bitmap.y = 200;
+        this.addChildAt(bitmap,9);
+        this.Bt3D = bitmap;
+        this.UILayer.zIndex = this.numChildren + 10;
         
     }
 }

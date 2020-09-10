@@ -133,11 +133,8 @@ var Main = (function (_super) {
             }, _this);
         });
     };
-    /**
-     * 创建场景界面
-     * Create scene interface
-     */
     Main.prototype.createGameScene = function () {
+        var _this = this;
         var sky = this.createBitmapByName("bg_jpg");
         this.addChild(sky);
         var stageW = this.stage.stageWidth;
@@ -189,6 +186,26 @@ var Main = (function (_super) {
         button.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onButtonClick, this);
         this.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onTouchBegin, this);
         this.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.onTouchMove, this);
+        var UILayer = new egret.Sprite();
+        this.addChildAt(UILayer, 50);
+        this.UILayer = UILayer;
+        var removeBtn = new eui.Button();
+        removeBtn.label = "移除";
+        removeBtn.left = 200;
+        removeBtn.top = 100;
+        UILayer.addChild(removeBtn);
+        removeBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, function () {
+            _this.removeChild(_this.Bt3D);
+            _this.Bt3D = null;
+        }, this);
+        var addBtn = new eui.Button();
+        addBtn.label = "添加";
+        addBtn.x = 400;
+        addBtn.y = 100;
+        UILayer.addChild(addBtn);
+        addBtn.addEventListener(egret.TouchEvent.TOUCH_TAP, function (e) {
+            _this.onButtonClick(e);
+        }, this);
     };
     Main.prototype.onTouchBegin = function (e) {
         this.startPostionX = e.stageX;
@@ -244,11 +261,14 @@ var Main = (function (_super) {
             var texture, bitmap;
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, egret.pro.createTextureFrom3dScene("assets/scenes/test2.scene.json", 640, 1136)];
+                    case 0: return [4 /*yield*/, egret.pro.createTextureFrom3dScene("assets/scenes/test2.scene.json", 640, 900)];
                     case 1:
                         texture = _a.sent();
                         bitmap = new egret.Bitmap(texture);
-                        this.addChild(bitmap);
+                        bitmap.y = 200;
+                        this.addChildAt(bitmap, 9);
+                        this.Bt3D = bitmap;
+                        this.UILayer.zIndex = this.numChildren + 10;
                         return [2 /*return*/];
                 }
             });

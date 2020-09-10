@@ -6,7 +6,10 @@
 
 （一）runningDemo0701 是一款3D跑酷项目源码
 
-（二）meshDemoPro 主要是讲解模型之网格和材质的基础知识的demo。
+（二）meshDemoPro 主要是讲解模型之网格和材质的基础知识的demo
 
+（三）Material_demo主要是讲解模型之材质的基础知识
 
-
+ (四)animation_demo主要是讲解egretPro中的动画。
+ 
+（五）raycastDemo0820主要是讲解射线碰撞检测的知识。

@@ -1,0 +1,174 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "builtin/plane.mesh.bin",
+        "builtin/meshphysical.mat.json"
+    ],
+    "entities": [
+        {
+            "uuid": "19fbe867-f054-4bed-a522-6866c44ef320",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "37efe0af-15af-438e-bb71-4570dbf7455e"
+                },
+                {
+                    "uuid": "d05b3b81-54ea-4fce-958c-c4297a851e71"
+                }
+            ]
+        },
+        {
+            "uuid": "e1b543c3-f060-4c81-aa3d-8f9ac78bf128",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "5b17a967-a4ec-48e8-be3d-1c2e59f6eba6"
+                },
+                {
+                    "uuid": "74cd0769-7746-432b-9245-40a7bc05d28d"
+                },
+                {
+                    "uuid": "c79b3da8-e4c4-45c3-a935-1da8eea82c33"
+                }
+            ]
+        },
+        {
+            "uuid": "cc9f3ad8-551f-48ec-93f0-11ec87492386",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "705499d8-374e-467a-9c2d-ce9760215aea"
+                },
+                {
+                    "uuid": "c2a6d7a1-ccee-4a95-9d6e-84026b647619"
+                },
+                {
+                    "uuid": "40660ca5-32dd-4afd-93cf-3a7959145863"
+                }
+            ]
+        },
+        {
+            "uuid": "ee1b5498-592f-4f25-980d-8b160b71e0f2",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "ed04e11b-d5bd-4b13-86c5-d99797ad78c1"
+                },
+                {
+                    "uuid": "7e3b13bf-e0c3-4112-ba6e-a1fb93a542e0"
+                },
+                {
+                    "uuid": "1dccc310-d197-4ae2-85d2-a1450c70b8ea"
+                },
+                {
+                    "uuid": "a838fa1c-def5-47e2-b475-521a51469311"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "37efe0af-15af-438e-bb71-4570dbf7455e",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Root",
+            "children": [
+                {
+                    "uuid": "5b17a967-a4ec-48e8-be3d-1c2e59f6eba6"
+                },
+                {
+                    "uuid": "705499d8-374e-467a-9c2d-ce9760215aea"
+                },
+                {
+                    "uuid": "ed04e11b-d5bd-4b13-86c5-d99797ad78c1"
+                }
+            ]
+        },
+        {
+            "uuid": "5b17a967-a4ec-48e8-be3d-1c2e59f6eba6",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Main Camera",
+            "tag": "MainCamera"
+        },
+        {
+            "uuid": "74cd0769-7746-432b-9245-40a7bc05d28d",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                1,
+                -10
+            ]
+        },
+        {
+            "uuid": "c79b3da8-e4c4-45c3-a935-1da8eea82c33",
+            "__class": "@egret/render/Camera"
+        },
+        {
+            "uuid": "705499d8-374e-467a-9c2d-ce9760215aea",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Directional Light"
+        },
+        {
+            "uuid": "c2a6d7a1-ccee-4a95-9d6e-84026b647619",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                0,
+                3,
+                0
+            ],
+            "localRotation": [
+                0.4082179069519043,
+                -0.23456971347332,
+                0.10938165336847305,
+                0.8754261136054993
+            ]
+        },
+        {
+            "uuid": "40660ca5-32dd-4afd-93cf-3a7959145863",
+            "__class": "@egret/render/DirectionalLight"
+        },
+        {
+            "uuid": "ed04e11b-d5bd-4b13-86c5-d99797ad78c1",
+            "__class": "@egret/engine/TreeNode",
+            "name": "Plane"
+        },
+        {
+            "uuid": "7e3b13bf-e0c3-4112-ba6e-a1fb93a542e0",
+            "__class": "@egret/engine/Transform",
+            "localRotation": [
+                0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "uuid": "1dccc310-d197-4ae2-85d2-a1450c70b8ea",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 0
+            }
+        },
+        {
+            "uuid": "a838fa1c-def5-47e2-b475-521a51469311",
+            "__class": "@egret/render/MeshRenderer",
+            "_localBoundingBox": [
+                -5,
+                -5,
+                0,
+                5,
+                5,
+                0
+            ],
+            "materials": [
+                {
+                    "__asset": 1
+                }
+            ]
+        },
+        {
+            "uuid": "d05b3b81-54ea-4fce-958c-c4297a851e71",
+            "__class": "@egret/engine/Scene"
+        }
+    ]
+}

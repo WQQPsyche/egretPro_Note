@@ -1,0 +1,435 @@
+{
+  "name": "@egret/egret-webpack-bundler",
+  "entries": [
+    {
+      "version": "1.2.11",
+      "tag": "@egret/egret-webpack-bundler_v1.2.11",
+      "date": "Wed, 05 Aug 2020 06:34:17 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "临时去掉minify"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@egret/eui-compiler\" from `1.4.6` to `1.4.9`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.10",
+      "tag": "@egret/egret-webpack-bundler_v1.2.10",
+      "date": "Mon, 27 Jul 2020 02:50:03 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修改 legacy 模式下的 .ts 文件匹配规则"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@egret/eui-compiler\" from `1.4.7` to `1.4.8`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.9",
+      "tag": "@egret/egret-webpack-bundler_v1.2.9",
+      "date": "Tue, 21 Jul 2020 06:20:28 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update minify"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@egret/eui-compiler\" from `1.4.6` to `1.4.7`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.8",
+      "tag": "@egret/egret-webpack-bundler_v1.2.8",
+      "date": "Mon, 20 Jul 2020 11:18:13 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "添加 minify 功能"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.6",
+      "tag": "@egret/egret-webpack-bundler_v1.2.6",
+      "date": "Tue, 07 Jul 2020 06:29:25 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "重构 LauncherAPI，支持 Linux 平台的构建"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.5",
+      "tag": "@egret/egret-webpack-bundler_v1.2.5",
+      "date": "Mon, 06 Jul 2020 09:37:01 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@egret/eui-compiler\" from `1.4.5` to `1.4.6`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.4",
+      "tag": "@egret/egret-webpack-bundler_v1.2.4",
+      "date": "Fri, 03 Jul 2020 07:24:28 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修复 egret.is 的判断错误的问题"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.3",
+      "tag": "@egret/egret-webpack-bundler_v1.2.3",
+      "date": "Sun, 28 Jun 2020 03:11:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修复 src 文件夹下包含了 .d.ts 导致编译报错的问题"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.2",
+      "tag": "@egret/egret-webpack-bundler_v1.2.2",
+      "date": "Sat, 27 Jun 2020 12:16:20 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修复 namespace 中的 class 生成的 reflect 错误的问题"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.1",
+      "tag": "@egret/egret-webpack-bundler_v1.2.1",
+      "date": "Mon, 22 Jun 2020 11:09:06 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修复namespace在legacy模式下报错的问题"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.0",
+      "tag": "@egret/egret-webpack-bundler_v1.2.0",
+      "date": "Mon, 22 Jun 2020 09:18:12 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "为 srcLoader添加sourcemap支持"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.13",
+      "tag": "@egret/egret-webpack-bundler_v1.1.13",
+      "date": "Mon, 22 Jun 2020 03:40:24 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "添加 typescript.tsconfigPath 功能"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.12",
+      "tag": "@egret/egret-webpack-bundler_v1.1.12",
+      "date": "Mon, 22 Jun 2020 02:54:14 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修复全局枚举在 legacy 模式下无法访问的bug"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.11",
+      "tag": "@egret/egret-webpack-bundler_v1.1.11",
+      "date": "Sun, 21 Jun 2020 12:56:53 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "临时修复 modern 模式下的编译错误"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.10",
+      "tag": "@egret/egret-webpack-bundler_v1.1.10",
+      "date": "Sun, 21 Jun 2020 12:46:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "进一步降低代码体积"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.9",
+      "tag": "@egret/egret-webpack-bundler_v1.1.9",
+      "date": "Sun, 21 Jun 2020 12:21:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "优化输出代码体积"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.8",
+      "tag": "@egret/egret-webpack-bundler_v1.1.8",
+      "date": "Sun, 21 Jun 2020 09:40:22 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@egret/eui-compiler\" from `1.4.4` to `1.4.5`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.7",
+      "tag": "@egret/egret-webpack-bundler_v1.1.7",
+      "date": "Sun, 21 Jun 2020 08:54:25 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修复装饰器排序错误的问题"
+          },
+          {
+            "comment": "修复 egret.is 返回错误结果的问题"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.6",
+      "tag": "@egret/egret-webpack-bundler_v1.1.6",
+      "date": "Thu, 18 Jun 2020 03:16:26 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update docs"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.5",
+      "tag": "@egret/egret-webpack-bundler_v1.1.5",
+      "date": "Wed, 17 Jun 2020 07:07:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "支持直接使用webpack调用"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.4",
+      "tag": "@egret/egret-webpack-bundler_v1.1.4",
+      "date": "Wed, 17 Jun 2020 06:47:26 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "添加tslib,降低编译尺寸"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.2",
+      "tag": "@egret/egret-webpack-bundler_v1.1.2",
+      "date": "Tue, 16 Jun 2020 06:53:28 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "添加 subpackages 功能"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.1",
+      "tag": "@egret/egret-webpack-bundler_v1.1.1",
+      "date": "Tue, 09 Jun 2020 10:09:34 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修复排序模块不正常工作的问题"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.1.0",
+      "tag": "@egret/egret-webpack-bundler_v1.1.0",
+      "date": "Tue, 09 Jun 2020 08:03:17 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "添加 exml-loader"
+          },
+          {
+            "comment": "添加 srcLoader"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "添加 exml-loader"
+          },
+          {
+            "comment": "添加依赖机制"
+          },
+          {
+            "comment": "向下兼容不引入exml.watch"
+          },
+          {
+            "comment": "添加 legacy 模式"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@egret/eui-compiler\" from `1.4.3` to `1.4.4`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.8",
+      "tag": "@egret/egret-webpack-bundler_v1.0.8",
+      "date": "Wed, 03 Jun 2020 08:56:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "bundler发布代码不再使用 UglifyJS"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.7",
+      "tag": "@egret/egret-webpack-bundler_v1.0.7",
+      "date": "Wed, 03 Jun 2020 08:04:29 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "解决 DevServer Manifest.json 生成错误的问题"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.6",
+      "tag": "@egret/egret-webpack-bundler_v1.0.6",
+      "date": "Wed, 03 Jun 2020 07:52:14 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修复manifest.json的一些问题"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.5",
+      "tag": "@egret/egret-webpack-bundler_v1.0.5",
+      "date": "Wed, 03 Jun 2020 06:25:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修复 bundle 不应生成 sourcemap 的问题"
+          },
+          {
+            "comment": "输出文件名修改为 main.js"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.4",
+      "tag": "@egret/egret-webpack-bundler_v1.0.4",
+      "date": "Wed, 03 Jun 2020 05:50:11 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "整合egret的发布libs功能"
+          },
+          {
+            "comment": "改进对外API"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.3",
+      "tag": "@egret/egret-webpack-bundler_v1.0.3",
+      "date": "Tue, 02 Jun 2020 08:17:59 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "startDevServer 会自动打开浏览器"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.2",
+      "tag": "@egret/egret-webpack-bundler_v1.0.2",
+      "date": "Sun, 31 May 2020 13:52:51 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "重构 build 函数，允许自定义 emitter 以便整合egret构建管线"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.1",
+      "tag": "@egret/egret-webpack-bundler_v1.0.1",
+      "date": "Sun, 31 May 2020 13:11:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "初始提交，封装 webpack"
+          }
+        ]
+      }
+    }
+  ]
+}

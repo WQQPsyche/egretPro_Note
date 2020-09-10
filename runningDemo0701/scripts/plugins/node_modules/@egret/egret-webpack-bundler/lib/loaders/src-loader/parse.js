@@ -1,0 +1,352 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * 语法分析
+ * ast测试地址: https://astexplorer.net/
+ */
+var ts = __importStar(require("typescript"));
+/**
+ * 判断节点是否有指定modifier
+ */
+function hasModifier(node, kind) {
+    return (node.modifiers || []).some(function (item) { return item.kind === kind; });
+}
+/**
+ * 迭代属性节点，获取完整属性名: person.sex
+ */
+function getExpression(node) {
+    if (node.kind === ts.SyntaxKind.Identifier) {
+        return node.text;
+    }
+    if (node.expression) {
+        if (node.expression.kind === ts.SyntaxKind.PropertyAccessExpression) {
+            var pre = getExpression(node.expression);
+            if (typeof pre === 'string' && node.name) {
+                return pre + "." + node.name.text;
+            }
+            return pre;
+        }
+        // 例如
+        // console.log().name 时node.expression = console.log()依赖需收集console.log
+        // console['log']() 时依赖需收集console
+        return node.expression;
+    }
+    return null;
+}
+/**
+ * 判断是否是一个新的作用域节点，一般为 {}
+ */
+function isBlockScope(node) {
+    return ts.isBlockScope(node);
+}
+/**
+ * 迭代同一作用域下的所有子孙节点
+ * 例如: A F 是新作用域{}的起点
+ *
+ *       A
+ *      / \
+ *     b   c
+ *    / \   \
+ *   d   e   F
+ *            \
+ *             g
+ *
+ * forEachChild(A) 将逐步迭代 A b c d e F 节点，不会迭代 g 节点
+ * 迭代到b时可以return false阻止迭代其子节点 d e，也可以return [ d ] 限制只迭代 d
+ */
+function forEachChild(node, callback) {
+    var walk = function (child) {
+        if (child.kind !== ts.SyntaxKind.TypeReference) { // 忽略类型检查
+            var walkChildren = callback(child);
+            if (!isBlockScope(child)) {
+                if (Array.isArray(walkChildren)) {
+                    walkChildren.forEach(walk);
+                }
+                else if (walkChildren !== false) {
+                    ts.forEachChild(child, walk);
+                }
+            }
+        }
+    };
+    ts.forEachChild(node, walk);
+}
+/**
+ * 收集声明
+ * 例如const a, b; 将收集到[ a、b ]
+ */
+function collectNodeDeclarations(node, declarations) {
+    var walkChildren = false;
+    var addDeclarations = function (name, type) {
+        declarations[name] = {
+            type: type,
+            ConstKeyword: hasModifier(node, ts.SyntaxKind.ConstKeyword),
+            DeclareKeyword: hasModifier(node, ts.SyntaxKind.DeclareKeyword),
+            ExportKeyword: hasModifier(node, ts.SyntaxKind.ExportKeyword),
+        };
+    };
+    switch (node.kind) {
+        case ts.SyntaxKind.VariableDeclaration:
+            // ObjectBindingPattern ArrayBindingPattern
+            if (Array.isArray(node.name.elements)) {
+                node.name.elements.forEach(function (el) {
+                    addDeclarations(el.name.text, 'Variable');
+                });
+            }
+            else {
+                addDeclarations(node.name.text, 'Variable');
+            }
+            break;
+        case ts.SyntaxKind.VariableStatement:
+            node.declarationList.declarations.forEach(function (declaration) {
+                addDeclarations(declaration.name.text, 'Variable');
+            });
+            break;
+        case ts.SyntaxKind.EnumDeclaration:
+            addDeclarations(node.name.text, 'Enum');
+            break;
+        case ts.SyntaxKind.Parameter:
+            if (Array.isArray(node.name.elements)) {
+                node.name.elements.forEach(function (el) {
+                    addDeclarations(el.name.text, 'Parameter');
+                });
+            }
+            else {
+                addDeclarations(node.name.text, 'Parameter');
+            }
+            break;
+        case ts.SyntaxKind.FunctionDeclaration:
+            addDeclarations(node.name.text, 'Function');
+            break;
+        case ts.SyntaxKind.InterfaceDeclaration:
+            addDeclarations(node.name.text, 'Interface');
+            break;
+        case ts.SyntaxKind.ClassDeclaration:
+            addDeclarations(node.name.text, 'Class');
+            break;
+        case ts.SyntaxKind.ModuleDeclaration:
+            addDeclarations(node.name.text, 'Namespace');
+            break;
+        default:
+            walkChildren = true;
+            break;
+    }
+    return walkChildren;
+}
+/**
+ * 收集依赖
+ * 例如: console.log(a) 将收集到[ console、a ]
+ */
+function collectNodeDepenDencies(node, dependencies) {
+    var walkChildren = false;
+    var addDependency = function (name, type) {
+        if (!/^(undefined|null)$/i.test(name)) {
+            dependencies[name] = {
+                type: type,
+            };
+        }
+    };
+    // 只简单的分析一下最外层的依赖
+    switch (node.kind) {
+        case ts.SyntaxKind.Identifier:
+            // 当是别人的名字时说明是新定义而非依赖, 例如function fn(a, b) {}里a，b是参数声明
+            if (node.parent.name !== node) {
+                addDependency(node.text, 'Identifier');
+            }
+            break;
+        case ts.SyntaxKind.PropertyAccessExpression:
+            var identifier = getExpression(node);
+            if (typeof identifier === 'string') {
+                addDependency(identifier, 'PropertyAccess');
+            }
+            else if (identifier && identifier.kind) {
+                walkChildren = [identifier];
+            }
+            break;
+        case ts.SyntaxKind.ClassDeclaration:
+            walkChildren = [];
+            (node.members || []).forEach(function (item) {
+                if (hasModifier(item, ts.SyntaxKind.StaticKeyword)) {
+                    walkChildren.push(item);
+                }
+                (item.decorators || []).forEach(function (d) {
+                    walkChildren.push(d);
+                });
+            });
+            (node.heritageClauses || []).forEach(function (clause) {
+                (clause.types || []).forEach(function (cl) {
+                    var expression = cl.expression;
+                    var identifier = getExpression(expression);
+                    if (typeof identifier === 'string') {
+                        addDependency(identifier, 'Extend');
+                    }
+                    else if (identifier && identifier.kind) {
+                        walkChildren.push(identifier);
+                    }
+                });
+            });
+            break;
+        default:
+            walkChildren = true;
+            break;
+    }
+    return walkChildren;
+}
+/**
+ * 计算外部依赖
+ * 外部依赖 = 依赖 - 声明定义
+ * 例如: const a, b; console.log(a) 将收集到[ console, a ] - [ a, b ] = [ console ]
+ *
+ * @param {Array<Object>} scopes 多级作用域声明集合
+ * @param {Object} dependencies 依赖
+ */
+function collectGlobals(scopes, dependencies) {
+    var globals = {};
+    Object.keys(dependencies).forEach(function (name) {
+        var rootName = name.split('.')[0];
+        var has = scopes.some(function (locals) {
+            return !!locals[rootName];
+        });
+        if (!has && !globals[name]) {
+            globals[name] = dependencies[name];
+        }
+    });
+    return globals;
+}
+/**
+ * 收集文件的依赖项
+ * 例如
+ *  namespace A {
+ *    console.log('aaa');
+ *  }
+ * 返回
+ *  {
+ *     "console@A": {},
+ *  }
+ * @param {String} namespace 当前所在namespace
+ * @param {Array<Object>} scopes 上级们作用域
+ */
+function collectDependencies(node, namespace, scopes) {
+    if (namespace === void 0) { namespace = ''; }
+    if (scopes === void 0) { scopes = []; }
+    var locals = {};
+    var dependencies = {};
+    forEachChild(node, function (child) { return collectNodeDeclarations(child, locals); });
+    forEachChild(node, function (child) { return collectNodeDepenDencies(child, dependencies); });
+    var thisScopes = __spreadArrays([locals], scopes);
+    var noNamespaceGlobals = collectGlobals(thisScopes, dependencies);
+    var globals = {};
+    Object.keys(noNamespaceGlobals).forEach(function (name) {
+        globals["" + name + (namespace ? '@' + namespace.slice(0, -1) : '')] = noNamespaceGlobals[name];
+    });
+    forEachChild(node, function (child) {
+        var ns = namespace;
+        if (isBlockScope(child)
+            && !ts.isFunctionLike(child) // 函数里的依赖管不了，有很多循环依赖
+        ) {
+            if (ts.isModuleDeclaration(child)) {
+                ns = "" + ns + child.name.text + ".";
+            }
+            Object.assign(globals, collectDependencies(child, ns, thisScopes));
+        }
+    });
+    return globals;
+}
+/**
+ * 收集文件的导出项
+ * 例如
+ *  namespace A {
+ *    export const a;
+ *    const b;
+ *  }
+ *  function fn() {
+ *    let i;
+ *  }
+ * 返回
+ *  {
+ *    "A": {},
+ *    "A.a": {},
+ *    "fn": {},
+ *  }
+ */
+function collectDefines(node, namespace) {
+    if (namespace === void 0) { namespace = ''; }
+    var declarations = {};
+    forEachChild(node, function (child) { return collectNodeDeclarations(child, declarations); });
+    var defines = {};
+    Object.keys(declarations).forEach(function (key) {
+        var item = declarations[key];
+        if (
+        // namespace 里没有export的不需要导出
+        !(namespace && !item.ExportKeyword)
+            // declare 不需要导出
+            && !item.DeclareKeyword
+            // interface 不需要导出
+            && item.type !== 'Interface'
+            // const enum 编译时会用常量代替
+            // Compiler Options preserveConstEnums default false
+            && !(item.type === 'Enum' && item.ConstKeyword)) {
+            defines["" + namespace + key] = {
+                type: item.type,
+            };
+        }
+    });
+    // 收集namespace里的导出
+    forEachChild(node, function (child) {
+        if (ts.isModuleDeclaration(child)) {
+            Object.assign(defines, collectDefines(child, "" + namespace + child.name.text + "."));
+        }
+    });
+    return defines;
+}
+/**
+ * 通过export/import判断文件是否是模块化的
+ */
+function judgeIsModule(node) {
+    var ret = false;
+    forEachChild(node, function (child) {
+        if (hasModifier(child, ts.SyntaxKind.ExportKeyword)
+            || child.kind === ts.SyntaxKind.ImportDeclaration) {
+            ret = true;
+        }
+    });
+    return ret;
+}
+function fn(fileName, content) {
+    // AST 语法树
+    var sourceFile = ts.createSourceFile(fileName, content, ts.ScriptTarget.ES2015, true);
+    var isModule = judgeIsModule(sourceFile);
+    var defines = collectDefines(sourceFile);
+    var dependencies = collectDependencies(sourceFile);
+    return {
+        isModule: isModule,
+        defines: defines,
+        dependencies: dependencies,
+    };
+}
+exports.default = fn;

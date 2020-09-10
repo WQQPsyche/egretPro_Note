@@ -1,0 +1,96 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "assets/prefabs/food/final/boluo_out/bl.mesh.bin",
+        "assets/prefabs/food/final/foodMaterial.mat.json"
+    ],
+    "entities": [
+        {
+            "uuid": "0",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "1"
+                },
+                {
+                    "uuid": "2"
+                }
+            ]
+        },
+        {
+            "uuid": "3",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "4"
+                },
+                {
+                    "uuid": "5"
+                },
+                {
+                    "uuid": "6"
+                },
+                {
+                    "uuid": "7"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "1",
+            "__class": "@egret/engine/TreeNode",
+            "name": "RootNode",
+            "children": [
+                {
+                    "uuid": "4"
+                }
+            ]
+        },
+        {
+            "uuid": "4",
+            "__class": "@egret/engine/TreeNode",
+            "name": "bl"
+        },
+        {
+            "uuid": "5",
+            "__class": "@egret/engine/Transform"
+        },
+        {
+            "uuid": "6",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 0
+            }
+        },
+        {
+            "uuid": "7",
+            "__class": "@egret/render/MeshRenderer",
+            "_nativeLocalBoundingBox": true,
+            "_localBoundingBox": [
+                -0.36150000000000004,
+                -0.65,
+                -0.40900000000000003,
+                0.5455,
+                0.15000000000000002,
+                0.495
+            ],
+            "materials": [
+                {
+                    "__asset": 1
+                }
+            ]
+        },
+        {
+            "uuid": "2",
+            "__class": "@egret/engine/Transform",
+            "localRotation": [
+                0,
+                0,
+                0,
+                -1
+            ]
+        }
+    ]
+}

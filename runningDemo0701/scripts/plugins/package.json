@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "egret-build-script-plugins",
   "dependencies": {
-    "@egret/egret-webpack-bundler": "^1.0.9",
+    "@egret/egret-webpack-bundler": "^1.2.11",
     "@egret/eui-compiler": "^1.4.3"
   }
 }
