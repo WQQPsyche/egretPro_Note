@@ -1,0 +1,117 @@
+{
+	"asset": {
+		"version": "2.0"
+	},
+	"materials": [
+		{
+			"extensions": {
+				"KHR_techniques_webgl": {
+					"technique": 0,
+					"values": {
+						"map": "assets/textures/grid_b.image.json"
+					}
+				}
+			}
+		}
+	],
+	"extensions": {
+		"KHR_techniques_webgl": {
+			"techniques": [
+				{
+					"states": {
+						"enable": [
+							2929,
+							2884,
+							3042
+						],
+						"functions": {
+							"depthFunc": [
+								515
+							],
+							"depthMask": [
+								false
+							],
+							"frontFace": [
+								2305
+							],
+							"cullFace": [
+								1028
+							],
+							"blendEquationSeparate": [
+								32774,
+								32774
+							],
+							"blendFuncSeparate": [
+								770,
+								771,
+								1,
+								771
+							]
+						}
+					},
+					"uniforms": {},
+					"attributes": {},
+					"program": 5
+				}
+			]
+		},
+		"egret": {
+			"version": "5",
+			"minVersion": "5",
+			"assets": [
+				"builtin/meshlambert.shader.json"
+			],
+			"entities": [
+				{
+					"uuid": "9b357ed7-65fb-4bd8-a96f-8cfa8a4e5ff6",
+					"__class": "@egret/core/AssetEntity",
+					"components": [
+						{
+							"uuid": "e38aa3a3-c6f5-4198-809f-c4ad25208c28"
+						},
+						{
+							"uuid": "dc035cef-3e8f-47a5-bfb8-8af836e8f806"
+						},
+						{
+							"uuid": "9e07baf0-f183-44de-8f55-a7764a4e99f6"
+						},
+						{
+							"uuid": "c121d16e-c2d6-43c7-a57a-d4f8d2b88491"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"uuid": "e38aa3a3-c6f5-4198-809f-c4ad25208c28",
+					"__class": "@egret/core/AssetBasis"
+				},
+				{
+					"uuid": "dc035cef-3e8f-47a5-bfb8-8af836e8f806",
+					"__class": "AssetRefCount"
+				},
+				{
+					"uuid": "9e07baf0-f183-44de-8f55-a7764a4e99f6",
+					"__class": "@egret/render/Defines"
+				},
+				{
+					"uuid": "c121d16e-c2d6-43c7-a57a-d4f8d2b88491",
+					"__class": "@egret/render/Material",
+					"glTF": 0,
+					"renderQueue": 3000,
+					"shader": {
+						"__asset": 0
+					}
+				}
+			]
+		}
+	},
+	"extensionsRequired": [
+		"egret",
+		"KHR_techniques_webgl"
+	],
+	"extensionsUsed": [
+		"egret",
+		"KHR_techniques_webgl"
+	]
+}

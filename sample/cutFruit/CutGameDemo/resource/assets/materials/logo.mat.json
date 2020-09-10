@@ -1,0 +1,114 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "materials": [
+        {
+            "extensions": {
+                "KHR_techniques_webgl": {
+                    "technique": 0,
+                    "values": {
+                        "uvTransform": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "refractionRatio": 0.98,
+                        "bindMatrix": [],
+                        "bindMatrixInverse": [],
+                        "diffuse": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "opacity": 1,
+                        "map": "assets/textures/logo.image.json",
+                        "alphaMap": null,
+                        "aoMap": null,
+                        "aoMapIntensity": 1,
+                        "envMapIntensity": 1,
+                        "flipEnvMap": 1,
+                        "maxMipLevel": [],
+                        "envMap": null,
+                        "reflectivity": 1,
+                        "specularMap": null,
+                        "clippingPlanes[0]": []
+                    }
+                }
+            }
+        }
+    ],
+    "extensions": {
+        "KHR_techniques_webgl": {
+            "techniques": [
+                {
+                    "uniforms": {},
+                    "attributes": {},
+                    "program": 13,
+                    "states": {
+                        "enable": [
+                            2929,
+                            2884
+                        ],
+                        "functions": {
+                            "depthFunc": [
+                                515
+                            ],
+                            "depthMask": [
+                                true
+                            ],
+                            "frontFace": [
+                                2305
+                            ],
+                            "cullFace": [
+                                1029
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "egret": {
+            "version": "5",
+            "minVersion": "5",
+            "assets": [
+                "builtin/meshbasic.shader.json"
+            ],
+            "entities": [
+                {
+                    "uuid": "7e2f4006-604d-48f7-ab25-115890ca6995",
+                    "__class": "@egret/core/AssetEntity",
+                    "components": [
+                        {
+                            "uuid": "421da119-8cb0-4eba-8f61-ce8b825420a4"
+                        }
+                    ]
+                }
+            ],
+            "components": [
+                {
+                    "uuid": "421da119-8cb0-4eba-8f61-ce8b825420a4",
+                    "__class": "@egret/render/Material",
+                    "glTF": 0,
+                    "shader": {
+                        "__asset": 0
+                    }
+                }
+            ]
+        }
+    },
+    "extensionsRequired": [
+        "egret",
+        "KHR_techniques_webgl"
+    ],
+    "extensionsUsed": [
+        "egret",
+        "KHR_techniques_webgl"
+    ]
+}
