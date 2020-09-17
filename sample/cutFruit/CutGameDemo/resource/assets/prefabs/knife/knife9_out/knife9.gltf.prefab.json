@@ -1,0 +1,106 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "assets/prefabs/knife/knife9_out/8.mesh.bin",
+        "assets/prefabs/knife/knife9_out/knife9.mat.json"
+    ],
+    "entities": [
+        {
+            "uuid": "0",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "1"
+                },
+                {
+                    "uuid": "2"
+                }
+            ]
+        },
+        {
+            "uuid": "3",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "4"
+                },
+                {
+                    "uuid": "5"
+                },
+                {
+                    "uuid": "6"
+                },
+                {
+                    "uuid": "7"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "1",
+            "__class": "@egret/engine/TreeNode",
+            "name": "RootNode",
+            "children": [
+                {
+                    "uuid": "4"
+                }
+            ]
+        },
+        {
+            "uuid": "4",
+            "__class": "@egret/engine/TreeNode",
+            "name": "8"
+        },
+        {
+            "uuid": "5",
+            "__class": "@egret/engine/Transform",
+            "localRotation": [
+                1.5454309831852697e-8,
+                0.7071067690849304,
+                1.5454309831852697e-8,
+                -0.7071067690849304
+            ],
+            "localScale": [
+                0.549,
+                0.549,
+                0.549
+            ]
+        },
+        {
+            "uuid": "6",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 0
+            }
+        },
+        {
+            "uuid": "7",
+            "__class": "@egret/render/MeshRenderer",
+            "_localBoundingBox": [
+                -0.009239350445568562,
+                -0.046169448643922806,
+                -0.005385893397033215,
+                0.009239351376891136,
+                0.04616944119334221,
+                0.005385893397033215
+            ],
+            "materials": [
+                {
+                    "__asset": 1
+                }
+            ]
+        },
+        {
+            "uuid": "2",
+            "__class": "@egret/engine/Transform",
+            "localRotation": [
+                0,
+                0,
+                0,
+                -1
+            ]
+        }
+    ]
+}

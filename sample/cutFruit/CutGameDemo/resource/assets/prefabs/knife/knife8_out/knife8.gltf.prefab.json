@@ -1,0 +1,111 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "assets/prefabs/knife/knife8_out/7.mesh.bin",
+        "assets/prefabs/knife/knife8_out/knife8.mat.json"
+    ],
+    "entities": [
+        {
+            "uuid": "0",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "1"
+                },
+                {
+                    "uuid": "2"
+                }
+            ]
+        },
+        {
+            "uuid": "3",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "4"
+                },
+                {
+                    "uuid": "5"
+                },
+                {
+                    "uuid": "6"
+                },
+                {
+                    "uuid": "7"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "1",
+            "__class": "@egret/engine/TreeNode",
+            "name": "RootNode",
+            "children": [
+                {
+                    "uuid": "4"
+                }
+            ]
+        },
+        {
+            "uuid": "4",
+            "__class": "@egret/engine/TreeNode",
+            "name": "7"
+        },
+        {
+            "uuid": "5",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                9.3661391531441e-8,
+                -5.04870968056702e-31,
+                1.52593798599492e-14
+            ],
+            "localRotation": [
+                1.5454309831852697e-8,
+                0.7071067094802856,
+                1.5454308055495858e-8,
+                -0.7071068286895752
+            ],
+            "localScale": [
+                0.424,
+                0.424,
+                0.424
+            ]
+        },
+        {
+            "uuid": "6",
+            "__class": "@egret/render/MeshFilter",
+            "mesh": {
+                "__asset": 0
+            }
+        },
+        {
+            "uuid": "7",
+            "__class": "@egret/render/MeshRenderer",
+            "_localBoundingBox": [
+                -0.015754489228129387,
+                -0.06298094242811203,
+                -0.003355721477419138,
+                0.015754489228129387,
+                0.06298093497753143,
+                0.003355721477419138
+            ],
+            "materials": [
+                {
+                    "__asset": 1
+                }
+            ]
+        },
+        {
+            "uuid": "2",
+            "__class": "@egret/engine/Transform",
+            "localRotation": [
+                0,
+                0,
+                0,
+                -1
+            ]
+        }
+    ]
+}

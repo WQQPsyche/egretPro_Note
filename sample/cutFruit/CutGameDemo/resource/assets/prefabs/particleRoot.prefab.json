@@ -1,0 +1,232 @@
+{
+    "version": "5",
+    "minVersion": "5",
+    "assets": [
+        "assets/suipian.prefab.json",
+        "assets/zhishui.prefab.json",
+        "assets/zhiyi.prefab.json"
+    ],
+    "entities": [
+        {
+            "uuid": "7c79c98d-2fda-436e-9a6d-b32c6b13389f",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "f120ac5a-16c7-44d1-bdf3-b2be56d64cbc"
+                },
+                {
+                    "uuid": "eb774de0-dfd8-48e9-8077-2b052620eddc"
+                },
+                {
+                    "uuid": "b74ae92d-49b2-44b1-a8c5-c60b4359ee3d"
+                }
+            ]
+        },
+        {
+            "uuid": "8e47f495-2d45-4214-bd68-162747c82c92",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "9ab5b54d-f6db-4805-be59-383f59b6e12e"
+                },
+                {
+                    "uuid": "4dedd586-8edb-4c36-8377-8a0b9dc524fa"
+                },
+                {
+                    "uuid": "3614fd02-0b54-4aa0-ad4c-e2b95bdf3598"
+                },
+                {
+                    "uuid": "d9076d51-aafa-44cd-a348-2e2a0d82e233"
+                }
+            ],
+            "__extras": {
+                "prefab": {
+                    "__asset": 0
+                }
+            }
+        },
+        {
+            "uuid": "e70b62f6-e89c-49a9-816d-baa5c5453824",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "7ef2334b-7121-43e8-8772-0eb0285a3dd0"
+                },
+                {
+                    "uuid": "39d0675a-1ac1-4555-ae12-af384b96cabd"
+                },
+                {
+                    "uuid": "e58e707e-7857-45a7-9fea-5d35187a09ff"
+                },
+                {
+                    "uuid": "50f7475d-bb4c-4864-b699-80c3849a9e5e"
+                }
+            ],
+            "__extras": {
+                "prefab": {
+                    "__asset": 1
+                }
+            }
+        },
+        {
+            "uuid": "d3f27060-940e-4753-9263-5c3403d03c40",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "0b650ac5-1cc8-4af0-95f3-0f2fd0dd05bb"
+                },
+                {
+                    "uuid": "18eda8e7-52f5-404c-bb34-9c2ad5e97071"
+                },
+                {
+                    "uuid": "3b8c7950-6d83-4173-a842-15d972cb8513"
+                },
+                {
+                    "uuid": "03d23c12-3d0c-499d-9be2-19d7a1ecaf79"
+                }
+            ],
+            "__extras": {
+                "prefab": {
+                    "__asset": 2
+                }
+            }
+        }
+    ],
+    "components": [
+        {
+            "uuid": "f120ac5a-16c7-44d1-bdf3-b2be56d64cbc",
+            "__class": "@egret/engine/TreeNode",
+            "name": "particleRoot",
+            "children": [
+                {
+                    "uuid": "9ab5b54d-f6db-4805-be59-383f59b6e12e"
+                },
+                {
+                    "uuid": "7ef2334b-7121-43e8-8772-0eb0285a3dd0"
+                },
+                {
+                    "uuid": "0b650ac5-1cc8-4af0-95f3-0f2fd0dd05bb"
+                }
+            ]
+        },
+        {
+            "uuid": "9ab5b54d-f6db-4805-be59-383f59b6e12e",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "2"
+            }
+        },
+        {
+            "uuid": "4dedd586-8edb-4c36-8377-8a0b9dc524fa",
+            "__class": "@egret/engine/Transform",
+            "localRotation": [
+                1,
+                0,
+                0,
+                6.123234262925839e-17
+            ],
+            "__extras": {
+                "linkedID": "1"
+            }
+        },
+        {
+            "uuid": "3614fd02-0b54-4aa0-ad4c-e2b95bdf3598",
+            "__class": "@egret/particle/ParticleComponent",
+            "__extras": {
+                "linkedID": "3"
+            }
+        },
+        {
+            "uuid": "d9076d51-aafa-44cd-a348-2e2a0d82e233",
+            "__class": "@egret/particle/ParticleRenderer",
+            "__extras": {
+                "linkedID": "4"
+            }
+        },
+        {
+            "uuid": "7ef2334b-7121-43e8-8772-0eb0285a3dd0",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "2"
+            }
+        },
+        {
+            "uuid": "39d0675a-1ac1-4555-ae12-af384b96cabd",
+            "__class": "@egret/engine/Transform",
+            "localRotation": [
+                1,
+                0,
+                0,
+                6.123234262925839e-17
+            ],
+            "__extras": {
+                "linkedID": "1"
+            }
+        },
+        {
+            "uuid": "e58e707e-7857-45a7-9fea-5d35187a09ff",
+            "__class": "@egret/particle/ParticleComponent",
+            "__extras": {
+                "linkedID": "3"
+            }
+        },
+        {
+            "uuid": "50f7475d-bb4c-4864-b699-80c3849a9e5e",
+            "__class": "@egret/particle/ParticleRenderer",
+            "__extras": {
+                "linkedID": "4"
+            }
+        },
+        {
+            "uuid": "0b650ac5-1cc8-4af0-95f3-0f2fd0dd05bb",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "2"
+            }
+        },
+        {
+            "uuid": "18eda8e7-52f5-404c-bb34-9c2ad5e97071",
+            "__class": "@egret/engine/Transform",
+            "localRotation": [
+                1,
+                0,
+                0,
+                6.123234262925839e-17
+            ],
+            "__extras": {
+                "linkedID": "1"
+            }
+        },
+        {
+            "uuid": "3b8c7950-6d83-4173-a842-15d972cb8513",
+            "__class": "@egret/particle/ParticleComponent",
+            "__extras": {
+                "linkedID": "3"
+            }
+        },
+        {
+            "uuid": "03d23c12-3d0c-499d-9be2-19d7a1ecaf79",
+            "__class": "@egret/particle/ParticleRenderer",
+            "__extras": {
+                "linkedID": "4"
+            }
+        },
+        {
+            "uuid": "eb774de0-dfd8-48e9-8077-2b052620eddc",
+            "__class": "@egret/engine/Transform"
+        },
+        {
+            "uuid": "b74ae92d-49b2-44b1-a8c5-c60b4359ee3d",
+            "__class": "ParticleController",
+            "suipian": {
+                "uuid": "8e47f495-2d45-4214-bd68-162747c82c92"
+            },
+            "zhishui1": {
+                "uuid": "e70b62f6-e89c-49a9-816d-baa5c5453824"
+            },
+            "zhishui2": {
+                "uuid": "d3f27060-940e-4753-9263-5c3403d03c40"
+            }
+        }
+    ]
+}

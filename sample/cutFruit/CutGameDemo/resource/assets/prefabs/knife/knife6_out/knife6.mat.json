@@ -1,0 +1,138 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "extensionsRequired": [
+        "egret",
+        "KHR_techniques_webgl"
+    ],
+    "extensionsUsed": [
+        "egret",
+        "KHR_techniques_webgl"
+    ],
+    "extensions": {
+        "KHR_techniques_webgl": {
+            "techniques": [
+                {
+                    "uniforms": {},
+                    "attributes": {},
+                    "states": {
+                        "enable": [
+                            2929,
+                            2884
+                        ],
+                        "functions": {
+                            "depthFunc": [
+                                515
+                            ],
+                            "depthMask": [
+                                true
+                            ],
+                            "frontFace": [
+                                2305
+                            ],
+                            "cullFace": [
+                                1029
+                            ]
+                        }
+                    },
+                    "program": 4
+                }
+            ]
+        },
+        "egret": {
+            "version": "5",
+            "minVersion": "5",
+            "assets": [
+                "builtin/meshphong.shader.json"
+            ],
+            "entities": [
+                {
+                    "uuid": "4d35cab2-16b6-4dd0-ad75-5ee2c1d54c9d",
+                    "__class": "@egret/core/AssetEntity",
+                    "components": [
+                        {
+                            "uuid": "d1022375-8185-4b2e-9dda-4f565bf5c469"
+                        }
+                    ]
+                }
+            ],
+            "components": [
+                {
+                    "uuid": "d1022375-8185-4b2e-9dda-4f565bf5c469",
+                    "__class": "@egret/render/Material",
+                    "glTF": 0,
+                    "shader": {
+                        "__asset": 0
+                    }
+                }
+            ]
+        }
+    },
+    "materials": [
+        {
+            "extensions": {
+                "KHR_techniques_webgl": {
+                    "technique": 0,
+                    "values": {
+                        "uvTransform": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "displacementMap": null,
+                        "displacementScale": 1,
+                        "displacementBias": [],
+                        "refractionRatio": 0.98,
+                        "bindMatrix": [],
+                        "bindMatrixInverse": [],
+                        "diffuse": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "emissive": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "specular": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "shininess": 5,
+                        "opacity": 1,
+                        "map": "assets/prefabs/knife/knife6_out/knife6.png.image.json",
+                        "alphaMap": null,
+                        "aoMap": null,
+                        "aoMapIntensity": 1,
+                        "emissiveMap": null,
+                        "envMapIntensity": 1,
+                        "flipEnvMap": 1,
+                        "maxMipLevel": [],
+                        "envMap": null,
+                        "reflectivity": 1,
+                        "gradientMap": null,
+                        "lightProbe[0]": [],
+                        "bumpMap": null,
+                        "bumpScale": 1,
+                        "normalMap": null,
+                        "normalScale": [
+                            1,
+                            1
+                        ],
+                        "specularMap": null,
+                        "clippingPlanes[0]": []
+                    }
+                }
+            }
+        }
+    ]
+}
