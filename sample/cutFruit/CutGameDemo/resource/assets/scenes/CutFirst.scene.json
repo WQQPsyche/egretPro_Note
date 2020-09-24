@@ -4,7 +4,7 @@
     "assets": [
         "builtin/plane.mesh.bin",
         "builtin/meshphysical.mat.json",
-        "builtin/cube.mesh.bin",
+        "builtin/sphere.mesh.bin",
         "assets/materials/testMaterial.mat.json"
     ],
     "entities": [
@@ -121,8 +121,14 @@
             "__class": "@egret/engine/Transform",
             "localPosition": [
                 0,
-                1,
-                -10
+                5,
+                -5
+            ],
+            "localRotation": [
+                0.258819043636322,
+                0,
+                0,
+                0.9659258127212524
             ]
         },
         {

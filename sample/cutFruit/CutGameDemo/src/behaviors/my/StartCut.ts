@@ -5,7 +5,7 @@ import { Input, InputCode, InputManager } from "@egret/input";
 import { Cut } from "./Cut";
 
 @component()
-class StartCut extends Behaviour{
+export class StartCut extends Behaviour{
     @serializedField
     @property(EditType.Entity)
     public target:GameEntity = null;
@@ -86,7 +86,8 @@ class StartCut extends Behaviour{
         if (this.space.isDown) {
                 console.log("开始 CUT ");
     
-                const cutPosition = this.entity.transform.position.clone();
+                const cutPosition = 
+                this.entity.transform.position.clone();
                 if (this.target.getComponent(Cut)) {
                     console.error("targetCub 已经有 CutTest 了"); 
                     this.target.removeComponent(Cut);

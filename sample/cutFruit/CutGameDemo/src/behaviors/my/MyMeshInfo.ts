@@ -34,7 +34,7 @@ export class MyMeshInfo {
         this.uvs.push(uv);
         this.normals.push(normal);
     }
-    public MapperCube(range: Rectangle, uvScale = 1) {
+    public MapperCube(uvScale) {
         if (this.uvs.length < this.vertices.length) {
             // uvs = new List<Vector2>(vertices.Count);
             // this.uvs = []
@@ -48,59 +48,29 @@ export class MyMeshInfo {
             let _i0 = this.indices[i * 3];
             let _i1 = this.indices[i * 3 + 1];
             let _i2 = this.indices[i * 3 + 2];
+            // console.error(this.center,this.size);
+            
+            //把三维坐标系转换成二维坐标系
             let v0: Vector3 = this.vertices[_i0].clone().subtract(this.center.clone()).add(this.size.clone().multiplyScalar(1 / 2));
             let v1: Vector3 = this.vertices[_i1].clone().subtract(this.center.clone()).add(this.size.clone().multiplyScalar(1 / 2));
             let v2: Vector3 = this.vertices[_i2].clone().subtract(this.center.clone()).add(this.size.clone().multiplyScalar(1 / 2));
 
-            v0.set(v0.x / this.size.x, v0.y / this.size.y, v0.z / this.size.z);
-            v1.set(v1.x / this.size.x, v1.y / this.size.y, v1.z / this.size.z);
-            v2.set(v2.x / this.size.x, v2.y / this.size.y, v2.z / this.size.z);
-
-
-            const a: Vector3 = v0.clone().subtract(v1);
-            const b: Vector3 = v2.clone().subtract(v1);
-            const dir: Vector3 = a.clone().cross(b);
-
-            let x = Math.abs(Vector3.dot(dir, Vector3.RIGHT));
-            let y = Math.abs(Vector3.dot(dir, Vector3.UP));
-            let z = Math.abs(Vector3.dot(dir, Vector3.FORWARD));
-            //???
-            if (x > y && x > z) {
-                this.uvs[_i0] = Vector2.create(v0.z, v0.y);
-                this.uvs[_i1] = Vector2.create(v1.z, v1.y);
-                this.uvs[_i2] = Vector2.create(v2.z, v2.y);
-            }
-            else if (y > x && y > z) {
-                this.uvs[_i0] = Vector2.create(v0.x, v0.z);
-                this.uvs[_i1] = Vector2.create(v1.x, v1.z);
-                this.uvs[_i2] = Vector2.create(v2.x, v2.z);
-            }
-            else if (z > x && z > y) {
-                this.uvs[_i0] = Vector2.create(v0.x, v0.y);
-                this.uvs[_i1] = Vector2.create(v1.x, v1.y);
-                this.uvs[_i2] = Vector2.create(v2.x, v2.y);
-            }
-            // uv缩放范围？ todo
-            this.uvs[_i0] = Vector2.create(range.x + (range.w - range.x) * this.uvs[_i0].x, range.y + (range.h - range.y) * this.uvs[_i0].y);
-            this.uvs[_i1] = Vector2.create(range.x + (range.w - range.x) * this.uvs[_i1].x, range.y + (range.h - range.y) * this.uvs[_i1].y);
-            this.uvs[_i2] = Vector2.create(range.x + (range.w - range.x) * this.uvs[_i2].x, range.y + (range.h - range.y) * this.uvs[_i2].y);
-
+            this.uvs[_i0] = Vector2.create(v0.x, v0.z);
+            this.uvs[_i1] = Vector2.create(v1.x, v1.z);
+            this.uvs[_i2] = Vector2.create(v2.x, v2.z);
 
         }
 
-        // const uvScale = xMax - xMin;
         uvScale = Math.floor(1 / uvScale * 100) / 100;
 
         let test1 = (1 - uvScale % 2) / 2;
-        // console.log("test1", test1);
-
-
+       
         if (uvScale != 1) {
             for (let i = 0; i < this.uvs.length; i++) {
                 this.uvs[i].multiplyScalar(uvScale).add(Vector2.create(test1, test1));
             }
         }
-        // console.log("this.uvs", this.uvs);
+
     }
 
     //TODO  合并点
