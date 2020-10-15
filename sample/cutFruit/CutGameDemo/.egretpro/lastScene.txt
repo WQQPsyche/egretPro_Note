@@ -1,1 +1,1 @@
-assets/scenes/CutFirst.scene.json
+assets/scenes/CutFruit.scene.json

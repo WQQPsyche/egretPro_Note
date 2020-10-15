@@ -23,8 +23,8 @@
 		"egret"
 	],
 	"currentScene": "assets/scenes/animations/test.scene.json",
-	"engineName": "1.6.0",
 	"resourceRoot": "http://localhost:3000/resource/",
+	"engineName": "1.6.0",
 	"targets": [
 		{
 			"name": "wxgame",

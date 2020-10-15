@@ -5,7 +5,9 @@
         "builtin/plane.mesh.bin",
         "builtin/meshphysical.mat.json",
         "builtin/sphere.mesh.bin",
-        "assets/materials/testMaterial.mat.json"
+        "assets/materials/testMaterial.mat.json",
+        "assets/prefabs/food/final/boluo_out/boluo.gltf.prefab.json",
+        "assets/prefabs/food/final/ningmeng_out/ningmeng.gltf.prefab.json"
     ],
     "entities": [
         {
@@ -87,7 +89,86 @@
                 {
                     "uuid": "161970e0-c8f7-465d-8654-72480ba84bf3"
                 }
-            ]
+            ],
+            "enabled": false
+        },
+        {
+            "uuid": "6aa8048d-410e-481a-a04b-a17f201d5414",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "11e080b8-d2aa-48f1-9d4c-acda1252ad18"
+                },
+                {
+                    "uuid": "7571b7af-665a-46f8-a75d-d6133abde6cb"
+                }
+            ],
+            "__extras": {
+                "prefab": {
+                    "__asset": 4
+                }
+            }
+        },
+        {
+            "uuid": "36650ed7-fceb-4e95-964c-9b38e2741a06",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "8e4c607c-d853-4819-b134-99e8100eb241"
+                },
+                {
+                    "uuid": "53a671a6-ee84-4cd8-b5aa-f48ba5ea109b"
+                },
+                {
+                    "uuid": "34f7719a-451d-42e8-ae93-cc2030e33a7e"
+                },
+                {
+                    "uuid": "0e669bcf-798d-4a9d-9507-fe82b10be003"
+                }
+            ],
+            "__extras": {
+                "linkedID": "3",
+                "rootID": "6aa8048d-410e-481a-a04b-a17f201d5414"
+            }
+        },
+        {
+            "uuid": "71daebe1-1d0c-4e88-a4fe-b39e903336b0",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "f74eba5f-d310-4ad2-af25-fc3cd8cb7102"
+                },
+                {
+                    "uuid": "d25b0f85-476e-4ff0-99c8-565a04a39831"
+                }
+            ],
+            "__extras": {
+                "prefab": {
+                    "__asset": 5
+                }
+            }
+        },
+        {
+            "uuid": "3ed438e4-68dd-45d1-a35f-59d25d058b40",
+            "__class": "@egret/engine/GameEntity",
+            "components": [
+                {
+                    "uuid": "b5b41ecf-3fe2-416d-941f-24206266c6bf"
+                },
+                {
+                    "uuid": "a73beb2e-0013-48a4-a8a3-fa56efb59874"
+                },
+                {
+                    "uuid": "0be579a3-6009-44db-ad17-3ada20f77a28"
+                },
+                {
+                    "uuid": "fcace31b-a9fe-438e-97bd-880cce0bb45f"
+                }
+            ],
+            "__extras": {
+                "linkedID": "3",
+                "rootID": "71daebe1-1d0c-4e88-a4fe-b39e903336b0"
+            }
         }
     ],
     "components": [
@@ -107,6 +188,12 @@
                 },
                 {
                     "uuid": "14247da8-b51b-4dfb-84c6-10faffdb4450"
+                },
+                {
+                    "uuid": "11e080b8-d2aa-48f1-9d4c-acda1252ad18"
+                },
+                {
+                    "uuid": "f74eba5f-d310-4ad2-af25-fc3cd8cb7102"
                 }
             ]
         },
@@ -125,10 +212,10 @@
                 -5
             ],
             "localRotation": [
-                0.258819043636322,
+                0.3826834261417389,
                 0,
                 0,
-                0.9659258127212524
+                0.9238795042037964
             ]
         },
         {
@@ -202,7 +289,7 @@
             "uuid": "10628f48-1fd4-4f13-bf56-8c31ac35bbed",
             "__class": "StartCut",
             "target": {
-                "uuid": "8368e1bc-8ab7-454f-91b0-3a0cc29f504a"
+                "uuid": "3ed438e4-68dd-45d1-a35f-59d25d058b40"
             }
         },
         {
@@ -237,6 +324,113 @@
                     "__asset": 3
                 }
             ]
+        },
+        {
+            "uuid": "11e080b8-d2aa-48f1-9d4c-acda1252ad18",
+            "__class": "@egret/engine/TreeNode",
+            "name": "boluo",
+            "__extras": {
+                "linkedID": "1"
+            },
+            "children": [
+                {
+                    "uuid": "8e4c607c-d853-4819-b134-99e8100eb241"
+                }
+            ]
+        },
+        {
+            "uuid": "8e4c607c-d853-4819-b134-99e8100eb241",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "4"
+            }
+        },
+        {
+            "uuid": "53a671a6-ee84-4cd8-b5aa-f48ba5ea109b",
+            "__class": "@egret/engine/Transform",
+            "__extras": {
+                "linkedID": "5"
+            }
+        },
+        {
+            "uuid": "34f7719a-451d-42e8-ae93-cc2030e33a7e",
+            "__class": "@egret/render/MeshFilter",
+            "__extras": {
+                "linkedID": "6"
+            }
+        },
+        {
+            "uuid": "0e669bcf-798d-4a9d-9507-fe82b10be003",
+            "__class": "@egret/render/MeshRenderer",
+            "__extras": {
+                "linkedID": "7"
+            }
+        },
+        {
+            "uuid": "7571b7af-665a-46f8-a75d-d6133abde6cb",
+            "__class": "@egret/engine/Transform",
+            "localPosition": [
+                -2,
+                0,
+                0
+            ],
+            "localRotation": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "__extras": {
+                "linkedID": "2"
+            }
+        },
+        {
+            "uuid": "f74eba5f-d310-4ad2-af25-fc3cd8cb7102",
+            "__class": "@egret/engine/TreeNode",
+            "name": "ningmeng1",
+            "__extras": {
+                "linkedID": "1"
+            },
+            "children": [
+                {
+                    "uuid": "b5b41ecf-3fe2-416d-941f-24206266c6bf"
+                }
+            ]
+        },
+        {
+            "uuid": "b5b41ecf-3fe2-416d-941f-24206266c6bf",
+            "__class": "@egret/engine/TreeNode",
+            "__extras": {
+                "linkedID": "4"
+            }
+        },
+        {
+            "uuid": "a73beb2e-0013-48a4-a8a3-fa56efb59874",
+            "__class": "@egret/engine/Transform",
+            "__extras": {
+                "linkedID": "5"
+            }
+        },
+        {
+            "uuid": "0be579a3-6009-44db-ad17-3ada20f77a28",
+            "__class": "@egret/render/MeshFilter",
+            "__extras": {
+                "linkedID": "6"
+            }
+        },
+        {
+            "uuid": "fcace31b-a9fe-438e-97bd-880cce0bb45f",
+            "__class": "@egret/render/MeshRenderer",
+            "__extras": {
+                "linkedID": "7"
+            }
+        },
+        {
+            "uuid": "d25b0f85-476e-4ff0-99c8-565a04a39831",
+            "__class": "@egret/engine/Transform",
+            "__extras": {
+                "linkedID": "2"
+            }
         },
         {
             "uuid": "e379306b-6ef2-4b08-9fee-94b57e5532a4",

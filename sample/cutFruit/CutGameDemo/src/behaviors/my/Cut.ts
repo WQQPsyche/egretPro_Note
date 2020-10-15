@@ -2,9 +2,13 @@ import { ResourceManager } from "@egret/core";
 import { component } from "@egret/ecs";
 import { Behaviour, EngineFactory, GameEntity, Transform, Vector2, Vector3 } from "@egret/engine";
 import { AttributeSemantics } from "@egret/gltf";
-import { DefaultMaterials, DefaultMeshes, Mesh, MeshFilter, MeshRenderer } from "@egret/render";
+import { DefaultMaterials, DefaultMeshes, Material, Mesh, MeshFilter, MeshRenderer } from "@egret/render";
+import { CutFillFacePool } from "./cutFruit/CutFillFacePool";
+import { CutFlyEntityPool } from "./cutFruit/CutFlyEntityPool";
 import { MyMeshInfo } from "./MyMeshInfo";
 import {StartCut} from "./StartCut";
+import { CutController } from "./cutFruit/CutController";
+import { CutFly } from "./cutFruit/CutFly";
 
 export let cutPointRoot: GameEntity = null;
 
@@ -12,14 +16,17 @@ export let cutTime = 0;
 
 @component()
 export class Cut extends Behaviour{
-    public showVertices: boolean = true;//显示顶点
+
+    public showVertices: boolean = false;//显示顶点
     public addBoxFly: boolean = false;//添加fly效果
     public point:Vector3 = Vector3.create(0.0, 0, 0); //切割点  
     public normal:Vector3 = Vector3.create(0, 0, 1);//切割点法线
+
     public cutPlaneControllerEntity: GameEntity = null;
 
     private verticesEntity_aRoot: GameEntity = null;
     private verticesEntity_bRoot: GameEntity = null;
+    public faceMaterial:Material = null;
 
     async onStart(){
 
@@ -30,7 +37,7 @@ export class Cut extends Behaviour{
             cutPointRoot = EngineFactory.createGameEntity3D("cutPointRoot");
         }
 
-
+        // 获取实体的
         const meshFilter = this.entity.getComponent(MeshFilter);
         const oldMeshRenderer = this.entity.getComponent(MeshRenderer);
 
@@ -57,60 +64,37 @@ export class Cut extends Behaviour{
          * 将实体的顶点分成切面上 切面下
          */
         for (let i = 0; i < vertices.length / 3; i++) {
-
-            const vert = Vector3.create(
-                vertices[i * 3], 
-                vertices[i * 3 + 1], 
-                vertices[i * 3 + 2]);
+            const vert = Vector3.create(vertices[i * 3], vertices[i * 3 + 1], vertices[i * 3 + 2]);
             myvertices.push(vert);//顶点坐标
-            myuvs.push(
-                Vector2.create(
-                    oldUV[i * 2], oldUV[i * 2 + 1]
-                    ));//uv坐标
-            myNormals.push(
-                Vector3.create(
-                    oldNormal[i * 3], 
-                    oldNormal[i * 3 + 1], 
-                    oldNormal[i * 3 + 2]));//法线坐标
+            myuvs.push(Vector2.create(oldUV[i * 2], oldUV[i * 2 + 1]));//uv坐标
+            myNormals.push(Vector3.create(oldNormal[i * 3], oldNormal[i * 3 + 1], oldNormal[i * 3 + 2]));//法线坐标
 
             /**
              * dot 点积 计算两个矢量的夹角的余弦值，在程序中经常用来判断两个物体是否在同一侧 true同侧 false背后
              * subtract 两个向量相减
              */
             //这里是用来判断实体的坐标点是在切面的上面，还是下面
-            above[i] = Vector3.dot(
-                vert.clone().subtract(this.point), 
-                this.normal
-                                ) >= 0;
+            above[i] = Vector3.dot(vert.clone().subtract(this.point), this.normal) >= 0;
 
             if (above[i]) {//切面上的点
                 //记录每一个点在对应切开之后的实体上的顶点索引 
                 newTriangles[i] = a.vertices.length;
+
                 a.vertices.push(vert);
-                a.uvs.push(Vector2.create(
-                    oldUV[i * 2], oldUV[i * 2 + 1]));
-                a.normals.push(
-                    Vector3.create(
-                        oldNormal[i * 3], 
-                        oldNormal[i * 3 + 1], 
-                        oldNormal[i * 3 + 2]
-                        ));
+                a.uvs.push(Vector2.create(oldUV[i * 2], oldUV[i * 2 + 1]));
+                a.normals.push(Vector3.create(oldNormal[i * 3], oldNormal[i * 3 + 1], oldNormal[i * 3 + 2]));
               
             }else {
                 newTriangles[i] = b.vertices.length;
 
                 b.vertices.push(vert);
-                b.uvs.push(Vector2.create(
-                    oldUV[i * 2], oldUV[i * 2 + 1]));
-                b.normals.push(Vector3.create(
-                    oldNormal[i * 3], 
-                    oldNormal[i * 3 + 1], 
-                    oldNormal[i * 3 + 2]));    
+                b.uvs.push(Vector2.create(oldUV[i * 2], oldUV[i * 2 + 1]));
+                b.normals.push(Vector3.create(oldNormal[i * 3], oldNormal[i * 3 + 1], oldNormal[i * 3 + 2]));    
             }
         }
-        if (a.vertices.length == 0 
-            || 
-            b.vertices.length == 0) {
+        if (a.vertices.length == 0 || b.vertices.length == 0) {
+            // CutFlyEntityPool.Instance.returnPool(this.entity);
+            // this.entity.addComponent(CutFly);
             console.error("物体没有被切割,所有的点都在一侧");
             return;
         }
@@ -158,18 +142,10 @@ export class Cut extends Behaviour{
                 }
                 if (above[up]) {
 
-                    this.SplitTriangle(
-                        myvertices, myuvs, myNormals, 
-                        a, b, this.point, this.normal, 
-                        newTriangles, up, down0, down1,
-                         true, cutPoint);
+                    this.SplitTriangle(myvertices, myuvs, myNormals, a, b, this.point, this.normal, newTriangles, up, down0, down1,true, cutPoint);
                 }
                 else {
-                    this.SplitTriangle(
-                        myvertices, myuvs, myNormals, 
-                        b, a, this.point, this.normal, 
-                        newTriangles, up, down0, down1, 
-                        false,cutPoint);
+                    this.SplitTriangle(myvertices, myuvs, myNormals,  b, a, this.point, this.normal, newTriangles, up, down0, down1, false,cutPoint);
                 }
             }                       
             
@@ -177,8 +153,8 @@ export class Cut extends Behaviour{
 
         console.warn("cutPoint.length:", cutPoint.length);
         if (cutPoint.length == 0) {
-            console.error("cutPoint.length ==0 ");
-            console.log("切割位置 this.point", this.point);
+            // console.error("cutPoint.length ==0 ");
+            // console.log("切割位置 this.point", this.point);
 
             return;
         }
@@ -186,14 +162,28 @@ export class Cut extends Behaviour{
         //******************创建上下新建的物体和补的面 开始 */
         cutTime++;
 
-        const upBox = EngineFactory.createGameEntity3D("upBox" + cutTime);
+/*      const upBox = EngineFactory.createGameEntity3D("upBox" + cutTime);
         const upBoxMeshFilter = upBox.addComponent(MeshFilter);
         upBox.addComponent(MeshRenderer).material = oldMeshRenderer.material;
 
 
         const downBox = EngineFactory.createGameEntity3D("downBox" + cutTime );
         const downBoxMeshFilter = downBox.addComponent(MeshFilter);
+        downBox.addComponent(MeshRenderer).material = oldMeshRenderer.material; */
+
+
+        const upBox = CutFlyEntityPool.Instance.getCutFlyEntity();    
+        const upBoxMeshFilter = upBox.getComponent(MeshFilter);
+        upBox.getComponent(MeshRenderer).material = oldMeshRenderer.material;
+
+        // const downBox = CutFlyEntityPool.Instance.getCutFlyEntity();
+        // const downBoxMeshFilter = downBox.getComponent(MeshFilter);
+        // downBox.getComponent(MeshRenderer).material = oldMeshRenderer.material; 
+        
+        const downBox = EngineFactory.createGameEntity3D("downBox" + cutTime );
+        const downBoxMeshFilter = downBox.addComponent(MeshFilter);
         downBox.addComponent(MeshRenderer).material = oldMeshRenderer.material;
+        
 
         const a_normal = [];
         for (let i = 0; i < a.normals.length; i++) {
@@ -248,7 +238,7 @@ export class Cut extends Behaviour{
          * 第三讲 创建补面
          */
         const testMaterial = await (await ResourceManager.instance.loadUri("assets/materials/logo.mat.json")).data;                   
-
+/* 
         //上补面实体
         const cut_up = EngineFactory.createGameEntity3D("cut_up" + cutTime );
         const cut_upMeshFilter = cut_up.addComponent(MeshFilter);
@@ -258,6 +248,22 @@ export class Cut extends Behaviour{
         const cut_down = EngineFactory.createGameEntity3D("cut_down" + cutTime );
         const cut_downMeshFilter = cut_down.addComponent(MeshFilter);
         cut_down.addComponent(MeshRenderer).material = testMaterial;
+         */
+
+        
+        //上补面实体
+        const cut_up = CutFillFacePool.Instance.getCutFillFaceEntity();
+        const cut_upMeshFilter = cut_up.getComponent(MeshFilter);
+        cut_up.getComponent(MeshRenderer).material = this.faceMaterial;
+
+        //下补面实体
+        // const cut_down = CutFillFacePool.Instance.getCutFillFaceEntity();
+        // const cut_downMeshFilter = cut_down.getComponent(MeshFilter);
+        // cut_down.getComponent(MeshRenderer).material = this.faceMaterial;
+        const cut_down = EngineFactory.createGameEntity3D("cut_down" + cutTime );
+        const cut_downMeshFilter = cut_down.addComponent(MeshFilter);
+        cut_down.addComponent(MeshRenderer).material = testMaterial;
+        cut_down.parent = downBox;
         
         if (cutPoint.length > 2) {
     
@@ -358,16 +364,19 @@ export class Cut extends Behaviour{
                     verticePositionEntity.transform.localPosition = cutPoint[i];
         
                 }
-            } 
+        } //显示顶点end----
 
-            if (this.cutPlaneControllerEntity) {
-                this.cutPlaneControllerEntity.getComponent(StartCut).target = downBox;
+        if (this.cutPlaneControllerEntity) {
+                // this.cutPlaneControllerEntity.getComponent(StartCut).target = downBox;
+                // cutPoint.length = 0;
+                this.cutPlaneControllerEntity.getComponent(CutController).targetEntity = downBox;
                 cutPoint.length = 0;
+                // cutPoint.length = 0;
         }
 
         //移动下面的半块
         // downBox.transform.translate(Vector3.create(-2,0,0));
-        upBox.destroy();
+        // upBox.destroy();
         //销毁原来的实体
         this.entity.destroy();
 
@@ -495,7 +504,7 @@ export class Cut extends Behaviour{
             cutEdges.Add(arr[i], Vector2.ZERO.clone(), normal);
         }
 
-        console.error(arr);
+        // console.error(arr);
 
         
         //顶点索引 三角面
@@ -508,7 +517,7 @@ export class Cut extends Behaviour{
         cutEdges.indices.push(arr.length - 2);
         cutEdges.indices.push(0);
 
-        console.error(cutEdges);
+        // console.error(cutEdges);
 
         //TODO
         let xMax = 0;
