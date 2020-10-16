@@ -14,10 +14,9 @@ export class CutFlySystem extends System{
         ];
     }
 
-    public flyDistance = 8;
+    public flyDistance = 5;
 
     onFrame(dt:number){
-        console.error("system-----");
         
         const entities = this.groups[0].entities as GameEntity[];
         //遍历匹配到的实体，超出距离之后 回收 否则，移动距离f
@@ -32,8 +31,6 @@ export class CutFlySystem extends System{
                 }
                 cutFly.distance = 0;
                 CutFlyEntityPool.Instance.returnPool(entity);
-               
-                
             } else {
                 entity.transform.position.set(
                     entity.transform.position.x + cutFly.moveSpeed.x * dt,

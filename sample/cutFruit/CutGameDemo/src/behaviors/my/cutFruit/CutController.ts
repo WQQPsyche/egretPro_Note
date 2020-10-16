@@ -14,6 +14,7 @@ import { CutFillFacePool } from "./CutFillFacePool";
 
 @component()
 export class CutController extends Behaviour{
+    
     @serializedField
     @property(EditType.Entity)
     public targetEntity:GameEntity = null;
@@ -25,12 +26,6 @@ export class CutController extends Behaviour{
     @serializedField
     @property(EditType.Entity)
     public knifeModel:GameEntity = null;
-
-    /**空mesh 数据 */
-    public originalVerticeArray: Float32Array;
-    public originalNormalArray: Float32Array;
-    public originalUvArray: Uint16Array;
-    public originalIndicslArray: Uint16Array;
 
     /**切面材质 */
     public faceMaterial: Material = null;
@@ -44,7 +39,7 @@ export class CutController extends Behaviour{
     public isAutoCut:boolean = false;
 
     /**自动切割间隔 1s*/
-    public autoCutInterval = 0.2;
+    public autoCutInterval = 0.5;
    /**是否正在播刀切下去的动画 */
    isPlayerKnifeAni = false;
 
@@ -53,6 +48,8 @@ export class CutController extends Behaviour{
     private _knifePos:Vector3;
     private _scale:Vector3;
     async onStart(){
+
+       
         //初始化一些参数
         this.isMoving = true;
         this.lastCutTime = Date.now();
@@ -85,12 +82,11 @@ export class CutController extends Behaviour{
             
             //重新设置刀片的位置
             this.knifeModel.transform.setLocalPosition(this._knifePos.x+ this._scale.x/2,this._knifePos.y+ this._scale.y/2,this._knifePos.z);
-            CutFlyEntityPool.Instance.clear();
-            CutFillFacePool.Instance.clear();
-            this.targetEntity.getComponent(MeshFilter).mesh = null;
              // 产生以下切割对象
-             this.targetEntity.removeComponent(Cut);
-             
+            this.targetEntity.removeComponent(Cut);
+
+            this.targetEntity.getComponent(MeshFilter).mesh = null;
+            
              this.setCutTargetAttribute(CutEntityAttributesFactory.instance.getRandomMesh() ,this.targetEntity);
 
              
@@ -113,19 +109,8 @@ export class CutController extends Behaviour{
         let targetMesh = targetEntity.getComponent(MeshFilter).mesh;
 
         if (!targetMesh) {
-            console.error("!targetMesh");
-            
-
             targetMesh = Mesh.create(1000 * 3, 1500 * 3);
             targetEntity.getComponent(MeshFilter).mesh = targetMesh;
-
-            if (!this.originalVerticeArray) {
-                this.originalVerticeArray = targetMesh.getAttribute("POSITION").slice();
-                this.originalNormalArray = targetMesh.getAttribute("NORMAL").slice();
-                this.originalUvArray = targetMesh.getAttribute("TEXCOORD_0").slice();
-                this.originalIndicslArray = targetMesh.getIndices().slice();
-
-            }
         }
 
         const meshAttributes = CutEntityAttributesFactory.instance.prefabMeshAttributesMaps[prefabUrl];
@@ -172,18 +157,6 @@ export class CutController extends Behaviour{
 
         this.lastCutTime = Date.now();
         this.playKnifeMoveAnimation();
-
-        // const result = cutTest.startCut();
-
-        // if (result) {
-        //     this.cutMeshAttribute.vertice = result.vertice;
-        //     this.cutMeshAttribute.uv = result.uv;
-        //     this.cutMeshAttribute.normal = result.normal;
-        //     this.cutMeshAttribute.indices = result.indices;
-
-        //     this.lastCutTime = Date.now();
-        //     this.playKnifeMoveAnimation();
-        // }
     }
 
     private playKnifeMoveAnimation() {

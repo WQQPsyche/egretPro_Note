@@ -29,7 +29,6 @@ export class CutFlyEntityPool{
             _entity.addComponent(MeshFilter).mesh = Mesh.create(1000*3,1500*3);
             _entity.addComponent(MeshRenderer);
             _entity.addComponent(CutFly);
-            this._pool.push(_entity);
             this.entityCount++;
         }
      
@@ -42,10 +41,7 @@ export class CutFlyEntityPool{
     }
 
     public clear(){
-        console.warn(this._pool.length);
-        this.entityCount = 0;
         for (const entity of this._pool) {
-            entity.removeAllComponent();
             entity.destroy();
         }
         this._pool = [];

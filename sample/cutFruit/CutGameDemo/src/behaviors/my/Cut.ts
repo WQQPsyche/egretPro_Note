@@ -93,10 +93,14 @@ export class Cut extends Behaviour{
             }
         }
         if (a.vertices.length == 0 || b.vertices.length == 0) {
-            // CutFlyEntityPool.Instance.returnPool(this.entity);
-            // this.entity.addComponent(CutFly);
+            console.error(a.vertices.length,b.vertices.length);
+            
             console.error("物体没有被切割,所有的点都在一侧");
+
+            let lastBox:GameEntity = CutFlyEntityPool.Instance.getCutFlyEntity();
+            lastBox.getComponent(MeshFilter).mesh = this.entity.getComponent(MeshFilter).mesh;
             return;
+
         }
 
         /**
@@ -151,7 +155,7 @@ export class Cut extends Behaviour{
             
         }
 
-        console.warn("cutPoint.length:", cutPoint.length);
+        // console.warn("cutPoint.length:", cutPoint.length);
         if (cutPoint.length == 0) {
             // console.error("cutPoint.length ==0 ");
             // console.log("切割位置 this.point", this.point);
@@ -542,7 +546,7 @@ export class Cut extends Behaviour{
 
         //todo 和原始尺寸比较大小 然后再定缩放
         const uvScale = xMax - xMin;
-        console.error("uv scale", uvScale);
+        
         cutEdges.MapperCube(uvScale);
         return cutEdges;        
 
