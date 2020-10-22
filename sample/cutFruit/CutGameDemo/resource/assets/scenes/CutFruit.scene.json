@@ -2,136 +2,120 @@
     "version": "5",
     "minVersion": "5",
     "assets": [
-        "builtin/meshphysical.mat.json",
-        "builtin/cube.mesh.bin",
+        "builtin/plane.mesh.bin",
         "builtin/meshnormal.mat.json"
     ],
     "entities": [
         {
-            "uuid": "a080c670-c434-41f8-bf82-b2e4b4c9cc0f",
+            "uuid": "a7d6141a-332c-48ba-87f8-3e8fc04040f1",
             "__class": "@egret/engine/GameEntity",
             "components": [
                 {
-                    "uuid": "b268a325-f2ba-416f-b349-f395b24ef8ef"
+                    "uuid": "9efd41da-abc1-401e-aa9a-6c93440912f3"
                 },
                 {
-                    "uuid": "d8f21602-69c0-4b8a-8265-c8ec291f84c0"
+                    "uuid": "b21a2fb0-3a34-44a9-bea6-c6fee8a06055"
                 },
                 {
-                    "uuid": "1ca8218e-bcfd-4391-bc61-87ea3c447358"
+                    "uuid": "fcb86628-0830-4049-b742-72de96bdf84c"
                 }
             ]
         },
         {
-            "uuid": "83797809-b107-45b2-a783-1c4dfa5b02a5",
+            "uuid": "0fcd3276-2af6-480b-9de2-3d0a5889372f",
             "__class": "@egret/engine/GameEntity",
             "components": [
                 {
-                    "uuid": "46cb065c-1adb-4822-bc55-2d6ddbfa8ede"
+                    "uuid": "83fdcbbe-915e-47e5-9fb9-ea7f4978bc88"
                 },
                 {
-                    "uuid": "7eb40a89-f199-4e2b-b0d5-396081e2b859"
+                    "uuid": "4eff3b3b-2e7d-4a3e-b717-d6aeefffb2f9"
                 },
                 {
-                    "uuid": "477d1d96-be3b-4060-a900-8e59df6648ed"
+                    "uuid": "ee1a275c-e852-4628-a8b4-a9866cab2492"
                 }
             ]
         },
         {
-            "uuid": "86db99f1-7e83-4b93-bac7-a6ab91e4e52c",
+            "uuid": "b63be463-ac4d-4349-8a27-292febeeeb0d",
             "__class": "@egret/engine/GameEntity",
             "components": [
                 {
-                    "uuid": "d37e1e86-e0b5-46e9-ac01-9bafab874497"
+                    "uuid": "25a51597-14ca-4e74-9d38-b0ba059dee4f"
                 },
                 {
-                    "uuid": "467204da-6b4b-4593-a95e-68c91e64ef4e"
+                    "uuid": "87196881-1097-427e-91c9-f26ec31d44ca"
                 },
                 {
-                    "uuid": "de894efd-1f7e-43e3-88ff-6b659b25f16d"
+                    "uuid": "2c96069b-728e-4ab1-8316-3455086c4acd"
                 }
             ]
         },
         {
-            "uuid": "28233ba9-1478-4dd4-bce8-5fd03497952d",
+            "uuid": "1075cbd8-a2a5-4e22-9183-b0bc8cd84436",
             "__class": "@egret/engine/GameEntity",
             "components": [
                 {
-                    "uuid": "e94d5990-4c80-4851-97f1-0416a9ec73f0"
+                    "uuid": "e1980254-7dbc-480a-bfa3-35c80a4a3c54"
                 },
                 {
-                    "uuid": "054c19bf-acd9-456c-b694-af9be0c24fd6"
+                    "uuid": "bd43b6e0-c2a8-4c05-8002-9eb9b506a67f"
                 },
                 {
-                    "uuid": "8112b1a7-3e1f-42b9-a09e-065ac74e2360"
+                    "uuid": "3c4bb79a-5be6-477f-a205-0a7a7dc419ef"
                 },
                 {
-                    "uuid": "65a16402-6562-4749-bef8-82bb514131f5"
+                    "uuid": "a5a582b7-39f0-4b61-b519-7481ae7e0077"
                 }
             ]
         },
         {
-            "uuid": "ba612d77-4001-49ed-a705-9158fea97407",
+            "uuid": "02ba98cd-de3b-454d-a315-c0a41c9e99da",
             "__class": "@egret/engine/GameEntity",
             "components": [
                 {
-                    "uuid": "31adfc3f-eedb-4727-ad52-357f829dd69a"
+                    "uuid": "17153465-70b2-4db4-a740-3989f70f05a1"
                 },
                 {
-                    "uuid": "78445490-102d-4bb9-bded-a52a52b88ba6"
+                    "uuid": "b9f73322-4986-40cf-9379-a97dfa9baca3"
                 },
                 {
-                    "uuid": "c5594916-6475-4caa-bdfd-3e745887c19b"
+                    "uuid": "f54e1d63-9a24-437c-990e-21576ce04181"
                 },
                 {
-                    "uuid": "8f85a962-6e70-4d03-8de1-850239006f87"
-                }
-            ]
-        },
-        {
-            "uuid": "0852e44b-52dc-4e9f-84a8-ed4df7bd3af7",
-            "__class": "@egret/engine/GameEntity",
-            "components": [
-                {
-                    "uuid": "c801d3e5-6067-486b-b0a4-1f2cca3a9c8e"
-                },
-                {
-                    "uuid": "24dc4e86-efcc-472a-8930-b4691d255fbe"
+                    "uuid": "0b55ec43-c1da-45b6-bffe-66840f610023"
                 }
             ]
         }
     ],
     "components": [
         {
-            "uuid": "b268a325-f2ba-416f-b349-f395b24ef8ef",
+            "uuid": "9efd41da-abc1-401e-aa9a-6c93440912f3",
             "__class": "@egret/engine/TreeNode",
-            "name": "root",
+            "name": "Root",
             "children": [
                 {
-                    "uuid": "46cb065c-1adb-4822-bc55-2d6ddbfa8ede"
+                    "uuid": "83fdcbbe-915e-47e5-9fb9-ea7f4978bc88"
                 },
                 {
-                    "uuid": "d37e1e86-e0b5-46e9-ac01-9bafab874497"
+                    "uuid": "25a51597-14ca-4e74-9d38-b0ba059dee4f"
                 },
                 {
-                    "uuid": "e94d5990-4c80-4851-97f1-0416a9ec73f0"
+                    "uuid": "e1980254-7dbc-480a-bfa3-35c80a4a3c54"
                 },
                 {
-                    "uuid": "31adfc3f-eedb-4727-ad52-357f829dd69a"
-                },
-                {
-                    "uuid": "c801d3e5-6067-486b-b0a4-1f2cca3a9c8e"
+                    "uuid": "17153465-70b2-4db4-a740-3989f70f05a1"
                 }
             ]
         },
         {
-            "uuid": "46cb065c-1adb-4822-bc55-2d6ddbfa8ede",
+            "uuid": "83fdcbbe-915e-47e5-9fb9-ea7f4978bc88",
             "__class": "@egret/engine/TreeNode",
             "name": "Main Camera",
             "tag": "MainCamera"
         },
         {
-            "uuid": "7eb40a89-f199-4e2b-b0d5-396081e2b859",
+            "uuid": "4eff3b3b-2e7d-4a3e-b717-d6aeefffb2f9",
             "__class": "@egret/engine/Transform",
             "localPosition": [
                 0,
@@ -140,16 +124,16 @@
             ]
         },
         {
-            "uuid": "477d1d96-be3b-4060-a900-8e59df6648ed",
+            "uuid": "ee1a275c-e852-4628-a8b4-a9866cab2492",
             "__class": "@egret/render/Camera"
         },
         {
-            "uuid": "d37e1e86-e0b5-46e9-ac01-9bafab874497",
+            "uuid": "25a51597-14ca-4e74-9d38-b0ba059dee4f",
             "__class": "@egret/engine/TreeNode",
             "name": "Directional Light"
         },
         {
-            "uuid": "467204da-6b4b-4593-a95e-68c91e64ef4e",
+            "uuid": "87196881-1097-427e-91c9-f26ec31d44ca",
             "__class": "@egret/engine/Transform",
             "localPosition": [
                 0,
@@ -164,98 +148,85 @@
             ]
         },
         {
-            "uuid": "de894efd-1f7e-43e3-88ff-6b659b25f16d",
+            "uuid": "2c96069b-728e-4ab1-8316-3455086c4acd",
             "__class": "@egret/render/DirectionalLight"
         },
         {
-            "uuid": "e94d5990-4c80-4851-97f1-0416a9ec73f0",
+            "uuid": "e1980254-7dbc-480a-bfa3-35c80a4a3c54",
             "__class": "@egret/engine/TreeNode",
             "name": "targetEntity"
         },
         {
-            "uuid": "054c19bf-acd9-456c-b694-af9be0c24fd6",
+            "uuid": "bd43b6e0-c2a8-4c05-8002-9eb9b506a67f",
             "__class": "@egret/engine/Transform"
         },
         {
-            "uuid": "8112b1a7-3e1f-42b9-a09e-065ac74e2360",
+            "uuid": "3c4bb79a-5be6-477f-a205-0a7a7dc419ef",
             "__class": "@egret/render/MeshFilter"
         },
         {
-            "uuid": "65a16402-6562-4749-bef8-82bb514131f5",
-            "__class": "@egret/render/MeshRenderer",
-            "materials": [
-                {
-                    "__asset": 0
-                }
-            ]
+            "uuid": "a5a582b7-39f0-4b61-b519-7481ae7e0077",
+            "__class": "@egret/render/MeshRenderer"
         },
         {
-            "uuid": "31adfc3f-eedb-4727-ad52-357f829dd69a",
+            "uuid": "17153465-70b2-4db4-a740-3989f70f05a1",
             "__class": "@egret/engine/TreeNode",
             "name": "knife"
         },
         {
-            "uuid": "78445490-102d-4bb9-bded-a52a52b88ba6",
+            "uuid": "b9f73322-4986-40cf-9379-a97dfa9baca3",
             "__class": "@egret/engine/Transform",
-            "localPosition": [
-                0.5,
+            "localRotation": [
+                0.7071067690849304,
                 0,
-                0
+                0,
+                0.7071067690849304
             ],
             "localScale": [
-                0.5,
-                0.01,
-                1
+                0.1,
+                0.1,
+                0.01
             ]
         },
         {
-            "uuid": "c5594916-6475-4caa-bdfd-3e745887c19b",
+            "uuid": "f54e1d63-9a24-437c-990e-21576ce04181",
             "__class": "@egret/render/MeshFilter",
             "mesh": {
-                "__asset": 1
+                "__asset": 0
             }
         },
         {
-            "uuid": "8f85a962-6e70-4d03-8de1-850239006f87",
+            "uuid": "0b55ec43-c1da-45b6-bffe-66840f610023",
             "__class": "@egret/render/MeshRenderer",
             "_localBoundingBox": [
-                -0.5,
-                -0.5,
-                -0.5,
-                0.5,
-                0.5,
-                0.5
+                -5,
+                -5,
+                0,
+                5,
+                5,
+                0
             ],
             "materials": [
                 {
-                    "__asset": 2
+                    "__asset": 1
                 }
             ]
         },
         {
-            "uuid": "c801d3e5-6067-486b-b0a4-1f2cca3a9c8e",
-            "__class": "@egret/engine/TreeNode",
-            "name": "plane"
-        },
-        {
-            "uuid": "24dc4e86-efcc-472a-8930-b4691d255fbe",
-            "__class": "@egret/engine/Transform"
-        },
-        {
-            "uuid": "d8f21602-69c0-4b8a-8265-c8ec291f84c0",
+            "uuid": "b21a2fb0-3a34-44a9-bea6-c6fee8a06055",
             "__class": "@egret/engine/Scene"
         },
         {
-            "uuid": "1ca8218e-bcfd-4391-bc61-87ea3c447358",
+            "uuid": "fcb86628-0830-4049-b742-72de96bdf84c",
             "__class": "CutController",
             "targetEntity": {
-                "uuid": "28233ba9-1478-4dd4-bce8-5fd03497952d"
+                "uuid": "1075cbd8-a2a5-4e22-9183-b0bc8cd84436"
             },
             "carmeraEntity": {
-                "uuid": "83797809-b107-45b2-a783-1c4dfa5b02a5"
+                "uuid": "0fcd3276-2af6-480b-9de2-3d0a5889372f"
             },
             "knifeModel": {
-                "uuid": "ba612d77-4001-49ed-a705-9158fea97407"
+                "uuid": "02ba98cd-de3b-454d-a315-c0a41c9e99da"
             },
             "isAutoCut": true
         }

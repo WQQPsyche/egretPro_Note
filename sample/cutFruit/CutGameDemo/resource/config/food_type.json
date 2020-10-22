@@ -1,0 +1,124 @@
+{
+    "food_type": [
+        {
+            "food_type": 1,
+            "food_name": "西瓜",
+            "food_addPrecent": 5,
+            "food_price": 10,
+            "prefabUrl": "assets/prefabs/food/final/xigua_out/xigua.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/xigua_out/xigua_inside.mat.json",
+            "picName": "xigua_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 2,
+            "food_name": "青柠",
+            "food_addPrecent": 10,
+            "food_price": 8888,
+            "prefabUrl": "assets/prefabs/food/final/qingning_out/qingning.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/qingning_out/qingning_inside.mat.json",
+            "picName": "qingning_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 10,
+            "food_name": "芒果",
+            "food_addPrecent": 15,
+            "food_price": 1562560,
+            "prefabUrl": "assets/prefabs/food/final/mangguo_out/mangguo.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/mangguo_out/mangguo_inside.mat.json",
+            "picName": "mangguo_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 20,
+            "food_name": "菠萝",
+            "food_addPrecent": 20,
+            "food_price": 389743480,
+            "prefabUrl": "assets/prefabs/food/final/boluo_out/boluo.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/boluo_out/boluo_inside.mat.json",
+            "picName": "boluo_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 30,
+            "food_name": "橙子",
+            "food_addPrecent": 25,
+            "food_price": 2108270140,
+            "prefabUrl": "assets/prefabs/food/final/chengzi_out/chengzi.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/chengzi_out/chengzi_inside.mat.json",
+            "picName": "chengzi_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 40,
+            "food_name": "鸭梨",
+            "food_addPrecent": 30,
+            "food_price": 15625000000060,
+            "prefabUrl": "assets/prefabs/food/final/lizi_out/lizi.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/lizi_out/lizi_inside.mat.json",
+            "picName": "lizi_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 50,
+            "food_name": "草莓",
+            "food_addPrecent": 50,
+            "food_price": 2000000000000060,
+            "prefabUrl": "assets/prefabs/food/final/caomei_out/caomei.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/caomei_out/caomei_inside.mat.json",
+            "picName": "caomei_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 60,
+            "food_name": "猕猴桃",
+            "food_addPrecent": 60,
+            "food_price": 256000000000000000,
+            "prefabUrl": "assets/prefabs/food/final/mihoutao_out/mihoutao.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/mihoutao_out/mihoutao_inside.mat.json",
+            "picName": "mihoutao_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 70,
+            "food_name": "柠檬",
+            "food_addPrecent": 70,
+            "food_price": 500,
+            "prefabUrl": "assets/prefabs/food/final/ningmeng_out/ningmeng.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/ningmeng_out/ningmeng_inside.mat.json",
+            "picName": "ningmeng_avatar",
+            "moneyType": 2
+        },
+        {
+            "food_type": 80,
+            "food_name": "苹果",
+            "food_addPrecent": 80,
+            "food_price": 32768000000000000000,
+            "prefabUrl": "assets/prefabs/food/final/pingguo_out/pingguo.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/pingguo_out/pingguo_inside.mat.json",
+            "picName": "pingguo_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 90,
+            "food_name": "椰子",
+            "food_addPrecent": 90,
+            "food_price": 5202446652465820000000,
+            "prefabUrl": "assets/prefabs/food/final/yezi_out/yezi.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/yezi_out/yezi_inside.mat.json",
+            "picName": "yezi_avatar",
+            "moneyType": 1
+        },
+        {
+            "food_type": 100,
+            "food_name": "百香果",
+            "food_addPrecent": 100,
+            "food_price": 16751831869995100000000,
+            "prefabUrl": "assets/prefabs/food/final/baixiangguo_out/baixiangguo.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/baixiangguo_out/baixiangguo_inside.mat.json",
+            "picName": "baixiangguo_avatar",
+            "moneyType": 1
+        }
+    ]
+}

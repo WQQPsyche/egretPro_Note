@@ -1,0 +1,96 @@
+{
+    "food_type": [
+        {
+            "food_type": 1,
+            "food_name": "西瓜",
+            "prefabUrl": "assets/prefabs/food/final/xigua_out/xigua.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/xigua_out/xigua_inside.mat.json",
+            "picName": "xigua_avatar",
+            "particleMaterial_suipianUrl": "assets/particle/texture/particle_xigua.png.image.json"
+        },
+        {
+            "food_type": 2,
+            "food_name": "青柠",
+            "prefabUrl": "assets/prefabs/food/final/qingning_out/qingning.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/qingning_out/qingning_inside.mat.json",
+            "picName": "qingning_avatar",
+            "particleMaterial_suipianUrl": "assets/particle/texture/particle_qingning.png.image.json"
+        },
+        {
+            "food_type": 10,
+            "food_name": "芒果",
+            "prefabUrl": "assets/prefabs/food/final/mangguo_out/mangguo.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/mangguo_out/mangguo_inside.mat.json",
+            "picName": "mangguo_avatar"
+        },
+        {
+            "food_type": 20,
+            "food_name": "菠萝",
+            "prefabUrl": "assets/prefabs/food/final/boluo_out/boluo.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/boluo_out/boluo_inside.mat.json",
+            "picName": "boluo_avatar",
+            "particleMaterial_suipianUrl": "assets/particle/texture/particle_boluo.png.image.json"
+        },
+        {
+            "food_type": 30,
+            "food_name": "橙子",
+            "prefabUrl": "assets/prefabs/food/final/chengzi_out/chengzi.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/chengzi_out/chengzi_inside.mat.json",
+            "picName": "chengzi_avatar",
+            "particleMaterial_suipianUrl": "assets/particle/texture/particle_chengzi.png.image.json"
+        },
+        {
+            "food_type": 40,
+            "food_name": "鸭梨",
+            "prefabUrl": "assets/prefabs/food/final/lizi_out/lizi.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/lizi_out/lizi_inside.mat.json",
+            "picName": "lizi_avatar",
+            "particleMaterial_suipianUrl": "assets/particle/texture/particle_lizi.png.image.json"
+        },
+        {
+            "food_type": 50,
+            "food_name": "草莓",
+            "prefabUrl": "assets/prefabs/food/final/caomei_out/caomei.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/caomei_out/caomei_inside.mat.json",
+            "picName": "caomei_avatar"
+        },
+        {
+            "food_type": 60,
+            "food_name": "猕猴桃",
+            "prefabUrl": "assets/prefabs/food/final/mihoutao_out/mihoutao.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/mihoutao_out/mihoutao_inside.mat.json",
+            "picName": "mihoutao_avatar",
+            "particleMaterial_suipianUrl": "assets/particle/texture/particle_mihoutao.png.image.json"
+        },
+        {
+            "food_type": 70,
+            "food_name": "柠檬",
+            "prefabUrl": "assets/prefabs/food/final/ningmeng_out/ningmeng.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/ningmeng_out/ningmeng_inside.mat.json",
+            "picName": "ningmeng_avatar",
+            "particleMaterial_suipianUrl": "assets/particle/texture/particle_ningmeng.png.image.json"
+        },
+        {
+            "food_type": 80,
+            "food_name": "苹果",
+            "prefabUrl": "assets/prefabs/food/final/pingguo_out/pingguo.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/pingguo_out/pingguo_inside.mat.json",
+            "picName": "pingguo_avatar",
+            "particleMaterial_suipianUrl": "assets/particle/texture/particle_pingguo.png.image.json"
+        },
+        {
+            "food_type": 90,
+            "food_name": "椰子",
+            "prefabUrl": "assets/prefabs/food/final/yezi_out/yezi.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/yezi_out/yezi_inside.mat.json",
+            "picName": "yezi_avatar"
+        },
+        {
+            "food_type": 100,
+            "food_name": "百香果",
+            "prefabUrl": "assets/prefabs/food/final/baixiangguo_out/baixiangguo.gltf.prefab.json",
+            "cutFaceMaterialUrl": "assets/prefabs/food/final/baixiangguo_out/baixiangguo_inside.mat.json",
+            "picName": "baixiangguo_avatar"
+        }
+    ]
+}

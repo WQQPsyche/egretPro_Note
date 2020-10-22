@@ -1,0 +1,4999 @@
+{
+    "offlineLevel": [
+        {
+            "offlineLevel": 1,
+            "offlineUpCost": 810,
+            "offlineCoinPerSecond": 1
+        },
+        {
+            "offlineLevel": 2,
+            "offlineUpCost": 12025,
+            "offlineCoinPerSecond": 14
+        },
+        {
+            "offlineLevel": 3,
+            "offlineUpCost": 201042,
+            "offlineCoinPerSecond": 248
+        },
+        {
+            "offlineLevel": 4,
+            "offlineUpCost": 1504326,
+            "offlineCoinPerSecond": 1857
+        },
+        {
+            "offlineLevel": 5,
+            "offlineUpCost": 7172150,
+            "offlineCoinPerSecond": 8854
+        },
+        {
+            "offlineLevel": 6,
+            "offlineUpCost": 25698400,
+            "offlineCoinPerSecond": 31726
+        },
+        {
+            "offlineLevel": 7,
+            "offlineUpCost": 75601522,
+            "offlineCoinPerSecond": 93335
+        },
+        {
+            "offlineLevel": 8,
+            "offlineUpCost": 192518829,
+            "offlineCoinPerSecond": 237677
+        },
+        {
+            "offlineLevel": 9,
+            "offlineUpCost": 439076829,
+            "offlineCoinPerSecond": 542070
+        },
+        {
+            "offlineLevel": 10,
+            "offlineUpCost": 918000275,
+            "offlineCoinPerSecond": 1133333
+        },
+        {
+            "offlineLevel": 11,
+            "offlineUpCost": 1788922573,
+            "offlineCoinPerSecond": 2208546
+        },
+        {
+            "offlineLevel": 12,
+            "offlineUpCost": 3289360249,
+            "offlineCoinPerSecond": 4060938
+        },
+        {
+            "offlineLevel": 13,
+            "offlineUpCost": 5760314136,
+            "offlineCoinPerSecond": 7111498
+        },
+        {
+            "offlineLevel": 14,
+            "offlineUpCost": 9676959942,
+            "offlineCoinPerSecond": 11946864
+        },
+        {
+            "offlineLevel": 15,
+            "offlineUpCost": 15684890900,
+            "offlineCoinPerSecond": 19364062
+        },
+        {
+            "offlineLevel": 16,
+            "offlineUpCost": 24642375136,
+            "offlineCoinPerSecond": 30422685
+        },
+        {
+            "offlineLevel": 17,
+            "offlineUpCost": 37669090456,
+            "offlineCoinPerSecond": 46505049
+        },
+        {
+            "offlineLevel": 18,
+            "offlineUpCost": 56201799213,
+            "offlineCoinPerSecond": 69384937
+        },
+        {
+            "offlineLevel": 19,
+            "offlineUpCost": 82057425915,
+            "offlineCoinPerSecond": 101305464
+        },
+        {
+            "offlineLevel": 20,
+            "offlineUpCost": 117504000275,
+            "offlineCoinPerSecond": 145066667
+        },
+        {
+            "offlineLevel": 21,
+            "offlineUpCost": 165339928339,
+            "offlineCoinPerSecond": 204123368
+        },
+        {
+            "offlineLevel": 22,
+            "offlineUpCost": 228982054393,
+            "offlineCoinPerSecond": 282693894
+        },
+        {
+            "offlineLevel": 23,
+            "offlineUpCost": 312562976310,
+            "offlineCoinPerSecond": 385880217
+        },
+        {
+            "offlineLevel": 24,
+            "offlineUpCost": 421038076998,
+            "offlineCoinPerSecond": 519800095
+        },
+        {
+            "offlineLevel": 25,
+            "offlineUpCost": 560302734650,
+            "offlineCoinPerSecond": 691731771
+        },
+        {
+            "offlineLevel": 26,
+            "offlineUpCost": 737320174432,
+            "offlineCoinPerSecond": 910271820
+        },
+        {
+            "offlineLevel": 27,
+            "offlineUpCost": 960260424310,
+            "offlineCoinPerSecond": 1185506696
+        },
+        {
+            "offlineLevel": 28,
+            "offlineUpCost": 1238650837677,
+            "offlineCoinPerSecond": 1529198565
+        },
+        {
+            "offlineLevel": 29,
+            "offlineUpCost": 1583538645441,
+            "offlineCoinPerSecond": 1954985982
+        },
+        {
+            "offlineLevel": 30,
+            "offlineUpCost": 2007666000275,
+            "offlineCoinPerSecond": 2478600000
+        },
+        {
+            "offlineLevel": 31,
+            "offlineUpCost": 2525657975665,
+            "offlineCoinPerSecond": 3118096266
+        },
+        {
+            "offlineLevel": 32,
+            "offlineUpCost": 3154223982457,
+            "offlineCoinPerSecond": 3894103682
+        },
+        {
+            "offlineLevel": 33,
+            "offlineUpCost": 3912373065564,
+            "offlineCoinPerSecond": 4830090204
+        },
+        {
+            "offlineLevel": 34,
+            "offlineUpCost": 4821643543494,
+            "offlineCoinPerSecond": 5952646349
+        },
+        {
+            "offlineLevel": 35,
+            "offlineUpCost": 5906347453400,
+            "offlineCoinPerSecond": 7291786979
+        },
+        {
+            "offlineLevel": 36,
+            "offlineUpCost": 7193830264288,
+            "offlineCoinPerSecond": 8881271931
+        },
+        {
+            "offlineLevel": 37,
+            "offlineUpCost": 8714746321084,
+            "offlineCoinPerSecond": 10758946075
+        },
+        {
+            "offlineLevel": 38,
+            "offlineUpCost": 10503350482221,
+            "offlineCoinPerSecond": 12967099360
+        },
+        {
+            "offlineLevel": 39,
+            "offlineUpCost": 12597806413407,
+            "offlineCoinPerSecond": 15552847423
+        },
+        {
+            "offlineLevel": 40,
+            "offlineUpCost": 15040512000275,
+            "offlineCoinPerSecond": 18568533333
+        },
+        {
+            "offlineLevel": 41,
+            "offlineUpCost": 17878442342551,
+            "offlineCoinPerSecond": 22072151040
+        },
+        {
+            "offlineLevel": 42,
+            "offlineUpCost": 21163510792441,
+            "offlineCoinPerSecond": 26127791101
+        },
+        {
+            "offlineLevel": 43,
+            "offlineUpCost": 24952948499898,
+            "offlineCoinPerSecond": 30806109259
+        },
+        {
+            "offlineLevel": 44,
+            "offlineUpCost": 29309702927430,
+            "offlineCoinPerSecond": 36184818428
+        },
+        {
+            "offlineLevel": 45,
+            "offlineUpCost": 34302855797150,
+            "offlineCoinPerSecond": 42349204687
+        },
+        {
+            "offlineLevel": 46,
+            "offlineUpCost": 40008060932704,
+            "offlineCoinPerSecond": 49392667818
+        },
+        {
+            "offlineLevel": 47,
+            "offlineUpCost": 46508002458778,
+            "offlineCoinPerSecond": 57417286986
+        },
+        {
+            "offlineLevel": 48,
+            "offlineUpCost": 53892873820845,
+            "offlineCoinPerSecond": 66534412124
+        },
+        {
+            "offlineLevel": 49,
+            "offlineUpCost": 62260878087813,
+            "offlineCoinPerSecond": 76865281589
+        },
+        {
+            "offlineLevel": 50,
+            "offlineUpCost": 71718750000275,
+            "offlineCoinPerSecond": 88541666667
+        },
+        {
+            "offlineLevel": 51,
+            "offlineUpCost": 82382300226997,
+            "offlineCoinPerSecond": 101706543490
+        },
+        {
+            "offlineLevel": 52,
+            "offlineUpCost": 94376982292345,
+            "offlineCoinPerSecond": 116514792953
+        },
+        {
+            "offlineLevel": 53,
+            "offlineUpCost": 107838482637312,
+            "offlineCoinPerSecond": 133133929181
+        },
+        {
+            "offlineLevel": 54,
+            "offlineUpCost": 122913334276807,
+            "offlineCoinPerSecond": 151744857131
+        },
+        {
+            "offlineLevel": 55,
+            "offlineUpCost": 139759554515900,
+            "offlineCoinPerSecond": 172542659896
+        },
+        {
+            "offlineLevel": 56,
+            "offlineUpCost": 158547307187680,
+            "offlineCoinPerSecond": 195737416281
+        },
+        {
+            "offlineLevel": 57,
+            "offlineUpCost": 179459589875393,
+            "offlineCoinPerSecond": 221555049228
+        },
+        {
+            "offlineLevel": 58,
+            "offlineUpCost": 202692946581549,
+            "offlineCoinPerSecond": 250238205656
+        },
+        {
+            "offlineLevel": 59,
+            "offlineUpCost": 228458206306660,
+            "offlineCoinPerSecond": 282047168279
+        },
+        {
+            "offlineLevel": 60,
+            "offlineUpCost": 256981248000275,
+            "offlineCoinPerSecond": 317260800000
+        },
+        {
+            "offlineLevel": 61,
+            "offlineUpCost": 288503792347003,
+            "offlineCoinPerSecond": 356177521416
+        },
+        {
+            "offlineLevel": 62,
+            "offlineUpCost": 323284220850170,
+            "offlineCoinPerSecond": 399116322037
+        },
+        {
+            "offlineLevel": 63,
+            "offlineUpCost": 361598422675806,
+            "offlineCoinPerSecond": 446417805772
+        },
+        {
+            "offlineLevel": 64,
+            "offlineUpCost": 403740669719623,
+            "offlineCoinPerSecond": 498445271258
+        },
+        {
+            "offlineLevel": 65,
+            "offlineUpCost": 450024520359650,
+            "offlineCoinPerSecond": 555585827604
+        },
+        {
+            "offlineLevel": 66,
+            "offlineUpCost": 500783752357216,
+            "offlineCoinPerSecond": 618251546120
+        },
+        {
+            "offlineLevel": 67,
+            "offlineUpCost": 556373325368927,
+            "offlineCoinPerSecond": 686880648603
+        },
+        {
+            "offlineLevel": 68,
+            "offlineUpCost": 617170373532333,
+            "offlineCoinPerSecond": 761938732755
+        },
+        {
+            "offlineLevel": 69,
+            "offlineUpCost": 683575228587946,
+            "offlineCoinPerSecond": 843920035293
+        },
+        {
+            "offlineLevel": 70,
+            "offlineUpCost": 756012474000276,
+            "offlineCoinPerSecond": 933348733333
+        },
+        {
+            "offlineLevel": 71,
+            "offlineUpCost": 834932030540569,
+            "offlineCoinPerSecond": 1030780284617
+        },
+        {
+            "offlineLevel": 72,
+            "offlineUpCost": 920810273793914,
+            "offlineCoinPerSecond": 1136802807152
+        },
+        {
+            "offlineLevel": 73,
+            "offlineUpCost": 1014151184053380,
+            "offlineCoinPerSecond": 1252038498831
+        },
+        {
+            "offlineLevel": 74,
+            "offlineUpCost": 1115487529063880,
+            "offlineCoinPerSecond": 1377145097609
+        },
+        {
+            "offlineLevel": 75,
+            "offlineUpCost": 1225382080078400,
+            "offlineCoinPerSecond": 1512817382812
+        },
+        {
+            "offlineLevel": 76,
+            "offlineUpCost": 1344428861689310,
+            "offlineCoinPerSecond": 1659788718134
+        },
+        {
+            "offlineLevel": 77,
+            "offlineUpCost": 1473254435897380,
+            "offlineCoinPerSecond": 1818832636910
+        },
+        {
+            "offlineLevel": 78,
+            "offlineUpCost": 1612519220881200,
+            "offlineCoinPerSecond": 1990764470223
+        },
+        {
+            "offlineLevel": 79,
+            "offlineUpCost": 1762918844929670,
+            "offlineCoinPerSecond": 2176443018431
+        },
+        {
+            "offlineLevel": 80,
+            "offlineUpCost": 1925185536000280,
+            "offlineCoinPerSecond": 2376772266667
+        },
+        {
+            "offlineLevel": 81,
+            "offlineUpCost": 2100089547365700,
+            "offlineCoinPerSecond": 2592703144895
+        },
+        {
+            "offlineLevel": 82,
+            "offlineUpCost": 2288440619811580,
+            "offlineCoinPerSecond": 2825235333100
+        },
+        {
+            "offlineLevel": 83,
+            "offlineUpCost": 2491089480848030,
+            "offlineCoinPerSecond": 3075419112158
+        },
+        {
+            "offlineLevel": 84,
+            "offlineUpCost": 2708929381397580,
+            "offlineCoinPerSecond": 3344357260984
+        },
+        {
+            "offlineLevel": 85,
+            "offlineUpCost": 2942897670422150,
+            "offlineCoinPerSecond": 3633207000521
+        },
+        {
+            "offlineLevel": 86,
+            "offlineUpCost": 3193977407951970,
+            "offlineCoinPerSecond": 3943181985125
+        },
+        {
+            "offlineLevel": 87,
+            "offlineUpCost": 3463199016978760,
+            "offlineCoinPerSecond": 4275554341949
+        },
+        {
+            "offlineLevel": 88,
+            "offlineUpCost": 3751641974676140,
+            "offlineCoinPerSecond": 4631656758859
+        },
+        {
+            "offlineLevel": 89,
+            "offlineUpCost": 4060436543409840,
+            "offlineCoinPerSecond": 5012884621493
+        },
+        {
+            "offlineLevel": 90,
+            "offlineUpCost": 4390765542000280,
+            "offlineCoinPerSecond": 5420698200000
+        },
+        {
+            "offlineLevel": 91,
+            "offlineUpCost": 4743866157700380,
+            "offlineCoinPerSecond": 5856624886049
+        },
+        {
+            "offlineLevel": 92,
+            "offlineUpCost": 5121031799351160,
+            "offlineCoinPerSecond": 6322261480680
+        },
+        {
+            "offlineLevel": 93,
+            "offlineUpCost": 5523613992177770,
+            "offlineCoinPerSecond": 6819276533552
+        },
+        {
+            "offlineLevel": 94,
+            "offlineUpCost": 5953024314688710,
+            "offlineCoinPerSecond": 7349412734183
+        },
+        {
+            "offlineLevel": 95,
+            "offlineUpCost": 6410736378140900,
+            "offlineCoinPerSecond": 7914489355729
+        },
+        {
+            "offlineLevel": 96,
+            "offlineUpCost": 6898287849033190,
+            "offlineCoinPerSecond": 8516404751892
+        },
+        {
+            "offlineLevel": 97,
+            "offlineUpCost": 7417282515091050,
+            "offlineCoinPerSecond": 9157138907519
+        },
+        {
+            "offlineLevel": 98,
+            "offlineUpCost": 7969392395205170,
+            "offlineCoinPerSecond": 9838756043463
+        },
+        {
+            "offlineLevel": 99,
+            "offlineUpCost": 8556359893786440,
+            "offlineCoinPerSecond": 10563407276279
+        },
+        {
+            "offlineLevel": 100,
+            "offlineUpCost": 9180000000000280,
+            "offlineCoinPerSecond": 11333333333333
+        },
+        {
+            "offlineLevel": 101,
+            "offlineUpCost": 9842202532342630,
+            "offlineCoinPerSecond": 12150867323879
+        },
+        {
+            "offlineLevel": 102,
+            "offlineUpCost": 10544934429020700,
+            "offlineCoinPerSecond": 13018437566692
+        },
+        {
+            "offlineLevel": 103,
+            "offlineUpCost": 11290242084600600,
+            "offlineCoinPerSecond": 13938570474815
+        },
+        {
+            "offlineLevel": 104,
+            "offlineUpCost": 12080253733385300,
+            "offlineCoinPerSecond": 14913893498006
+        },
+        {
+            "offlineLevel": 105,
+            "offlineUpCost": 12917181879984700,
+            "offlineCoinPerSecond": 15947138123437
+        },
+        {
+            "offlineLevel": 106,
+            "offlineUpCost": 13803325777541000,
+            "offlineCoinPerSecond": 17041142935235
+        },
+        {
+            "offlineLevel": 107,
+            "offlineUpCost": 14741073954072300,
+            "offlineCoinPerSecond": 18198856733422
+        },
+        {
+            "offlineLevel": 108,
+            "offlineUpCost": 15732906787396300,
+            "offlineCoinPerSecond": 19423341712834
+        },
+        {
+            "offlineLevel": 109,
+            "offlineUpCost": 16781399129097500,
+            "offlineCoinPerSecond": 20717776702589
+        },
+        {
+            "offlineLevel": 110,
+            "offlineUpCost": 17889222978000300,
+            "offlineCoinPerSecond": 22085460466667
+        },
+        {
+            "offlineLevel": 111,
+            "offlineUpCost": 19059150203610400,
+            "offlineCoinPerSecond": 23529815066185
+        },
+        {
+            "offlineLevel": 112,
+            "offlineUpCost": 20294055319988100,
+            "offlineCoinPerSecond": 25054389283935
+        },
+        {
+            "offlineLevel": 113,
+            "offlineUpCost": 21596918310514500,
+            "offlineCoinPerSecond": 26662862111746
+        },
+        {
+            "offlineLevel": 114,
+            "offlineUpCost": 22970827504015300,
+            "offlineCoinPerSecond": 28359046301253
+        },
+        {
+            "offlineLevel": 115,
+            "offlineUpCost": 24418982502703400,
+            "offlineCoinPerSecond": 30146891978646
+        },
+        {
+            "offlineLevel": 116,
+            "offlineUpCost": 25944697162403300,
+            "offlineCoinPerSecond": 32030490323954
+        },
+        {
+            "offlineLevel": 117,
+            "offlineUpCost": 27551402625520400,
+            "offlineCoinPerSecond": 34014077315457
+        },
+        {
+            "offlineLevel": 118,
+            "offlineUpCost": 29242650407217500,
+            "offlineCoinPerSecond": 36102037539774
+        },
+        {
+            "offlineLevel": 119,
+            "offlineUpCost": 31022115535261000,
+            "offlineCoinPerSecond": 38298908068223
+        },
+        {
+            "offlineLevel": 120,
+            "offlineUpCost": 32893599744000300,
+            "offlineCoinPerSecond": 40609382400000
+        },
+        {
+            "offlineLevel": 121,
+            "offlineUpCost": 34861034722941800,
+            "offlineCoinPerSecond": 43038314472767
+        },
+        {
+            "offlineLevel": 122,
+            "offlineUpCost": 36928485420381400,
+            "offlineCoinPerSecond": 45590722741211
+        },
+        {
+            "offlineLevel": 123,
+            "offlineUpCost": 39100153402557500,
+            "offlineCoinPerSecond": 48271794324145
+        },
+        {
+            "offlineLevel": 124,
+            "offlineUpCost": 41380380268786800,
+            "offlineCoinPerSecond": 51086889220724
+        },
+        {
+            "offlineLevel": 125,
+            "offlineUpCost": 43773651123047200,
+            "offlineCoinPerSecond": 54041544596354
+        },
+        {
+            "offlineLevel": 126,
+            "offlineUpCost": 46284598102468200,
+            "offlineCoinPerSecond": 57141479138849
+        },
+        {
+            "offlineLevel": 127,
+            "offlineUpCost": 48918003963193500,
+            "offlineCoinPerSecond": 60392597485424
+        },
+        {
+            "offlineLevel": 128,
+            "offlineUpCost": 51678805724076700,
+            "offlineCoinPerSecond": 63800994721082
+        },
+        {
+            "offlineLevel": 129,
+            "offlineUpCost": 54572098368674900,
+            "offlineCoinPerSecond": 67372960948981
+        },
+        {
+            "offlineLevel": 130,
+            "offlineUpCost": 57603138606000300,
+            "offlineCoinPerSecond": 71114985933333
+        },
+        {
+            "offlineLevel": 131,
+            "offlineUpCost": 60777348690494700,
+            "offlineCoinPerSecond": 75033763815425
+        },
+        {
+            "offlineLevel": 132,
+            "offlineUpCost": 64100320301688700,
+            "offlineCoinPerSecond": 79136197903319
+        },
+        {
+            "offlineLevel": 133,
+            "offlineUpCost": 67577818484007500,
+            "offlineCoinPerSecond": 83429405535811
+        },
+        {
+            "offlineLevel": 134,
+            "offlineUpCost": 71215785647187700,
+            "offlineCoinPerSecond": 87920723021219
+        },
+        {
+            "offlineLevel": 135,
+            "offlineUpCost": 75020345627765900,
+            "offlineCoinPerSecond": 92617710651562
+        },
+        {
+            "offlineLevel": 136,
+            "offlineUpCost": 78997807812103600,
+            "offlineCoinPerSecond": 97528157792720
+        },
+        {
+            "offlineLevel": 137,
+            "offlineUpCost": 83154671321409400,
+            "offlineCoinPerSecond": 102660088051123
+        },
+        {
+            "offlineLevel": 138,
+            "offlineUpCost": 87497629259222100,
+            "offlineCoinPerSecond": 108021764517558
+        },
+        {
+            "offlineLevel": 139,
+            "offlineUpCost": 92033573021817300,
+            "offlineCoinPerSecond": 113621695088663
+        },
+        {
+            "offlineLevel": 140,
+            "offlineUpCost": 96769596672000300,
+            "offlineCoinPerSecond": 119468637866667
+        },
+        {
+            "offlineLevel": 141,
+            "offlineUpCost": 101713001376747000,
+            "offlineCoinPerSecond": 125571606637960
+        },
+        {
+            "offlineLevel": 142,
+            "offlineUpCost": 106871299909158000,
+            "offlineCoinPerSecond": 131939876431059
+        },
+        {
+            "offlineLevel": 143,
+            "offlineUpCost": 112252221215183000,
+            "offlineCoinPerSecond": 138582989154546
+        },
+        {
+            "offlineLevel": 144,
+            "offlineUpCost": 117863715045586000,
+            "offlineCoinPerSecond": 145510759315538
+        },
+        {
+            "offlineLevel": 145,
+            "offlineUpCost": 123713956653610000,
+            "offlineCoinPerSecond": 152733279819271
+        },
+        {
+            "offlineLevel": 146,
+            "offlineUpCost": 129811351558798000,
+            "offlineCoinPerSecond": 160260927850368
+        },
+        {
+            "offlineLevel": 147,
+            "offlineUpCost": 136164540377446000,
+            "offlineCoinPerSecond": 168104370836353
+        },
+        {
+            "offlineLevel": 148,
+            "offlineUpCost": 142782403720142000,
+            "offlineCoinPerSecond": 176274572494002
+        },
+        {
+            "offlineLevel": 149,
+            "offlineUpCost": 149674067156846000,
+            "offlineCoinPerSecond": 184782798959069
+        },
+        {
+            "offlineLevel": 150,
+            "offlineUpCost": 156848906250000000,
+            "offlineCoinPerSecond": 193640625000000
+        },
+        {
+            "offlineLevel": 151,
+            "offlineUpCost": 164316551656097000,
+            "offlineCoinPerSecond": 202859940316169
+        },
+        {
+            "offlineLevel": 152,
+            "offlineUpCost": 172086894296197000,
+            "offlineCoinPerSecond": 212452955921231
+        },
+        {
+            "offlineLevel": 153,
+            "offlineUpCost": 180170090595841000,
+            "offlineCoinPerSecond": 222432210612149
+        },
+        {
+            "offlineLevel": 154,
+            "offlineUpCost": 188576567794830000,
+            "offlineCoinPerSecond": 232810577524481
+        },
+        {
+            "offlineLevel": 155,
+            "offlineUpCost": 197317029327328000,
+            "offlineCoinPerSecond": 243601270774480
+        },
+        {
+            "offlineLevel": 156,
+            "offlineUpCost": 206402460272758000,
+            "offlineCoinPerSecond": 254817852188590
+        },
+        {
+            "offlineLevel": 157,
+            "offlineUpCost": 215844132877942000,
+            "offlineCoinPerSecond": 266474238120916
+        },
+        {
+            "offlineLevel": 158,
+            "offlineUpCost": 225653612150963000,
+            "offlineCoinPerSecond": 278584706359214
+        },
+        {
+            "offlineLevel": 159,
+            "offlineUpCost": 235842761527199000,
+            "offlineCoinPerSecond": 291163903119999
+        },
+        {
+            "offlineLevel": 160,
+            "offlineUpCost": 246423748608000000,
+            "offlineCoinPerSecond": 304226850133334
+        },
+        {
+            "offlineLevel": 161,
+            "offlineUpCost": 257409050972463000,
+            "offlineCoinPerSecond": 317788951817855
+        },
+        {
+            "offlineLevel": 162,
+            "offlineUpCost": 268811462062774000,
+            "offlineCoinPerSecond": 331866002546635
+        },
+        {
+            "offlineLevel": 163,
+            "offlineUpCost": 280644097143580000,
+            "offlineCoinPerSecond": 346474194004420
+        },
+        {
+            "offlineLevel": 164,
+            "offlineUpCost": 292920399335847000,
+            "offlineCoinPerSecond": 361630122636848
+        },
+        {
+            "offlineLevel": 165,
+            "offlineUpCost": 305654145725672000,
+            "offlineCoinPerSecond": 377350797192188
+        },
+        {
+            "offlineLevel": 166,
+            "offlineUpCost": 318859453548513000,
+            "offlineCoinPerSecond": 393653646356189
+        },
+        {
+            "offlineLevel": 167,
+            "offlineUpCost": 332550786449295000,
+            "offlineCoinPerSecond": 410556526480611
+        },
+        {
+            "offlineLevel": 168,
+            "offlineUpCost": 346742960818855000,
+            "offlineCoinPerSecond": 428077729405993
+        },
+        {
+            "offlineLevel": 169,
+            "offlineUpCost": 361451152207195000,
+            "offlineCoinPerSecond": 446235990379253
+        },
+        {
+            "offlineLevel": 170,
+            "offlineUpCost": 376690901814000000,
+            "offlineCoinPerSecond": 465050496066667
+        },
+        {
+            "offlineLevel": 171,
+            "offlineUpCost": 392478123056882000,
+            "offlineCoinPerSecond": 484540892662817
+        },
+        {
+            "offlineLevel": 172,
+            "offlineUpCost": 408829108217817000,
+            "offlineCoinPerSecond": 504727294096070
+        },
+        {
+            "offlineLevel": 173,
+            "offlineUpCost": 425760535168239000,
+            "offlineCoinPerSecond": 525630290331159
+        },
+        {
+            "offlineLevel": 174,
+            "offlineUpCost": 443289474173246000,
+            "offlineCoinPerSecond": 547270955769439
+        },
+        {
+            "offlineLevel": 175,
+            "offlineUpCost": 461433394775391000,
+            "offlineCoinPerSecond": 569670857747396
+        },
+        {
+            "offlineLevel": 176,
+            "offlineUpCost": 480210172758511000,
+            "offlineCoinPerSecond": 592852065133964
+        },
+        {
+            "offlineLevel": 177,
+            "offlineUpCost": 499638097192063000,
+            "offlineCoinPerSecond": 616837157027238
+        },
+        {
+            "offlineLevel": 178,
+            "offlineUpCost": 519735877556424000,
+            "offlineCoinPerSecond": 641649231551141
+        },
+        {
+            "offlineLevel": 179,
+            "offlineUpCost": 540522650949631000,
+            "offlineCoinPerSecond": 667311914752631
+        },
+        {
+            "offlineLevel": 180,
+            "offlineUpCost": 562017989376000000,
+            "offlineCoinPerSecond": 693849369600000
+        },
+        {
+            "offlineLevel": 181,
+            "offlineUpCost": 584241907117113000,
+            "offlineCoinPerSecond": 721286305082855
+        },
+        {
+            "offlineLevel": 182,
+            "offlineUpCost": 607214868185614000,
+            "offlineCoinPerSecond": 749647985414338
+        },
+        {
+            "offlineLevel": 183,
+            "offlineUpCost": 630957793862294000,
+            "offlineCoinPerSecond": 778960239336166
+        },
+        {
+            "offlineLevel": 184,
+            "offlineUpCost": 655492070316914000,
+            "offlineCoinPerSecond": 809249469527054
+        },
+        {
+            "offlineLevel": 185,
+            "offlineUpCost": 680839556313235000,
+            "offlineCoinPerSecond": 840542662115105
+        },
+        {
+            "offlineLevel": 186,
+            "offlineUpCost": 707022590998719000,
+            "offlineCoinPerSecond": 872867396294715
+        },
+        {
+            "offlineLevel": 187,
+            "offlineUpCost": 734064001779363000,
+            "offlineCoinPerSecond": 906251854048597
+        },
+        {
+            "offlineLevel": 188,
+            "offlineUpCost": 761987112280120000,
+            "offlineCoinPerSecond": 940724829975457
+        },
+        {
+            "offlineLevel": 189,
+            "offlineUpCost": 790815750391386000,
+            "offlineCoinPerSecond": 976315741223933
+        },
+        {
+            "offlineLevel": 190,
+            "offlineUpCost": 820574256402000000,
+            "offlineCoinPerSecond": 1013054637533330
+        },
+        {
+            "offlineLevel": 191,
+            "offlineUpCost": 851287491219233000,
+            "offlineCoinPerSecond": 1050972211381770
+        },
+        {
+            "offlineLevel": 192,
+            "offlineUpCost": 882980844676213000,
+            "offlineCoinPerSecond": 1090099808242240
+        },
+        {
+            "offlineLevel": 193,
+            "offlineUpCost": 915680243927265000,
+            "offlineCoinPerSecond": 1130469436947240
+        },
+        {
+            "offlineLevel": 194,
+            "offlineUpCost": 949412161931619000,
+            "offlineCoinPerSecond": 1172113780162490
+        },
+        {
+            "offlineLevel": 195,
+            "offlineUpCost": 984203626025954000,
+            "offlineCoinPerSecond": 1215066204970310
+        },
+        {
+            "offlineLevel": 196,
+            "offlineUpCost": 1020082226586230000,
+            "offlineCoinPerSecond": 1259360773563240
+        },
+        {
+            "offlineLevel": 197,
+            "offlineUpCost": 1057076125779270000,
+            "offlineCoinPerSecond": 1305032254048490
+        },
+        {
+            "offlineLevel": 198,
+            "offlineUpCost": 1095214066404630000,
+            "offlineCoinPerSecond": 1352116131363740
+        },
+        {
+            "offlineLevel": 199,
+            "offlineUpCost": 1134525380827020000,
+            "offlineCoinPerSecond": 1400648618304960
+        },
+        {
+            "offlineLevel": 200,
+            "offlineUpCost": 1175040000000000000,
+            "offlineCoinPerSecond": 1450666666666670
+        },
+        {
+            "offlineLevel": 201,
+            "offlineUpCost": 1216788462581240000,
+            "offlineCoinPerSecond": 1502207978495360
+        },
+        {
+            "offlineLevel": 202,
+            "offlineUpCost": 1259801924139820000,
+            "offlineCoinPerSecond": 1555311017456570
+        },
+        {
+            "offlineLevel": 203,
+            "offlineUpCost": 1304112166456110000,
+            "offlineCoinPerSecond": 1610015020316180
+        },
+        {
+            "offlineLevel": 204,
+            "offlineUpCost": 1349751606914610000,
+            "offlineCoinPerSecond": 1666360008536560
+        },
+        {
+            "offlineLevel": 205,
+            "offlineUpCost": 1396753307990300000,
+            "offlineCoinPerSecond": 1724386799988020
+        },
+        {
+            "offlineLevel": 206,
+            "offlineUpCost": 1445150986828840000,
+            "offlineCoinPerSecond": 1784137020776350
+        },
+        {
+            "offlineLevel": 207,
+            "offlineUpCost": 1494979024921240000,
+            "offlineCoinPerSecond": 1845653117186710
+        },
+        {
+            "offlineLevel": 208,
+            "offlineUpCost": 1546272477873280000,
+            "offlineCoinPerSecond": 1908978367744790
+        },
+        {
+            "offlineLevel": 209,
+            "offlineUpCost": 1599067085270360000,
+            "offlineCoinPerSecond": 1974156895395510
+        },
+        {
+            "offlineLevel": 210,
+            "offlineUpCost": 1653399280638000000,
+            "offlineCoinPerSecond": 2041233679800000
+        },
+        {
+            "offlineLevel": 211,
+            "offlineUpCost": 1709306201498650000,
+            "offlineCoinPerSecond": 2110254569751430
+        },
+        {
+            "offlineLevel": 212,
+            "offlineUpCost": 1766825699525210000,
+            "offlineCoinPerSecond": 2181266295710130
+        },
+        {
+            "offlineLevel": 213,
+            "offlineUpCost": 1825996350791620000,
+            "offlineCoinPerSecond": 2254316482458790
+        },
+        {
+            "offlineLevel": 214,
+            "offlineUpCost": 1886857466121210000,
+            "offlineCoinPerSecond": 2329453661878040
+        },
+        {
+            "offlineLevel": 215,
+            "offlineUpCost": 1949449101533020000,
+            "offlineCoinPerSecond": 2406727285843230
+        },
+        {
+            "offlineLevel": 216,
+            "offlineUpCost": 2013812068786690000,
+            "offlineCoinPerSecond": 2486187739242820
+        },
+        {
+            "offlineLevel": 217,
+            "offlineUpCost": 2079987946026440000,
+            "offlineCoinPerSecond": 2567886353119060
+        },
+        {
+            "offlineLevel": 218,
+            "offlineUpCost": 2148019088524440000,
+            "offlineCoinPerSecond": 2651875417931410
+        },
+        {
+            "offlineLevel": 219,
+            "offlineUpCost": 2217948639524140000,
+            "offlineCoinPerSecond": 2738208196943380
+        },
+        {
+            "offlineLevel": 220,
+            "offlineUpCost": 2289820541184000000,
+            "offlineCoinPerSecond": 2826938939733330
+        },
+        {
+            "offlineLevel": 221,
+            "offlineUpCost": 2363679545622110000,
+            "offlineCoinPerSecond": 2918122895829770
+        },
+        {
+            "offlineLevel": 222,
+            "offlineUpCost": 2439571226062100000,
+            "offlineCoinPerSecond": 3011816328471730
+        },
+        {
+            "offlineLevel": 223,
+            "offlineUpCost": 2517541988080850000,
+            "offlineCoinPerSecond": 3108076528494870
+        },
+        {
+            "offlineLevel": 224,
+            "offlineUpCost": 2597639080958440000,
+            "offlineCoinPerSecond": 3206961828343750
+        },
+        {
+            "offlineLevel": 225,
+            "offlineUpCost": 2679910609130860000,
+            "offlineCoinPerSecond": 3308531616210940
+        },
+        {
+            "offlineLevel": 226,
+            "offlineUpCost": 2764405543745820000,
+            "offlineCoinPerSecond": 3412846350303480
+        },
+        {
+            "offlineLevel": 227,
+            "offlineUpCost": 2851173734322250000,
+            "offlineCoinPerSecond": 3519967573237350
+        },
+        {
+            "offlineLevel": 228,
+            "offlineUpCost": 2940265920513920000,
+            "offlineCoinPerSecond": 3629957926560400
+        },
+        {
+            "offlineLevel": 229,
+            "offlineUpCost": 3031733743977550000,
+            "offlineCoinPerSecond": 3742881165404380
+        },
+        {
+            "offlineLevel": 230,
+            "offlineUpCost": 3125629760346000000,
+            "offlineCoinPerSecond": 3858802173266670
+        },
+        {
+            "offlineLevel": 231,
+            "offlineUpCost": 3222007451306970000,
+            "offlineCoinPerSecond": 3977786976922180
+        },
+        {
+            "offlineLevel": 232,
+            "offlineUpCost": 3320921236787590000,
+            "offlineCoinPerSecond": 4099902761466160
+        },
+        {
+            "offlineLevel": 233,
+            "offlineUpCost": 3422426487245460000,
+            "offlineCoinPerSecond": 4225217885488220
+        },
+        {
+            "offlineLevel": 234,
+            "offlineUpCost": 3526579536066580000,
+            "offlineCoinPerSecond": 4353801896378490
+        },
+        {
+            "offlineLevel": 235,
+            "offlineUpCost": 3633437692070580000,
+            "offlineCoinPerSecond": 4485725545766150
+        },
+        {
+            "offlineLevel": 236,
+            "offlineUpCost": 3743059252123800000,
+            "offlineCoinPerSecond": 4621060805091110
+        },
+        {
+            "offlineLevel": 237,
+            "offlineUpCost": 3855503513860590000,
+            "offlineCoinPerSecond": 4759880881309370
+        },
+        {
+            "offlineLevel": 238,
+            "offlineUpCost": 3970830788513370000,
+            "offlineCoinPerSecond": 4902260232732560
+        },
+        {
+            "offlineLevel": 239,
+            "offlineUpCost": 4089102413851870000,
+            "offlineCoinPerSecond": 5048274585002300
+        },
+        {
+            "offlineLevel": 240,
+            "offlineUpCost": 4210380767232000000,
+            "offlineCoinPerSecond": 5198000947200000
+        },
+        {
+            "offlineLevel": 241,
+            "offlineUpCost": 4334729278754910000,
+            "offlineCoinPerSecond": 5351517628092480
+        },
+        {
+            "offlineLevel": 242,
+            "offlineUpCost": 4462212444536520000,
+            "offlineCoinPerSecond": 5508904252514220
+        },
+        {
+            "offlineLevel": 243,
+            "offlineUpCost": 4592895840088170000,
+            "offlineCoinPerSecond": 5670241777886630
+        },
+        {
+            "offlineLevel": 244,
+            "offlineUpCost": 4726846133808790000,
+            "offlineCoinPerSecond": 5835612510875050
+        },
+        {
+            "offlineLevel": 245,
+            "offlineUpCost": 4864131100588920000,
+            "offlineCoinPerSecond": 6005100124183850
+        },
+        {
+            "offlineLevel": 246,
+            "offlineUpCost": 5004819635527320000,
+            "offlineCoinPerSecond": 6178789673490520
+        },
+        {
+            "offlineLevel": 247,
+            "offlineUpCost": 5148981767760330000,
+            "offlineCoinPerSecond": 6356767614518920
+        },
+        {
+            "offlineLevel": 248,
+            "offlineUpCost": 5296688674404670000,
+            "offlineCoinPerSecond": 6539121820252680
+        },
+        {
+            "offlineLevel": 249,
+            "offlineUpCost": 5448012694614050000,
+            "offlineCoinPerSecond": 6725941598288950
+        },
+        {
+            "offlineLevel": 250,
+            "offlineUpCost": 5603027343750000000,
+            "offlineCoinPerSecond": 6917317708333330
+        },
+        {
+            "offlineLevel": 251,
+            "offlineUpCost": 5761807327667520000,
+            "offlineCoinPerSecond": 7113342379836450
+        },
+        {
+            "offlineLevel": 252,
+            "offlineUpCost": 5924428557115890000,
+            "offlineCoinPerSecond": 7314109329772710
+        },
+        {
+            "offlineLevel": 253,
+            "offlineUpCost": 6090968162255150000,
+            "offlineCoinPerSecond": 7519713780561920
+        },
+        {
+            "offlineLevel": 254,
+            "offlineUpCost": 6261504507288730000,
+            "offlineCoinPerSecond": 7730252478134230
+        },
+        {
+            "offlineLevel": 255,
+            "offlineUpCost": 6436117205212640000,
+            "offlineCoinPerSecond": 7945823710139060
+        },
+        {
+            "offlineLevel": 256,
+            "offlineUpCost": 6614887132681790000,
+            "offlineCoinPerSecond": 8166527324298500
+        },
+        {
+            "offlineLevel": 257,
+            "offlineUpCost": 6797896444993700000,
+            "offlineCoinPerSecond": 8392464746905800
+        },
+        {
+            "offlineLevel": 258,
+            "offlineUpCost": 6985228591190350000,
+            "offlineCoinPerSecond": 8623739001469570
+        },
+        {
+            "offlineLevel": 259,
+            "offlineUpCost": 7176968329278340000,
+            "offlineCoinPerSecond": 8860454727504120
+        },
+        {
+            "offlineLevel": 260,
+            "offlineUpCost": 7373201741568000000,
+            "offlineCoinPerSecond": 9102718199466670
+        },
+        {
+            "offlineLevel": 261,
+            "offlineUpCost": 7574016250131940000,
+            "offlineCoinPerSecond": 9350637345841890
+        },
+        {
+            "offlineLevel": 262,
+            "offlineUpCost": 7779500632383290000,
+            "offlineCoinPerSecond": 9604321768374430
+        },
+        {
+            "offlineLevel": 263,
+            "offlineUpCost": 7989745036774390000,
+            "offlineCoinPerSecond": 9863882761449870
+        },
+        {
+            "offlineLevel": 264,
+            "offlineUpCost": 8204840998616120000,
+            "offlineCoinPerSecond": 10129433331624800
+        },
+        {
+            "offlineLevel": 265,
+            "offlineUpCost": 8424881456018490000,
+            "offlineCoinPerSecond": 10401088217306800
+        },
+        {
+            "offlineLevel": 266,
+            "offlineUpCost": 8649960765952920000,
+            "offlineCoinPerSecond": 10678963908583900
+        },
+        {
+            "offlineLevel": 267,
+            "offlineUpCost": 8880174720436710000,
+            "offlineCoinPerSecond": 10963178667205800
+        },
+        {
+            "offlineLevel": 268,
+            "offlineUpCost": 9115620562839990000,
+            "offlineCoinPerSecond": 11253852546716000
+        },
+        {
+            "offlineLevel": 269,
+            "offlineUpCost": 9356397004315850000,
+            "offlineCoinPerSecond": 11551107412735600
+        },
+        {
+            "offlineLevel": 270,
+            "offlineUpCost": 9602604240354000000,
+            "offlineCoinPerSecond": 11855066963400000
+        },
+        {
+            "offlineLevel": 271,
+            "offlineUpCost": 9854343967458380000,
+            "offlineCoinPerSecond": 12165856749948600
+        },
+        {
+            "offlineLevel": 272,
+            "offlineUpCost": 10111719399949200000,
+            "offlineCoinPerSecond": 12483604197468200
+        },
+        {
+            "offlineLevel": 273,
+            "offlineUpCost": 10374835286890100000,
+            "offlineCoinPerSecond": 12808438625790300
+        },
+        {
+            "offlineLevel": 274,
+            "offlineUpCost": 10643797929140400000,
+            "offlineCoinPerSecond": 13140491270543700
+        },
+        {
+            "offlineLevel": 275,
+            "offlineUpCost": 10918715196533200000,
+            "offlineCoinPerSecond": 13479895304362000
+        },
+        {
+            "offlineLevel": 276,
+            "offlineUpCost": 11199696545180400000,
+            "offlineCoinPerSecond": 13826785858247400
+        },
+        {
+            "offlineLevel": 277,
+            "offlineUpCost": 11486853034903500000,
+            "offlineCoinPerSecond": 14181300043090800
+        },
+        {
+            "offlineLevel": 278,
+            "offlineUpCost": 11780297346792600000,
+            "offlineCoinPerSecond": 14543576971348900
+        },
+        {
+            "offlineLevel": 279,
+            "offlineUpCost": 12080143800892200000,
+            "offlineCoinPerSecond": 14913757778879200
+        },
+        {
+            "offlineLevel": 280,
+            "offlineUpCost": 12386508374016000000,
+            "offlineCoinPerSecond": 15291985646933300
+        },
+        {
+            "offlineLevel": 281,
+            "offlineUpCost": 12699508717689800000,
+            "offlineCoinPerSecond": 15678405824308400
+        },
+        {
+            "offlineLevel": 282,
+            "offlineUpCost": 13019264176223600000,
+            "offlineCoinPerSecond": 16073165649658800
+        },
+        {
+            "offlineLevel": 283,
+            "offlineUpCost": 13345895804913300000,
+            "offlineCoinPerSecond": 16476414573967000
+        },
+        {
+            "offlineLevel": 284,
+            "offlineUpCost": 13679526388372200000,
+            "offlineCoinPerSecond": 16888304183175500
+        },
+        {
+            "offlineLevel": 285,
+            "offlineUpCost": 14020280458993500000,
+            "offlineCoinPerSecond": 17308988220979700
+        },
+        {
+            "offlineLevel": 286,
+            "offlineUpCost": 14368284315543300000,
+            "offlineCoinPerSecond": 17738622611781900
+        },
+        {
+            "offlineLevel": 287,
+            "offlineUpCost": 14723666041884800000,
+            "offlineCoinPerSecond": 18177365483808400
+        },
+        {
+            "offlineLevel": 288,
+            "offlineUpCost": 15086555525835000000,
+            "offlineCoinPerSecond": 18625377192388900
+        },
+        {
+            "offlineLevel": 289,
+            "offlineUpCost": 15457084478153000000,
+            "offlineCoinPerSecond": 19082820343398800
+        },
+        {
+            "offlineLevel": 290,
+            "offlineUpCost": 15835386451662000000,
+            "offlineCoinPerSecond": 19549859816866700
+        },
+        {
+            "offlineLevel": 291,
+            "offlineUpCost": 16221596860503500000,
+            "offlineCoinPerSecond": 20026662790745100
+        },
+        {
+            "offlineLevel": 292,
+            "offlineUpCost": 16615852999526100000,
+            "offlineCoinPerSecond": 20513398764847000
+        },
+        {
+            "offlineLevel": 293,
+            "offlineUpCost": 17018294063807700000,
+            "offlineCoinPerSecond": 21010239584947700
+        },
+        {
+            "offlineLevel": 294,
+            "offlineUpCost": 17429061168313100000,
+            "offlineCoinPerSecond": 21517359467053200
+        },
+        {
+            "offlineLevel": 295,
+            "offlineUpCost": 17848297367686300000,
+            "offlineCoinPerSecond": 22034935021834900
+        },
+        {
+            "offlineLevel": 296,
+            "offlineUpCost": 18276147676178100000,
+            "offlineCoinPerSecond": 22563145279232200
+        },
+        {
+            "offlineLevel": 297,
+            "offlineUpCost": 18712759087710400000,
+            "offlineCoinPerSecond": 23102171713222700
+        },
+        {
+            "offlineLevel": 298,
+            "offlineUpCost": 19158280596076300000,
+            "offlineCoinPerSecond": 23652198266760800
+        },
+        {
+            "offlineLevel": 299,
+            "offlineUpCost": 19612863215277700000,
+            "offlineCoinPerSecond": 24213411376886000
+        },
+        {
+            "offlineLevel": 300,
+            "offlineUpCost": 20076660000000000000,
+            "offlineCoinPerSecond": 24786000000000000
+        },
+        {
+            "offlineLevel": 301,
+            "offlineUpCost": 20549826066224700000,
+            "offlineCoinPerSecond": 25370155637314400
+        },
+        {
+            "offlineLevel": 302,
+            "offlineUpCost": 21032518611980400000,
+            "offlineCoinPerSecond": 25966072360469600
+        },
+        {
+            "offlineLevel": 303,
+            "offlineUpCost": 21524896938232700000,
+            "offlineCoinPerSecond": 26573946837324300
+        },
+        {
+            "offlineLevel": 304,
+            "offlineUpCost": 22027122469913200000,
+            "offlineCoinPerSecond": 27193978357917500
+        },
+        {
+            "offlineLevel": 305,
+            "offlineUpCost": 22539358777088100000,
+            "offlineCoinPerSecond": 27826368860602600
+        },
+        {
+            "offlineLevel": 306,
+            "offlineUpCost": 23061771596267600000,
+            "offlineCoinPerSecond": 28471322958355000
+        },
+        {
+            "offlineLevel": 307,
+            "offlineUpCost": 23594528851855100000,
+            "offlineCoinPerSecond": 29129047965253200
+        },
+        {
+            "offlineLevel": 308,
+            "offlineUpCost": 24137800677738200000,
+            "offlineCoinPerSecond": 29799753923133500
+        },
+        {
+            "offlineLevel": 309,
+            "offlineUpCost": 24691759439020900000,
+            "offlineCoinPerSecond": 30483653628420800
+        },
+        {
+            "offlineLevel": 310,
+            "offlineUpCost": 25256579753898000000,
+            "offlineCoinPerSecond": 31180962659133300
+        },
+        {
+            "offlineLevel": 311,
+            "offlineUpCost": 25832438515672100000,
+            "offlineCoinPerSecond": 31891899402064300
+        },
+        {
+            "offlineLevel": 312,
+            "offlineUpCost": 26419514914913000000,
+            "offlineCoinPerSecond": 32616685080139500
+        },
+        {
+            "offlineLevel": 313,
+            "offlineUpCost": 27017990461761600000,
+            "offlineCoinPerSecond": 33355543779952600
+        },
+        {
+            "offlineLevel": 314,
+            "offlineUpCost": 27628049008376600000,
+            "offlineCoinPerSecond": 34108702479477200
+        },
+        {
+            "offlineLevel": 315,
+            "offlineUpCost": 28249876771525800000,
+            "offlineCoinPerSecond": 34876391075957800
+        },
+        {
+            "offlineLevel": 316,
+            "offlineUpCost": 28883662355323200000,
+            "offlineCoinPerSecond": 35658842413979300
+        },
+        {
+            "offlineLevel": 317,
+            "offlineUpCost": 29529596774109900000,
+            "offlineCoinPerSecond": 36456292313715900
+        },
+        {
+            "offlineLevel": 318,
+            "offlineUpCost": 30187873475481500000,
+            "offlineCoinPerSecond": 37268979599359800
+        },
+        {
+            "offlineLevel": 319,
+            "offlineUpCost": 30858688363462100000,
+            "offlineCoinPerSecond": 38097146127730900
+        },
+        {
+            "offlineLevel": 320,
+            "offlineUpCost": 31542239821824000000,
+            "offlineCoinPerSecond": 38941036817066700
+        },
+        {
+            "offlineLevel": 321,
+            "offlineUpCost": 32238728737555400000,
+            "offlineCoinPerSecond": 39800899675994400
+        },
+        {
+            "offlineLevel": 322,
+            "offlineUpCost": 32948358524475200000,
+            "offlineCoinPerSecond": 40676985832685400
+        },
+        {
+            "offlineLevel": 323,
+            "offlineUpCost": 33671335146995800000,
+            "offlineCoinPerSecond": 41569549564192400
+        },
+        {
+            "offlineLevel": 324,
+            "offlineUpCost": 34407867144035000000,
+            "offlineCoinPerSecond": 42478848325969200
+        },
+        {
+            "offlineLevel": 325,
+            "offlineUpCost": 35158165653076200000,
+            "offlineCoinPerSecond": 43405142781575500
+        },
+        {
+            "offlineLevel": 326,
+            "offlineUpCost": 35922444434378200000,
+            "offlineCoinPerSecond": 44348696832565700
+        },
+        {
+            "offlineLevel": 327,
+            "offlineUpCost": 36700919895335600000,
+            "offlineCoinPerSecond": 45309777648562500
+        },
+        {
+            "offlineLevel": 328,
+            "offlineUpCost": 37493811114988400000,
+            "offlineCoinPerSecond": 46288655697516500
+        },
+        {
+            "offlineLevel": 329,
+            "offlineUpCost": 38301339868683300000,
+            "offlineCoinPerSecond": 47285604776152200
+        },
+        {
+            "offlineLevel": 330,
+            "offlineUpCost": 39123730652886000000,
+            "offlineCoinPerSecond": 48300902040600000
+        },
+        {
+            "offlineLevel": 331,
+            "offlineUpCost": 39961210710145400000,
+            "offlineCoinPerSecond": 49334828037216500
+        },
+        {
+            "offlineLevel": 332,
+            "offlineUpCost": 40814010054209700000,
+            "offlineCoinPerSecond": 50387666733592200
+        },
+        {
+            "offlineLevel": 333,
+            "offlineUpCost": 41682361495295400000,
+            "offlineCoinPerSecond": 51459705549747400
+        },
+        {
+            "offlineLevel": 334,
+            "offlineUpCost": 42566500665509700000,
+            "offlineCoinPerSecond": 52551235389518200
+        },
+        {
+            "offlineLevel": 335,
+            "offlineUpCost": 43466666044425900000,
+            "offlineCoinPerSecond": 53662550672130700
+        },
+        {
+            "offlineLevel": 336,
+            "offlineUpCost": 44383098984813400000,
+            "offlineCoinPerSecond": 54793949363967100
+        },
+        {
+            "offlineLevel": 337,
+            "offlineUpCost": 45316043738521900000,
+            "offlineCoinPerSecond": 55945733010520800
+        },
+        {
+            "offlineLevel": 338,
+            "offlineUpCost": 46265747482520900000,
+            "offlineCoinPerSecond": 57118206768544300
+        },
+        {
+            "offlineLevel": 339,
+            "offlineUpCost": 47232460345094600000,
+            "offlineCoinPerSecond": 58311679438388300
+        },
+        {
+            "offlineLevel": 340,
+            "offlineUpCost": 48216435432192000000,
+            "offlineCoinPerSecond": 59526463496533300
+        },
+        {
+            "offlineLevel": 341,
+            "offlineUpCost": 49217928853934800000,
+            "offlineCoinPerSecond": 60762875128314600
+        },
+        {
+            "offlineLevel": 342,
+            "offlineUpCost": 50237199751280900000,
+            "offlineCoinPerSecond": 62021234260840600
+        },
+        {
+            "offlineLevel": 343,
+            "offlineUpCost": 51274510322845500000,
+            "offlineCoinPerSecond": 63301864596105500
+        },
+        {
+            "offlineLevel": 344,
+            "offlineUpCost": 52330125851880500000,
+            "offlineCoinPerSecond": 64605093644297000
+        },
+        {
+            "offlineLevel": 345,
+            "offlineUpCost": 53404314733411700000,
+            "offlineCoinPerSecond": 65931252757298400
+        },
+        {
+            "offlineLevel": 346,
+            "offlineUpCost": 54497348501534500000,
+            "offlineCoinPerSecond": 67280677162388300
+        },
+        {
+            "offlineLevel": 347,
+            "offlineUpCost": 55609501856869100000,
+            "offlineCoinPerSecond": 68653705996134700
+        },
+        {
+            "offlineLevel": 348,
+            "offlineUpCost": 56741052694175400000,
+            "offlineCoinPerSecond": 70050682338488200
+        },
+        {
+            "offlineLevel": 349,
+            "offlineUpCost": 57892282130127700000,
+            "offlineCoinPerSecond": 71471953247071200
+        },
+        {
+            "offlineLevel": 350,
+            "offlineUpCost": 59063474531250000000,
+            "offlineCoinPerSecond": 72917869791666700
+        },
+        {
+            "offlineLevel": 351,
+            "offlineUpCost": 60254917542012500000,
+            "offlineCoinPerSecond": 74388787088904300
+        },
+        {
+            "offlineLevel": 352,
+            "offlineUpCost": 61466902113089400000,
+            "offlineCoinPerSecond": 75885064337147400
+        },
+        {
+            "offlineLevel": 353,
+            "offlineUpCost": 62699722529778600000,
+            "offlineCoinPerSecond": 77407064851578500
+        },
+        {
+            "offlineLevel": 354,
+            "offlineUpCost": 63953676440584000000,
+            "offlineCoinPerSecond": 78955156099486400
+        },
+        {
+            "offlineLevel": 355,
+            "offlineUpCost": 65229064885960500000,
+            "offlineCoinPerSecond": 80529709735753600
+        },
+        {
+            "offlineLevel": 356,
+            "offlineUpCost": 66526192327222300000,
+            "offlineCoinPerSecond": 82131101638546000
+        },
+        {
+            "offlineLevel": 357,
+            "offlineUpCost": 67845366675615200000,
+            "offlineCoinPerSecond": 83759711945203900
+        },
+        {
+            "offlineLevel": 358,
+            "offlineUpCost": 69186899321552800000,
+            "offlineCoinPerSecond": 85415925088336700
+        },
+        {
+            "offlineLevel": 359,
+            "offlineUpCost": 70551105164017700000,
+            "offlineCoinPerSecond": 87100129832120600
+        },
+        {
+            "offlineLevel": 360,
+            "offlineUpCost": 71938302640128000000,
+            "offlineCoinPerSecond": 88812719308800000
+        },
+        {
+            "offlineLevel": 361,
+            "offlineUpCost": 73348813754868800000,
+            "offlineCoinPerSecond": 90554091055393500
+        },
+        {
+            "offlineLevel": 362,
+            "offlineUpCost": 74782964110990400000,
+            "offlineCoinPerSecond": 92324647050605400
+        },
+        {
+            "offlineLevel": 363,
+            "offlineUpCost": 76241082939073100000,
+            "offlineCoinPerSecond": 94124793751942100
+        },
+        {
+            "offlineLevel": 364,
+            "offlineUpCost": 77723503127758500000,
+            "offlineCoinPerSecond": 95954942133035200
+        },
+        {
+            "offlineLevel": 365,
+            "offlineUpCost": 79230561254148800000,
+            "offlineCoinPerSecond": 97815507721171400
+        },
+        {
+            "offlineLevel": 366,
+            "offlineUpCost": 80762597614373600000,
+            "offlineCoinPerSecond": 99706910635029100
+        },
+        {
+            "offlineLevel": 367,
+            "offlineUpCost": 82319956254325600000,
+            "offlineCoinPerSecond": 101629575622624000
+        },
+        {
+            "offlineLevel": 368,
+            "offlineUpCost": 83902985000564900000,
+            "offlineCoinPerSecond": 103583932099463000
+        },
+        {
+            "offlineLevel": 369,
+            "offlineUpCost": 85512035491392600000,
+            "offlineCoinPerSecond": 105570414186904000
+        },
+        {
+            "offlineLevel": 370,
+            "offlineUpCost": 87147463208094000000,
+            "offlineCoinPerSecond": 107589460750733000
+        },
+        {
+            "offlineLevel": 371,
+            "offlineUpCost": 88809627506353000000,
+            "offlineCoinPerSecond": 109641515439942000
+        },
+        {
+            "offlineLevel": 372,
+            "offlineUpCost": 90498891647836000000,
+            "offlineCoinPerSecond": 111727026725724000
+        },
+        {
+            "offlineLevel": 373,
+            "offlineUpCost": 92215622831947700000,
+            "offlineCoinPerSecond": 113846447940676000
+        },
+        {
+            "offlineLevel": 374,
+            "offlineUpCost": 93960192227758400000,
+            "offlineCoinPerSecond": 116000237318220000
+        },
+        {
+            "offlineLevel": 375,
+            "offlineUpCost": 95732975006103500000,
+            "offlineCoinPerSecond": 118188858032227000
+        },
+        {
+            "offlineLevel": 376,
+            "offlineUpCost": 97534350371855300000,
+            "offlineCoinPerSecond": 120412778236858000
+        },
+        {
+            "offlineLevel": 377,
+            "offlineUpCost": 99364701596368300000,
+            "offlineCoinPerSecond": 122672471106627000
+        },
+        {
+            "offlineLevel": 378,
+            "offlineUpCost": 101224416050097000000,
+            "offlineCoinPerSecond": 124968414876663000
+        },
+        {
+            "offlineLevel": 379,
+            "offlineUpCost": 103113885235391000000,
+            "offlineCoinPerSecond": 127301092883198000
+        },
+        {
+            "offlineLevel": 380,
+            "offlineUpCost": 105033504819456000000,
+            "offlineCoinPerSecond": 129670993604267000
+        },
+        {
+            "offlineLevel": 381,
+            "offlineUpCost": 106983674667503000000,
+            "offlineCoinPerSecond": 132078610700622000
+        },
+        {
+            "offlineLevel": 382,
+            "offlineUpCost": 108964798876062000000,
+            "offlineCoinPerSecond": 134524443056866000
+        },
+        {
+            "offlineLevel": 383,
+            "offlineUpCost": 110977285806472000000,
+            "offlineCoinPerSecond": 137008994822805000
+        },
+        {
+            "offlineLevel": 384,
+            "offlineUpCost": 113021548118555000000,
+            "offlineCoinPerSecond": 139532775455006000
+        },
+        {
+            "offlineLevel": 385,
+            "offlineUpCost": 115098002804461000000,
+            "offlineCoinPerSecond": 142096299758594000
+        },
+        {
+            "offlineLevel": 386,
+            "offlineUpCost": 117207071222690000000,
+            "offlineCoinPerSecond": 144700087929247000
+        },
+        {
+            "offlineLevel": 387,
+            "offlineUpCost": 119349179132291000000,
+            "offlineCoinPerSecond": 147344665595422000
+        },
+        {
+            "offlineLevel": 388,
+            "offlineUpCost": 121524756727247000000,
+            "offlineCoinPerSecond": 150030563860799000
+        },
+        {
+            "offlineLevel": 389,
+            "offlineUpCost": 123734238671026000000,
+            "offlineCoinPerSecond": 152758319346946000
+        },
+        {
+            "offlineLevel": 390,
+            "offlineUpCost": 125978064131322000000,
+            "offlineCoinPerSecond": 155528474236200000
+        },
+        {
+            "offlineLevel": 391,
+            "offlineUpCost": 128256676814969000000,
+            "offlineCoinPerSecond": 158341576314776000
+        },
+        {
+            "offlineLevel": 392,
+            "offlineUpCost": 130570525003037000000,
+            "offlineCoinPerSecond": 161198179016095000
+        },
+        {
+            "offlineLevel": 393,
+            "offlineUpCost": 132920061586111000000,
+            "offlineCoinPerSecond": 164098841464335000
+        },
+        {
+            "offlineLevel": 394,
+            "offlineUpCost": 135305744099747000000,
+            "offlineCoinPerSecond": 167044128518206000
+        },
+        {
+            "offlineLevel": 395,
+            "offlineUpCost": 137728034760109000000,
+            "offlineCoinPerSecond": 170034610814949000
+        },
+        {
+            "offlineLevel": 396,
+            "offlineUpCost": 140187400499793000000,
+            "offlineCoinPerSecond": 173070864814559000
+        },
+        {
+            "offlineLevel": 397,
+            "offlineUpCost": 142684313003826000000,
+            "offlineCoinPerSecond": 176153472844230000
+        },
+        {
+            "offlineLevel": 398,
+            "offlineUpCost": 145219248745858000000,
+            "offlineCoinPerSecond": 179283023143035000
+        },
+        {
+            "offlineLevel": 399,
+            "offlineUpCost": 147792689024524000000,
+            "offlineCoinPerSecond": 182460109906820000
+        },
+        {
+            "offlineLevel": 400,
+            "offlineUpCost": 150405120000000000000,
+            "offlineCoinPerSecond": 185685333333333000
+        },
+        {
+            "offlineLevel": 401,
+            "offlineUpCost": 153057032730741000000,
+            "offlineCoinPerSecond": 188959299667581000
+        },
+        {
+            "offlineLevel": 402,
+            "offlineUpCost": 155748923210399000000,
+            "offlineCoinPerSecond": 192282621247406000
+        },
+        {
+            "offlineLevel": 403,
+            "offlineUpCost": 158481292404932000000,
+            "offlineCoinPerSecond": 195655916549299000
+        },
+        {
+            "offlineLevel": 404,
+            "offlineUpCost": 161254646289897000000,
+            "offlineCoinPerSecond": 199079810234441000
+        },
+        {
+            "offlineLevel": 405,
+            "offlineUpCost": 164069495887923000000,
+            "offlineCoinPerSecond": 202554933194967000
+        },
+        {
+            "offlineLevel": 406,
+            "offlineUpCost": 166926357306382000000,
+            "offlineCoinPerSecond": 206081922600471000
+        },
+        {
+            "offlineLevel": 407,
+            "offlineUpCost": 169825751775234000000,
+            "offlineCoinPerSecond": 209661421944733000
+        },
+        {
+            "offlineLevel": 408,
+            "offlineUpCost": 172768205685070000000,
+            "offlineCoinPerSecond": 213294081092679000
+        },
+        {
+            "offlineLevel": 409,
+            "offlineUpCost": 175754250625339000000,
+            "offlineCoinPerSecond": 216980556327578000
+        },
+        {
+            "offlineLevel": 410,
+            "offlineUpCost": 178784423422758000000,
+            "offlineCoinPerSecond": 220721510398467000
+        },
+        {
+            "offlineLevel": 411,
+            "offlineUpCost": 181859266179922000000,
+            "offlineCoinPerSecond": 224517612567805000
+        },
+        {
+            "offlineLevel": 412,
+            "offlineUpCost": 184979326314091000000,
+            "offlineCoinPerSecond": 228369538659372000
+        },
+        {
+            "offlineLevel": 413,
+            "offlineUpCost": 188145156596179000000,
+            "offlineCoinPerSecond": 232277971106393000
+        },
+        {
+            "offlineLevel": 414,
+            "offlineUpCost": 191357315189918000000,
+            "offlineCoinPerSecond": 236243598999899000
+        },
+        {
+            "offlineLevel": 415,
+            "offlineUpCost": 194616365691231000000,
+            "offlineCoinPerSecond": 240267118137322000
+        },
+        {
+            "offlineLevel": 416,
+            "offlineUpCost": 197922877167780000000,
+            "offlineCoinPerSecond": 244349231071333000
+        },
+        {
+            "offlineLevel": 417,
+            "offlineUpCost": 201277424198714000000,
+            "offlineCoinPerSecond": 248490647158906000
+        },
+        {
+            "offlineLevel": 418,
+            "offlineUpCost": 204680586914606000000,
+            "offlineCoinPerSecond": 252692082610625000
+        },
+        {
+            "offlineLevel": 419,
+            "offlineUpCost": 208132951037587000000,
+            "offlineCoinPerSecond": 256954260540231000
+        },
+        {
+            "offlineLevel": 420,
+            "offlineUpCost": 211635107921664000000,
+            "offlineCoinPerSecond": 261277911014400000
+        },
+        {
+            "offlineLevel": 421,
+            "offlineUpCost": 215187654593241000000,
+            "offlineCoinPerSecond": 265663771102767000
+        },
+        {
+            "offlineLevel": 422,
+            "offlineUpCost": 218791193791828000000,
+            "offlineCoinPerSecond": 270112584928182000
+        },
+        {
+            "offlineLevel": 423,
+            "offlineUpCost": 222446334010946000000,
+            "offlineCoinPerSecond": 274625103717217000
+        },
+        {
+            "offlineLevel": 424,
+            "offlineUpCost": 226153689539227000000,
+            "offlineCoinPerSecond": 279202085850897000
+        },
+        {
+            "offlineLevel": 425,
+            "offlineUpCost": 229913880501709000000,
+            "offlineCoinPerSecond": 283844296915690000
+        },
+        {
+            "offlineLevel": 426,
+            "offlineUpCost": 233727532901328000000,
+            "offlineCoinPerSecond": 288552509754726000
+        },
+        {
+            "offlineLevel": 427,
+            "offlineUpCost": 237595278660601000000,
+            "offlineCoinPerSecond": 293327504519261000
+        },
+        {
+            "offlineLevel": 428,
+            "offlineUpCost": 241517755663515000000,
+            "offlineCoinPerSecond": 298170068720389000
+        },
+        {
+            "offlineLevel": 429,
+            "offlineUpCost": 245495607797604000000,
+            "offlineCoinPerSecond": 303080997280992000
+        },
+        {
+            "offlineLevel": 430,
+            "offlineUpCost": 249529484996226000000,
+            "offlineCoinPerSecond": 308061092587933000
+        },
+        {
+            "offlineLevel": 431,
+            "offlineUpCost": 253620043281044000000,
+            "offlineCoinPerSecond": 313111164544498000
+        },
+        {
+            "offlineLevel": 432,
+            "offlineUpCost": 257767944804696000000,
+            "offlineCoinPerSecond": 318232030623081000
+        },
+        {
+            "offlineLevel": 433,
+            "offlineUpCost": 261973857893672000000,
+            "offlineCoinPerSecond": 323424515918113000
+        },
+        {
+            "offlineLevel": 434,
+            "offlineUpCost": 266238457091385000000,
+            "offlineCoinPerSecond": 328689453199240000
+        },
+        {
+            "offlineLevel": 435,
+            "offlineUpCost": 270562423201444000000,
+            "offlineCoinPerSecond": 334027682964745000
+        },
+        {
+            "offlineLevel": 436,
+            "offlineUpCost": 274946443331129000000,
+            "offlineCoinPerSecond": 339440053495221000
+        },
+        {
+            "offlineLevel": 437,
+            "offlineUpCost": 279391210935063000000,
+            "offlineCoinPerSecond": 344927420907486000
+        },
+        {
+            "offlineLevel": 438,
+            "offlineUpCost": 283897425859090000000,
+            "offlineCoinPerSecond": 350490649208753000
+        },
+        {
+            "offlineLevel": 439,
+            "offlineUpCost": 288465794384348000000,
+            "offlineCoinPerSecond": 356130610351047000
+        },
+        {
+            "offlineLevel": 440,
+            "offlineUpCost": 293097029271552000000,
+            "offlineCoinPerSecond": 361848184285867000
+        },
+        {
+            "offlineLevel": 441,
+            "offlineUpCost": 297791849805474000000,
+            "offlineCoinPerSecond": 367644259019104000
+        },
+        {
+            "offlineLevel": 442,
+            "offlineUpCost": 302550981839630000000,
+            "offlineCoinPerSecond": 373519730666210000
+        },
+        {
+            "offlineLevel": 443,
+            "offlineUpCost": 307375157841165000000,
+            "offlineCoinPerSecond": 379475503507611000
+        },
+        {
+            "offlineLevel": 444,
+            "offlineUpCost": 312265116935949000000,
+            "offlineCoinPerSecond": 385512490044381000
+        },
+        {
+            "offlineLevel": 445,
+            "offlineUpCost": 317221604953872000000,
+            "offlineCoinPerSecond": 391631611054163000
+        },
+        {
+            "offlineLevel": 446,
+            "offlineUpCost": 322245374474348000000,
+            "offlineCoinPerSecond": 397833795647344000
+        },
+        {
+            "offlineLevel": 447,
+            "offlineUpCost": 327337184872022000000,
+            "offlineCoinPerSecond": 404119981323484000
+        },
+        {
+            "offlineLevel": 448,
+            "offlineUpCost": 332497802362680000000,
+            "offlineCoinPerSecond": 410491114028000000
+        },
+        {
+            "offlineLevel": 449,
+            "offlineUpCost": 337728000049376000000,
+            "offlineCoinPerSecond": 416948148209106000
+        },
+        {
+            "offlineLevel": 450,
+            "offlineUpCost": 343028557968750000000,
+            "offlineCoinPerSecond": 423492046875000000
+        },
+        {
+            "offlineLevel": 451,
+            "offlineUpCost": 348400263137569000000,
+            "offlineCoinPerSecond": 430123781651320000
+        },
+        {
+            "offlineLevel": 452,
+            "offlineUpCost": 353843909599465000000,
+            "offlineCoinPerSecond": 436844332838845000
+        },
+        {
+            "offlineLevel": 453,
+            "offlineUpCost": 359360298471884000000,
+            "offlineCoinPerSecond": 443654689471462000
+        },
+        {
+            "offlineLevel": 454,
+            "offlineUpCost": 364950237993249000000,
+            "offlineCoinPerSecond": 450555849374381000
+        },
+        {
+            "offlineLevel": 455,
+            "offlineUpCost": 370614543570321000000,
+            "offlineCoinPerSecond": 457548819222618000
+        },
+        {
+            "offlineLevel": 456,
+            "offlineUpCost": 376354037825782000000,
+            "offlineCoinPerSecond": 464634614599731000
+        },
+        {
+            "offlineLevel": 457,
+            "offlineUpCost": 382169550646020000000,
+            "offlineCoinPerSecond": 471814260056815000
+        },
+        {
+            "offlineLevel": 458,
+            "offlineUpCost": 388061919229126000000,
+            "offlineCoinPerSecond": 479088789171761000
+        },
+        {
+            "offlineLevel": 459,
+            "offlineUpCost": 394031988133103000000,
+            "offlineCoinPerSecond": 486459244608770000
+        },
+        {
+            "offlineLevel": 460,
+            "offlineUpCost": 400080609324288000000,
+            "offlineCoinPerSecond": 493926678178133000
+        },
+        {
+            "offlineLevel": 461,
+            "offlineUpCost": 406208642225981000000,
+            "offlineCoinPerSecond": 501492150896273000
+        },
+        {
+            "offlineLevel": 462,
+            "offlineUpCost": 412416953767292000000,
+            "offlineCoinPerSecond": 509156733046040000
+        },
+        {
+            "offlineLevel": 463,
+            "offlineUpCost": 418706418432198000000,
+            "offlineCoinPerSecond": 516921504237281000
+        },
+        {
+            "offlineLevel": 464,
+            "offlineUpCost": 425077918308811000000,
+            "offlineCoinPerSecond": 524787553467668000
+        },
+        {
+            "offlineLevel": 465,
+            "offlineUpCost": 431532343138867000000,
+            "offlineCoinPerSecond": 532755979183786000
+        },
+        {
+            "offlineLevel": 466,
+            "offlineUpCost": 438070590367419000000,
+            "offlineCoinPerSecond": 540827889342492000
+        },
+        {
+            "offlineLevel": 467,
+            "offlineUpCost": 444693565192754000000,
+            "offlineCoinPerSecond": 549004401472536000
+        },
+        {
+            "offlineLevel": 468,
+            "offlineUpCost": 451402180616522000000,
+            "offlineCoinPerSecond": 557286642736447000
+        },
+        {
+            "offlineLevel": 469,
+            "offlineUpCost": 458197357494075000000,
+            "offlineCoinPerSecond": 565675749992685000
+        },
+        {
+            "offlineLevel": 470,
+            "offlineUpCost": 465080024585034000000,
+            "offlineCoinPerSecond": 574172869858067000
+        },
+        {
+            "offlineLevel": 471,
+            "offlineUpCost": 472051118604059000000,
+            "offlineCoinPerSecond": 582779158770443000
+        },
+        {
+            "offlineLevel": 472,
+            "offlineUpCost": 479111584271846000000,
+            "offlineCoinPerSecond": 591495783051662000
+        },
+        {
+            "offlineLevel": 473,
+            "offlineUpCost": 486262374366339000000,
+            "offlineCoinPerSecond": 600323918970789000
+        },
+        {
+            "offlineLevel": 474,
+            "offlineUpCost": 493504449774156000000,
+            "offlineCoinPerSecond": 609264752807599000
+        },
+        {
+            "offlineLevel": 475,
+            "offlineUpCost": 500838779542236000000,
+            "offlineCoinPerSecond": 618319480916341000
+        },
+        {
+            "offlineLevel": 476,
+            "offlineUpCost": 508266340929711000000,
+            "offlineCoinPerSecond": 627489309789767000
+        },
+        {
+            "offlineLevel": 477,
+            "offlineUpCost": 515788119459984000000,
+            "offlineCoinPerSecond": 636775456123437000
+        },
+        {
+            "offlineLevel": 478,
+            "offlineUpCost": 523405108973039000000,
+            "offlineCoinPerSecond": 646179146880295000
+        },
+        {
+            "offlineLevel": 479,
+            "offlineUpCost": 531118311677963000000,
+            "offlineCoinPerSecond": 655701619355510000
+        },
+        {
+            "offlineLevel": 480,
+            "offlineUpCost": 538928738205696000000,
+            "offlineCoinPerSecond": 665344121241600000
+        },
+        {
+            "offlineLevel": 481,
+            "offlineUpCost": 546837407661996000000,
+            "offlineCoinPerSecond": 675107910693822000
+        },
+        {
+            "offlineLevel": 482,
+            "offlineUpCost": 554845347680628000000,
+            "offlineCoinPerSecond": 684994256395837000
+        },
+        {
+            "offlineLevel": 483,
+            "offlineUpCost": 562953594476776000000,
+            "offlineCoinPerSecond": 695004437625649000
+        },
+        {
+            "offlineLevel": 484,
+            "offlineUpCost": 571163192900674000000,
+            "offlineCoinPerSecond": 705139744321820000
+        },
+        {
+            "offlineLevel": 485,
+            "offlineUpCost": 579475196491467000000,
+            "offlineCoinPerSecond": 715401477149959000
+        },
+        {
+            "offlineLevel": 486,
+            "offlineUpCost": 587890667531286000000,
+            "offlineCoinPerSecond": 725790947569489000
+        },
+        {
+            "offlineLevel": 487,
+            "offlineUpCost": 596410677099557000000,
+            "offlineCoinPerSecond": 736309477900688000
+        },
+        {
+            "offlineLevel": 488,
+            "offlineUpCost": 605036305127525000000,
+            "offlineCoinPerSecond": 746958401392006000
+        },
+        {
+            "offlineLevel": 489,
+            "offlineUpCost": 613768640453009000000,
+            "offlineCoinPerSecond": 757739062287666000
+        },
+        {
+            "offlineLevel": 490,
+            "offlineUpCost": 622608780875382000000,
+            "offlineCoinPerSecond": 768652815895533000
+        },
+        {
+            "offlineLevel": 491,
+            "offlineUpCost": 631557833210772000000,
+            "offlineCoinPerSecond": 779701028655274000
+        },
+        {
+            "offlineLevel": 492,
+            "offlineUpCost": 640616913347497000000,
+            "offlineCoinPerSecond": 790885078206786000
+        },
+        {
+            "offlineLevel": 493,
+            "offlineUpCost": 649787146301716000000,
+            "offlineCoinPerSecond": 802206353458909000
+        },
+        {
+            "offlineLevel": 494,
+            "offlineUpCost": 659069666273322000000,
+            "offlineCoinPerSecond": 813666254658422000
+        },
+        {
+            "offlineLevel": 495,
+            "offlineUpCost": 668465616702044000000,
+            "offlineCoinPerSecond": 825266193459314000
+        },
+        {
+            "offlineLevel": 496,
+            "offlineUpCost": 677976150323798000000,
+            "offlineCoinPerSecond": 837007592992343000
+        },
+        {
+            "offlineLevel": 497,
+            "offlineUpCost": 687602429227245000000,
+            "offlineCoinPerSecond": 848891887934871000
+        },
+        {
+            "offlineLevel": 498,
+            "offlineUpCost": 697345624910598000000,
+            "offlineCoinPerSecond": 860920524580985000
+        },
+        {
+            "offlineLevel": 499,
+            "offlineUpCost": 707206918338643000000,
+            "offlineCoinPerSecond": 873094960911905000
+        },
+        {
+            "offlineLevel": 500,
+            "offlineUpCost": 717187500000000000000,
+            "offlineCoinPerSecond": 885416666666667000
+        },
+        {
+            "offlineLevel": 501,
+            "offlineUpCost": 727288569964607000000,
+            "offlineCoinPerSecond": 897887123413095000
+        },
+        {
+            "offlineLevel": 502,
+            "offlineUpCost": 737511337941443000000,
+            "offlineCoinPerSecond": 910507824619065000
+        },
+        {
+            "offlineLevel": 503,
+            "offlineUpCost": 747857023336473000000,
+            "offlineCoinPerSecond": 923280275724041000
+        },
+        {
+            "offlineLevel": 504,
+            "offlineUpCost": 758326855310834000000,
+            "offlineCoinPerSecond": 936205994210907000
+        },
+        {
+            "offlineLevel": 505,
+            "offlineUpCost": 768922072839246000000,
+            "offlineCoinPerSecond": 949286509678082000
+        },
+        {
+            "offlineLevel": 506,
+            "offlineUpCost": 779643924768659000000,
+            "offlineCoinPerSecond": 962523363911925000
+        },
+        {
+            "offlineLevel": 507,
+            "offlineUpCost": 790493669877135000000,
+            "offlineCoinPerSecond": 975918110959426000
+        },
+        {
+            "offlineLevel": 508,
+            "offlineUpCost": 801472576932957000000,
+            "offlineCoinPerSecond": 989472317201181000
+        },
+        {
+            "offlineLevel": 509,
+            "offlineUpCost": 812581924753982000000,
+            "offlineCoinPerSecond": 1003187561424670000
+        },
+        {
+            "offlineLevel": 510,
+            "offlineUpCost": 823823002267218000000,
+            "offlineCoinPerSecond": 1017065434897800000
+        },
+        {
+            "offlineLevel": 511,
+            "offlineUpCost": 835197108568646000000,
+            "offlineCoinPerSecond": 1031107541442770000
+        },
+        {
+            "offlineLevel": 512,
+            "offlineUpCost": 846705552983269000000,
+            "offlineCoinPerSecond": 1045315497510210000
+        },
+        {
+            "offlineLevel": 513,
+            "offlineUpCost": 858349655125400000000,
+            "offlineCoinPerSecond": 1059690932253580000
+        },
+        {
+            "offlineLevel": 514,
+            "offlineUpCost": 870130744959194000000,
+            "offlineCoinPerSecond": 1074235487603940000
+        },
+        {
+            "offlineLevel": 515,
+            "offlineUpCost": 882050162859399000000,
+            "offlineCoinPerSecond": 1088950818344940000
+        },
+        {
+            "offlineLevel": 516,
+            "offlineUpCost": 894109259672365000000,
+            "offlineCoinPerSecond": 1103838592188100000
+        },
+        {
+            "offlineLevel": 517,
+            "offlineUpCost": 906309396777276000000,
+            "offlineCoinPerSecond": 1118900489848490000
+        },
+        {
+            "offlineLevel": 518,
+            "offlineUpCost": 918651946147627000000,
+            "offlineCoinPerSecond": 1134138205120530000
+        },
+        {
+            "offlineLevel": 519,
+            "offlineUpCost": 931138290412937000000,
+            "offlineCoinPerSecond": 1149553444954240000
+        },
+        {
+            "offlineLevel": 520,
+            "offlineUpCost": 943769822920704000000,
+            "offlineCoinPerSecond": 1165147929531730000
+        },
+        {
+            "offlineLevel": 521,
+            "offlineUpCost": 956547947798597000000,
+            "offlineCoinPerSecond": 1180923392343950000
+        },
+        {
+            "offlineLevel": 522,
+            "offlineUpCost": 969474080016888000000,
+            "offlineCoinPerSecond": 1196881580267760000
+        },
+        {
+            "offlineLevel": 523,
+            "offlineUpCost": 982549645451128000000,
+            "offlineCoinPerSecond": 1213024253643370000
+        },
+        {
+            "offlineLevel": 524,
+            "offlineUpCost": 995776080945061000000,
+            "offlineCoinPerSecond": 1229353186351930000
+        },
+        {
+            "offlineLevel": 525,
+            "offlineUpCost": 1009154834373780000000,
+            "offlineCoinPerSecond": 1245870165893550000
+        },
+        {
+            "offlineLevel": 526,
+            "offlineUpCost": 1022687364707120000000,
+            "offlineCoinPerSecond": 1262576993465580000
+        },
+        {
+            "offlineLevel": 527,
+            "offlineUpCost": 1036375142073320000000,
+            "offlineCoinPerSecond": 1279475484041130000
+        },
+        {
+            "offlineLevel": 528,
+            "offlineUpCost": 1050219647822860000000,
+            "offlineCoinPerSecond": 1296567466447980000
+        },
+        {
+            "offlineLevel": 529,
+            "offlineUpCost": 1064222374592660000000,
+            "offlineCoinPerSecond": 1313854783447720000
+        },
+        {
+            "offlineLevel": 530,
+            "offlineUpCost": 1078384826370370000000,
+            "offlineCoinPerSecond": 1331339291815270000
+        },
+        {
+            "offlineLevel": 531,
+            "offlineUpCost": 1092708518559040000000,
+            "offlineCoinPerSecond": 1349022862418570000
+        },
+        {
+            "offlineLevel": 532,
+            "offlineUpCost": 1107194978041970000000,
+            "offlineCoinPerSecond": 1366907380298730000
+        },
+        {
+            "offlineLevel": 533,
+            "offlineUpCost": 1121845743247810000000,
+            "offlineCoinPerSecond": 1384994744750390000
+        },
+        {
+            "offlineLevel": 534,
+            "offlineUpCost": 1136662364215900000000,
+            "offlineCoinPerSecond": 1403286869402340000
+        },
+        {
+            "offlineLevel": 535,
+            "offlineUpCost": 1151646402661870000000,
+            "offlineCoinPerSecond": 1421785682298610000
+        },
+        {
+            "offlineLevel": 536,
+            "offlineUpCost": 1166799432043520000000,
+            "offlineCoinPerSecond": 1440493125979650000
+        },
+        {
+            "offlineLevel": 537,
+            "offlineUpCost": 1182123037626840000000,
+            "offlineCoinPerSecond": 1459411157564000000
+        },
+        {
+            "offlineLevel": 538,
+            "offlineUpCost": 1197618816552430000000,
+            "offlineCoinPerSecond": 1478541748830160000
+        },
+        {
+            "offlineLevel": 539,
+            "offlineUpCost": 1213288377902010000000,
+            "offlineCoinPerSecond": 1497886886298780000
+        },
+        {
+            "offlineLevel": 540,
+            "offlineUpCost": 1229133342765310000000,
+            "offlineCoinPerSecond": 1517448571315200000
+        },
+        {
+            "offlineLevel": 541,
+            "offlineUpCost": 1245155344307130000000,
+            "offlineCoinPerSecond": 1537228820132260000
+        },
+        {
+            "offlineLevel": 542,
+            "offlineUpCost": 1261356027834670000000,
+            "offlineCoinPerSecond": 1557229663993420000
+        },
+        {
+            "offlineLevel": 543,
+            "offlineUpCost": 1277737050865130000000,
+            "offlineCoinPerSecond": 1577453149216200000
+        },
+        {
+            "offlineLevel": 544,
+            "offlineUpCost": 1294300083193500000000,
+            "offlineCoinPerSecond": 1597901337275930000
+        },
+        {
+            "offlineLevel": 545,
+            "offlineUpCost": 1311046806960720000000,
+            "offlineCoinPerSecond": 1618576304889780000
+        },
+        {
+            "offlineLevel": 546,
+            "offlineUpCost": 1327978916721940000000,
+            "offlineCoinPerSecond": 1639480144101160000
+        },
+        {
+            "offlineLevel": 547,
+            "offlineUpCost": 1345098119515140000000,
+            "offlineCoinPerSecond": 1660614962364370000
+        },
+        {
+            "offlineLevel": 548,
+            "offlineUpCost": 1362406134929970000000,
+            "offlineCoinPerSecond": 1681982882629590000
+        },
+        {
+            "offlineLevel": 549,
+            "offlineUpCost": 1379904695176840000000,
+            "offlineCoinPerSecond": 1703586043428190000
+        },
+        {
+            "offlineLevel": 550,
+            "offlineUpCost": 1397595545156250000000,
+            "offlineCoinPerSecond": 1725426598958330000
+        },
+        {
+            "offlineLevel": 551,
+            "offlineUpCost": 1415480442528420000000,
+            "offlineCoinPerSecond": 1747506719170880000
+        },
+        {
+            "offlineLevel": 552,
+            "offlineUpCost": 1433561157783090000000,
+            "offlineCoinPerSecond": 1769828589855670000
+        },
+        {
+            "offlineLevel": 553,
+            "offlineUpCost": 1451839474309690000000,
+            "offlineCoinPerSecond": 1792394412728010000
+        },
+        {
+            "offlineLevel": 554,
+            "offlineUpCost": 1470317188467650000000,
+            "offlineCoinPerSecond": 1815206405515620000
+        },
+        {
+            "offlineLevel": 555,
+            "offlineUpCost": 1488996109657040000000,
+            "offlineCoinPerSecond": 1838266802045730000
+        },
+        {
+            "offlineLevel": 556,
+            "offlineUpCost": 1507878060389450000000,
+            "offlineCoinPerSecond": 1861577852332650000
+        },
+        {
+            "offlineLevel": 557,
+            "offlineUpCost": 1526964876359090000000,
+            "offlineCoinPerSecond": 1885141822665540000
+        },
+        {
+            "offlineLevel": 558,
+            "offlineUpCost": 1546258406514200000000,
+            "offlineCoinPerSecond": 1908960995696540000
+        },
+        {
+            "offlineLevel": 559,
+            "offlineUpCost": 1565760513128690000000,
+            "offlineCoinPerSecond": 1933037670529250000
+        },
+        {
+            "offlineLevel": 560,
+            "offlineUpCost": 1585473071874050000000,
+            "offlineCoinPerSecond": 1957374162807470000
+        },
+        {
+            "offlineLevel": 561,
+            "offlineUpCost": 1605397971891470000000,
+            "offlineCoinPerSecond": 1981972804804280000
+        },
+        {
+            "offlineLevel": 562,
+            "offlineUpCost": 1625537115864300000000,
+            "offlineCoinPerSecond": 2006835945511480000
+        },
+        {
+            "offlineLevel": 563,
+            "offlineUpCost": 1645892420090710000000,
+            "offlineCoinPerSecond": 2031965950729270000
+        },
+        {
+            "offlineLevel": 564,
+            "offlineUpCost": 1666465814556620000000,
+            "offlineCoinPerSecond": 2057365203156320000
+        },
+        {
+            "offlineLevel": 565,
+            "offlineUpCost": 1687259243008920000000,
+            "offlineCoinPerSecond": 2083036102480150000
+        },
+        {
+            "offlineLevel": 566,
+            "offlineUpCost": 1708274663028900000000,
+            "offlineCoinPerSecond": 2108981065467770000
+        },
+        {
+            "offlineLevel": 567,
+            "offlineUpCost": 1729514046105960000000,
+            "offlineCoinPerSecond": 2135202526056740000
+        },
+        {
+            "offlineLevel": 568,
+            "offlineUpCost": 1750979377711640000000,
+            "offlineCoinPerSecond": 2161702935446470000
+        },
+        {
+            "offlineLevel": 569,
+            "offlineUpCost": 1772672657373800000000,
+            "offlineCoinPerSecond": 2188484762189880000
+        },
+        {
+            "offlineLevel": 570,
+            "offlineUpCost": 1794595898751170000000,
+            "offlineCoinPerSecond": 2215550492285400000
+        },
+        {
+            "offlineLevel": 571,
+            "offlineUpCost": 1816751129708090000000,
+            "offlineCoinPerSecond": 2242902629269250000
+        },
+        {
+            "offlineLevel": 572,
+            "offlineUpCost": 1839140392389550000000,
+            "offlineCoinPerSecond": 2270543694308080000
+        },
+        {
+            "offlineLevel": 573,
+            "offlineUpCost": 1861765743296460000000,
+            "offlineCoinPerSecond": 2298476226291930000
+        },
+        {
+            "offlineLevel": 574,
+            "offlineUpCost": 1884629253361260000000,
+            "offlineCoinPerSecond": 2326702781927480000
+        },
+        {
+            "offlineLevel": 575,
+            "offlineUpCost": 1907733008023680000000,
+            "offlineCoinPerSecond": 2355225935831710000
+        },
+        {
+            "offlineLevel": 576,
+            "offlineUpCost": 1931079107306880000000,
+            "offlineCoinPerSecond": 2384048280625770000
+        },
+        {
+            "offlineLevel": 577,
+            "offlineUpCost": 1954669665893750000000,
+            "offlineCoinPerSecond": 2413172427029320000
+        },
+        {
+            "offlineLevel": 578,
+            "offlineUpCost": 1978506813203580000000,
+            "offlineCoinPerSecond": 2442601003955040000
+        },
+        {
+            "offlineLevel": 579,
+            "offlineUpCost": 2002592693468930000000,
+            "offlineCoinPerSecond": 2472336658603610000
+        },
+        {
+            "offlineLevel": 580,
+            "offlineUpCost": 2026929465812740000000,
+            "offlineCoinPerSecond": 2502382056558930000
+        },
+        {
+            "offlineLevel": 581,
+            "offlineUpCost": 2051519304325810000000,
+            "offlineCoinPerSecond": 2532739881883710000
+        },
+        {
+            "offlineLevel": 582,
+            "offlineUpCost": 2076364398144450000000,
+            "offlineCoinPerSecond": 2563412837215370000
+        },
+        {
+            "offlineLevel": 583,
+            "offlineUpCost": 2101466951528460000000,
+            "offlineCoinPerSecond": 2594403643862300000
+        },
+        {
+            "offlineLevel": 584,
+            "offlineUpCost": 2126829183939340000000,
+            "offlineCoinPerSecond": 2625715041900420000
+        },
+        {
+            "offlineLevel": 585,
+            "offlineUpCost": 2152453330118760000000,
+            "offlineCoinPerSecond": 2657349790270070000
+        },
+        {
+            "offlineLevel": 586,
+            "offlineUpCost": 2178341640167380000000,
+            "offlineCoinPerSecond": 2689310666873310000
+        },
+        {
+            "offlineLevel": 587,
+            "offlineUpCost": 2204496379623840000000,
+            "offlineCoinPerSecond": 2721600468671410000
+        },
+        {
+            "offlineLevel": 588,
+            "offlineUpCost": 2230919829544080000000,
+            "offlineCoinPerSecond": 2754222011782810000
+        },
+        {
+            "offlineLevel": 589,
+            "offlineUpCost": 2257614286580900000000,
+            "offlineCoinPerSecond": 2787178131581360000
+        },
+        {
+            "offlineLevel": 590,
+            "offlineUpCost": 2284582063063840000000,
+            "offlineCoinPerSecond": 2820471682794870000
+        },
+        {
+            "offlineLevel": 591,
+            "offlineUpCost": 2311825487079270000000,
+            "offlineCoinPerSecond": 2854105539604040000
+        },
+        {
+            "offlineLevel": 592,
+            "offlineUpCost": 2339346902550790000000,
+            "offlineCoinPerSecond": 2888082595741720000
+        },
+        {
+            "offlineLevel": 593,
+            "offlineUpCost": 2367148669319900000000,
+            "offlineCoinPerSecond": 2922405764592470000
+        },
+        {
+            "offlineLevel": 594,
+            "offlineUpCost": 2395233163226920000000,
+            "offlineCoinPerSecond": 2957077979292500000
+        },
+        {
+            "offlineLevel": 595,
+            "offlineUpCost": 2423602776192240000000,
+            "offlineCoinPerSecond": 2992102192829930000
+        },
+        {
+            "offlineLevel": 596,
+            "offlineUpCost": 2452259916297760000000,
+            "offlineCoinPerSecond": 3027481378145380000
+        },
+        {
+            "offlineLevel": 597,
+            "offlineUpCost": 2481207007868680000000,
+            "offlineCoinPerSecond": 3063218528232940000
+        },
+        {
+            "offlineLevel": 598,
+            "offlineUpCost": 2510446491555540000000,
+            "offlineCoinPerSecond": 3099316656241410000
+        },
+        {
+            "offlineLevel": 599,
+            "offlineUpCost": 2539980824416510000000,
+            "offlineCoinPerSecond": 3135778795575940000
+        },
+        {
+            "offlineLevel": 600,
+            "offlineUpCost": 2569812480000000000000,
+            "offlineCoinPerSecond": 3172608000000000000
+        },
+        {
+            "offlineLevel": 601,
+            "offlineUpCost": 2599943948427500000000,
+            "offlineCoinPerSecond": 3209807343737660000
+        },
+        {
+            "offlineLevel": 602,
+            "offlineUpCost": 2630377736476760000000,
+            "offlineCoinPerSecond": 3247379921576250000
+        },
+        {
+            "offlineLevel": 603,
+            "offlineUpCost": 2661116367665170000000,
+            "offlineCoinPerSecond": 3285328848969350000
+        },
+        {
+            "offlineLevel": 604,
+            "offlineUpCost": 2692162382333490000000,
+            "offlineCoinPerSecond": 3323657262140110000
+        },
+        {
+            "offlineLevel": 605,
+            "offlineUpCost": 2723518337729810000000,
+            "offlineCoinPerSecond": 3362368318184950000
+        },
+        {
+            "offlineLevel": 606,
+            "offlineUpCost": 2755186808093790000000,
+            "offlineCoinPerSecond": 3401465195177520000
+        },
+        {
+            "offlineLevel": 607,
+            "offlineUpCost": 2787170384741240000000,
+            "offlineCoinPerSecond": 3440951092273130000
+        },
+        {
+            "offlineLevel": 608,
+            "offlineUpCost": 2819471676148890000000,
+            "offlineCoinPerSecond": 3480829229813440000
+        },
+        {
+            "offlineLevel": 609,
+            "offlineUpCost": 2852093308039510000000,
+            "offlineCoinPerSecond": 3521102849431490000
+        },
+        {
+            "offlineLevel": 610,
+            "offlineUpCost": 2885037923467280000000,
+            "offlineCoinPerSecond": 3561775214157130000
+        },
+        {
+            "offlineLevel": 611,
+            "offlineUpCost": 2918308182903440000000,
+            "offlineCoinPerSecond": 3602849608522770000
+        },
+        {
+            "offlineLevel": 612,
+            "offlineUpCost": 2951906764322250000000,
+            "offlineCoinPerSecond": 3644329338669450000
+        },
+        {
+            "offlineLevel": 613,
+            "offlineUpCost": 2985836363287190000000,
+            "offlineCoinPerSecond": 3686217732453320000
+        },
+        {
+            "offlineLevel": 614,
+            "offlineUpCost": 3020099693037450000000,
+            "offlineCoinPerSecond": 3728518139552410000
+        },
+        {
+            "offlineLevel": 615,
+            "offlineUpCost": 3054699484574780000000,
+            "offlineCoinPerSecond": 3771233931573800000
+        },
+        {
+            "offlineLevel": 616,
+            "offlineUpCost": 3089638486750490000000,
+            "offlineCoinPerSecond": 3814368502161090000
+        },
+        {
+            "offlineLevel": 617,
+            "offlineUpCost": 3124919466352840000000,
+            "offlineCoinPerSecond": 3857925267102270000
+        },
+        {
+            "offlineLevel": 618,
+            "offlineUpCost": 3160545208194670000000,
+            "offlineCoinPerSecond": 3901907664437870000
+        },
+        {
+            "offlineLevel": 619,
+            "offlineUpCost": 3196518515201350000000,
+            "offlineCoinPerSecond": 3946319154569570000
+        },
+        {
+            "offlineLevel": 620,
+            "offlineUpCost": 3232842208498940000000,
+            "offlineCoinPerSecond": 3991163220369070000
+        },
+        {
+            "offlineLevel": 621,
+            "offlineUpCost": 3269519127502740000000,
+            "offlineCoinPerSecond": 4036443367287330000
+        },
+        {
+            "offlineLevel": 622,
+            "offlineUpCost": 3306552130006020000000,
+            "offlineCoinPerSecond": 4082163123464230000
+        },
+        {
+            "offlineLevel": 623,
+            "offlineUpCost": 3343944092269140000000,
+            "offlineCoinPerSecond": 4128326039838450000
+        },
+        {
+            "offlineLevel": 624,
+            "offlineUpCost": 3381697909108870000000,
+            "offlineCoinPerSecond": 4174935690257860000
+        },
+        {
+            "offlineLevel": 625,
+            "offlineUpCost": 3419816493988040000000,
+            "offlineCoinPerSecond": 4221995671590170000
+        },
+        {
+            "offlineLevel": 626,
+            "offlineUpCost": 3458302779105490000000,
+            "offlineCoinPerSecond": 4269509603833940000
+        },
+        {
+            "offlineLevel": 627,
+            "offlineUpCost": 3497159715486280000000,
+            "offlineCoinPerSecond": 4317481130229980000
+        },
+        {
+            "offlineLevel": 628,
+            "offlineUpCost": 3536390273072200000000,
+            "offlineCoinPerSecond": 4365913917373090000
+        },
+        {
+            "offlineLevel": 629,
+            "offlineUpCost": 3575997440812560000000,
+            "offlineCoinPerSecond": 4414811655324150000
+        },
+        {
+            "offlineLevel": 630,
+            "offlineUpCost": 3615984226755310000000,
+            "offlineCoinPerSecond": 4464178057722600000
+        },
+        {
+            "offlineLevel": 631,
+            "offlineUpCost": 3656353658138370000000,
+            "offlineCoinPerSecond": 4514016861899230000
+        },
+        {
+            "offlineLevel": 632,
+            "offlineUpCost": 3697108781481370000000,
+            "offlineCoinPerSecond": 4564331828989350000
+        },
+        {
+            "offlineLevel": 633,
+            "offlineUpCost": 3738252662677560000000,
+            "offlineCoinPerSecond": 4615126744046370000
+        },
+        {
+            "offlineLevel": 634,
+            "offlineUpCost": 3779788387086060000000,
+            "offlineCoinPerSecond": 4666405416155630000
+        },
+        {
+            "offlineLevel": 635,
+            "offlineUpCost": 3821719059624470000000,
+            "offlineCoinPerSecond": 4718171678548720000
+        },
+        {
+            "offlineLevel": 636,
+            "offlineUpCost": 3864047804861630000000,
+            "offlineCoinPerSecond": 4770429388718060000
+        },
+        {
+            "offlineLevel": 637,
+            "offlineUpCost": 3906777767110820000000,
+            "offlineCoinPerSecond": 4823182428531870000
+        },
+        {
+            "offlineLevel": 638,
+            "offlineUpCost": 3949912110523140000000,
+            "offlineCoinPerSecond": 4876434704349560000
+        },
+        {
+            "offlineLevel": 639,
+            "offlineUpCost": 3993454019181280000000,
+            "offlineCoinPerSecond": 4930190147137380000
+        },
+        {
+            "offlineLevel": 640,
+            "offlineUpCost": 4037406697193470000000,
+            "offlineCoinPerSecond": 4984452712584530000
+        },
+        {
+            "offlineLevel": 641,
+            "offlineUpCost": 4081773368787870000000,
+            "offlineCoinPerSecond": 5039226381219590000
+        },
+        {
+            "offlineLevel": 642,
+            "offlineUpCost": 4126557278407100000000,
+            "offlineCoinPerSecond": 5094515158527280000
+        },
+        {
+            "offlineLevel": 643,
+            "offlineUpCost": 4171761690803200000000,
+            "offlineCoinPerSecond": 5150323075065680000
+        },
+        {
+            "offlineLevel": 644,
+            "offlineUpCost": 4217389891132830000000,
+            "offlineCoinPerSecond": 5206654186583740000
+        },
+        {
+            "offlineLevel": 645,
+            "offlineUpCost": 4263445185052710000000,
+            "offlineCoinPerSecond": 5263512574139140000
+        },
+        {
+            "offlineLevel": 646,
+            "offlineUpCost": 4309930898815470000000,
+            "offlineCoinPerSecond": 5320902344216630000
+        },
+        {
+            "offlineLevel": 647,
+            "offlineUpCost": 4356850379365730000000,
+            "offlineCoinPerSecond": 5378827628846580000
+        },
+        {
+            "offlineLevel": 648,
+            "offlineUpCost": 4404206994436490000000,
+            "offlineCoinPerSecond": 5437292585724060000
+        },
+        {
+            "offlineLevel": 649,
+            "offlineUpCost": 4452004132645790000000,
+            "offlineCoinPerSecond": 5496301398328130000
+        },
+        {
+            "offlineLevel": 650,
+            "offlineUpCost": 4500245203593750000000,
+            "offlineCoinPerSecond": 5555858276041670000
+        },
+        {
+            "offlineLevel": 651,
+            "offlineUpCost": 4548933637959830000000,
+            "offlineCoinPerSecond": 5615967454271390000
+        },
+        {
+            "offlineLevel": 652,
+            "offlineUpCost": 4598072887600410000000,
+            "offlineCoinPerSecond": 5676633194568410000
+        },
+        {
+            "offlineLevel": 653,
+            "offlineUpCost": 4647666425646710000000,
+            "offlineCoinPerSecond": 5737859784749030000
+        },
+        {
+            "offlineLevel": 654,
+            "offlineUpCost": 4697717746602960000000,
+            "offlineCoinPerSecond": 5799651539016000000
+        },
+        {
+            "offlineLevel": 655,
+            "offlineUpCost": 4748230366444880000000,
+            "offlineCoinPerSecond": 5862012798080100000
+        },
+        {
+            "offlineLevel": 656,
+            "offlineUpCost": 4799207822718510000000,
+            "offlineCoinPerSecond": 5924947929282110000
+        },
+        {
+            "offlineLevel": 657,
+            "offlineUpCost": 4850653674639290000000,
+            "offlineCoinPerSecond": 5988461326715180000
+        },
+        {
+            "offlineLevel": 658,
+            "offlineUpCost": 4902571503191460000000,
+            "offlineCoinPerSecond": 6052557411347480000
+        },
+        {
+            "offlineLevel": 659,
+            "offlineUpCost": 4954964911227750000000,
+            "offlineCoinPerSecond": 6117240631145360000
+        },
+        {
+            "offlineLevel": 660,
+            "offlineUpCost": 5007837523569410000000,
+            "offlineCoinPerSecond": 6182515461196800000
+        },
+        {
+            "offlineLevel": 661,
+            "offlineUpCost": 5061192987106520000000,
+            "offlineCoinPerSecond": 6248386403835210000
+        },
+        {
+            "offlineLevel": 662,
+            "offlineUpCost": 5115034970898610000000,
+            "offlineCoinPerSecond": 6314857988763720000
+        },
+        {
+            "offlineLevel": 663,
+            "offlineUpCost": 5169367166275560000000,
+            "offlineCoinPerSecond": 6381934773179700000
+        },
+        {
+            "offlineLevel": 664,
+            "offlineUpCost": 5224193286938840000000,
+            "offlineCoinPerSecond": 6449621341899800000
+        },
+        {
+            "offlineLevel": 665,
+            "offlineUpCost": 5279517069063060000000,
+            "offlineCoinPerSecond": 6517922307485260000
+        },
+        {
+            "offlineLevel": 666,
+            "offlineUpCost": 5335342271397810000000,
+            "offlineCoinPerSecond": 6586842310367670000
+        },
+        {
+            "offlineLevel": 667,
+            "offlineUpCost": 5391672675369780000000,
+            "offlineCoinPerSecond": 6656386018975040000
+        },
+        {
+            "offlineLevel": 668,
+            "offlineUpCost": 5448512085185240000000,
+            "offlineCoinPerSecond": 6726558129858320000
+        },
+        {
+            "offlineLevel": 669,
+            "offlineUpCost": 5505864327932810000000,
+            "offlineCoinPerSecond": 6797363367818280000
+        },
+        {
+            "offlineLevel": 670,
+            "offlineUpCost": 5563733253686510000000,
+            "offlineCoinPerSecond": 6868806486032730000
+        },
+        {
+            "offlineLevel": 671,
+            "offlineUpCost": 5622122735609180000000,
+            "offlineCoinPerSecond": 6940892266184170000
+        },
+        {
+            "offlineLevel": 672,
+            "offlineUpCost": 5681036670056110000000,
+            "offlineCoinPerSecond": 7013625518587790000
+        },
+        {
+            "offlineLevel": 673,
+            "offlineUpCost": 5740478976679110000000,
+            "offlineCoinPerSecond": 7087011082319890000
+        },
+        {
+            "offlineLevel": 674,
+            "offlineUpCost": 5800453598530800000000,
+            "offlineCoinPerSecond": 7161053825346670000
+        },
+        {
+            "offlineLevel": 675,
+            "offlineUpCost": 5860964502169190000000,
+            "offlineCoinPerSecond": 7235758644653320000
+        },
+        {
+            "offlineLevel": 676,
+            "offlineUpCost": 5922015677762680000000,
+            "offlineCoinPerSecond": 7311130466373680000
+        },
+        {
+            "offlineLevel": 677,
+            "offlineUpCost": 5983611139195260000000,
+            "offlineCoinPerSecond": 7387174245920080000
+        },
+        {
+            "offlineLevel": 678,
+            "offlineUpCost": 6045754924172100000000,
+            "offlineCoinPerSecond": 7463894968113710000
+        },
+        {
+            "offlineLevel": 679,
+            "offlineUpCost": 6108451094325400000000,
+            "offlineCoinPerSecond": 7541297647315310000
+        },
+        {
+            "offlineLevel": 680,
+            "offlineUpCost": 6171703735320580000000,
+            "offlineCoinPerSecond": 7619387327556270000
+        },
+        {
+            "offlineLevel": 681,
+            "offlineUpCost": 6235516956962770000000,
+            "offlineCoinPerSecond": 7698169082670090000
+        },
+        {
+            "offlineLevel": 682,
+            "offlineUpCost": 6299894893303660000000,
+            "offlineCoinPerSecond": 7777648016424270000
+        },
+        {
+            "offlineLevel": 683,
+            "offlineUpCost": 6364841702748570000000,
+            "offlineCoinPerSecond": 7857829262652560000
+        },
+        {
+            "offlineLevel": 684,
+            "offlineUpCost": 6430361568163950000000,
+            "offlineCoinPerSecond": 7938717985387590000
+        },
+        {
+            "offlineLevel": 685,
+            "offlineUpCost": 6496458696985090000000,
+            "offlineCoinPerSecond": 8020319378993940000
+        },
+        {
+            "offlineLevel": 686,
+            "offlineUpCost": 6563137321324220000000,
+            "offlineCoinPerSecond": 8102638668301510000
+        },
+        {
+            "offlineLevel": 687,
+            "offlineUpCost": 6630401698078900000000,
+            "offlineCoinPerSecond": 8185681108739380000
+        },
+        {
+            "offlineLevel": 688,
+            "offlineUpCost": 6698256109040710000000,
+            "offlineCoinPerSecond": 8269451986470010000
+        },
+        {
+            "offlineLevel": 689,
+            "offlineUpCost": 6766704861004300000000,
+            "offlineCoinPerSecond": 8353956618523820000
+        },
+        {
+            "offlineLevel": 690,
+            "offlineUpCost": 6835752285876700000000,
+            "offlineCoinPerSecond": 8439200352934200000
+        },
+        {
+            "offlineLevel": 691,
+            "offlineUpCost": 6905402740787030000000,
+            "offlineCoinPerSecond": 8525188568872870000
+        },
+        {
+            "offlineLevel": 692,
+            "offlineUpCost": 6975660608196420000000,
+            "offlineCoinPerSecond": 8611926676785700000
+        },
+        {
+            "offlineLevel": 693,
+            "offlineUpCost": 7046530296008340000000,
+            "offlineCoinPerSecond": 8699420118528820000
+        },
+        {
+            "offlineLevel": 694,
+            "offlineUpCost": 7118016237679240000000,
+            "offlineCoinPerSecond": 8787674367505240000
+        },
+        {
+            "offlineLevel": 695,
+            "offlineUpCost": 7190122892329450000000,
+            "offlineCoinPerSecond": 8876694928801790000
+        },
+        {
+            "offlineLevel": 696,
+            "offlineUpCost": 7262854744854450000000,
+            "offlineCoinPerSecond": 8966487339326480000
+        },
+        {
+            "offlineLevel": 697,
+            "offlineUpCost": 7336216306036460000000,
+            "offlineCoinPerSecond": 9057057167946250000
+        },
+        {
+            "offlineLevel": 698,
+            "offlineUpCost": 7410212112656340000000,
+            "offlineCoinPerSecond": 9148410015625120000
+        },
+        {
+            "offlineLevel": 699,
+            "offlineUpCost": 7484846727605820000000,
+            "offlineCoinPerSecond": 9240551515562740000
+        },
+        {
+            "offlineLevel": 700,
+            "offlineUpCost": 7560124740000000000000,
+            "offlineCoinPerSecond": 9333487333333330000
+        },
+        {
+            "offlineLevel": 701,
+            "offlineUpCost": 7636050765290300000000,
+            "offlineCoinPerSecond": 9427223167025060000
+        },
+        {
+            "offlineLevel": 702,
+            "offlineUpCost": 7712629445377600000000,
+            "offlineCoinPerSecond": 9521764747379760000
+        },
+        {
+            "offlineLevel": 703,
+            "offlineUpCost": 7789865448725750000000,
+            "offlineCoinPerSecond": 9617117837933030000
+        },
+        {
+            "offlineLevel": 704,
+            "offlineUpCost": 7867763470475440000000,
+            "offlineCoinPerSecond": 9713288235154870000
+        },
+        {
+            "offlineLevel": 705,
+            "offlineUpCost": 7946328232558360000000,
+            "offlineCoinPerSecond": 9810281768590560000
+        },
+        {
+            "offlineLevel": 706,
+            "offlineUpCost": 8025564483811660000000,
+            "offlineCoinPerSecond": 9908104301002050000
+        },
+        {
+            "offlineLevel": 707,
+            "offlineUpCost": 8105477000092820000000,
+            "offlineCoinPerSecond": 10006761728509600000
+        },
+        {
+            "offlineLevel": 708,
+            "offlineUpCost": 8186070584394750000000,
+            "offlineCoinPerSecond": 10106259980734300000
+        },
+        {
+            "offlineLevel": 709,
+            "offlineUpCost": 8267350066961280000000,
+            "offlineCoinPerSecond": 10206605020939800000
+        },
+        {
+            "offlineLevel": 710,
+            "offlineUpCost": 8349320305402940000000,
+            "offlineCoinPerSecond": 10307802846176500000
+        },
+        {
+            "offlineLevel": 711,
+            "offlineUpCost": 8431986184813110000000,
+            "offlineCoinPerSecond": 10409859487423600000
+        },
+        {
+            "offlineLevel": 712,
+            "offlineUpCost": 8515352617884450000000,
+            "offlineCoinPerSecond": 10512781009733900000
+        },
+        {
+            "offlineLevel": 713,
+            "offlineUpCost": 8599424545025690000000,
+            "offlineCoinPerSecond": 10616573512377400000
+        },
+        {
+            "offlineLevel": 714,
+            "offlineUpCost": 8684206934478740000000,
+            "offlineCoinPerSecond": 10721243128986100000
+        },
+        {
+            "offlineLevel": 715,
+            "offlineUpCost": 8769704782436120000000,
+            "offlineCoinPerSecond": 10826796027698900000
+        },
+        {
+            "offlineLevel": 716,
+            "offlineUpCost": 8855923113158750000000,
+            "offlineCoinPerSecond": 10933238411307100000
+        },
+        {
+            "offlineLevel": 717,
+            "offlineUpCost": 8942866979094030000000,
+            "offlineCoinPerSecond": 11040576517400000000
+        },
+        {
+            "offlineLevel": 718,
+            "offlineUpCost": 9030541460994270000000,
+            "offlineCoinPerSecond": 11148816618511400000
+        },
+        {
+            "offlineLevel": 719,
+            "offlineUpCost": 9118951668035470000000,
+            "offlineCoinPerSecond": 11257965022266000000
+        },
+        {
+            "offlineLevel": 720,
+            "offlineUpCost": 9208102737936390000000,
+            "offlineCoinPerSecond": 11368028071526400000
+        },
+        {
+            "offlineLevel": 721,
+            "offlineUpCost": 9297999837077990000000,
+            "offlineCoinPerSecond": 11479012144540700000
+        },
+        {
+            "offlineLevel": 722,
+            "offlineUpCost": 9388648160623200000000,
+            "offlineCoinPerSecond": 11590923655090400000
+        },
+        {
+            "offlineLevel": 723,
+            "offlineUpCost": 9480052932636980000000,
+            "offlineCoinPerSecond": 11703769052638300000
+        },
+        {
+            "offlineLevel": 724,
+            "offlineUpCost": 9572219406206770000000,
+            "offlineCoinPerSecond": 11817554822477500000
+        },
+        {
+            "offlineLevel": 725,
+            "offlineUpCost": 9665152863563230000000,
+            "offlineCoinPerSecond": 11932287485880500000
+        },
+        {
+            "offlineLevel": 726,
+            "offlineUpCost": 9758858616201360000000,
+            "offlineCoinPerSecond": 12047973600248600000
+        },
+        {
+            "offlineLevel": 727,
+            "offlineUpCost": 9853342005001890000000,
+            "offlineCoinPerSecond": 12164619759261600000
+        },
+        {
+            "offlineLevel": 728,
+            "offlineUpCost": 9948608400353090000000,
+            "offlineCoinPerSecond": 12282232593028500000
+        },
+        {
+            "offlineLevel": 729,
+            "offlineUpCost": 10044663202272800000000,
+            "offlineCoinPerSecond": 12400818768238100000
+        },
+        {
+            "offlineLevel": 730,
+            "offlineUpCost": 10141511840531000000000,
+            "offlineCoinPerSecond": 12520384988309900000
+        },
+        {
+            "offlineLevel": 731,
+            "offlineUpCost": 10239159774772500000000,
+            "offlineCoinPerSecond": 12640937993546300000
+        },
+        {
+            "offlineLevel": 732,
+            "offlineUpCost": 10337612494639800000000,
+            "offlineCoinPerSecond": 12762484561283700000
+        },
+        {
+            "offlineLevel": 733,
+            "offlineUpCost": 10436875519897100000000,
+            "offlineCoinPerSecond": 12885031506045900000
+        },
+        {
+            "offlineLevel": 734,
+            "offlineUpCost": 10536954400553700000000,
+            "offlineCoinPerSecond": 13008585679695900000
+        },
+        {
+            "offlineLevel": 735,
+            "offlineUpCost": 10637854716988000000000,
+            "offlineCoinPerSecond": 13133153971590100000
+        },
+        {
+            "offlineLevel": 736,
+            "offlineUpCost": 10739582080072300000000,
+            "offlineCoinPerSecond": 13258743308731200000
+        },
+        {
+            "offlineLevel": 737,
+            "offlineUpCost": 10842142131297600000000,
+            "offlineCoinPerSecond": 13385360655922900000
+        },
+        {
+            "offlineLevel": 738,
+            "offlineUpCost": 10945540542898200000000,
+            "offlineCoinPerSecond": 13513013015923800000
+        },
+        {
+            "offlineLevel": 739,
+            "offlineUpCost": 11049783017978200000000,
+            "offlineCoinPerSecond": 13641707429602700000
+        },
+        {
+            "offlineLevel": 740,
+            "offlineUpCost": 11154875290636000000000,
+            "offlineCoinPerSecond": 13771450976093900000
+        },
+        {
+            "offlineLevel": 741,
+            "offlineUpCost": 11260823126091800000000,
+            "offlineCoinPerSecond": 13902250772952900000
+        },
+        {
+            "offlineLevel": 742,
+            "offlineUpCost": 11367632320813200000000,
+            "offlineCoinPerSecond": 14034113976312600000
+        },
+        {
+            "offlineLevel": 743,
+            "offlineUpCost": 11475308702642300000000,
+            "offlineCoinPerSecond": 14167047781039800000
+        },
+        {
+            "offlineLevel": 744,
+            "offlineUpCost": 11583858130923000000000,
+            "offlineCoinPerSecond": 14301059420892600000
+        },
+        {
+            "offlineLevel": 745,
+            "offlineUpCost": 11693286496628600000000,
+            "offlineCoinPerSecond": 14436156168677300000
+        },
+        {
+            "offlineLevel": 746,
+            "offlineUpCost": 11803599722489300000000,
+            "offlineCoinPerSecond": 14572345336406600000
+        },
+        {
+            "offlineLevel": 747,
+            "offlineUpCost": 11914803763120900000000,
+            "offlineCoinPerSecond": 14709634275457900000
+        },
+        {
+            "offlineLevel": 748,
+            "offlineUpCost": 12026904605153100000000,
+            "offlineCoinPerSecond": 14848030376732200000
+        },
+        {
+            "offlineLevel": 749,
+            "offlineUpCost": 12139908267358300000000,
+            "offlineCoinPerSecond": 14987541070812700000
+        },
+        {
+            "offlineLevel": 750,
+            "offlineUpCost": 12253820800781300000000,
+            "offlineCoinPerSecond": 15128173828125000000
+        },
+        {
+            "offlineLevel": 751,
+            "offlineUpCost": 12368648288868300000000,
+            "offlineCoinPerSecond": 15269936159096700000
+        },
+        {
+            "offlineLevel": 752,
+            "offlineUpCost": 12484396847597500000000,
+            "offlineCoinPerSecond": 15412835614317900000
+        },
+        {
+            "offlineLevel": 753,
+            "offlineUpCost": 12601072625608900000000,
+            "offlineCoinPerSecond": 15556879784702300000
+        },
+        {
+            "offlineLevel": 754,
+            "offlineUpCost": 12718681804335100000000,
+            "offlineCoinPerSecond": 15702076301648300000
+        },
+        {
+            "offlineLevel": 755,
+            "offlineUpCost": 12837230598132600000000,
+            "offlineCoinPerSecond": 15848432837200700000
+        },
+        {
+            "offlineLevel": 756,
+            "offlineUpCost": 12956725254412500000000,
+            "offlineCoinPerSecond": 15995957104212900000
+        },
+        {
+            "offlineLevel": 757,
+            "offlineUpCost": 13077172053772700000000,
+            "offlineCoinPerSecond": 16144656856509500000
+        },
+        {
+            "offlineLevel": 758,
+            "offlineUpCost": 13198577310130000000000,
+            "offlineCoinPerSecond": 16294539889049400000
+        },
+        {
+            "offlineLevel": 759,
+            "offlineUpCost": 13320947370852000000000,
+            "offlineCoinPerSecond": 16445614038088900000
+        },
+        {
+            "offlineLevel": 760,
+            "offlineUpCost": 13444288616890400000000,
+            "offlineCoinPerSecond": 16597887181346100000
+        },
+        {
+            "offlineLevel": 761,
+            "offlineUpCost": 13568607462913600000000,
+            "offlineCoinPerSecond": 16751367238164900000
+        },
+        {
+            "offlineLevel": 762,
+            "offlineUpCost": 13693910357440400000000,
+            "offlineCoinPerSecond": 16906062169679600000
+        },
+        {
+            "offlineLevel": 763,
+            "offlineUpCost": 13820203782974100000000,
+            "offlineCoinPerSecond": 17061979978980400000
+        },
+        {
+            "offlineLevel": 764,
+            "offlineUpCost": 13947494256135900000000,
+            "offlineCoinPerSecond": 17219128711278900000
+        },
+        {
+            "offlineLevel": 765,
+            "offlineUpCost": 14075788327800000000000,
+            "offlineCoinPerSecond": 17377516454074100000
+        },
+        {
+            "offlineLevel": 766,
+            "offlineUpCost": 14205092583228400000000,
+            "offlineCoinPerSecond": 17537151337319000000
+        },
+        {
+            "offlineLevel": 767,
+            "offlineUpCost": 14335413642205700000000,
+            "offlineCoinPerSecond": 17698041533587200000
+        },
+        {
+            "offlineLevel": 768,
+            "offlineUpCost": 14466758159175100000000,
+            "offlineCoinPerSecond": 17860195258240800000
+        },
+        {
+            "offlineLevel": 769,
+            "offlineUpCost": 14599132823374100000000,
+            "offlineCoinPerSecond": 18023620769597700000
+        },
+        {
+            "offlineLevel": 770,
+            "offlineUpCost": 14732544358971100000000,
+            "offlineCoinPerSecond": 18188326369100100000
+        },
+        {
+            "offlineLevel": 771,
+            "offlineUpCost": 14866999525201200000000,
+            "offlineCoinPerSecond": 18354320401483000000
+        },
+        {
+            "offlineLevel": 772,
+            "offlineUpCost": 15002505116504300000000,
+            "offlineCoinPerSecond": 18521611254943600000
+        },
+        {
+            "offlineLevel": 773,
+            "offlineUpCost": 15139067962661500000000,
+            "offlineCoinPerSecond": 18690207361310500000
+        },
+        {
+            "offlineLevel": 774,
+            "offlineUpCost": 15276694928933300000000,
+            "offlineCoinPerSecond": 18860117196214000000
+        },
+        {
+            "offlineLevel": 775,
+            "offlineUpCost": 15415392916197500000000,
+            "offlineCoinPerSecond": 19031349279256200000
+        },
+        {
+            "offlineLevel": 776,
+            "offlineUpCost": 15555168861087600000000,
+            "offlineCoinPerSecond": 19203912174182300000
+        },
+        {
+            "offlineLevel": 777,
+            "offlineUpCost": 15696029736131700000000,
+            "offlineCoinPerSecond": 19377814489051500000
+        },
+        {
+            "offlineLevel": 778,
+            "offlineUpCost": 15837982549891400000000,
+            "offlineCoinPerSecond": 19553064876409100000
+        },
+        {
+            "offlineLevel": 779,
+            "offlineUpCost": 15981034347101300000000,
+            "offlineCoinPerSecond": 19729672033458400000
+        },
+        {
+            "offlineLevel": 780,
+            "offlineUpCost": 16125192208809200000000,
+            "offlineCoinPerSecond": 19907644702233600000
+        },
+        {
+            "offlineLevel": 781,
+            "offlineUpCost": 16270463252515900000000,
+            "offlineCoinPerSecond": 20086991669772800000
+        },
+        {
+            "offlineLevel": 782,
+            "offlineUpCost": 16416854632316000000000,
+            "offlineCoinPerSecond": 20267721768291300000
+        },
+        {
+            "offlineLevel": 783,
+            "offlineUpCost": 16564373539038500000000,
+            "offlineCoinPerSecond": 20449843875356200000
+        },
+        {
+            "offlineLevel": 784,
+            "offlineUpCost": 16713027200388700000000,
+            "offlineCoinPerSecond": 20633366914060200000
+        },
+        {
+            "offlineLevel": 785,
+            "offlineUpCost": 16862822881089200000000,
+            "offlineCoinPerSecond": 20818299853196600000
+        },
+        {
+            "offlineLevel": 786,
+            "offlineUpCost": 17013767883022300000000,
+            "offlineCoinPerSecond": 21004651707434900000
+        },
+        {
+            "offlineLevel": 787,
+            "offlineUpCost": 17165869545372100000000,
+            "offlineCoinPerSecond": 21192431537496400000
+        },
+        {
+            "offlineLevel": 788,
+            "offlineUpCost": 17319135244767600000000,
+            "offlineCoinPerSecond": 21381648450330400000
+        },
+        {
+            "offlineLevel": 789,
+            "offlineUpCost": 17473572395425600000000,
+            "offlineCoinPerSecond": 21572311599290900000
+        },
+        {
+            "offlineLevel": 790,
+            "offlineUpCost": 17629188449294000000000,
+            "offlineCoinPerSecond": 21764430184313500000
+        },
+        {
+            "offlineLevel": 791,
+            "offlineUpCost": 17785990896195800000000,
+            "offlineCoinPerSecond": 21958013452093600000
+        },
+        {
+            "offlineLevel": 792,
+            "offlineUpCost": 17943987263973500000000,
+            "offlineCoinPerSecond": 22153070696263500000
+        },
+        {
+            "offlineLevel": 793,
+            "offlineUpCost": 18103185118633100000000,
+            "offlineCoinPerSecond": 22349611257571800000
+        },
+        {
+            "offlineLevel": 794,
+            "offlineUpCost": 18263592064489800000000,
+            "offlineCoinPerSecond": 22547644524061400000
+        },
+        {
+            "offlineLevel": 795,
+            "offlineUpCost": 18425215744312400000000,
+            "offlineCoinPerSecond": 22747179931249900000
+        },
+        {
+            "offlineLevel": 796,
+            "offlineUpCost": 18588063839469800000000,
+            "offlineCoinPerSecond": 22948226962308400000
+        },
+        {
+            "offlineLevel": 797,
+            "offlineUpCost": 18752144070076500000000,
+            "offlineCoinPerSecond": 23150795148242600000
+        },
+        {
+            "offlineLevel": 798,
+            "offlineUpCost": 18917464195139100000000,
+            "offlineCoinPerSecond": 23354894068072900000
+        },
+        {
+            "offlineLevel": 799,
+            "offlineUpCost": 19084032012703000000000,
+            "offlineCoinPerSecond": 23560533349016100000
+        },
+        {
+            "offlineLevel": 800,
+            "offlineUpCost": 19251855360000000000000,
+            "offlineCoinPerSecond": 23767722666666700000
+        },
+        {
+            "offlineLevel": 801,
+            "offlineUpCost": 19420942113595100000000,
+            "offlineCoinPerSecond": 23976471745179100000
+        },
+        {
+            "offlineLevel": 802,
+            "offlineUpCost": 19591300189534800000000,
+            "offlineCoinPerSecond": 24186790357450400000
+        },
+        {
+            "offlineLevel": 803,
+            "offlineUpCost": 19762937543495300000000,
+            "offlineCoinPerSecond": 24398688325302900000
+        },
+        {
+            "offlineLevel": 804,
+            "offlineUpCost": 19935862170931000000000,
+            "offlineCoinPerSecond": 24612175519668000000
+        },
+        {
+            "offlineLevel": 805,
+            "offlineUpCost": 20110082107223600000000,
+            "offlineCoinPerSecond": 24827261860769900000
+        },
+        {
+            "offlineLevel": 806,
+            "offlineUpCost": 20285605427831400000000,
+            "offlineCoinPerSecond": 25043957318310300000
+        },
+        {
+            "offlineLevel": 807,
+            "offlineUpCost": 20462440248438800000000,
+            "offlineCoinPerSecond": 25262271911652800000
+        },
+        {
+            "offlineLevel": 808,
+            "offlineUpCost": 20640594725106800000000,
+            "offlineCoinPerSecond": 25482215710008400000
+        },
+        {
+            "offlineLevel": 809,
+            "offlineUpCost": 20820077054423400000000,
+            "offlineCoinPerSecond": 25703798832621500000
+        },
+        {
+            "offlineLevel": 810,
+            "offlineUpCost": 21000895473654200000000,
+            "offlineCoinPerSecond": 25927031448955800000
+        },
+        {
+            "offlineLevel": 811,
+            "offlineUpCost": 21183058260893600000000,
+            "offlineCoinPerSecond": 26151923778881000000
+        },
+        {
+            "offlineLevel": 812,
+            "offlineUpCost": 21366573735216900000000,
+            "offlineCoinPerSecond": 26378486092860300000
+        },
+        {
+            "offlineLevel": 813,
+            "offlineUpCost": 21551450256831500000000,
+            "offlineCoinPerSecond": 26606728712137600000
+        },
+        {
+            "offlineLevel": 814,
+            "offlineUpCost": 21737696227229900000000,
+            "offlineCoinPerSecond": 26836662008925800000
+        },
+        {
+            "offlineLevel": 815,
+            "offlineUpCost": 21925320089342200000000,
+            "offlineCoinPerSecond": 27068296406595300000
+        },
+        {
+            "offlineLevel": 816,
+            "offlineUpCost": 22114330327689000000000,
+            "offlineCoinPerSecond": 27301642379862900000
+        },
+        {
+            "offlineLevel": 817,
+            "offlineUpCost": 22304735468535100000000,
+            "offlineCoinPerSecond": 27536710454981600000
+        },
+        {
+            "offlineLevel": 818,
+            "offlineUpCost": 22496544080043300000000,
+            "offlineCoinPerSecond": 27773511209930000000
+        },
+        {
+            "offlineLevel": 819,
+            "offlineUpCost": 22689764772428700000000,
+            "offlineCoinPerSecond": 28012055274603400000
+        },
+        {
+            "offlineLevel": 820,
+            "offlineUpCost": 22884406198113000000000,
+            "offlineCoinPerSecond": 28252353331003700000
+        },
+        {
+            "offlineLevel": 821,
+            "offlineUpCost": 23080477051879900000000,
+            "offlineCoinPerSecond": 28494416113431900000
+        },
+        {
+            "offlineLevel": 822,
+            "offlineUpCost": 23277986071030000000000,
+            "offlineCoinPerSecond": 28738254408679000000
+        },
+        {
+            "offlineLevel": 823,
+            "offlineUpCost": 23476942035537100000000,
+            "offlineCoinPerSecond": 28983879056218600000
+        },
+        {
+            "offlineLevel": 824,
+            "offlineUpCost": 23677353768203700000000,
+            "offlineCoinPerSecond": 29231300948399600000
+        },
+        {
+            "offlineLevel": 825,
+            "offlineUpCost": 23879230134818100000000,
+            "offlineCoinPerSecond": 29480531030639600000
+        },
+        {
+            "offlineLevel": 826,
+            "offlineUpCost": 24082580044310900000000,
+            "offlineCoinPerSecond": 29731580301618300000
+        },
+        {
+            "offlineLevel": 827,
+            "offlineUpCost": 24287412448912100000000,
+            "offlineCoinPerSecond": 29984459813471800000
+        },
+        {
+            "offlineLevel": 828,
+            "offlineUpCost": 24493736344309500000000,
+            "offlineCoinPerSecond": 30239180671987000000
+        },
+        {
+            "offlineLevel": 829,
+            "offlineUpCost": 24701560769805800000000,
+            "offlineCoinPerSecond": 30495754036797300000
+        },
+        {
+            "offlineLevel": 830,
+            "offlineUpCost": 24910894808477600000000,
+            "offlineCoinPerSecond": 30754191121577300000
+        },
+        {
+            "offlineLevel": 831,
+            "offlineUpCost": 25121747587334000000000,
+            "offlineCoinPerSecond": 31014503194239500000
+        },
+        {
+            "offlineLevel": 832,
+            "offlineUpCost": 25334128277475800000000,
+            "offlineCoinPerSecond": 31276701577130700000
+        },
+        {
+            "offlineLevel": 833,
+            "offlineUpCost": 25548046094255200000000,
+            "offlineCoinPerSecond": 31540797647228600000
+        },
+        {
+            "offlineLevel": 834,
+            "offlineUpCost": 25763510297435400000000,
+            "offlineCoinPerSecond": 31806802836339900000
+        },
+        {
+            "offlineLevel": 835,
+            "offlineUpCost": 25980530191351100000000,
+            "offlineCoinPerSecond": 32074728631297700000
+        },
+        {
+            "offlineLevel": 836,
+            "offlineUpCost": 26199115125069600000000,
+            "offlineCoinPerSecond": 32344586574160000000
+        },
+        {
+            "offlineLevel": 837,
+            "offlineUpCost": 26419274492551200000000,
+            "offlineCoinPerSecond": 32616388262408900000
+        },
+        {
+            "offlineLevel": 838,
+            "offlineUpCost": 26641017732811100000000,
+            "offlineCoinPerSecond": 32890145349149600000
+        },
+        {
+            "offlineLevel": 839,
+            "offlineUpCost": 26864354330081400000000,
+            "offlineCoinPerSecond": 33165869543310400000
+        },
+        {
+            "offlineLevel": 840,
+            "offlineUpCost": 27089293813973000000000,
+            "offlineCoinPerSecond": 33443572609843200000
+        },
+        {
+            "offlineLevel": 841,
+            "offlineUpCost": 27315845759638400000000,
+            "offlineCoinPerSecond": 33723266369923900000
+        },
+        {
+            "offlineLevel": 842,
+            "offlineUpCost": 27544019787934800000000,
+            "offlineCoinPerSecond": 34004962701154100000
+        },
+        {
+            "offlineLevel": 843,
+            "offlineUpCost": 27773825565587600000000,
+            "offlineCoinPerSecond": 34288673537762500000
+        },
+        {
+            "offlineLevel": 844,
+            "offlineUpCost": 28005272805354000000000,
+            "offlineCoinPerSecond": 34574410870807300000
+        },
+        {
+            "offlineLevel": 845,
+            "offlineUpCost": 28238371266187100000000,
+            "offlineCoinPerSecond": 34862186748379100000
+        },
+        {
+            "offlineLevel": 846,
+            "offlineUpCost": 28473130753401000000000,
+            "offlineCoinPerSecond": 35152013275803700000
+        },
+        {
+            "offlineLevel": 847,
+            "offlineUpCost": 28709561118835400000000,
+            "offlineCoinPerSecond": 35443902615846200000
+        },
+        {
+            "offlineLevel": 848,
+            "offlineUpCost": 28947672261021000000000,
+            "offlineCoinPerSecond": 35737866988914800000
+        },
+        {
+            "offlineLevel": 849,
+            "offlineUpCost": 29187474125345300000000,
+            "offlineCoinPerSecond": 36033918673265800000
+        },
+        {
+            "offlineLevel": 850,
+            "offlineUpCost": 29428976704218700000000,
+            "offlineCoinPerSecond": 36332070005208300000
+        },
+        {
+            "offlineLevel": 851,
+            "offlineUpCost": 29672190037241500000000,
+            "offlineCoinPerSecond": 36632333379310500000
+        },
+        {
+            "offlineLevel": 852,
+            "offlineUpCost": 29917124211369900000000,
+            "offlineCoinPerSecond": 36934721248604900000
+        },
+        {
+            "offlineLevel": 853,
+            "offlineUpCost": 30163789361084500000000,
+            "offlineCoinPerSecond": 37239246124795700000
+        },
+        {
+            "offlineLevel": 854,
+            "offlineUpCost": 30412195668557000000000,
+            "offlineCoinPerSecond": 37545920578465400000
+        },
+        {
+            "offlineLevel": 855,
+            "offlineUpCost": 30662353363818900000000,
+            "offlineCoinPerSecond": 37854757239282600000
+        },
+        {
+            "offlineLevel": 856,
+            "offlineUpCost": 30914272724930000000000,
+            "offlineCoinPerSecond": 38165768796209800000
+        },
+        {
+            "offlineLevel": 857,
+            "offlineUpCost": 31167964078147000000000,
+            "offlineCoinPerSecond": 38478967997712400000
+        },
+        {
+            "offlineLevel": 858,
+            "offlineUpCost": 31423437798093300000000,
+            "offlineCoinPerSecond": 38794367651967000000
+        },
+        {
+            "offlineLevel": 859,
+            "offlineUpCost": 31680704307928100000000,
+            "offlineCoinPerSecond": 39111980627071700000
+        },
+        {
+            "offlineLevel": 860,
+            "offlineUpCost": 31939774079516900000000,
+            "offlineCoinPerSecond": 39431819851255500000
+        },
+        {
+            "offlineLevel": 861,
+            "offlineUpCost": 32200657633602100000000,
+            "offlineCoinPerSecond": 39753898313089100000
+        },
+        {
+            "offlineLevel": 862,
+            "offlineUpCost": 32463365539973600000000,
+            "offlineCoinPerSecond": 40078229061695800000
+        },
+        {
+            "offlineLevel": 863,
+            "offlineUpCost": 32727908417640100000000,
+            "offlineCoinPerSecond": 40404825206963100000
+        },
+        {
+            "offlineLevel": 864,
+            "offlineUpCost": 32994296935001100000000,
+            "offlineCoinPerSecond": 40733699919754400000
+        },
+        {
+            "offlineLevel": 865,
+            "offlineUpCost": 33262541810018600000000,
+            "offlineCoinPerSecond": 41064866432121700000
+        },
+        {
+            "offlineLevel": 866,
+            "offlineUpCost": 33532653810390000000000,
+            "offlineCoinPerSecond": 41398338037518500000
+        },
+        {
+            "offlineLevel": 867,
+            "offlineUpCost": 33804643753720600000000,
+            "offlineCoinPerSecond": 41734128091013100000
+        },
+        {
+            "offlineLevel": 868,
+            "offlineUpCost": 34078522507697200000000,
+            "offlineCoinPerSecond": 42072250009502700000
+        },
+        {
+            "offlineLevel": 869,
+            "offlineUpCost": 34354300990261600000000,
+            "offlineCoinPerSecond": 42412717271927900000
+        },
+        {
+            "offlineLevel": 870,
+            "offlineUpCost": 34631990169784800000000,
+            "offlineCoinPerSecond": 42755543419487400000
+        },
+        {
+            "offlineLevel": 871,
+            "offlineUpCost": 34911601065241400000000,
+            "offlineCoinPerSecond": 43100742055853500000
+        },
+        {
+            "offlineLevel": 872,
+            "offlineUpCost": 35193144746384500000000,
+            "offlineCoinPerSecond": 43448326847388200000
+        },
+        {
+            "offlineLevel": 873,
+            "offlineUpCost": 35476632333921200000000,
+            "offlineCoinPerSecond": 43798311523359500000
+        },
+        {
+            "offlineLevel": 874,
+            "offlineUpCost": 35762074999688100000000,
+            "offlineCoinPerSecond": 44150709876158100000
+        },
+        {
+            "offlineLevel": 875,
+            "offlineUpCost": 36049483966827400000000,
+            "offlineCoinPerSecond": 44505535761515300000
+        },
+        {
+            "offlineLevel": 876,
+            "offlineUpCost": 36338870509963500000000,
+            "offlineCoinPerSecond": 44862803098720400000
+        },
+        {
+            "offlineLevel": 877,
+            "offlineUpCost": 36630245955379900000000,
+            "offlineCoinPerSecond": 45222525870839400000
+        },
+        {
+            "offlineLevel": 878,
+            "offlineUpCost": 36923621681196500000000,
+            "offlineCoinPerSecond": 45584718124934000000
+        },
+        {
+            "offlineLevel": 879,
+            "offlineUpCost": 37219009117547400000000,
+            "offlineCoinPerSecond": 45949393972280700000
+        },
+        {
+            "offlineLevel": 880,
+            "offlineUpCost": 37516419746758700000000,
+            "offlineCoinPerSecond": 46316567588590900000
+        },
+        {
+            "offlineLevel": 881,
+            "offlineUpCost": 37815865103527500000000,
+            "offlineCoinPerSecond": 46686253214231500000
+        },
+        {
+            "offlineLevel": 882,
+            "offlineUpCost": 38117356775100700000000,
+            "offlineCoinPerSecond": 47058465154445400000
+        },
+        {
+            "offlineLevel": 883,
+            "offlineUpCost": 38420906401454200000000,
+            "offlineCoinPerSecond": 47433217779573100000
+        },
+        {
+            "offlineLevel": 884,
+            "offlineUpCost": 38726525675472700000000,
+            "offlineCoinPerSecond": 47810525525274900000
+        },
+        {
+            "offlineLevel": 885,
+            "offlineUpCost": 39034226343129900000000,
+            "offlineCoinPerSecond": 48190402892752900000
+        },
+        {
+            "offlineLevel": 886,
+            "offlineUpCost": 39344020203669100000000,
+            "offlineCoinPerSecond": 48572864448974200000
+        },
+        {
+            "offlineLevel": 887,
+            "offlineUpCost": 39655919109784400000000,
+            "offlineCoinPerSecond": 48957924826894300000
+        },
+        {
+            "offlineLevel": 888,
+            "offlineUpCost": 39969934967801500000000,
+            "offlineCoinPerSecond": 49345598725680800000
+        },
+        {
+            "offlineLevel": 889,
+            "offlineUpCost": 40286079737860000000000,
+            "offlineCoinPerSecond": 49735900910938300000
+        },
+        {
+            "offlineLevel": 890,
+            "offlineUpCost": 40604365434095600000000,
+            "offlineCoinPerSecond": 50128846214932900000
+        },
+        {
+            "offlineLevel": 891,
+            "offlineUpCost": 40924804124822500000000,
+            "offlineCoinPerSecond": 50524449536817900000
+        },
+        {
+            "offlineLevel": 892,
+            "offlineUpCost": 41247407932716600000000,
+            "offlineCoinPerSecond": 50922725842860000000
+        },
+        {
+            "offlineLevel": 893,
+            "offlineUpCost": 41572189034998700000000,
+            "offlineCoinPerSecond": 51323690166665100000
+        },
+        {
+            "offlineLevel": 894,
+            "offlineUpCost": 41899159663618800000000,
+            "offlineCoinPerSecond": 51727357609405900000
+        },
+        {
+            "offlineLevel": 895,
+            "offlineUpCost": 42228332105439900000000,
+            "offlineCoinPerSecond": 52133743340049300000
+        },
+        {
+            "offlineLevel": 896,
+            "offlineUpCost": 42559718702423100000000,
+            "offlineCoinPerSecond": 52542862595584100000
+        },
+        {
+            "offlineLevel": 897,
+            "offlineUpCost": 42893331851812300000000,
+            "offlineCoinPerSecond": 52954730681249800000
+        },
+        {
+            "offlineLevel": 898,
+            "offlineUpCost": 43229184006320100000000,
+            "offlineCoinPerSecond": 53369362970765600000
+        },
+        {
+            "offlineLevel": 899,
+            "offlineUpCost": 43567287674313400000000,
+            "offlineCoinPerSecond": 53786774906559800000
+        },
+        {
+            "offlineLevel": 900,
+            "offlineUpCost": 43907655420000000000000,
+            "offlineCoinPerSecond": 54206982000000000000
+        },
+        {
+            "offlineLevel": 901,
+            "offlineUpCost": 44250299863615100000000,
+            "offlineCoinPerSecond": 54629999831623600000
+        },
+        {
+            "offlineLevel": 902,
+            "offlineUpCost": 44595233681608800000000,
+            "offlineCoinPerSecond": 55055844051368900000
+        },
+        {
+            "offlineLevel": 903,
+            "offlineUpCost": 44942469606833400000000,
+            "offlineCoinPerSecond": 55484530378806700000
+        },
+        {
+            "offlineLevel": 904,
+            "offlineUpCost": 45292020428731500000000,
+            "offlineCoinPerSecond": 55916074603372200000
+        },
+        {
+            "offlineLevel": 905,
+            "offlineUpCost": 45643898993524400000000,
+            "offlineCoinPerSecond": 56350492584598000000
+        },
+        {
+            "offlineLevel": 906,
+            "offlineUpCost": 45998118204401200000000,
+            "offlineCoinPerSecond": 56787800252347100000
+        },
+        {
+            "offlineLevel": 907,
+            "offlineUpCost": 46354691021707500000000,
+            "offlineCoinPerSecond": 57228013607046300000
+        },
+        {
+            "offlineLevel": 908,
+            "offlineUpCost": 46713630463135800000000,
+            "offlineCoinPerSecond": 57671148719920800000
+        },
+        {
+            "offlineLevel": 909,
+            "offlineUpCost": 47074949603915000000000,
+            "offlineCoinPerSecond": 58117221733228400000
+        },
+        {
+            "offlineLevel": 910,
+            "offlineUpCost": 47438661577001100000000,
+            "offlineCoinPerSecond": 58566248860495100000
+        },
+        {
+            "offlineLevel": 911,
+            "offlineUpCost": 47804779573268200000000,
+            "offlineCoinPerSecond": 59018246386750900000
+        },
+        {
+            "offlineLevel": 912,
+            "offlineUpCost": 48173316841700100000000,
+            "offlineCoinPerSecond": 59473230668765600000
+        },
+        {
+            "offlineLevel": 913,
+            "offlineUpCost": 48544286689581500000000,
+            "offlineCoinPerSecond": 59931218135285800000
+        },
+        {
+            "offlineLevel": 914,
+            "offlineUpCost": 48917702482690600000000,
+            "offlineCoinPerSecond": 60392225287272300000
+        },
+        {
+            "offlineLevel": 915,
+            "offlineUpCost": 49293577645491700000000,
+            "offlineCoinPerSecond": 60856268698137900000
+        },
+        {
+            "offlineLevel": 916,
+            "offlineUpCost": 49671925661328200000000,
+            "offlineCoinPerSecond": 61323365013985400000
+        },
+        {
+            "offlineLevel": 917,
+            "offlineUpCost": 50052760072615900000000,
+            "offlineCoinPerSecond": 61793530953846800000
+        },
+        {
+            "offlineLevel": 918,
+            "offlineUpCost": 50436094481037200000000,
+            "offlineCoinPerSecond": 62266783309922500000
+        },
+        {
+            "offlineLevel": 919,
+            "offlineUpCost": 50821942547735300000000,
+            "offlineCoinPerSecond": 62743138947821400000
+        },
+        {
+            "offlineLevel": 920,
+            "offlineUpCost": 51210317993508900000000,
+            "offlineCoinPerSecond": 63222614806801100000
+        },
+        {
+            "offlineLevel": 921,
+            "offlineUpCost": 51601234599007100000000,
+            "offlineCoinPerSecond": 63705227900008700000
+        },
+        {
+            "offlineLevel": 922,
+            "offlineUpCost": 51994706204925600000000,
+            "offlineCoinPerSecond": 64190995314722900000
+        },
+        {
+            "offlineLevel": 923,
+            "offlineUpCost": 52390746712202200000000,
+            "offlineCoinPerSecond": 64679934212595200000
+        },
+        {
+            "offlineLevel": 924,
+            "offlineUpCost": 52789370082213400000000,
+            "offlineCoinPerSecond": 65172061829893100000
+        },
+        {
+            "offlineLevel": 925,
+            "offlineUpCost": 53190590336971400000000,
+            "offlineCoinPerSecond": 65667395477742500000
+        },
+        {
+            "offlineLevel": 926,
+            "offlineUpCost": 53594421559321300000000,
+            "offlineCoinPerSecond": 66165952542372000000
+        },
+        {
+            "offlineLevel": 927,
+            "offlineUpCost": 54000877893138600000000,
+            "offlineCoinPerSecond": 66667750485356300000
+        },
+        {
+            "offlineLevel": 928,
+            "offlineUpCost": 54409973543527800000000,
+            "offlineCoinPerSecond": 67172806843861500000
+        },
+        {
+            "offlineLevel": 929,
+            "offlineUpCost": 54821722777020600000000,
+            "offlineCoinPerSecond": 67681139230889600000
+        },
+        {
+            "offlineLevel": 930,
+            "offlineUpCost": 55236139921774900000000,
+            "offlineCoinPerSecond": 68192765335524600000
+        },
+        {
+            "offlineLevel": 931,
+            "offlineUpCost": 55653239367774800000000,
+            "offlineCoinPerSecond": 68707702923178700000
+        },
+        {
+            "offlineLevel": 932,
+            "offlineUpCost": 56073035567029600000000,
+            "offlineCoinPerSecond": 69225969835839000000
+        },
+        {
+            "offlineLevel": 933,
+            "offlineUpCost": 56495543033774800000000,
+            "offlineCoinPerSecond": 69747583992314500000
+        },
+        {
+            "offlineLevel": 934,
+            "offlineUpCost": 56920776344672500000000,
+            "offlineCoinPerSecond": 70272563388484600000
+        },
+        {
+            "offlineLevel": 935,
+            "offlineUpCost": 57348750139012700000000,
+            "offlineCoinPerSecond": 70800926097546600000
+        },
+        {
+            "offlineLevel": 936,
+            "offlineUpCost": 57779479118914800000000,
+            "offlineCoinPerSecond": 71332690270265200000
+        },
+        {
+            "offlineLevel": 937,
+            "offlineUpCost": 58212978049529500000000,
+            "offlineCoinPerSecond": 71867874135221600000
+        },
+        {
+            "offlineLevel": 938,
+            "offlineUpCost": 58649261759241600000000,
+            "offlineCoinPerSecond": 72406495999063700000
+        },
+        {
+            "offlineLevel": 939,
+            "offlineUpCost": 59088345139872700000000,
+            "offlineCoinPerSecond": 72948574246756400000
+        },
+        {
+            "offlineLevel": 940,
+            "offlineUpCost": 59530243146884400000000,
+            "offlineCoinPerSecond": 73494127341832500000
+        },
+        {
+            "offlineLevel": 941,
+            "offlineUpCost": 59974970799582100000000,
+            "offlineCoinPerSecond": 74043173826644600000
+        },
+        {
+            "offlineLevel": 942,
+            "offlineUpCost": 60422543181319500000000,
+            "offlineCoinPerSecond": 74595732322616700000
+        },
+        {
+            "offlineLevel": 943,
+            "offlineUpCost": 60872975439702900000000,
+            "offlineCoinPerSecond": 75151821530497400000
+        },
+        {
+            "offlineLevel": 944,
+            "offlineUpCost": 61326282786796300000000,
+            "offlineCoinPerSecond": 75711460230612700000
+        },
+        {
+            "offlineLevel": 945,
+            "offlineUpCost": 61782480499327000000000,
+            "offlineCoinPerSecond": 76274667283119700000
+        },
+        {
+            "offlineLevel": 946,
+            "offlineUpCost": 62241583918891400000000,
+            "offlineCoinPerSecond": 76841461628261000000
+        },
+        {
+            "offlineLevel": 947,
+            "offlineUpCost": 62703608452161600000000,
+            "offlineCoinPerSecond": 77411862286619200000
+        },
+        {
+            "offlineLevel": 948,
+            "offlineUpCost": 63168569571091900000000,
+            "offlineCoinPerSecond": 77985888359372700000
+        },
+        {
+            "offlineLevel": 949,
+            "offlineUpCost": 63636482813126400000000,
+            "offlineCoinPerSecond": 78563559028551100000
+        },
+        {
+            "offlineLevel": 950,
+            "offlineUpCost": 64107363781406300000000,
+            "offlineCoinPerSecond": 79144893557291700000
+        },
+        {
+            "offlineLevel": 951,
+            "offlineUpCost": 64581228144978200000000,
+            "offlineCoinPerSecond": 79729911290096600000
+        },
+        {
+            "offlineLevel": 952,
+            "offlineUpCost": 65058091639003100000000,
+            "offlineCoinPerSecond": 80318631653090200000
+        },
+        {
+            "offlineLevel": 953,
+            "offlineUpCost": 65537970064964300000000,
+            "offlineCoinPerSecond": 80911074154276900000
+        },
+        {
+            "offlineLevel": 954,
+            "offlineUpCost": 66020879290878000000000,
+            "offlineCoinPerSecond": 81507258383800000000
+        },
+        {
+            "offlineLevel": 955,
+            "offlineUpCost": 66506835251502600000000,
+            "offlineCoinPerSecond": 82107204014200700000
+        },
+        {
+            "offlineLevel": 956,
+            "offlineUpCost": 66995853948549000000000,
+            "offlineCoinPerSecond": 82710930800677700000
+        },
+        {
+            "offlineLevel": 957,
+            "offlineUpCost": 67487951450891500000000,
+            "offlineCoinPerSecond": 83318458581347600000
+        },
+        {
+            "offlineLevel": 958,
+            "offlineUpCost": 67983143894779200000000,
+            "offlineCoinPerSecond": 83929807277505200000
+        },
+        {
+            "offlineLevel": 959,
+            "offlineUpCost": 68481447484047300000000,
+            "offlineCoinPerSecond": 84544996893885500000
+        },
+        {
+            "offlineLevel": 960,
+            "offlineUpCost": 68982878490329100000000,
+            "offlineCoinPerSecond": 85164047518924800000
+        },
+        {
+            "offlineLevel": 961,
+            "offlineUpCost": 69487453253269100000000,
+            "offlineCoinPerSecond": 85786979325023600000
+        },
+        {
+            "offlineLevel": 962,
+            "offlineUpCost": 69995188180735500000000,
+            "offlineCoinPerSecond": 86413812568809200000
+        },
+        {
+            "offlineLevel": 963,
+            "offlineUpCost": 70506099749033700000000,
+            "offlineCoinPerSecond": 87044567591399700000
+        },
+        {
+            "offlineLevel": 964,
+            "offlineUpCost": 71020204503120400000000,
+            "offlineCoinPerSecond": 87679264818667200000
+        },
+        {
+            "offlineLevel": 965,
+            "offlineUpCost": 71537519056817500000000,
+            "offlineCoinPerSecond": 88317924761503100000
+        },
+        {
+            "offlineLevel": 966,
+            "offlineUpCost": 72058060093027300000000,
+            "offlineCoinPerSecond": 88960568016083100000
+        },
+        {
+            "offlineLevel": 967,
+            "offlineUpCost": 72581844363947300000000,
+            "offlineCoinPerSecond": 89607215264132500000
+        },
+        {
+            "offlineLevel": 968,
+            "offlineUpCost": 73108888691286300000000,
+            "offlineCoinPerSecond": 90257887273192900000
+        },
+        {
+            "offlineLevel": 969,
+            "offlineUpCost": 73639209966479900000000,
+            "offlineCoinPerSecond": 90912604896888800000
+        },
+        {
+            "offlineLevel": 970,
+            "offlineUpCost": 74172825150907700000000,
+            "offlineCoinPerSecond": 91571389075194700000
+        },
+        {
+            "offlineLevel": 971,
+            "offlineUpCost": 74709751276109900000000,
+            "offlineCoinPerSecond": 92234260834703600000
+        },
+        {
+            "offlineLevel": 972,
+            "offlineUpCost": 75250005444004600000000,
+            "offlineCoinPerSecond": 92901241288894600000
+        },
+        {
+            "offlineLevel": 973,
+            "offlineUpCost": 75793604827106200000000,
+            "offlineCoinPerSecond": 93572351638402700000
+        },
+        {
+            "offlineLevel": 974,
+            "offlineUpCost": 76340566668743300000000,
+            "offlineCoinPerSecond": 94247613171288000000
+        },
+        {
+            "offlineLevel": 975,
+            "offlineUpCost": 76890908283277600000000,
+            "offlineCoinPerSecond": 94927047263305600000
+        },
+        {
+            "offlineLevel": 976,
+            "offlineUpCost": 77444647056323200000000,
+            "offlineCoinPerSecond": 95610675378176800000
+        },
+        {
+            "offlineLevel": 977,
+            "offlineUpCost": 78001800444966300000000,
+            "offlineCoinPerSecond": 96298519067859600000
+        },
+        {
+            "offlineLevel": 978,
+            "offlineUpCost": 78562385977985200000000,
+            "offlineCoinPerSecond": 96990599972821200000
+        },
+        {
+            "offlineLevel": 979,
+            "offlineUpCost": 79126421256071100000000,
+            "offlineCoinPerSecond": 97686939822309900000
+        },
+        {
+            "offlineLevel": 980,
+            "offlineUpCost": 79693923952048900000000,
+            "offlineCoinPerSecond": 98387560434628300000
+        },
+        {
+            "offlineLevel": 981,
+            "offlineUpCost": 80264911811099000000000,
+            "offlineCoinPerSecond": 99092483717406100000
+        },
+        {
+            "offlineLevel": 982,
+            "offlineUpCost": 80839402650978900000000,
+            "offlineCoinPerSecond": 99801731667875100000
+        },
+        {
+            "offlineLevel": 983,
+            "offlineUpCost": 81417414362245800000000,
+            "offlineCoinPerSecond": 100515326373143000000
+        },
+        {
+            "offlineLevel": 984,
+            "offlineUpCost": 81998964908479600000000,
+            "offlineCoinPerSecond": 101233290010469000000
+        },
+        {
+            "offlineLevel": 985,
+            "offlineUpCost": 82584072326505800000000,
+            "offlineCoinPerSecond": 101955644847538000000
+        },
+        {
+            "offlineLevel": 986,
+            "offlineUpCost": 83172754726619700000000,
+            "offlineCoinPerSecond": 102682413242740000000
+        },
+        {
+            "offlineLevel": 987,
+            "offlineUpCost": 83765030292810300000000,
+            "offlineCoinPerSecond": 103413617645445000000
+        },
+        {
+            "offlineLevel": 988,
+            "offlineUpCost": 84360917282985200000000,
+            "offlineCoinPerSecond": 104149280596278000000
+        },
+        {
+            "offlineLevel": 989,
+            "offlineUpCost": 84960434029195500000000,
+            "offlineCoinPerSecond": 104889424727402000000
+        },
+        {
+            "offlineLevel": 990,
+            "offlineUpCost": 85563598937861700000000,
+            "offlineCoinPerSecond": 105634072762792000000
+        },
+        {
+            "offlineLevel": 991,
+            "offlineUpCost": 86170430489999400000000,
+            "offlineCoinPerSecond": 106383247518518000000
+        },
+        {
+            "offlineLevel": 992,
+            "offlineUpCost": 86780947241446100000000,
+            "offlineCoinPerSecond": 107136971903020000000
+        },
+        {
+            "offlineLevel": 993,
+            "offlineUpCost": 87395167823088000000000,
+            "offlineCoinPerSecond": 107895268917393000000
+        },
+        {
+            "offlineLevel": 994,
+            "offlineUpCost": 88013110941087400000000,
+            "offlineCoinPerSecond": 108658161655663000000
+        },
+        {
+            "offlineLevel": 995,
+            "offlineUpCost": 88634795377110700000000,
+            "offlineCoinPerSecond": 109425673305075000000
+        },
+        {
+            "offlineLevel": 996,
+            "offlineUpCost": 89260239988556600000000,
+            "offlineCoinPerSecond": 110197827146366000000
+        },
+        {
+            "offlineLevel": 997,
+            "offlineUpCost": 89889463708785000000000,
+            "offlineCoinPerSecond": 110974646554056000000
+        },
+        {
+            "offlineLevel": 998,
+            "offlineUpCost": 90522485547346400000000,
+            "offlineCoinPerSecond": 111756154996724000000
+        },
+        {
+            "offlineLevel": 999,
+            "offlineUpCost": 91159324590211100000000,
+            "offlineCoinPerSecond": 112542376037298000000
+        }
+    ]
+}

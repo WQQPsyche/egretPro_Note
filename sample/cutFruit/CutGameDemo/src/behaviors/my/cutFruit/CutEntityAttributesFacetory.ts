@@ -1,5 +1,8 @@
 import { ResourceManager } from "@egret/core";
-import { DefaultMaterials, DefaultMeshes, Material, Mesh } from "@egret/render";
+import { EngineFactory, GameEntity, Transform, Vector3 } from "@egret/engine";
+import { DefaultMaterials, DefaultMeshes, Material, Mesh, MeshFilter, MeshRenderer } from "@egret/render";
+import { DataManager } from "./data/DataManager";
+import { KnifeData } from "./data/KnifeData";
 
 export class CutEntityAttributesFactory{
     private static _instance: CutEntityAttributesFactory;
@@ -43,7 +46,43 @@ export class CutEntityAttributesFactory{
 
         console.log(" ALL prefabMeshAttributesMaps", this.prefabMeshAttributesMaps);
 
+        }
+    
+    // 获取food实体上的这些信息 包括mesh 材质 切面材质等
+    public foodModelMeshAttributesMaps:{[key:number]:MyMeshAttributes} = {};
+
+    async addFoodMeshInformation(food_id:number){
+        if (this.foodModelMeshAttributesMaps[food_id]) {
+            return;
+        }
+        let foodData = DataManager.Instance.foodDatas[food_id];
+
+        const foodPrefab = await EngineFactory.createPrefab(foodData.food_prefabUrl) as GameEntity;
+        foodPrefab.enabled = false;
+        //记录mesh相关的属性
+        const foodMeshAttributes = this.createMyMeshAttribute(foodPrefab.getComponentInChildren(MeshFilter).mesh);
+        if (food_id == 40) {
+            console.log(foodMeshAttributes);
+            
+        }
+        //记录material相关的属性
+        const mat = foodPrefab.getComponentInChildren(MeshRenderer);
+        foodMeshAttributes.material = mat.material;
+
+        const faceMaterial = await (await ResourceManager.instance.loadUri(foodData.food_cutFaceMaterialUrl)).data;
+        foodMeshAttributes.cutFaceMaterial = faceMaterial;
+        // ????
+        foodMeshAttributes.lengthStart = mat.localBoundingBox.center.y + mat.localBoundingBox.size.y/2;
+        foodMeshAttributes.lengthEnd = mat.localBoundingBox.center.y - mat.localBoundingBox.size.y/2;
+        foodMeshAttributes.heigtStart = mat.localBoundingBox.center.z + mat.localBoundingBox.size.z/2;
+
+        this.foodModelMeshAttributesMaps[food_id] = foodMeshAttributes;
+
+        foodPrefab.destroy();//获取完信息之后 再销毁实体
+
     }
+
+
     /**
      * 获取模型的mesh属性包括顶点坐标 顶点法线 uv坐标 顶点索引
      */
@@ -81,6 +120,39 @@ export class CutEntityAttributesFactory{
 
     }
 
+    getRandomFoodMesh(){
+        const random_id = Math.floor(Math.random()* DataManager.Instance.foodKeys.length);
+        const food_key = DataManager.Instance.foodKeys[random_id];
+        return this.foodModelMeshAttributesMaps[food_key]
+
+    }
+
+
+    public knifeInfosMaps:{[key:number]:KnifeMeshAttributes} = {};
+
+    public async addKnifeInfos(knifeid){
+        if(this.knifeInfosMaps[knifeid]){
+            return;
+        }
+        const knifeData = DataManager.Instance.knifeDatas[knifeid];
+
+        const knifePrefab = await EngineFactory.createPrefab(knifeData.knife_prefabUrl) as GameEntity;
+        knifePrefab.enabled = false;
+        const knifeInfo = new KnifeMeshAttributes();
+        knifeInfo.knifeMesh = knifePrefab.getComponentInChildren(MeshFilter).mesh;
+        knifeInfo.knifeMaterial = knifePrefab.getComponentInChildren(MeshRenderer).material;
+        knifeInfo.knifeLocalScale = knifePrefab.getComponentInChildren(MeshFilter).entity.getComponent(Transform).localScale;
+        knifeInfo.knifeLocalPosition = knifePrefab.getComponentInChildren(MeshFilter).entity.getComponent(Transform).localPosition;
+        knifeInfo.knifeLocalEularAngle = knifePrefab.getComponentInChildren(MeshFilter).entity.getComponent(Transform).localEulerAngles;
+
+        this.knifeInfosMaps[knifeid] = knifeInfo;
+
+        knifePrefab.destroy();
+
+
+
+    }
+
 }
 
 
@@ -93,5 +165,17 @@ export class MyMeshAttributes {
     material: Material = null;
     cutFaceMaterial: Material = null;
 
+    lengthEnd:number = 0;
+    lengthStart:number = 0;
+    heigtStart:number = 0;
 
+
+}
+
+export class KnifeMeshAttributes{
+    knifeMesh:Mesh;
+    knifeMaterial:Material;
+    knifeLocalEularAngle:Vector3;
+    knifeLocalPosition:Vector3;
+    knifeLocalScale:Vector3;
 }

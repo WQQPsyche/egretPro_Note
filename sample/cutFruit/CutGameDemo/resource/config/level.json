@@ -1,0 +1,4999 @@
+{
+    "level": [
+        {
+            "level": 1,
+            "levelUpCost": 83,
+            "cutGain": 10
+        },
+        {
+            "level": 2,
+            "levelUpCost": 2620,
+            "cutGain": 330
+        },
+        {
+            "level": 3,
+            "levelUpCost": 43800,
+            "cutGain": 1660
+        },
+        {
+            "level": 4,
+            "levelUpCost": 327740,
+            "cutGain": 8680
+        },
+        {
+            "level": 5,
+            "levelUpCost": 1562560,
+            "cutGain": 31100
+        },
+        {
+            "level": 6,
+            "levelUpCost": 5598780,
+            "cutGain": 91500
+        },
+        {
+            "level": 7,
+            "levelUpCost": 16470920,
+            "cutGain": 233010
+        },
+        {
+            "level": 8,
+            "levelUpCost": 41943100,
+            "cutGain": 531440
+        },
+        {
+            "level": 9,
+            "levelUpCost": 95659440,
+            "cutGain": 1111110
+        },
+        {
+            "level": 10,
+            "levelUpCost": 200000060,
+            "cutGain": 2165240
+        },
+        {
+            "level": 11,
+            "levelUpCost": 389743480,
+            "cutGain": 3981310
+        },
+        {
+            "level": 12,
+            "levelUpCost": 716636220,
+            "cutGain": 6972050
+        },
+        {
+            "level": 13,
+            "levelUpCost": 1254970400,
+            "cutGain": 11712610
+        },
+        {
+            "level": 14,
+            "levelUpCost": 2108270140,
+            "cutGain": 18984370
+        },
+        {
+            "level": 15,
+            "levelUpCost": 3417187560,
+            "cutGain": 29826160
+        },
+        {
+            "level": 16,
+            "levelUpCost": 5368709180,
+            "cutGain": 45593180
+        },
+        {
+            "level": 17,
+            "levelUpCost": 8206773520,
+            "cutGain": 68024440
+        },
+        {
+            "level": 18,
+            "levelUpCost": 12244400700,
+            "cutGain": 99319080
+        },
+        {
+            "level": 19,
+            "levelUpCost": 17877434840,
+            "cutGain": 142222220
+        },
+        {
+            "level": 20,
+            "levelUpCost": 25600000060,
+            "cutGain": 171532240
+        },
+        {
+            "level": 21,
+            "levelUpCost": 36021770880,
+            "cutGain": 237557890
+        },
+        {
+            "level": 22,
+            "levelUpCost": 49887157820,
+            "cutGain": 324269090
+        },
+        {
+            "level": 23,
+            "levelUpCost": 68096509000,
+            "cutGain": 436806800
+        },
+        {
+            "level": 24,
+            "levelUpCost": 91729428540,
+            "cutGain": 581287200
+        },
+        {
+            "level": 25,
+            "levelUpCost": 122070312560,
+            "cutGain": 764934300
+        },
+        {
+            "level": 26,
+            "levelUpCost": 160636203580,
+            "cutGain": 996224110
+        },
+        {
+            "level": 27,
+            "levelUpCost": 209207064120,
+            "cutGain": 1285040810
+        },
+        {
+            "level": 28,
+            "levelUpCost": 269858570300,
+            "cutGain": 1642845360
+        },
+        {
+            "level": 29,
+            "levelUpCost": 344997526240,
+            "cutGain": 2082857140
+        },
+        {
+            "level": 30,
+            "levelUpCost": 437400000060,
+            "cutGain": 2620248960
+        },
+        {
+            "level": 31,
+            "levelUpCost": 550252282280,
+            "cutGain": 3272356030
+        },
+        {
+            "level": 32,
+            "levelUpCost": 687194767420,
+            "cutGain": 4058899330
+        },
+        {
+            "level": 33,
+            "levelUpCost": 852368859600,
+            "cutGain": 5002223820
+        },
+        {
+            "level": 34,
+            "levelUpCost": 1050467002940,
+            "cutGain": 5957342300
+        },
+        {
+            "level": 35,
+            "levelUpCost": 1286785937560,
+            "cutGain": 7059834600
+        },
+        {
+            "level": 36,
+            "levelUpCost": 1567283281980,
+            "cutGain": 8327357640
+        },
+        {
+            "level": 37,
+            "levelUpCost": 1898637542720,
+            "cutGain": 9779109620
+        },
+        {
+            "level": 38,
+            "levelUpCost": 2288311651900,
+            "cutGain": 11435917220
+        },
+        {
+            "level": 39,
+            "levelUpCost": 2744620133640,
+            "cutGain": 13320325200
+        },
+        {
+            "level": 40,
+            "levelUpCost": 3276800000060,
+            "cutGain": 15456688400
+        },
+        {
+            "level": 41,
+            "levelUpCost": 3895085477680,
+            "cutGain": 17871266140
+        },
+        {
+            "level": 42,
+            "levelUpCost": 4610786665020,
+            "cutGain": 20592319020
+        },
+        {
+            "level": 43,
+            "levelUpCost": 5436372222200,
+            "cutGain": 23650208120
+        },
+        {
+            "level": 44,
+            "levelUpCost": 6385556193340,
+            "cutGain": 27077496600
+        },
+        {
+            "level": 45,
+            "levelUpCost": 7473389062560,
+            "cutGain": 30909053700
+        },
+        {
+            "level": 46,
+            "levelUpCost": 8716353144380,
+            "cutGain": 35182161140
+        },
+        {
+            "level": 47,
+            "levelUpCost": 10132462409320,
+            "cutGain": 39936621920
+        },
+        {
+            "level": 48,
+            "levelUpCost": 11741366845500,
+            "cutGain": 45214871520
+        },
+        {
+            "level": 49,
+            "levelUpCost": 13564461457040,
+            "cutGain": 51062091500
+        },
+        {
+            "level": 50,
+            "levelUpCost": 15625000000060,
+            "cutGain": 57526325500
+        },
+        {
+            "level": 51,
+            "levelUpCost": 17948213557080,
+            "cutGain": 64658597640
+        },
+        {
+            "level": 52,
+            "levelUpCost": 20561434050620,
+            "cutGain": 72513033320
+        },
+        {
+            "level": 53,
+            "levelUpCost": 23494222796800,
+            "cutGain": 81146982420
+        },
+        {
+            "level": 54,
+            "levelUpCost": 26778504199740,
+            "cutGain": 90621144900
+        },
+        {
+            "level": 55,
+            "levelUpCost": 30448704687560,
+            "cutGain": 100999698800
+        },
+        {
+            "level": 56,
+            "levelUpCost": 34541896990780,
+            "cutGain": 112350430640
+        },
+        {
+            "level": 57,
+            "levelUpCost": 39097949863920,
+            "cutGain": 124744868220
+        },
+        {
+            "level": 58,
+            "levelUpCost": 44159683351100,
+            "cutGain": 138258415820
+        },
+        {
+            "level": 59,
+            "levelUpCost": 49773029696440,
+            "cutGain": 152970491800
+        },
+        {
+            "level": 60,
+            "levelUpCost": 55987200000060,
+            "cutGain": 168964668600
+        },
+        {
+            "level": 61,
+            "levelUpCost": 62854856720480,
+            "cutGain": 186328815140
+        },
+        {
+            "level": 62,
+            "levelUpCost": 70432292124220,
+            "cutGain": 205155241620
+        },
+        {
+            "level": 63,
+            "levelUpCost": 78779612783400,
+            "cutGain": 225540846720
+        },
+        {
+            "level": 64,
+            "levelUpCost": 87960930222140,
+            "cutGain": 247587267200
+        },
+        {
+            "level": 65,
+            "levelUpCost": 98044557812560,
+            "cutGain": 271401029900
+        },
+        {
+            "level": 66,
+            "levelUpCost": 109103214021180,
+            "cutGain": 297093706140
+        },
+        {
+            "level": 67,
+            "levelUpCost": 121214232106520,
+            "cutGain": 324782068520
+        },
+        {
+            "level": 68,
+            "levelUpCost": 134459776368700,
+            "cutGain": 354588250120
+        },
+        {
+            "level": 69,
+            "levelUpCost": 148927065051840,
+            "cutGain": 386639906100
+        },
+        {
+            "level": 70,
+            "levelUpCost": 164708600000060,
+            "cutGain": 421070377700
+        },
+        {
+            "level": 71,
+            "levelUpCost": 181902403167880,
+            "cutGain": 458018858640
+        },
+        {
+            "level": 72,
+            "levelUpCost": 200612260085820,
+            "cutGain": 497630563920
+        },
+        {
+            "level": 73,
+            "levelUpCost": 220947970382000,
+            "cutGain": 540056901020
+        },
+        {
+            "level": 74,
+            "levelUpCost": 243025605460540,
+            "cutGain": 585455643500
+        },
+        {
+            "level": 75,
+            "levelUpCost": 266967773437560,
+            "cutGain": 633991107000
+        },
+        {
+            "level": 76,
+            "levelUpCost": 292903891435580,
+            "cutGain": 685834327640
+        },
+        {
+            "level": 77,
+            "levelUpCost": 320970465337120,
+            "cutGain": 741163242820
+        },
+        {
+            "level": 78,
+            "levelUpCost": 351311377098300,
+            "cutGain": 800162874420
+        },
+        {
+            "level": 79,
+            "levelUpCost": 384078179723240,
+            "cutGain": 863025514400
+        },
+        {
+            "level": 80,
+            "levelUpCost": 419430400000060,
+            "cutGain": 929950912800
+        },
+        {
+            "level": 81,
+            "levelUpCost": 457535849099280,
+            "cutGain": 1001146468140
+        },
+        {
+            "level": 82,
+            "levelUpCost": 498570941135420,
+            "cutGain": 1076827420220
+        },
+        {
+            "level": 83,
+            "levelUpCost": 542721019792600,
+            "cutGain": 1157217045320
+        },
+        {
+            "level": 84,
+            "levelUpCost": 590180693114940,
+            "cutGain": 1242546853800
+        },
+        {
+            "level": 85,
+            "levelUpCost": 641154176562560,
+            "cutGain": 1333056790100
+        },
+        {
+            "level": 86,
+            "levelUpCost": 695855644433980,
+            "cutGain": 1428995435140
+        },
+        {
+            "level": 87,
+            "levelUpCost": 754509589755720,
+            "cutGain": 1530620211120
+        },
+        {
+            "level": 88,
+            "levelUpCost": 817351192739900,
+            "cutGain": 1638197588720
+        },
+        {
+            "level": 89,
+            "levelUpCost": 884626697910640,
+            "cutGain": 1752003296700
+        },
+        {
+            "level": 90,
+            "levelUpCost": 956593800000060,
+            "cutGain": 1872322533900
+        },
+        {
+            "level": 91,
+            "levelUpCost": 1033522038714680,
+            "cutGain": 1999450183640
+        },
+        {
+            "level": 92,
+            "levelUpCost": 1115693202473020,
+            "cutGain": 2133691030520
+        },
+        {
+            "level": 93,
+            "levelUpCost": 1203401741215200,
+            "cutGain": 2275359979620
+        },
+        {
+            "level": 94,
+            "levelUpCost": 1296955188385340,
+            "cutGain": 2424782278100
+        },
+        {
+            "level": 95,
+            "levelUpCost": 1396674592187560,
+            "cutGain": 2582293739200
+        },
+        {
+            "level": 96,
+            "levelUpCost": 1502894956216380,
+            "cutGain": 2748240968640
+        },
+        {
+            "level": 97,
+            "levelUpCost": 1615965689562320,
+            "cutGain": 2922981593420
+        },
+        {
+            "level": 98,
+            "levelUpCost": 1736251066493500,
+            "cutGain": 3106884493020
+        },
+        {
+            "level": 99,
+            "levelUpCost": 1864130695814040,
+            "cutGain": 3300330033000
+        },
+        {
+            "level": 100,
+            "levelUpCost": 2000000000000060,
+            "cutGain": 3503710301000
+        },
+        {
+            "level": 101,
+            "levelUpCost": 2144270704214080,
+            "cutGain": 3717429345140
+        },
+        {
+            "level": 102,
+            "levelUpCost": 2297371335298620,
+            "cutGain": 3941903414820
+        },
+        {
+            "level": 103,
+            "levelUpCost": 2459747730849800,
+            "cutGain": 4177561203920
+        },
+        {
+            "level": 104,
+            "levelUpCost": 2631863558471740,
+            "cutGain": 4424844096400
+        },
+        {
+            "level": 105,
+            "levelUpCost": 2814200845312560,
+            "cutGain": 4684206414300
+        },
+        {
+            "level": 106,
+            "levelUpCost": 3007260517982780,
+            "cutGain": 4956115668140
+        },
+        {
+            "level": 107,
+            "levelUpCost": 3211562952956920,
+            "cutGain": 5241052809720
+        },
+        {
+            "level": 108,
+            "levelUpCost": 3427648537559100,
+            "cutGain": 5539512487320
+        },
+        {
+            "level": 109,
+            "levelUpCost": 3656078241633440,
+            "cutGain": 5852003303300
+        },
+        {
+            "level": 110,
+            "levelUpCost": 3897434200000060,
+            "cutGain": 6179048074100
+        },
+        {
+            "level": 111,
+            "levelUpCost": 4152320305797480,
+            "cutGain": 6521184092640
+        },
+        {
+            "level": 112,
+            "levelUpCost": 4421362814812220,
+            "cutGain": 6878963393120
+        },
+        {
+            "level": 113,
+            "levelUpCost": 4705210960896400,
+            "cutGain": 7252953018220
+        },
+        {
+            "level": 114,
+            "levelUpCost": 5004537582574140,
+            "cutGain": 7643735288700
+        },
+        {
+            "level": 115,
+            "levelUpCost": 5320039760937560,
+            "cutGain": 8051908075400
+        },
+        {
+            "level": 116,
+            "levelUpCost": 5652439468933180,
+            "cutGain": 8478085073640
+        },
+        {
+            "level": 117,
+            "levelUpCost": 6002484232139520,
+            "cutGain": 8922896080020
+        },
+        {
+            "level": 118,
+            "levelUpCost": 6370947801136700,
+            "cutGain": 9386987271620
+        },
+        {
+            "level": 119,
+            "levelUpCost": 6758630835568840,
+            "cutGain": 9871021487600
+        },
+        {
+            "level": 120,
+            "levelUpCost": 7166361600000060,
+            "cutGain": 10375678513200
+        },
+        {
+            "level": 121,
+            "levelUpCost": 7594996671664880,
+            "cutGain": 10901655366140
+        },
+        {
+            "level": 122,
+            "levelUpCost": 8045421660213820,
+            "cutGain": 11449666585420
+        },
+        {
+            "level": 123,
+            "levelUpCost": 8518551939555000,
+            "cutGain": 12020444522520
+        },
+        {
+            "level": 124,
+            "levelUpCost": 9015333391892540,
+            "cutGain": 12614739635000
+        },
+        {
+            "level": 125,
+            "levelUpCost": 9536743164062560,
+            "cutGain": 13233320782500
+        },
+        {
+            "level": 126,
+            "levelUpCost": 10083790436267600,
+            "cutGain": 13876975525140
+        },
+        {
+            "level": 127,
+            "levelUpCost": 10657517203310100,
+            "cutGain": 14546510424320
+        },
+        {
+            "level": 128,
+            "levelUpCost": 11258999068426300,
+            "cutGain": 15242751345920
+        },
+        {
+            "level": 129,
+            "levelUpCost": 11889346049820200,
+            "cutGain": 15966543765900
+        },
+        {
+            "level": 130,
+            "levelUpCost": 12549703400000100,
+            "cutGain": 16718753078300
+        },
+        {
+            "level": 131,
+            "levelUpCost": 13241252438016300,
+            "cutGain": 17500264905640
+        },
+        {
+            "level": 132,
+            "levelUpCost": 13965211394703400,
+            "cutGain": 18311985411720
+        },
+        {
+            "level": 133,
+            "levelUpCost": 14722836271025600,
+            "cutGain": 19154841616820
+        },
+        {
+            "level": 134,
+            "levelUpCost": 15515421709626900,
+            "cutGain": 20029781715300
+        },
+        {
+            "level": 135,
+            "levelUpCost": 16344301879687600,
+            "cutGain": 20937775395600
+        },
+        {
+            "level": 136,
+            "levelUpCost": 17210851375186000,
+            "cutGain": 21879814162640
+        },
+        {
+            "level": 137,
+            "levelUpCost": 18116486126668700,
+            "cutGain": 22856911662620
+        },
+        {
+            "level": 138,
+            "levelUpCost": 19062664326627900,
+            "cutGain": 23870104010220
+        },
+        {
+            "level": 139,
+            "levelUpCost": 20050887368587600,
+            "cutGain": 24920450118200
+        },
+        {
+            "level": 140,
+            "levelUpCost": 21082700800000100,
+            "cutGain": 26009032029400
+        },
+        {
+            "level": 141,
+            "levelUpCost": 22159695289051700,
+            "cutGain": 27136955251140
+        },
+        {
+            "level": 142,
+            "levelUpCost": 23283507605481000,
+            "cutGain": 28305349092020
+        },
+        {
+            "level": 143,
+            "levelUpCost": 24455821615508200,
+            "cutGain": 29515367001120
+        },
+        {
+            "level": 144,
+            "levelUpCost": 25678369290977300,
+            "cutGain": 30768186909600
+        },
+        {
+            "level": 145,
+            "levelUpCost": 26952931732812600,
+            "cutGain": 32065011574700
+        },
+        {
+            "level": 146,
+            "levelUpCost": 28281340208888400,
+            "cutGain": 33407068926140
+        },
+        {
+            "level": 147,
+            "levelUpCost": 29665477206415300,
+            "cutGain": 34795612414920
+        },
+        {
+            "level": 148,
+            "levelUpCost": 31107277498941500,
+            "cutGain": 36231921364520
+        },
+        {
+            "level": 149,
+            "levelUpCost": 32608729228071000,
+            "cutGain": 37717301324500
+        },
+        {
+            "level": 150,
+            "levelUpCost": 34171875000000100,
+            "cutGain": 39253084426500
+        },
+        {
+            "level": 151,
+            "levelUpCost": 35798812996971100,
+            "cutGain": 40840629742640
+        },
+        {
+            "level": 152,
+            "levelUpCost": 37491698103746600,
+            "cutGain": 42481323646320
+        },
+        {
+            "level": 153,
+            "levelUpCost": 39252743049202800,
+            "cutGain": 44176580175420
+        },
+        {
+            "level": 154,
+            "levelUpCost": 41084219563143700,
+            "cutGain": 45927841397900
+        },
+        {
+            "level": 155,
+            "levelUpCost": 42988459548437600,
+            "cutGain": 47736577779800
+        },
+        {
+            "level": 156,
+            "levelUpCost": 44967856268574800,
+            "cutGain": 49604288555640
+        },
+        {
+            "level": 157,
+            "levelUpCost": 47024865550749900,
+            "cutGain": 51532502101220
+        },
+        {
+            "level": 158,
+            "levelUpCost": 49162007004567100,
+            "cutGain": 53522776308820
+        },
+        {
+            "level": 159,
+            "levelUpCost": 51381865256470400,
+            "cutGain": 55576698964800
+        },
+        {
+            "level": 160,
+            "levelUpCost": 53687091200000100,
+            "cutGain": 57695888129600
+        },
+        {
+            "level": 161,
+            "levelUpCost": 56080403261974500,
+            "cutGain": 59881992520140
+        },
+        {
+            "level": 162,
+            "levelUpCost": 58564588684700200,
+            "cutGain": 62136691894620
+        },
+        {
+            "level": 163,
+            "levelUpCost": 61142504824309400,
+            "cutGain": 64461697439720
+        },
+        {
+            "level": 164,
+            "levelUpCost": 63817080465326100,
+            "cutGain": 66858752160200
+        },
+        {
+            "level": 165,
+            "levelUpCost": 66591317151562600,
+            "cutGain": 69329631270900
+        },
+        {
+            "level": 166,
+            "levelUpCost": 69468290533445200,
+            "cutGain": 71876142591140
+        },
+        {
+            "level": 167,
+            "levelUpCost": 72451151731872500,
+            "cutGain": 74500126941520
+        },
+        {
+            "level": 168,
+            "levelUpCost": 75543128718704700,
+            "cutGain": 77203458543120
+        },
+        {
+            "level": 169,
+            "levelUpCost": 78747527713985800,
+            "cutGain": 79988045419100
+        },
+        {
+            "level": 170,
+            "levelUpCost": 82067734600000100,
+            "cutGain": 82855829798700
+        },
+        {
+            "level": 171,
+            "levelUpCost": 85507216352261900,
+            "cutGain": 85808788523640
+        },
+        {
+            "level": 172,
+            "levelUpCost": 89069522487541800,
+            "cutGain": 88848933456920
+        },
+        {
+            "level": 173,
+            "levelUpCost": 92758286529028000,
+            "cutGain": 91978311894020
+        },
+        {
+            "level": 174,
+            "levelUpCost": 96577227488724500,
+            "cutGain": 95199006976500
+        },
+        {
+            "level": 175,
+            "levelUpCost": 100530151367188000,
+            "cutGain": 98513138108000
+        },
+        {
+            "level": 176,
+            "levelUpCost": 104620952670700000,
+            "cutGain": 101922861372640
+        },
+        {
+            "level": 177,
+            "levelUpCost": 108853615945983000,
+            "cutGain": 105430369955820
+        },
+        {
+            "level": 178,
+            "levelUpCost": 113232217332554000,
+            "cutGain": 109037894567420
+        },
+        {
+            "level": 179,
+            "levelUpCost": 117760926132817000,
+            "cutGain": 112747703867400
+        },
+        {
+            "level": 180,
+            "levelUpCost": 122444006400000000,
+            "cutGain": 116562104893800
+        },
+        {
+            "level": 181,
+            "levelUpCost": 127285818544033000,
+            "cutGain": 120483443493140
+        },
+        {
+            "level": 182,
+            "levelUpCost": 132290820955471000,
+            "cutGain": 124514104753220
+        },
+        {
+            "level": 183,
+            "levelUpCost": 137463571647559000,
+            "cutGain": 128656513438320
+        },
+        {
+            "level": 184,
+            "levelUpCost": 142808729916539000,
+            "cutGain": 132913134426800
+        },
+        {
+            "level": 185,
+            "levelUpCost": 148331058020313000,
+            "cutGain": 137286473151100
+        },
+        {
+            "level": 186,
+            "levelUpCost": 154035422875538000,
+            "cutGain": 141779076040140
+        },
+        {
+            "level": 187,
+            "levelUpCost": 159926797773282000,
+            "cutGain": 146393530964120
+        },
+        {
+            "level": 188,
+            "levelUpCost": 166010264113316000,
+            "cutGain": 151132467681720
+        },
+        {
+            "level": 189,
+            "levelUpCost": 172291013157165000,
+            "cutGain": 155998558289700
+        },
+        {
+            "level": 190,
+            "levelUpCost": 178774347800000000,
+            "cutGain": 160994517674900
+        },
+        {
+            "level": 191,
+            "levelUpCost": 185465684361489000,
+            "cutGain": 166123103968640
+        },
+        {
+            "level": 192,
+            "levelUpCost": 192370554395689000,
+            "cutGain": 171387119003520
+        },
+        {
+            "level": 193,
+            "levelUpCost": 199494606520101000,
+            "cutGain": 176789408772620
+        },
+        {
+            "level": 194,
+            "levelUpCost": 206843608263969000,
+            "cutGain": 182332863891100
+        },
+        {
+            "level": 195,
+            "levelUpCost": 214423447935938000,
+            "cutGain": 188020420060200
+        },
+        {
+            "level": 196,
+            "levelUpCost": 222240136511160000,
+            "cutGain": 193855058533640
+        },
+        {
+            "level": 197,
+            "levelUpCost": 230299809537968000,
+            "cutGain": 199839806586420
+        },
+        {
+            "level": 198,
+            "levelUpCost": 238608729064190000,
+            "cutGain": 205977737986020
+        },
+        {
+            "level": 199,
+            "levelUpCost": 247173285583228000,
+            "cutGain": 212271973466000
+        },
+        {
+            "level": 200,
+            "levelUpCost": 256000000000000000,
+            "cutGain": 218725681202000
+        },
+        {
+            "level": 201,
+            "levelUpCost": 265095525616828000,
+            "cutGain": 225342077290140
+        },
+        {
+            "level": 202,
+            "levelUpCost": 274466650139395000,
+            "cutGain": 232124426227820
+        },
+        {
+            "level": 203,
+            "levelUpCost": 284120297702856000,
+            "cutGain": 239076041396920
+        },
+        {
+            "level": 204,
+            "levelUpCost": 294063530918216000,
+            "cutGain": 246200285549400
+        },
+        {
+            "level": 205,
+            "levelUpCost": 304303552939063000,
+            "cutGain": 253500571295300
+        },
+        {
+            "level": 206,
+            "levelUpCost": 314847709548767000,
+            "cutGain": 260980361593140
+        },
+        {
+            "level": 207,
+            "levelUpCost": 325703491268243000,
+            "cutGain": 268643170242720
+        },
+        {
+            "level": 208,
+            "levelUpCost": 336878535484375000,
+            "cutGain": 276492562380320
+        },
+        {
+            "level": 209,
+            "levelUpCost": 348380628599207000,
+            "cutGain": 284532154976300
+        },
+        {
+            "level": 210,
+            "levelUpCost": 360217708200000000,
+            "cutGain": 292765617335100
+        },
+        {
+            "level": 211,
+            "levelUpCost": 372397865250252000,
+            "cutGain": 301196671597640
+        },
+        {
+            "level": 212,
+            "levelUpCost": 384929346301788000,
+            "cutGain": 309829093246120
+        },
+        {
+            "level": 213,
+            "levelUpCost": 397820555728022000,
+            "cutGain": 318666711611220
+        },
+        {
+            "level": 214,
+            "levelUpCost": 411080057978478000,
+            "cutGain": 327713410381700
+        },
+        {
+            "level": 215,
+            "levelUpCost": 424716579854688000,
+            "cutGain": 336973128116400
+        },
+        {
+            "level": 216,
+            "levelUpCost": 438739012807557000,
+            "cutGain": 346449858758640
+        },
+        {
+            "level": 217,
+            "levelUpCost": 453156415256305000,
+            "cutGain": 356147652153020
+        },
+        {
+            "level": 218,
+            "levelUpCost": 467978014929073000,
+            "cutGain": 366070614564620
+        },
+        {
+            "level": 219,
+            "levelUpCost": 483213211225303000,
+            "cutGain": 376222909200600
+        },
+        {
+            "level": 220,
+            "levelUpCost": 498871577600000000,
+            "cutGain": 386608756734200
+        },
+        {
+            "level": 221,
+            "levelUpCost": 514962863969959000,
+            "cutGain": 397232435831140
+        },
+        {
+            "level": 222,
+            "levelUpCost": 531496999142070000,
+            "cutGain": 408098283678420
+        },
+        {
+            "level": 223,
+            "levelUpCost": 548484093263801000,
+            "cutGain": 419210696515520
+        },
+        {
+            "level": 224,
+            "levelUpCost": 565934440295957000,
+            "cutGain": 430574130168000
+        },
+        {
+            "level": 225,
+            "levelUpCost": 583858520507812000,
+            "cutGain": 442193100583500
+        },
+        {
+            "level": 226,
+            "levelUpCost": 602267002994732000,
+            "cutGain": 454072184370140
+        },
+        {
+            "level": 227,
+            "levelUpCost": 621170748218356000,
+            "cutGain": 466216019337320
+        },
+        {
+            "level": 228,
+            "levelUpCost": 640580810569482000,
+            "cutGain": 478629305038920
+        },
+        {
+            "level": 229,
+            "levelUpCost": 660508440953714000,
+            "cutGain": 491316803318900
+        },
+        {
+            "level": 230,
+            "levelUpCost": 680965089400000000,
+            "cutGain": 504283338859300
+        },
+        {
+            "level": 231,
+            "levelUpCost": 701962407692150000,
+            "cutGain": 517533799730640
+        },
+        {
+            "level": 232,
+            "levelUpCost": 723512252023439000,
+            "cutGain": 531073137944720
+        },
+        {
+            "level": 233,
+            "levelUpCost": 745626685674392000,
+            "cutGain": 544906370009820
+        },
+        {
+            "level": 234,
+            "levelUpCost": 768317981713851000,
+            "cutGain": 559038577488300
+        },
+        {
+            "level": 235,
+            "levelUpCost": 791598625723437000,
+            "cutGain": 573474907556600
+        },
+        {
+            "level": 236,
+            "levelUpCost": 815481318545490000,
+            "cutGain": 588220573567640
+        },
+        {
+            "level": 237,
+            "levelUpCost": 839978979054595000,
+            "cutGain": 603280855615620
+        },
+        {
+            "level": 238,
+            "levelUpCost": 865104746952804000,
+            "cutGain": 618661101103220
+        },
+        {
+            "level": 239,
+            "levelUpCost": 890871985588642000,
+            "cutGain": 634366725311200
+        },
+        {
+            "level": 240,
+            "levelUpCost": 917294284800000000,
+            "cutGain": 650403211970400
+        },
+        {
+            "level": 241,
+            "levelUpCost": 944385463781026000,
+            "cutGain": 666776113836140
+        },
+        {
+            "level": 242,
+            "levelUpCost": 972159573973097000,
+            "cutGain": 683491053265020
+        },
+        {
+            "level": 243,
+            "levelUpCost": 1000630901979990000,
+            "cutGain": 700553722794120
+        },
+        {
+            "level": 244,
+            "levelUpCost": 1029813972507360000,
+            "cutGain": 717969885722600
+        },
+        {
+            "level": 245,
+            "levelUpCost": 1059723551326560000,
+            "cutGain": 735745376695700
+        },
+        {
+            "level": 246,
+            "levelUpCost": 1090374648263030000,
+            "cutGain": 753886102291140
+        },
+        {
+            "level": 247,
+            "levelUpCost": 1121782520209220000,
+            "cutGain": 772398041607920
+        },
+        {
+            "level": 248,
+            "levelUpCost": 1153962674162240000,
+            "cutGain": 791287246857520
+        },
+        {
+            "level": 249,
+            "levelUpCost": 1186930870286290000,
+            "cutGain": 810559843957500
+        },
+        {
+            "level": 250,
+            "levelUpCost": 1220703125000000000,
+            "cutGain": 830222033127500
+        },
+        {
+            "level": 251,
+            "levelUpCost": 1255295714088780000,
+            "cutGain": 850280089487640
+        },
+        {
+            "level": 252,
+            "levelUpCost": 1290725175842240000,
+            "cutGain": 870740363659320
+        },
+        {
+            "level": 253,
+            "levelUpCost": 1327008314216810000,
+            "cutGain": 891609282368420
+        },
+        {
+            "level": 254,
+            "levelUpCost": 1364162202023690000,
+            "cutGain": 912893349050900
+        },
+        {
+            "level": 255,
+            "levelUpCost": 1402204184142190000,
+            "cutGain": 934599144460800
+        },
+        {
+            "level": 256,
+            "levelUpCost": 1441151880758560000,
+            "cutGain": 956733327280640
+        },
+        {
+            "level": 257,
+            "levelUpCost": 1481023190630440000,
+            "cutGain": 979302634734220
+        },
+        {
+            "level": 258,
+            "levelUpCost": 1521836294376980000,
+            "cutGain": 1002313883201820
+        },
+        {
+            "level": 259,
+            "levelUpCost": 1563609657794840000,
+            "cutGain": 1025773968837800
+        },
+        {
+            "level": 260,
+            "levelUpCost": 1606362035200000000,
+            "cutGain": 1049689868190600
+        },
+        {
+            "level": 261,
+            "levelUpCost": 1650112472795630000,
+            "cutGain": 1074068638825140
+        },
+        {
+            "level": 262,
+            "levelUpCost": 1694880312066080000,
+            "cutGain": 1098917419947620
+        },
+        {
+            "level": 263,
+            "levelUpCost": 1740685193197040000,
+            "cutGain": 1124243433032720
+        },
+        {
+            "level": 264,
+            "levelUpCost": 1787547058522030000,
+            "cutGain": 1150053982453200
+        },
+        {
+            "level": 265,
+            "levelUpCost": 1835486155995310000,
+            "cutGain": 1176356456111900
+        },
+        {
+            "level": 266,
+            "levelUpCost": 1884523042691270000,
+            "cutGain": 1203158326076140
+        },
+        {
+            "level": 267,
+            "levelUpCost": 1934678588330440000,
+            "cutGain": 1230467149214520
+        },
+        {
+            "level": 268,
+            "levelUpCost": 1985973978832240000,
+            "cutGain": 1258290567836120
+        },
+        {
+            "level": 269,
+            "levelUpCost": 2038430719894520000,
+            "cutGain": 1286636310332100
+        },
+        {
+            "level": 270,
+            "levelUpCost": 2092070640600000000,
+            "cutGain": 1315512191819700
+        },
+        {
+            "level": 271,
+            "levelUpCost": 2146915897049760000,
+            "cutGain": 1344926114788640
+        },
+        {
+            "level": 272,
+            "levelUpCost": 2202988976023800000,
+            "cutGain": 1374886069749920
+        },
+        {
+            "level": 273,
+            "levelUpCost": 2260312698668870000,
+            "cutGain": 1405400135887020
+        },
+        {
+            "level": 274,
+            "levelUpCost": 2318910224213590000,
+            "cutGain": 1436476481709500
+        },
+        {
+            "level": 275,
+            "levelUpCost": 2378805053710940000,
+            "cutGain": 1468123365709000
+        },
+        {
+            "level": 276,
+            "levelUpCost": 2440021033808360000,
+            "cutGain": 1500349137017640
+        },
+        {
+            "level": 277,
+            "levelUpCost": 2502582360545430000,
+            "cutGain": 1533162236068820
+        },
+        {
+            "level": 278,
+            "levelUpCost": 2566513583179210000,
+            "cutGain": 1566571195260420
+        },
+        {
+            "level": 279,
+            "levelUpCost": 2631839608037510000,
+            "cutGain": 1600584639620400
+        },
+        {
+            "level": 280,
+            "levelUpCost": 2698585702400000000,
+            "cutGain": 1635211287474800
+        },
+        {
+            "level": 281,
+            "levelUpCost": 2766777498407370000,
+            "cutGain": 1670459951118150
+        },
+        {
+            "level": 282,
+            "levelUpCost": 2836440996998610000,
+            "cutGain": 1706339537486220
+        },
+        {
+            "level": 283,
+            "levelUpCost": 2907602571876530000,
+            "cutGain": 1742859048831320
+        },
+        {
+            "level": 284,
+            "levelUpCost": 2980288973501560000,
+            "cutGain": 1780027583399800
+        },
+        {
+            "level": 285,
+            "levelUpCost": 3054527333114060000,
+            "cutGain": 1817854336112100
+        },
+        {
+            "level": 286,
+            "levelUpCost": 3130345166785040000,
+            "cutGain": 1856348599245150
+        },
+        {
+            "level": 287,
+            "levelUpCost": 3207770379495610000,
+            "cutGain": 1895519763117120
+        },
+        {
+            "level": 288,
+            "levelUpCost": 3286831269245090000,
+            "cutGain": 1935377316774720
+        },
+        {
+            "level": 289,
+            "levelUpCost": 3367556531188020000,
+            "cutGain": 1975930848682700
+        },
+        {
+            "level": 290,
+            "levelUpCost": 3449975261800000000,
+            "cutGain": 2017190047415900
+        },
+        {
+            "level": 291,
+            "levelUpCost": 3534116963072660000,
+            "cutGain": 2059164702353650
+        },
+        {
+            "level": 292,
+            "levelUpCost": 3620011546737700000,
+            "cutGain": 2101864704376520
+        },
+        {
+            "level": 293,
+            "levelUpCost": 3707689338520190000,
+            "cutGain": 2145300046565620
+        },
+        {
+            "level": 294,
+            "levelUpCost": 3797181082421150000,
+            "cutGain": 2189480824904100
+        },
+        {
+            "level": 295,
+            "levelUpCost": 3888517945029690000,
+            "cutGain": 2234417238981200
+        },
+        {
+            "level": 296,
+            "levelUpCost": 3981731519864500000,
+            "cutGain": 2280119592698650
+        },
+        {
+            "level": 297,
+            "levelUpCost": 4076853831745170000,
+            "cutGain": 2326598294979420
+        },
+        {
+            "level": 298,
+            "levelUpCost": 4173917341193090000,
+            "cutGain": 2373863860479020
+        },
+        {
+            "level": 299,
+            "levelUpCost": 4272954948862240000,
+            "cutGain": 2421926910299000
+        },
+        {
+            "level": 300,
+            "levelUpCost": 4374000000000000000,
+            "cutGain": 2470798172703000
+        },
+        {
+            "level": 301,
+            "levelUpCost": 4477086288937840000,
+            "cutGain": 2520488483835150
+        },
+        {
+            "level": 302,
+            "levelUpCost": 4582248063612290000,
+            "cutGain": 2571008788440820
+        },
+        {
+            "level": 303,
+            "levelUpCost": 4689520030116060000,
+            "cutGain": 2622370140589920
+        },
+        {
+            "level": 304,
+            "levelUpCost": 4798937357279560000,
+            "cutGain": 2674583704402400
+        },
+        {
+            "level": 305,
+            "levelUpCost": 4910535681282810000,
+            "cutGain": 2727660754776300
+        },
+        {
+            "level": 306,
+            "levelUpCost": 5024351110297950000,
+            "cutGain": 2781612678118150
+        },
+        {
+            "level": 307,
+            "levelUpCost": 5140420229162330000,
+            "cutGain": 2836450973075720
+        },
+        {
+            "level": 308,
+            "levelUpCost": 5258780104082390000,
+            "cutGain": 2892187251273320
+        },
+        {
+            "level": 309,
+            "levelUpCost": 5379468287368380000,
+            "cutGain": 2948833238049300
+        },
+        {
+            "level": 310,
+            "levelUpCost": 5502522822200000000,
+            "cutGain": 3006400773196100
+        },
+        {
+            "level": 311,
+            "levelUpCost": 5627982247423110000,
+            "cutGain": 3064901811702650
+        },
+        {
+            "level": 312,
+            "levelUpCost": 5755885602377560000,
+            "cutGain": 3124348424499120
+        },
+        {
+            "level": 313,
+            "levelUpCost": 5886272431756350000,
+            "cutGain": 3184752799204220
+        },
+        {
+            "level": 314,
+            "levelUpCost": 6019182790495980000,
+            "cutGain": 3246127240874700
+        },
+        {
+            "level": 315,
+            "levelUpCost": 6154657248698440000,
+            "cutGain": 3308484172757400
+        },
+        {
+            "level": 316,
+            "levelUpCost": 6292736896584580000,
+            "cutGain": 3371836137043650
+        },
+        {
+            "level": 317,
+            "levelUpCost": 6433463349479270000,
+            "cutGain": 3436195795626020
+        },
+        {
+            "level": 318,
+            "levelUpCost": 6576878752828210000,
+            "cutGain": 3501575930857620
+        },
+        {
+            "level": 319,
+            "levelUpCost": 6723025787246640000,
+            "cutGain": 3567989446313600
+        },
+        {
+            "level": 320,
+            "levelUpCost": 6871947673600000000,
+            "cutGain": 3635449367555200
+        },
+        {
+            "level": 321,
+            "levelUpCost": 7023688178116650000,
+            "cutGain": 3703968842896150
+        },
+        {
+            "level": 322,
+            "levelUpCost": 7178291617532730000,
+            "cutGain": 3773561144171420
+        },
+        {
+            "level": 323,
+            "levelUpCost": 7335802864269250000,
+            "cutGain": 3844239667508520
+        },
+        {
+            "level": 324,
+            "levelUpCost": 7496267351641620000,
+            "cutGain": 3916017934101000
+        },
+        {
+            "level": 325,
+            "levelUpCost": 7659731079101560000,
+            "cutGain": 3988909590984500
+        },
+        {
+            "level": 326,
+            "levelUpCost": 7826240617511600000,
+            "cutGain": 4062928411815150
+        },
+        {
+            "level": 327,
+            "levelUpCost": 7995843114452200000,
+            "cutGain": 4138088297650320
+        },
+        {
+            "level": 328,
+            "levelUpCost": 8168586299561740000,
+            "cutGain": 4214403277731920
+        },
+        {
+            "level": 329,
+            "levelUpCost": 8344518489909210000,
+            "cutGain": 4291887510271900
+        },
+        {
+            "level": 330,
+            "levelUpCost": 8523688595400000000,
+            "cutGain": 4370555283240300
+        },
+        {
+            "level": 331,
+            "levelUpCost": 8706146124214680000,
+            "cutGain": 4450421015155650
+        },
+        {
+            "level": 332,
+            "levelUpCost": 8891941188280980000,
+            "cutGain": 4531499255877720
+        },
+        {
+            "level": 333,
+            "levelUpCost": 9081124508778960000,
+            "cutGain": 4613804687402820
+        },
+        {
+            "level": 334,
+            "levelUpCost": 9273747421679680000,
+            "cutGain": 4697352124661300
+        },
+        {
+            "level": 335,
+            "levelUpCost": 9469861883317190000,
+            "cutGain": 4782156516317600
+        },
+        {
+            "level": 336,
+            "levelUpCost": 9669520475994190000,
+            "cutGain": 4868232945572650
+        },
+        {
+            "level": 337,
+            "levelUpCost": 9872776413621320000,
+            "cutGain": 4955596630968620
+        },
+        {
+            "level": 338,
+            "levelUpCost": 10079683547390200000,
+            "cutGain": 5044262927196220
+        },
+        {
+            "level": 339,
+            "levelUpCost": 10290296371480300000,
+            "cutGain": 5134247325904200
+        },
+        {
+            "level": 340,
+            "levelUpCost": 10504670028800000000,
+            "cutGain": 5225565456511400
+        },
+        {
+            "level": 341,
+            "levelUpCost": 10722860316761400000,
+            "cutGain": 5318233087021150
+        },
+        {
+            "level": 342,
+            "levelUpCost": 10944923693089500000,
+            "cutGain": 5412266124838020
+        },
+        {
+            "level": 343,
+            "levelUpCost": 11170917281665700000,
+            "cutGain": 5507680617587120
+        },
+        {
+            "level": 344,
+            "levelUpCost": 11400898878405300000,
+            "cutGain": 5604492753935600
+        },
+        {
+            "level": 345,
+            "levelUpCost": 11634926957170300000,
+            "cutGain": 5702718864416700
+        },
+        {
+            "level": 346,
+            "levelUpCost": 11873060675715600000,
+            "cutGain": 5802375422256150
+        },
+        {
+            "level": 347,
+            "levelUpCost": 12115359881670800000,
+            "cutGain": 5903479044200920
+        },
+        {
+            "level": 348,
+            "levelUpCost": 12361885118556700000,
+            "cutGain": 6006046491350520
+        },
+        {
+            "level": 349,
+            "levelUpCost": 12612697631836100000,
+            "cutGain": 6110094669990500
+        },
+        {
+            "level": 350,
+            "levelUpCost": 12867859375000000000,
+            "cutGain": 6215640632428500
+        },
+        {
+            "level": 351,
+            "levelUpCost": 13127433015689000000,
+            "cutGain": 6322701577832650
+        },
+        {
+            "level": 352,
+            "levelUpCost": 13391481941849500000,
+            "cutGain": 6431294853072320
+        },
+        {
+            "level": 353,
+            "levelUpCost": 13660070267925600000,
+            "cutGain": 6541437953561420
+        },
+        {
+            "level": 354,
+            "levelUpCost": 13933262841085800000,
+            "cutGain": 6653148524103900
+        },
+        {
+            "level": 355,
+            "levelUpCost": 14211125247485900000,
+            "cutGain": 6766444359741800
+        },
+        {
+            "level": 356,
+            "levelUpCost": 14493723818566900000,
+            "cutGain": 6881343406605650
+        },
+        {
+            "level": 357,
+            "levelUpCost": 14781125637388900000,
+            "cutGain": 6997863762767220
+        },
+        {
+            "level": 358,
+            "levelUpCost": 15073398545000600000,
+            "cutGain": 7116023679094820
+        },
+        {
+            "level": 359,
+            "levelUpCost": 15370611146844800000,
+            "cutGain": 7235841560110800
+        },
+        {
+            "level": 360,
+            "levelUpCost": 15672832819200000000,
+            "cutGain": 7357335964851600
+        },
+        {
+            "level": 361,
+            "levelUpCost": 15980133715657700000,
+            "cutGain": 7480525607730150
+        },
+        {
+            "level": 362,
+            "levelUpCost": 16292584773636300000,
+            "cutGain": 7605429359400620
+        },
+        {
+            "level": 363,
+            "levelUpCost": 16610257720931000000,
+            "cutGain": 7732066247625720
+        },
+        {
+            "level": 364,
+            "levelUpCost": 16933225082300300000,
+            "cutGain": 7860455458146200
+        },
+        {
+            "level": 365,
+            "levelUpCost": 17261560186089100000,
+            "cutGain": 7990616335552900
+        },
+        {
+            "level": 366,
+            "levelUpCost": 17595337170887500000,
+            "cutGain": 8122568384161150
+        },
+        {
+            "level": 367,
+            "levelUpCost": 17934630992227800000,
+            "cutGain": 8256331268887520
+        },
+        {
+            "level": 368,
+            "levelUpCost": 18279517429317000000,
+            "cutGain": 8391924816129120
+        },
+        {
+            "level": 369,
+            "levelUpCost": 18630073091806700000,
+            "cutGain": 8529369014645100
+        },
+        {
+            "level": 370,
+            "levelUpCost": 18986375426600000000,
+            "cutGain": 8668684016440700
+        },
+        {
+            "level": 371,
+            "levelUpCost": 19348502724695700000,
+            "cutGain": 8809890137653650
+        },
+        {
+            "level": 372,
+            "levelUpCost": 19716534128068900000,
+            "cutGain": 8953007859442920
+        },
+        {
+            "level": 373,
+            "levelUpCost": 20090549636589900000,
+            "cutGain": 9098057828880020
+        },
+        {
+            "level": 374,
+            "levelUpCost": 20470630114980100000,
+            "cutGain": 9245060859842500
+        },
+        {
+            "level": 375,
+            "levelUpCost": 20856857299804700000,
+            "cutGain": 9394037933910000
+        },
+        {
+            "level": 376,
+            "levelUpCost": 21249313806504400000,
+            "cutGain": 9545010201262650
+        },
+        {
+            "level": 377,
+            "levelUpCost": 21648083136463700000,
+            "cutGain": 9697998981581820
+        },
+        {
+            "level": 378,
+            "levelUpCost": 22053249684117100000,
+            "cutGain": 9853025764953420
+        },
+        {
+            "level": 379,
+            "levelUpCost": 22464898744093800000,
+            "cutGain": 10010112212773400
+        },
+        {
+            "level": 380,
+            "levelUpCost": 22883116518400000000,
+            "cutGain": 10169280158655800
+        },
+        {
+            "level": 381,
+            "levelUpCost": 23307990123639100000,
+            "cutGain": 10330551609343200
+        },
+        {
+            "level": 382,
+            "levelUpCost": 23739607598270500000,
+            "cutGain": 10493948745619200
+        },
+        {
+            "level": 383,
+            "levelUpCost": 24178057909906700000,
+            "cutGain": 10659493923224300
+        },
+        {
+            "level": 384,
+            "levelUpCost": 24623430962648200000,
+            "cutGain": 10827209673772800
+        },
+        {
+            "level": 385,
+            "levelUpCost": 25075817604457800000,
+            "cutGain": 10997118705673100
+        },
+        {
+            "level": 386,
+            "levelUpCost": 25535309634572900000,
+            "cutGain": 11169243905050200
+        },
+        {
+            "level": 387,
+            "levelUpCost": 26001999810956700000,
+            "cutGain": 11343608336670100
+        },
+        {
+            "level": 388,
+            "levelUpCost": 26475981857788100000,
+            "cutGain": 11520235244867700
+        },
+        {
+            "level": 389,
+            "levelUpCost": 26957350472990500000,
+            "cutGain": 11699148054475700
+        },
+        {
+            "level": 390,
+            "levelUpCost": 27446201335800000000,
+            "cutGain": 11880370371756900
+        },
+        {
+            "level": 391,
+            "levelUpCost": 27942631114372200000,
+            "cutGain": 12063925985338700
+        },
+        {
+            "level": 392,
+            "levelUpCost": 28446737473428500000,
+            "cutGain": 12249838867149500
+        },
+        {
+            "level": 393,
+            "levelUpCost": 28958619081941500000,
+            "cutGain": 12438133173358600
+        },
+        {
+            "level": 394,
+            "levelUpCost": 29478375620859900000,
+            "cutGain": 12628833245317100
+        },
+        {
+            "level": 395,
+            "levelUpCost": 30006107790873400000,
+            "cutGain": 12821963610502200
+        },
+        {
+            "level": 396,
+            "levelUpCost": 30541917320216200000,
+            "cutGain": 13017548983463700
+        },
+        {
+            "level": 397,
+            "levelUpCost": 31085906972511200000,
+            "cutGain": 13215614266772400
+        },
+        {
+            "level": 398,
+            "levelUpCost": 31638180554653200000,
+            "cutGain": 13416184551972000
+        },
+        {
+            "level": 399,
+            "levelUpCost": 32198842924732900000,
+            "cutGain": 13619285120532000
+        },
+        {
+            "level": 400,
+            "levelUpCost": 32768000000000000000,
+            "cutGain": 13824941444804000
+        },
+        {
+            "level": 401,
+            "levelUpCost": 33345758764867300000,
+            "cutGain": 14033179188980200
+        },
+        {
+            "level": 402,
+            "levelUpCost": 33932227278954000000,
+            "cutGain": 14244024210053800
+        },
+        {
+            "level": 403,
+            "levelUpCost": 34527514685170500000,
+            "cutGain": 14457502558782900
+        },
+        {
+            "level": 404,
+            "levelUpCost": 35131731217842500000,
+            "cutGain": 14673640480655400
+        },
+        {
+            "level": 405,
+            "levelUpCost": 35744988210876600000,
+            "cutGain": 14892464416857300
+        },
+        {
+            "level": 406,
+            "levelUpCost": 36367398105965500000,
+            "cutGain": 15114001005243200
+        },
+        {
+            "level": 407,
+            "levelUpCost": 36999074460835200000,
+            "cutGain": 15338277081308700
+        },
+        {
+            "level": 408,
+            "levelUpCost": 37640131957531600000,
+            "cutGain": 15565319679166300
+        },
+        {
+            "level": 409,
+            "levelUpCost": 38290686410749100000,
+            "cutGain": 15795156032522300
+        },
+        {
+            "level": 410,
+            "levelUpCost": 38950854776200000000,
+            "cutGain": 16027813575657100
+        },
+        {
+            "level": 411,
+            "levelUpCost": 39620755159024400000,
+            "cutGain": 16263319944407700
+        },
+        {
+            "level": 412,
+            "levelUpCost": 40300506822242100000,
+            "cutGain": 16501702977152100
+        },
+        {
+            "level": 413,
+            "levelUpCost": 40990230195245900000,
+            "cutGain": 16742990715797200
+        },
+        {
+            "level": 414,
+            "levelUpCost": 41690046882335100000,
+            "cutGain": 16987211406767700
+        },
+        {
+            "level": 415,
+            "levelUpCost": 42400079671292200000,
+            "cutGain": 17234393501998300
+        },
+        {
+            "level": 416,
+            "levelUpCost": 43120452542000000000,
+            "cutGain": 17484565659928700
+        },
+        {
+            "level": 417,
+            "levelUpCost": 43851290675101000000,
+            "cutGain": 17737756746499000
+        },
+        {
+            "level": 418,
+            "levelUpCost": 44592720460698500000,
+            "cutGain": 17993995836150700
+        },
+        {
+            "level": 419,
+            "levelUpCost": 45344869507099600000,
+            "cutGain": 18253312212826700
+        },
+        {
+            "level": 420,
+            "levelUpCost": 46107866649600000000,
+            "cutGain": 18515735370976200
+        },
+        {
+            "level": 421,
+            "levelUpCost": 46881841959311800000,
+            "cutGain": 18781295016561200
+        },
+        {
+            "level": 422,
+            "levelUpCost": 47666926752032200000,
+            "cutGain": 19050021068064500
+        },
+        {
+            "level": 423,
+            "levelUpCost": 48463253597155900000,
+            "cutGain": 19321943657501500
+        },
+        {
+            "level": 424,
+            "levelUpCost": 49270956326628900000,
+            "cutGain": 19597093131434000
+        },
+        {
+            "level": 425,
+            "levelUpCost": 50090170043945300000,
+            "cutGain": 19875500051985500
+        },
+        {
+            "level": 426,
+            "levelUpCost": 50921031133186900000,
+            "cutGain": 20157195197860200
+        },
+        {
+            "level": 427,
+            "levelUpCost": 51763677268104800000,
+            "cutGain": 20442209565363300
+        },
+        {
+            "level": 428,
+            "levelUpCost": 52618247421245200000,
+            "cutGain": 20730574369425000
+        },
+        {
+            "level": 429,
+            "levelUpCost": 53484881873116300000,
+            "cutGain": 21022321044624800
+        },
+        {
+            "level": 430,
+            "levelUpCost": 54363722221400000000,
+            "cutGain": 21317481246221300
+        },
+        {
+            "level": 431,
+            "levelUpCost": 55254911390205600000,
+            "cutGain": 21616086851180700
+        },
+        {
+            "level": 432,
+            "levelUpCost": 56158593639367300000,
+            "cutGain": 21918169959210700
+        },
+        {
+            "level": 433,
+            "levelUpCost": 57074914573784700000,
+            "cutGain": 22223762893795800
+        },
+        {
+            "level": 434,
+            "levelUpCost": 58004021152807100000,
+            "cutGain": 22532898203234300
+        },
+        {
+            "level": 435,
+            "levelUpCost": 58946061699660900000,
+            "cutGain": 22845608661678700
+        },
+        {
+            "level": 436,
+            "levelUpCost": 59901185910921300000,
+            "cutGain": 23161927270177700
+        },
+        {
+            "level": 437,
+            "levelUpCost": 60869544866026800000,
+            "cutGain": 23481887257721700
+        },
+        {
+            "level": 438,
+            "levelUpCost": 61851291036838800000,
+            "cutGain": 23805522082289200
+        },
+        {
+            "level": 439,
+            "levelUpCost": 62846578297243500000,
+            "cutGain": 24132865431897200
+        },
+        {
+            "level": 440,
+            "levelUpCost": 63855561932800000000,
+            "cutGain": 24463951225652300
+        },
+        {
+            "level": 441,
+            "levelUpCost": 64878398650430200000,
+            "cutGain": 24798813614806200
+        },
+        {
+            "level": 442,
+            "levelUpCost": 65915246588154700000,
+            "cutGain": 25137486983811000
+        },
+        {
+            "level": 443,
+            "levelUpCost": 66966265324872600000,
+            "cutGain": 25480005951380200
+        },
+        {
+            "level": 444,
+            "levelUpCost": 68031615890184900000,
+            "cutGain": 25826405371548700
+        },
+        {
+            "level": 445,
+            "levelUpCost": 69111460774264100000,
+            "cutGain": 26176720334737700
+        },
+        {
+            "level": 446,
+            "levelUpCost": 70205963937766500000,
+            "cutGain": 26530986168821200
+        },
+        {
+            "level": 447,
+            "levelUpCost": 71315290821791200000,
+            "cutGain": 26889238440194000
+        },
+        {
+            "level": 448,
+            "levelUpCost": 72439608357882400000,
+            "cutGain": 27251512954843500
+        },
+        {
+            "level": 449,
+            "levelUpCost": 73579084978077500000,
+            "cutGain": 27617845759423500
+        },
+        {
+            "level": 450,
+            "levelUpCost": 74733890625000000000,
+            "cutGain": 27988273142329500
+        },
+        {
+            "level": 451,
+            "levelUpCost": 75904196761997600000,
+            "cutGain": 28362831634777700
+        },
+        {
+            "level": 452,
+            "levelUpCost": 77090176383325600000,
+            "cutGain": 28741558011885300
+        },
+        {
+            "level": 453,
+            "levelUpCost": 78292004024375600000,
+            "cutGain": 29124489293754500
+        },
+        {
+            "level": 454,
+            "levelUpCost": 79509855771949600000,
+            "cutGain": 29511662746556800
+        },
+        {
+            "level": 455,
+            "levelUpCost": 80743909274579700000,
+            "cutGain": 29903115883622800
+        },
+        {
+            "level": 456,
+            "levelUpCost": 81994343752893700000,
+            "cutGain": 30298886466530700
+        },
+        {
+            "level": 457,
+            "levelUpCost": 83261340010026200000,
+            "cutGain": 30699012506200200
+        },
+        {
+            "level": 458,
+            "levelUpCost": 84545080442075400000,
+            "cutGain": 31103532263987800
+        },
+        {
+            "level": 459,
+            "levelUpCost": 85845749048606400000,
+            "cutGain": 31512484252783800
+        },
+        {
+            "level": 460,
+            "levelUpCost": 87163531443200000000,
+            "cutGain": 31925907238112700
+        },
+        {
+            "level": 461,
+            "levelUpCost": 88498614864048100000,
+            "cutGain": 32343840239235200
+        },
+        {
+            "level": 462,
+            "levelUpCost": 89851188184595200000,
+            "cutGain": 32766322530253700
+        },
+        {
+            "level": 463,
+            "levelUpCost": 91221441924226100000,
+            "cutGain": 33193393641218700
+        },
+        {
+            "level": 464,
+            "levelUpCost": 92609568259000200000,
+            "cutGain": 33625093359239200
+        },
+        {
+            "level": 465,
+            "levelUpCost": 94015761032432800000,
+            "cutGain": 34061461729593800
+        },
+        {
+            "level": 466,
+            "levelUpCost": 95440215766322100000,
+            "cutGain": 34502539056846200
+        },
+        {
+            "level": 467,
+            "levelUpCost": 96883129671624000000,
+            "cutGain": 34948365905960500
+        },
+        {
+            "level": 468,
+            "levelUpCost": 98344701659372900000,
+            "cutGain": 35398983103422200
+        },
+        {
+            "level": 469,
+            "levelUpCost": 99825132351650400000,
+            "cutGain": 35854431738358200
+        },
+        {
+            "level": 470,
+            "levelUpCost": 101324624092600000000,
+            "cutGain": 36314753163661700
+        },
+        {
+            "level": 471,
+            "levelUpCost": 102843380959490000000,
+            "cutGain": 36779988997118700
+        },
+        {
+            "level": 472,
+            "levelUpCost": 104381608773823000000,
+            "cutGain": 37250181122536000
+        },
+        {
+            "level": 473,
+            "levelUpCost": 105939515112492000000,
+            "cutGain": 37725371690873000
+        },
+        {
+            "level": 474,
+            "levelUpCost": 107517309318988000000,
+            "cutGain": 38205603121375500
+        },
+        {
+            "level": 475,
+            "levelUpCost": 109115202514648000000,
+            "cutGain": 38690918102711000
+        },
+        {
+            "level": 476,
+            "levelUpCost": 110733407609959000000,
+            "cutGain": 39181359594107700
+        },
+        {
+            "level": 477,
+            "levelUpCost": 112372139315901000000,
+            "cutGain": 39676970826494800
+        },
+        {
+            "level": 478,
+            "levelUpCost": 114031614155346000000,
+            "cutGain": 40177795303646500
+        },
+        {
+            "level": 479,
+            "levelUpCost": 115712050474502000000,
+            "cutGain": 40683876803326300
+        },
+        {
+            "level": 480,
+            "levelUpCost": 117413668454400000000,
+            "cutGain": 41195259378436800
+        },
+        {
+            "level": 481,
+            "levelUpCost": 119136690122439000000,
+            "cutGain": 41711987358168200
+        },
+        {
+            "level": 482,
+            "levelUpCost": 120881339363971000000,
+            "cutGain": 42234105349152200
+        },
+        {
+            "level": 483,
+            "levelUpCost": 122647841933938000000,
+            "cutGain": 42761658236617300
+        },
+        {
+            "level": 484,
+            "levelUpCost": 124436425468556000000,
+            "cutGain": 43294691185545800
+        },
+        {
+            "level": 485,
+            "levelUpCost": 126247319497052000000,
+            "cutGain": 43833249641834200
+        },
+        {
+            "level": 486,
+            "levelUpCost": 128080755453439000000,
+            "cutGain": 44377379333455200
+        },
+        {
+            "level": 487,
+            "levelUpCost": 129936966688357000000,
+            "cutGain": 44927126271623200
+        },
+        {
+            "level": 488,
+            "levelUpCost": 131816188480942000000,
+            "cutGain": 45482536751960700
+        },
+        {
+            "level": 489,
+            "levelUpCost": 133718658050765000000,
+            "cutGain": 46043657355668700
+        },
+        {
+            "level": 490,
+            "levelUpCost": 135644614569800000000,
+            "cutGain": 46610534950697800
+        },
+        {
+            "level": 491,
+            "levelUpCost": 137594299174460000000,
+            "cutGain": 47183216692923700
+        },
+        {
+            "level": 492,
+            "levelUpCost": 139567954977668000000,
+            "cutGain": 47761750027322500
+        },
+        {
+            "level": 493,
+            "levelUpCost": 141565827080984000000,
+            "cutGain": 48346182689151700
+        },
+        {
+            "level": 494,
+            "levelUpCost": 143588162586780000000,
+            "cutGain": 48936562705130200
+        },
+        {
+            "level": 495,
+            "levelUpCost": 145635210610467000000,
+            "cutGain": 49532938394623200
+        },
+        {
+            "level": 496,
+            "levelUpCost": 147707222292766000000,
+            "cutGain": 50135358370828700
+        },
+        {
+            "level": 497,
+            "levelUpCost": 149804450812036000000,
+            "cutGain": 50743871541965500
+        },
+        {
+            "level": 498,
+            "levelUpCost": 151927151396644000000,
+            "cutGain": 51358527112465000
+        },
+        {
+            "level": 499,
+            "levelUpCost": 154075581337395000000,
+            "cutGain": 51979374584165000
+        },
+        {
+            "level": 500,
+            "levelUpCost": 156250000000000000000,
+            "cutGain": 52606463757505000
+        },
+        {
+            "level": 501,
+            "levelUpCost": 158450668837605000000,
+            "cutGain": 53239844732725200
+        },
+        {
+            "level": 502,
+            "levelUpCost": 160677851403364000000,
+            "cutGain": 53879567911066800
+        },
+        {
+            "level": 503,
+            "levelUpCost": 162931813363066000000,
+            "cutGain": 54525683995976000
+        },
+        {
+            "level": 504,
+            "levelUpCost": 165212822507807000000,
+            "cutGain": 55178243994308300
+        },
+        {
+            "level": 505,
+            "levelUpCost": 167521148766720000000,
+            "cutGain": 55837299217538300
+        },
+        {
+            "level": 506,
+            "levelUpCost": 169857064219752000000,
+            "cutGain": 56502901282968200
+        },
+        {
+            "level": 507,
+            "levelUpCost": 172220843110487000000,
+            "cutGain": 57175102114941700
+        },
+        {
+            "level": 508,
+            "levelUpCost": 174612761859032000000,
+            "cutGain": 57853953946059300
+        },
+        {
+            "level": 509,
+            "levelUpCost": 177033099074942000000,
+            "cutGain": 58539509318395300
+        },
+        {
+            "level": 510,
+            "levelUpCost": 179482135570200000000,
+            "cutGain": 59231821084718200
+        },
+        {
+            "level": 511,
+            "levelUpCost": 181960154372254000000,
+            "cutGain": 59930942409712700
+        },
+        {
+            "level": 512,
+            "levelUpCost": 184467440737096000000,
+            "cutGain": 60636926771205200
+        },
+        {
+            "level": 513,
+            "levelUpCost": 187004282162397000000,
+            "cutGain": 61349827961390200
+        },
+        {
+            "level": 514,
+            "levelUpCost": 189570968400696000000,
+            "cutGain": 62069700088060700
+        },
+        {
+            "level": 515,
+            "levelUpCost": 192167791472636000000,
+            "cutGain": 62796597575839300
+        },
+        {
+            "level": 516,
+            "levelUpCost": 194795045680254000000,
+            "cutGain": 63530575167413700
+        },
+        {
+            "level": 517,
+            "levelUpCost": 197453027620322000000,
+            "cutGain": 64271687924772000
+        },
+        {
+            "level": 518,
+            "levelUpCost": 200142036197740000000,
+            "cutGain": 65019991230443700
+        },
+        {
+            "level": 519,
+            "levelUpCost": 202862372638984000000,
+            "cutGain": 65775540788739700
+        },
+        {
+            "level": 520,
+            "levelUpCost": 205614340505600000000,
+            "cutGain": 66538392626997200
+        },
+        {
+            "level": 521,
+            "levelUpCost": 208398245707755000000,
+            "cutGain": 67308603096826200
+        },
+        {
+            "level": 522,
+            "levelUpCost": 211214396517840000000,
+            "cutGain": 68086228875357500
+        },
+        {
+            "level": 523,
+            "levelUpCost": 214063103584124000000,
+            "cutGain": 68871326966494500
+        },
+        {
+            "level": 524,
+            "levelUpCost": 216944679944458000000,
+            "cutGain": 69663954702167000
+        },
+        {
+            "level": 525,
+            "levelUpCost": 219859441040039000000,
+            "cutGain": 70464169743586500
+        },
+        {
+            "level": 526,
+            "levelUpCost": 222807704729221000000,
+            "cutGain": 71272030082505200
+        },
+        {
+            "level": 527,
+            "levelUpCost": 225789791301376000000,
+            "cutGain": 72087594042476300
+        },
+        {
+            "level": 528,
+            "levelUpCost": 228806023490820000000,
+            "cutGain": 72910920280117800
+        },
+        {
+            "level": 529,
+            "levelUpCost": 231856726490775000000,
+            "cutGain": 73742067786377800
+        },
+        {
+            "level": 530,
+            "levelUpCost": 234942227967400000000,
+            "cutGain": 74581095887802300
+        },
+        {
+            "level": 531,
+            "levelUpCost": 238062858073865000000,
+            "cutGain": 75428064247805700
+        },
+        {
+            "level": 532,
+            "levelUpCost": 241218949464482000000,
+            "cutGain": 76283032867943700
+        },
+        {
+            "level": 533,
+            "levelUpCost": 244410837308892000000,
+            "cutGain": 77146062089188800
+        },
+        {
+            "level": 534,
+            "levelUpCost": 247638859306296000000,
+            "cutGain": 78017212593207300
+        },
+        {
+            "level": 535,
+            "levelUpCost": 250903355699755000000,
+            "cutGain": 78896545403639700
+        },
+        {
+            "level": 536,
+            "levelUpCost": 254204669290527000000,
+            "cutGain": 79784121887382700
+        },
+        {
+            "level": 537,
+            "levelUpCost": 257543145452471000000,
+            "cutGain": 80680003755874700
+        },
+        {
+            "level": 538,
+            "levelUpCost": 260919132146499000000,
+            "cutGain": 81584253066382200
+        },
+        {
+            "level": 539,
+            "levelUpCost": 264332979935078000000,
+            "cutGain": 82496932223290200
+        },
+        {
+            "level": 540,
+            "levelUpCost": 267785041996800000000,
+            "cutGain": 83418103979393300
+        },
+        {
+            "level": 541,
+            "levelUpCost": 271275674140987000000,
+            "cutGain": 84347831437191200
+        },
+        {
+            "level": 542,
+            "levelUpCost": 274805234822369000000,
+            "cutGain": 85286178050184000
+        },
+        {
+            "level": 543,
+            "levelUpCost": 278374085155801000000,
+            "cutGain": 86233207624173200
+        },
+        {
+            "level": 544,
+            "levelUpCost": 281982588931046000000,
+            "cutGain": 87188984318561700
+        },
+        {
+            "level": 545,
+            "levelUpCost": 285631112627608000000,
+            "cutGain": 88153572647658700
+        },
+        {
+            "level": 546,
+            "levelUpCost": 289320025429616000000,
+            "cutGain": 89127037481986200
+        },
+        {
+            "level": 547,
+            "levelUpCost": 293049699240770000000,
+            "cutGain": 90109444049587000
+        },
+        {
+            "level": 548,
+            "levelUpCost": 296820508699339000000,
+            "cutGain": 91100857937336500
+        },
+        {
+            "level": 549,
+            "levelUpCost": 300632831193210000000,
+            "cutGain": 92101345092256500
+        },
+        {
+            "level": 550,
+            "levelUpCost": 304487046875000000000,
+            "cutGain": 93110971822830500
+        },
+        {
+            "level": 551,
+            "levelUpCost": 308383538677215000000,
+            "cutGain": 94129804800322700
+        },
+        {
+            "level": 552,
+            "levelUpCost": 312322692327471000000,
+            "cutGain": 95157911060098300
+        },
+        {
+            "level": 553,
+            "levelUpCost": 316304896363767000000,
+            "cutGain": 96195358002947300
+        },
+        {
+            "level": 554,
+            "levelUpCost": 320330542149815000000,
+            "cutGain": 97242213396409800
+        },
+        {
+            "level": 555,
+            "levelUpCost": 324400023890423000000,
+            "cutGain": 98298545376103900
+        },
+        {
+            "level": 556,
+            "levelUpCost": 328513738646939000000,
+            "cutGain": 99364422447055700
+        },
+        {
+            "level": 557,
+            "levelUpCost": 332672086352742000000,
+            "cutGain": 100439913485033000
+        },
+        {
+            "level": 558,
+            "levelUpCost": 336875469828801000000,
+            "cutGain": 101525087737881000
+        },
+        {
+            "level": 559,
+            "levelUpCost": 341124294799280000000,
+            "cutGain": 102620014826857000
+        },
+        {
+            "level": 560,
+            "levelUpCost": 345418969907200000000,
+            "cutGain": 103724764747974000
+        },
+        {
+            "level": 561,
+            "levelUpCost": 349759906730167000000,
+            "cutGain": 104839407873340000
+        },
+        {
+            "level": 562,
+            "levelUpCost": 354147519796143000000,
+            "cutGain": 105964014952507000
+        },
+        {
+            "level": 563,
+            "levelUpCost": 358582226599282000000,
+            "cutGain": 107098657113812000
+        },
+        {
+            "level": 564,
+            "levelUpCost": 363064447615822000000,
+            "cutGain": 108243405865732000
+        },
+        {
+            "level": 565,
+            "levelUpCost": 367594606320027000000,
+            "cutGain": 109398333098235000
+        },
+        {
+            "level": 566,
+            "levelUpCost": 372173129200195000000,
+            "cutGain": 110563511084131000
+        },
+        {
+            "level": 567,
+            "levelUpCost": 376800445774719000000,
+            "cutGain": 111739012480433000
+        },
+        {
+            "level": 568,
+            "levelUpCost": 381476988608200000000,
+            "cutGain": 112924910329715000
+        },
+        {
+            "level": 569,
+            "levelUpCost": 386203193327626000000,
+            "cutGain": 114121278061471000
+        },
+        {
+            "level": 570,
+            "levelUpCost": 390979498638600000000,
+            "cutGain": 115328189493483000
+        },
+        {
+            "level": 571,
+            "levelUpCost": 395806346341633000000,
+            "cutGain": 116545718833184000
+        },
+        {
+            "level": 572,
+            "levelUpCost": 400684181348485000000,
+            "cutGain": 117773940679029000
+        },
+        {
+            "level": 573,
+            "levelUpCost": 405613451698576000000,
+            "cutGain": 119012930021866000
+        },
+        {
+            "level": 574,
+            "levelUpCost": 410594608575438000000,
+            "cutGain": 120262762246309000
+        },
+        {
+            "level": 575,
+            "levelUpCost": 415628106323242000000,
+            "cutGain": 121523513132112000
+        },
+        {
+            "level": 576,
+            "levelUpCost": 420714402463372000000,
+            "cutGain": 122795258855553000
+        },
+        {
+            "level": 577,
+            "levelUpCost": 425853957711057000000,
+            "cutGain": 124078075990808000
+        },
+        {
+            "level": 578,
+            "levelUpCost": 431047235992066000000,
+            "cutGain": 125372041511339000
+        },
+        {
+            "level": 579,
+            "levelUpCost": 436294704459461000000,
+            "cutGain": 126677232791279000
+        },
+        {
+            "level": 580,
+            "levelUpCost": 441596833510400000000,
+            "cutGain": 127993727606818000
+        },
+        {
+            "level": 581,
+            "levelUpCost": 446954096803008000000,
+            "cutGain": 129321604137593000
+        },
+        {
+            "level": 582,
+            "levelUpCost": 452366971273301000000,
+            "cutGain": 130660940968085000
+        },
+        {
+            "level": 583,
+            "levelUpCost": 457835937152171000000,
+            "cutGain": 132011817089010000
+        },
+        {
+            "level": 584,
+            "levelUpCost": 463361477982426000000,
+            "cutGain": 133374311898719000
+        },
+        {
+            "level": 585,
+            "levelUpCost": 468944080635895000000,
+            "cutGain": 134748505204595000
+        },
+        {
+            "level": 586,
+            "levelUpCost": 474584235330584000000,
+            "cutGain": 136134477224460000
+        },
+        {
+            "level": 587,
+            "levelUpCost": 480282435647895000000,
+            "cutGain": 137532308587976000
+        },
+        {
+            "level": 588,
+            "levelUpCost": 486039178549908000000,
+            "cutGain": 138942080338054000
+        },
+        {
+            "level": 589,
+            "levelUpCost": 491854964396710000000,
+            "cutGain": 140363873932262000
+        },
+        {
+            "level": 590,
+            "levelUpCost": 497730296963800000000,
+            "cutGain": 141797771244239000
+        },
+        {
+            "level": 591,
+            "levelUpCost": 503665683459537000000,
+            "cutGain": 143243854565109000
+        },
+        {
+            "level": 592,
+            "levelUpCost": 509661634542657000000,
+            "cutGain": 144702206604895000
+        },
+        {
+            "level": 593,
+            "levelUpCost": 515718664339848000000,
+            "cutGain": 146172910493945000
+        },
+        {
+            "level": 594,
+            "levelUpCost": 521837290463382000000,
+            "cutGain": 147656049784343000
+        },
+        {
+            "level": 595,
+            "levelUpCost": 528018034028811000000,
+            "cutGain": 149151708451344000
+        },
+        {
+            "level": 596,
+            "levelUpCost": 534261419672715000000,
+            "cutGain": 150659970894794000
+        },
+        {
+            "level": 597,
+            "levelUpCost": 540567975570520000000,
+            "cutGain": 152180921940559000
+        },
+        {
+            "level": 598,
+            "levelUpCost": 546938233454367000000,
+            "cutGain": 153714646841958000
+        },
+        {
+            "level": 599,
+            "levelUpCost": 553372728631049000000,
+            "cutGain": 155261231281198000
+        },
+        {
+            "level": 600,
+            "levelUpCost": 559872000000000000000,
+            "cutGain": 156820761370806000
+        },
+        {
+            "level": 601,
+            "levelUpCost": 566436590071351000000,
+            "cutGain": 158393323655070000
+        },
+        {
+            "level": 602,
+            "levelUpCost": 573067044984044000000,
+            "cutGain": 159979005111480000
+        },
+        {
+            "level": 603,
+            "levelUpCost": 579763914524003000000,
+            "cutGain": 161577893152169000
+        },
+        {
+            "level": 604,
+            "levelUpCost": 586527752142373000000,
+            "cutGain": 163190075625361000
+        },
+        {
+            "level": 605,
+            "levelUpCost": 593359114973814000000,
+            "cutGain": 164815640816819000
+        },
+        {
+            "level": 606,
+            "levelUpCost": 600258563854856000000,
+            "cutGain": 166454677451293000
+        },
+        {
+            "level": 607,
+            "levelUpCost": 607226663342317000000,
+            "cutGain": 168107274693975000
+        },
+        {
+            "level": 608,
+            "levelUpCost": 614263981731784000000,
+            "cutGain": 169773522151952000
+        },
+        {
+            "level": 609,
+            "levelUpCost": 621371091076145000000,
+            "cutGain": 171453509875668000
+        },
+        {
+            "level": 610,
+            "levelUpCost": 628548567204200000000,
+            "cutGain": 173147328360378000
+        },
+        {
+            "level": 611,
+            "levelUpCost": 635796989739312000000,
+            "cutGain": 174855068547618000
+        },
+        {
+            "level": 612,
+            "levelUpCost": 643116942118138000000,
+            "cutGain": 176576821826658000
+        },
+        {
+            "level": 613,
+            "levelUpCost": 650509011609409000000,
+            "cutGain": 178312680035983000
+        },
+        {
+            "level": 614,
+            "levelUpCost": 657973789332778000000,
+            "cutGain": 180062735464753000
+        },
+        {
+            "level": 615,
+            "levelUpCost": 665511870277730000000,
+            "cutGain": 181827080854280000
+        },
+        {
+            "level": 616,
+            "levelUpCost": 673123853322546000000,
+            "cutGain": 183605809399498000
+        },
+        {
+            "level": 617,
+            "levelUpCost": 680810341253341000000,
+            "cutGain": 185399014750445000
+        },
+        {
+            "level": 618,
+            "levelUpCost": 688571940783153000000,
+            "cutGain": 187206791013737000
+        },
+        {
+            "level": 619,
+            "levelUpCost": 696409262571100000000,
+            "cutGain": 189029232754053000
+        },
+        {
+            "level": 620,
+            "levelUpCost": 704322921241600000000,
+            "cutGain": 190866434995618000
+        },
+        {
+            "level": 621,
+            "levelUpCost": 712313535403647000000,
+            "cutGain": 192718493223692000
+        },
+        {
+            "level": 622,
+            "levelUpCost": 720381727670157000000,
+            "cutGain": 194585503386050000
+        },
+        {
+            "level": 623,
+            "levelUpCost": 728528124677373000000,
+            "cutGain": 196467561894488000
+        },
+        {
+            "level": 624,
+            "levelUpCost": 736753357104328000000,
+            "cutGain": 198364765626300000
+        },
+        {
+            "level": 625,
+            "levelUpCost": 745058059692383000000,
+            "cutGain": 200277211925788000
+        },
+        {
+            "level": 626,
+            "levelUpCost": 753442871264813000000,
+            "cutGain": 202204998605750000
+        },
+        {
+            "level": 627,
+            "levelUpCost": 761908434746466000000,
+            "cutGain": 204148223948990000
+        },
+        {
+            "level": 628,
+            "levelUpCost": 770455397183486000000,
+            "cutGain": 206106986709812000
+        },
+        {
+            "level": 629,
+            "levelUpCost": 779084409763085000000,
+            "cutGain": 208081386115532000
+        },
+        {
+            "level": 630,
+            "levelUpCost": 787796127833400000000,
+            "cutGain": 210071521867983000
+        },
+        {
+            "level": 631,
+            "levelUpCost": 796591210923393000000,
+            "cutGain": 212077494145030000
+        },
+        {
+            "level": 632,
+            "levelUpCost": 805470322762826000000,
+            "cutGain": 214099403602077000
+        },
+        {
+            "level": 633,
+            "levelUpCost": 814434131302300000000,
+            "cutGain": 216137351373582000
+        },
+        {
+            "level": 634,
+            "levelUpCost": 823483308733347000000,
+            "cutGain": 218191439074580000
+        },
+        {
+            "level": 635,
+            "levelUpCost": 832618531508598000000,
+            "cutGain": 220261768802200000
+        },
+        {
+            "level": 636,
+            "levelUpCost": 841840480362011000000,
+            "cutGain": 222348443137188000
+        },
+        {
+            "level": 637,
+            "levelUpCost": 851149840329154000000,
+            "cutGain": 224451565145428000
+        },
+        {
+            "level": 638,
+            "levelUpCost": 860547300767570000000,
+            "cutGain": 226571238379475000
+        },
+        {
+            "level": 639,
+            "levelUpCost": 870033555377185000000,
+            "cutGain": 228707566880083000
+        },
+        {
+            "level": 640,
+            "levelUpCost": 879609302220800000000,
+            "cutGain": 230860655177735000
+        },
+        {
+            "level": 641,
+            "levelUpCost": 889275243744633000000,
+            "cutGain": 233030608294177000
+        },
+        {
+            "level": 642,
+            "levelUpCost": 899032086798932000000,
+            "cutGain": 235217531743957000
+        },
+        {
+            "level": 643,
+            "levelUpCost": 908880542658650000000,
+            "cutGain": 237421531535967000
+        },
+        {
+            "level": 644,
+            "levelUpCost": 918821327044189000000,
+            "cutGain": 239642714174975000
+        },
+        {
+            "level": 645,
+            "levelUpCost": 928855160142201000000,
+            "cutGain": 241881186663180000
+        },
+        {
+            "level": 646,
+            "levelUpCost": 938982766626464000000,
+            "cutGain": 244137056501752000
+        },
+        {
+            "level": 647,
+            "levelUpCost": 949204875678809000000,
+            "cutGain": 246410431692380000
+        },
+        {
+            "level": 648,
+            "levelUpCost": 959522221010127000000,
+            "cutGain": 248701420738830000
+        },
+        {
+            "level": 649,
+            "levelUpCost": 969935540881435000000,
+            "cutGain": 251010132648490000
+        },
+        {
+            "level": 650,
+            "levelUpCost": 980445578125000000000,
+            "cutGain": 253336676933932000
+        },
+        {
+            "level": 651,
+            "levelUpCost": 991053080165540000000,
+            "cutGain": 255681163614468000
+        },
+        {
+            "level": 652,
+            "levelUpCost": 1001758799041480000000,
+            "cutGain": 258043703217712000
+        },
+        {
+            "level": 653,
+            "levelUpCost": 1012563491426300000000,
+            "cutGain": 260424406781140000
+        },
+        {
+            "level": 654,
+            "levelUpCost": 1023467918649880000000,
+            "cutGain": 262823385853663000
+        },
+        {
+            "level": 655,
+            "levelUpCost": 1034472846720020000000,
+            "cutGain": 265240752497185000
+        },
+        {
+            "level": 656,
+            "levelUpCost": 1045579046343900000000,
+            "cutGain": 267676619288180000
+        },
+        {
+            "level": 657,
+            "levelUpCost": 1056787292949740000000,
+            "cutGain": 270131099319267000
+        },
+        {
+            "level": 658,
+            "levelUpCost": 1068098366708380000000,
+            "cutGain": 272604306200773000
+        },
+        {
+            "level": 659,
+            "levelUpCost": 1079513052555060000000,
+            "cutGain": 275096354062330000
+        },
+        {
+            "level": 660,
+            "levelUpCost": 1091032140211200000000,
+            "cutGain": 277607357554435000
+        },
+        {
+            "level": 661,
+            "levelUpCost": 1102656424206210000000,
+            "cutGain": 280137431850045000
+        },
+        {
+            "level": 662,
+            "levelUpCost": 1114386703899480000000,
+            "cutGain": 282686692646160000
+        },
+        {
+            "level": 663,
+            "levelUpCost": 1126223783502300000000,
+            "cutGain": 285255256165405000
+        },
+        {
+            "level": 664,
+            "levelUpCost": 1138168472099960000000,
+            "cutGain": 287843239157625000
+        },
+        {
+            "level": 665,
+            "levelUpCost": 1150221583673870000000,
+            "cutGain": 290450758901477000
+        },
+        {
+            "level": 666,
+            "levelUpCost": 1162383937123710000000,
+            "cutGain": 293077933206017000
+        },
+        {
+            "level": 667,
+            "levelUpCost": 1174656356289710000000,
+            "cutGain": 295724880412307000
+        },
+        {
+            "level": 668,
+            "levelUpCost": 1187039669975000000000,
+            "cutGain": 298391719395008000
+        },
+        {
+            "level": 669,
+            "levelUpCost": 1199534711967930000000,
+            "cutGain": 301078569563983000
+        },
+        {
+            "level": 670,
+            "levelUpCost": 1212142321064600000000,
+            "cutGain": 303785550865903000
+        },
+        {
+            "level": 671,
+            "levelUpCost": 1224863341091320000000,
+            "cutGain": 306512783785848000
+        },
+        {
+            "level": 672,
+            "levelUpCost": 1237698620927260000000,
+            "cutGain": 309260389348922000
+        },
+        {
+            "level": 673,
+            "levelUpCost": 1250649014527040000000,
+            "cutGain": 312028489121858000
+        },
+        {
+            "level": 674,
+            "levelUpCost": 1263715380943530000000,
+            "cutGain": 314817205214642000
+        },
+        {
+            "level": 675,
+            "levelUpCost": 1276898584350590000000,
+            "cutGain": 317626660282113000
+        },
+        {
+            "level": 676,
+            "levelUpCost": 1290199494065940000000,
+            "cutGain": 320456977525598000
+        },
+        {
+            "level": 677,
+            "levelUpCost": 1303618984574130000000,
+            "cutGain": 323308280694522000
+        },
+        {
+            "level": 678,
+            "levelUpCost": 1317157935549480000000,
+            "cutGain": 326180694088032000
+        },
+        {
+            "level": 679,
+            "levelUpCost": 1330817231879170000000,
+            "cutGain": 329074342556632000
+        },
+        {
+            "level": 680,
+            "levelUpCost": 1344597763686400000000,
+            "cutGain": 331989351503798000
+        },
+        {
+            "level": 681,
+            "levelUpCost": 1358500426353540000000,
+            "cutGain": 334925846887618000
+        },
+        {
+            "level": 682,
+            "levelUpCost": 1372526120545460000000,
+            "cutGain": 337883955222418000
+        },
+        {
+            "level": 683,
+            "levelUpCost": 1386675752232800000000,
+            "cutGain": 340863803580403000
+        },
+        {
+            "level": 684,
+            "levelUpCost": 1400950232715460000000,
+            "cutGain": 343865519593292000
+        },
+        {
+            "level": 685,
+            "levelUpCost": 1415350478645990000000,
+            "cutGain": 346889231453957000
+        },
+        {
+            "level": 686,
+            "levelUpCost": 1429877412053210000000,
+            "cutGain": 349935067918065000
+        },
+        {
+            "level": 687,
+            "levelUpCost": 1444531960365770000000,
+            "cutGain": 353003158305728000
+        },
+        {
+            "level": 688,
+            "levelUpCost": 1459315056435880000000,
+            "cutGain": 356093632503147000
+        },
+        {
+            "level": 689,
+            "levelUpCost": 1474227638563030000000,
+            "cutGain": 359206620964255000
+        },
+        {
+            "level": 690,
+            "levelUpCost": 1489270650517800000000,
+            "cutGain": 362342254712380000
+        },
+        {
+            "level": 691,
+            "levelUpCost": 1504445041565800000000,
+            "cutGain": 365500665341893000
+        },
+        {
+            "level": 692,
+            "levelUpCost": 1519751766491590000000,
+            "cutGain": 368681985019868000
+        },
+        {
+            "level": 693,
+            "levelUpCost": 1535191785622730000000,
+            "cutGain": 371886346487738000
+        },
+        {
+            "level": 694,
+            "levelUpCost": 1550766064853870000000,
+            "cutGain": 375113883062957000
+        },
+        {
+            "level": 695,
+            "levelUpCost": 1566475575670900000000,
+            "cutGain": 378364728640665000
+        },
+        {
+            "level": 696,
+            "levelUpCost": 1582321295175260000000,
+            "cutGain": 381639017695358000
+        },
+        {
+            "level": 697,
+            "levelUpCost": 1598304206108160000000,
+            "cutGain": 384936885282552000
+        },
+        {
+            "level": 698,
+            "levelUpCost": 1614425296875020000000,
+            "cutGain": 388258467040452000
+        },
+        {
+            "level": 699,
+            "levelUpCost": 1630685561569890000000,
+            "cutGain": 391603899191632000
+        },
+        {
+            "level": 700,
+            "levelUpCost": 1647086000000000000000,
+            "cutGain": 394973318544707000
+        },
+        {
+            "level": 701,
+            "levelUpCost": 1663627617710310000000,
+            "cutGain": 398366862496015000
+        },
+        {
+            "level": 702,
+            "levelUpCost": 1680311426008190000000,
+            "cutGain": 401784669031293000
+        },
+        {
+            "level": 703,
+            "levelUpCost": 1697138441988180000000,
+            "cutGain": 405226876727362000
+        },
+        {
+            "level": 704,
+            "levelUpCost": 1714109688556740000000,
+            "cutGain": 408693624753815000
+        },
+        {
+            "level": 705,
+            "levelUpCost": 1731226194457160000000,
+            "cutGain": 412185052874700000
+        },
+        {
+            "level": 706,
+            "levelUpCost": 1748488994294480000000,
+            "cutGain": 415701301450218000
+        },
+        {
+            "level": 707,
+            "levelUpCost": 1765899128560530000000,
+            "cutGain": 419242511438408000
+        },
+        {
+            "level": 708,
+            "levelUpCost": 1783457643658990000000,
+            "cutGain": 422808824396845000
+        },
+        {
+            "level": 709,
+            "levelUpCost": 1801165591930560000000,
+            "cutGain": 426400382484342000
+        },
+        {
+            "level": 710,
+            "levelUpCost": 1819024031678200000000,
+            "cutGain": 430017328462640000
+        },
+        {
+            "level": 711,
+            "levelUpCost": 1837034027192400000000,
+            "cutGain": 433659805698123000
+        },
+        {
+            "level": 712,
+            "levelUpCost": 1855196648776570000000,
+            "cutGain": 437327958163512000
+        },
+        {
+            "level": 713,
+            "levelUpCost": 1873512972772480000000,
+            "cutGain": 441021930439577000
+        },
+        {
+            "level": 714,
+            "levelUpCost": 1891984081585780000000,
+            "cutGain": 444741867716847000
+        },
+        {
+            "level": 715,
+            "levelUpCost": 1910611063711570000000,
+            "cutGain": 448487915797322000
+        },
+        {
+            "level": 716,
+            "levelUpCost": 1929395013760080000000,
+            "cutGain": 452260221096183000
+        },
+        {
+            "level": 717,
+            "levelUpCost": 1948337032482360000000,
+            "cutGain": 456058930643518000
+        },
+        {
+            "level": 718,
+            "levelUpCost": 1967438226796140000000,
+            "cutGain": 459884192086030000
+        },
+        {
+            "level": 719,
+            "levelUpCost": 1986699709811650000000,
+            "cutGain": 463736153688765000
+        },
+        {
+            "level": 720,
+            "levelUpCost": 2006122600857600000000,
+            "cutGain": 467614964336840000
+        },
+        {
+            "level": 721,
+            "levelUpCost": 2025708025507190000000,
+            "cutGain": 471520773537157000
+        },
+        {
+            "level": 722,
+            "levelUpCost": 2045457115604180000000,
+            "cutGain": 475453731420143000
+        },
+        {
+            "level": 723,
+            "levelUpCost": 2065371009289100000000,
+            "cutGain": 479413988741480000
+        },
+        {
+            "level": 724,
+            "levelUpCost": 2085450851025440000000,
+            "cutGain": 483401696883833000
+        },
+        {
+            "level": 725,
+            "levelUpCost": 2105697791625980000000,
+            "cutGain": 487417007858588000
+        },
+        {
+            "level": 726,
+            "levelUpCost": 2126112988279160000000,
+            "cutGain": 491460074307595000
+        },
+        {
+            "level": 727,
+            "levelUpCost": 2146697604575580000000,
+            "cutGain": 495531049504902000
+        },
+        {
+            "level": 728,
+            "levelUpCost": 2167452810534440000000,
+            "cutGain": 499630087358503000
+        },
+        {
+            "level": 729,
+            "levelUpCost": 2188379782630250000000,
+            "cutGain": 503757342412083000
+        },
+        {
+            "level": 730,
+            "levelUpCost": 2209479703819400000000,
+            "cutGain": 507912969846765000
+        },
+        {
+            "level": 731,
+            "levelUpCost": 2230753763566990000000,
+            "cutGain": 512097125482855000
+        },
+        {
+            "level": 732,
+            "levelUpCost": 2252203157873600000000,
+            "cutGain": 516309965781610000
+        },
+        {
+            "level": 733,
+            "levelUpCost": 2273829089302210000000,
+            "cutGain": 520551647846975000
+        },
+        {
+            "level": 734,
+            "levelUpCost": 2295632767005160000000,
+            "cutGain": 524822329427353000
+        },
+        {
+            "level": 735,
+            "levelUpCost": 2317615406751190000000,
+            "cutGain": 529122168917362000
+        },
+        {
+            "level": 736,
+            "levelUpCost": 2339778230952570000000,
+            "cutGain": 533451325359593000
+        },
+        {
+            "level": 737,
+            "levelUpCost": 2362122468692280000000,
+            "cutGain": 537809958446380000
+        },
+        {
+            "level": 738,
+            "levelUpCost": 2384649355751250000000,
+            "cutGain": 542198228521568000
+        },
+        {
+            "level": 739,
+            "levelUpCost": 2407360134635760000000,
+            "cutGain": 546616296582277000
+        },
+        {
+            "level": 740,
+            "levelUpCost": 2430256054604800000000,
+            "cutGain": 551064324280675000
+        },
+        {
+            "level": 741,
+            "levelUpCost": 2453338371697570000000,
+            "cutGain": 555542473925762000
+        },
+        {
+            "level": 742,
+            "levelUpCost": 2476608348761040000000,
+            "cutGain": 560050908485130000
+        },
+        {
+            "level": 743,
+            "levelUpCost": 2500067255477620000000,
+            "cutGain": 564589791586758000
+        },
+        {
+            "level": 744,
+            "levelUpCost": 2523716368392810000000,
+            "cutGain": 569159287520788000
+        },
+        {
+            "level": 745,
+            "levelUpCost": 2547556970943050000000,
+            "cutGain": 573759561241300000
+        },
+        {
+            "level": 746,
+            "levelUpCost": 2571590353483510000000,
+            "cutGain": 578390778368117000
+        },
+        {
+            "level": 747,
+            "levelUpCost": 2595817813316110000000,
+            "cutGain": 583053105188573000
+        },
+        {
+            "level": 748,
+            "levelUpCost": 2620240654717450000000,
+            "cutGain": 587746708659323000
+        },
+        {
+            "level": 749,
+            "levelUpCost": 2644860188966950000000,
+            "cutGain": 592471756408123000
+        },
+        {
+            "level": 750,
+            "levelUpCost": 2669677734375000000000,
+            "cutGain": 597228416735633000
+        },
+        {
+            "level": 751,
+            "levelUpCost": 2694694616311170000000,
+            "cutGain": 602016858617213000
+        },
+        {
+            "level": 752,
+            "levelUpCost": 2719912167232570000000,
+            "cutGain": 606837251704725000
+        },
+        {
+            "level": 753,
+            "levelUpCost": 2745331726712170000000,
+            "cutGain": 611689766328333000
+        },
+        {
+            "level": 754,
+            "levelUpCost": 2770954641467350000000,
+            "cutGain": 616574573498317000
+        },
+        {
+            "level": 755,
+            "levelUpCost": 2796782265388360000000,
+            "cutGain": 621491844906865000
+        },
+        {
+            "level": 756,
+            "levelUpCost": 2822815959566980000000,
+            "cutGain": 626441752929905000
+        },
+        {
+            "level": 757,
+            "levelUpCost": 2849057092325210000000,
+            "cutGain": 631424470628900000
+        },
+        {
+            "level": 758,
+            "levelUpCost": 2875507039244010000000,
+            "cutGain": 636440171752667000
+        },
+        {
+            "level": 759,
+            "levelUpCost": 2902167183192160000000,
+            "cutGain": 641489030739203000
+        },
+        {
+            "level": 760,
+            "levelUpCost": 2929038914355200000000,
+            "cutGain": 646571222717495000
+        },
+        {
+            "level": 761,
+            "levelUpCost": 2956123630264390000000,
+            "cutGain": 651686923509350000
+        },
+        {
+            "level": 762,
+            "levelUpCost": 2983422735825810000000,
+            "cutGain": 656836309631213000
+        },
+        {
+            "level": 763,
+            "levelUpCost": 3010937643349480000000,
+            "cutGain": 662019558295998000
+        },
+        {
+            "level": 764,
+            "levelUpCost": 3038669772578630000000,
+            "cutGain": 667236847414918000
+        },
+        {
+            "level": 765,
+            "levelUpCost": 3066620550718960000000,
+            "cutGain": 672488355599317000
+        },
+        {
+            "level": 766,
+            "levelUpCost": 3094791412468060000000,
+            "cutGain": 677774262162502000
+        },
+        {
+            "level": 767,
+            "levelUpCost": 3123183800044810000000,
+            "cutGain": 683094747121580000
+        },
+        {
+            "level": 768,
+            "levelUpCost": 3151799163218970000000,
+            "cutGain": 688449991199302000
+        },
+        {
+            "level": 769,
+            "levelUpCost": 3180638959340770000000,
+            "cutGain": 693840175825897000
+        },
+        {
+            "level": 770,
+            "levelUpCost": 3209704653370600000000,
+            "cutGain": 699265483140925000
+        },
+        {
+            "level": 771,
+            "levelUpCost": 3238997717908760000000,
+            "cutGain": 704726095995113000
+        },
+        {
+            "level": 772,
+            "levelUpCost": 3268519633225340000000,
+            "cutGain": 710222197952215000
+        },
+        {
+            "level": 773,
+            "levelUpCost": 3298271887290090000000,
+            "cutGain": 715753973290852000
+        },
+        {
+            "level": 774,
+            "levelUpCost": 3328255975802460000000,
+            "cutGain": 721321607006375000
+        },
+        {
+            "level": 775,
+            "levelUpCost": 3358473402221680000000,
+            "cutGain": 726925284812713000
+        },
+        {
+            "level": 776,
+            "levelUpCost": 3388925677796870000000,
+            "cutGain": 732565193144243000
+        },
+        {
+            "level": 777,
+            "levelUpCost": 3419614321597320000000,
+            "cutGain": 738241519157633000
+        },
+        {
+            "level": 778,
+            "levelUpCost": 3450540860542780000000,
+            "cutGain": 743954450733725000
+        },
+        {
+            "level": 779,
+            "levelUpCost": 3481706829433830000000,
+            "cutGain": 749704176479385000
+        },
+        {
+            "level": 780,
+            "levelUpCost": 3513113770982400000000,
+            "cutGain": 755490885729380000
+        },
+        {
+            "level": 781,
+            "levelUpCost": 3544763235842250000000,
+            "cutGain": 761314768548243000
+        },
+        {
+            "level": 782,
+            "levelUpCost": 3576656782639650000000,
+            "cutGain": 767176015732152000
+        },
+        {
+            "level": 783,
+            "levelUpCost": 3608795978004040000000,
+            "cutGain": 773074818810797000
+        },
+        {
+            "level": 784,
+            "levelUpCost": 3641182396598850000000,
+            "cutGain": 779011370049265000
+        },
+        {
+            "level": 785,
+            "levelUpCost": 3673817621152330000000,
+            "cutGain": 784985862449917000
+        },
+        {
+            "level": 786,
+            "levelUpCost": 3706703242488510000000,
+            "cutGain": 790998489754270000
+        },
+        {
+            "level": 787,
+            "levelUpCost": 3739840859558190000000,
+            "cutGain": 797049446444882000
+        },
+        {
+            "level": 788,
+            "levelUpCost": 3773232079470070000000,
+            "cutGain": 803138927747240000
+        },
+        {
+            "level": 789,
+            "levelUpCost": 3806878517521920000000,
+            "cutGain": 809267129631648000
+        },
+        {
+            "level": 790,
+            "levelUpCost": 3840781797231800000000,
+            "cutGain": 815434248815122000
+        },
+        {
+            "level": 791,
+            "levelUpCost": 3874943550369450000000,
+            "cutGain": 821640482763278000
+        },
+        {
+            "level": 792,
+            "levelUpCost": 3909365416987680000000,
+            "cutGain": 827886029692242000
+        },
+        {
+            "level": 793,
+            "levelUpCost": 3944049045453840000000,
+            "cutGain": 834171088570530000
+        },
+        {
+            "level": 794,
+            "levelUpCost": 3978996092481430000000,
+            "cutGain": 840495859120968000
+        },
+        {
+            "level": 795,
+            "levelUpCost": 4014208223161750000000,
+            "cutGain": 846860541822587000
+        },
+        {
+            "level": 796,
+            "levelUpCost": 4049687110995610000000,
+            "cutGain": 853265337912523000
+        },
+        {
+            "level": 797,
+            "levelUpCost": 4085434437925160000000,
+            "cutGain": 859710449387945000
+        },
+        {
+            "level": 798,
+            "levelUpCost": 4121451894365810000000,
+            "cutGain": 866196079007943000
+        },
+        {
+            "level": 799,
+            "levelUpCost": 4157741179238130000000,
+            "cutGain": 872722430295463000
+        },
+        {
+            "level": 800,
+            "levelUpCost": 4194304000000000000000,
+            "cutGain": 879289707539208000
+        },
+        {
+            "level": 801,
+            "levelUpCost": 4231142072678670000000,
+            "cutGain": 885898115795560000
+        },
+        {
+            "level": 802,
+            "levelUpCost": 4268257121903010000000,
+            "cutGain": 892547860890507000
+        },
+        {
+            "level": 803,
+            "levelUpCost": 4305650880935800000000,
+            "cutGain": 899239149421555000
+        },
+        {
+            "level": 804,
+            "levelUpCost": 4343325091706110000000,
+            "cutGain": 905972188759668000
+        },
+        {
+            "level": 805,
+            "levelUpCost": 4381281504841750000000,
+            "cutGain": 912747187051182000
+        },
+        {
+            "level": 806,
+            "levelUpCost": 4419521879701820000000,
+            "cutGain": 919564353219743000
+        },
+        {
+            "level": 807,
+            "levelUpCost": 4458047984409310000000,
+            "cutGain": 926423896968240000
+        },
+        {
+            "level": 808,
+            "levelUpCost": 4496861595883840000000,
+            "cutGain": 933326028780738000
+        },
+        {
+            "level": 809,
+            "levelUpCost": 4535964499874390000000,
+            "cutGain": 940270959924415000
+        },
+        {
+            "level": 810,
+            "levelUpCost": 4575358490992200000000,
+            "cutGain": 947258902451502000
+        },
+        {
+            "level": 811,
+            "levelUpCost": 4615045372743710000000,
+            "cutGain": 954290069201228000
+        },
+        {
+            "level": 812,
+            "levelUpCost": 4655026957563590000000,
+            "cutGain": 961364673801765000
+        },
+        {
+            "level": 813,
+            "levelUpCost": 4695305066847820000000,
+            "cutGain": 968482930672170000
+        },
+        {
+            "level": 814,
+            "levelUpCost": 4735881530986910000000,
+            "cutGain": 975645055024340000
+        },
+        {
+            "level": 815,
+            "levelUpCost": 4776758189399170000000,
+            "cutGain": 982851262864962000
+        },
+        {
+            "level": 816,
+            "levelUpCost": 4817936890564050000000,
+            "cutGain": 990101770997468000
+        },
+        {
+            "level": 817,
+            "levelUpCost": 4859419492055580000000,
+            "cutGain": 997396797023990000
+        },
+        {
+            "level": 818,
+            "levelUpCost": 4901207860575890000000,
+            "cutGain": 1004736559347320000
+        },
+        {
+            "level": 819,
+            "levelUpCost": 4943303871988830000000,
+            "cutGain": 1012121277172880000
+        },
+        {
+            "level": 820,
+            "levelUpCost": 4985709411353600000000,
+            "cutGain": 1019551170510660000
+        },
+        {
+            "level": 821,
+            "levelUpCost": 5028426372958580000000,
+            "cutGain": 1027026460177220000
+        },
+        {
+            "level": 822,
+            "levelUpCost": 5071456660355120000000,
+            "cutGain": 1034547367797640000
+        },
+        {
+            "level": 823,
+            "levelUpCost": 5114802186391520000000,
+            "cutGain": 1042114115807470000
+        },
+        {
+            "level": 824,
+            "levelUpCost": 5158464873246990000000,
+            "cutGain": 1049726927454770000
+        },
+        {
+            "level": 825,
+            "levelUpCost": 5202446652465820000000,
+            "cutGain": 1057386026801990000
+        },
+        {
+            "level": 826,
+            "levelUpCost": 5246749464991470000000,
+            "cutGain": 1065091638728040000
+        },
+        {
+            "level": 827,
+            "levelUpCost": 5291375261200900000000,
+            "cutGain": 1072843988930220000
+        },
+        {
+            "level": 828,
+            "levelUpCost": 5336326000938890000000,
+            "cutGain": 1080643303926200000
+        },
+        {
+            "level": 829,
+            "levelUpCost": 5381603653552460000000,
+            "cutGain": 1088489811056040000
+        },
+        {
+            "level": 830,
+            "levelUpCost": 5427210197925400000000,
+            "cutGain": 1096383738484150000
+        },
+        {
+            "level": 831,
+            "levelUpCost": 5473147622512850000000,
+            "cutGain": 1104325315201280000
+        },
+        {
+            "level": 832,
+            "levelUpCost": 5519417925376000000000,
+            "cutGain": 1112314771026540000
+        },
+        {
+            "level": 833,
+            "levelUpCost": 5566023114216820000000,
+            "cutGain": 1120352336609370000
+        },
+        {
+            "level": 834,
+            "levelUpCost": 5612965206412930000000,
+            "cutGain": 1128438243431530000
+        },
+        {
+            "level": 835,
+            "levelUpCost": 5660246229052540000000,
+            "cutGain": 1136572723809120000
+        },
+        {
+            "level": 836,
+            "levelUpCost": 5707868218969410000000,
+            "cutGain": 1144756010894600000
+        },
+        {
+            "level": 837,
+            "levelUpCost": 5755833222778040000000,
+            "cutGain": 1152988338678730000
+        },
+        {
+            "level": 838,
+            "levelUpCost": 5804143296908750000000,
+            "cutGain": 1161269941992660000
+        },
+        {
+            "level": 839,
+            "levelUpCost": 5852800507643010000000,
+            "cutGain": 1169601056509870000
+        },
+        {
+            "level": 840,
+            "levelUpCost": 5901806931148800000000,
+            "cutGain": 1177981918748220000
+        },
+        {
+            "level": 841,
+            "levelUpCost": 5951164653515990000000,
+            "cutGain": 1186412766071950000
+        },
+        {
+            "level": 842,
+            "levelUpCost": 6000875770791900000000,
+            "cutGain": 1194893836693700000
+        },
+        {
+            "level": 843,
+            "levelUpCost": 6050942389016910000000,
+            "cutGain": 1203425369676550000
+        },
+        {
+            "level": 844,
+            "levelUpCost": 6101366624260120000000,
+            "cutGain": 1212007604936000000
+        },
+        {
+            "level": 845,
+            "levelUpCost": 6152150602655140000000,
+            "cutGain": 1220640783242020000
+        },
+        {
+            "level": 846,
+            "levelUpCost": 6203296460435950000000,
+            "cutGain": 1229325146221080000
+        },
+        {
+            "level": 847,
+            "levelUpCost": 6254806343972860000000,
+            "cutGain": 1238060936358160000
+        },
+        {
+            "level": 848,
+            "levelUpCost": 6306682409808500000000,
+            "cutGain": 1246848396998820000
+        },
+        {
+            "level": 849,
+            "levelUpCost": 6358926824693960000000,
+            "cutGain": 1255687772351150000
+        },
+        {
+            "level": 850,
+            "levelUpCost": 6411541765625000000000,
+            "cutGain": 1264579307487930000
+        },
+        {
+            "level": 851,
+            "levelUpCost": 6464529419878320000000,
+            "cutGain": 1273523248348560000
+        },
+        {
+            "level": 852,
+            "levelUpCost": 6517891985047920000000,
+            "cutGain": 1282519841741140000
+        },
+        {
+            "level": 853,
+            "levelUpCost": 6571631669081590000000,
+            "cutGain": 1291569335344530000
+        },
+        {
+            "level": 854,
+            "levelUpCost": 6625750690317420000000,
+            "cutGain": 1300671977710370000
+        },
+        {
+            "level": 855,
+            "levelUpCost": 6680251277520450000000,
+            "cutGain": 1309828018265150000
+        },
+        {
+            "level": 856,
+            "levelUpCost": 6735135669919380000000,
+            "cutGain": 1319037707312230000
+        },
+        {
+            "level": 857,
+            "levelUpCost": 6790406117243360000000,
+            "cutGain": 1328301296033930000
+        },
+        {
+            "level": 858,
+            "levelUpCost": 6846064879758890000000,
+            "cutGain": 1337619036493560000
+        },
+        {
+            "level": 859,
+            "levelUpCost": 6902114228306770000000,
+            "cutGain": 1346991181637480000
+        },
+        {
+            "level": 860,
+            "levelUpCost": 6958556444339200000000,
+            "cutGain": 1356417985297160000
+        },
+        {
+            "level": 861,
+            "levelUpCost": 7015393819956890000000,
+            "cutGain": 1365899702191260000
+        },
+        {
+            "level": 862,
+            "levelUpCost": 7072628657946320000000,
+            "cutGain": 1375436587927660000
+        },
+        {
+            "level": 863,
+            "levelUpCost": 7130263271817020000000,
+            "cutGain": 1385028899005590000
+        },
+        {
+            "level": 864,
+            "levelUpCost": 7188299985839020000000,
+            "cutGain": 1394676892817610000
+        },
+        {
+            "level": 865,
+            "levelUpCost": 7246741135080310000000,
+            "cutGain": 1404380827651760000
+        },
+        {
+            "level": 866,
+            "levelUpCost": 7305589065444440000000,
+            "cutGain": 1414140962693590000
+        },
+        {
+            "level": 867,
+            "levelUpCost": 7364846133708200000000,
+            "cutGain": 1423957558028250000
+        },
+        {
+            "level": 868,
+            "levelUpCost": 7424514707559310000000,
+            "cutGain": 1433830874642590000
+        },
+        {
+            "level": 869,
+            "levelUpCost": 7484597165634340000000,
+            "cutGain": 1443761174427210000
+        },
+        {
+            "level": 870,
+            "levelUpCost": 7545095897556600000000,
+            "cutGain": 1453748720178540000
+        },
+        {
+            "level": 871,
+            "levelUpCost": 7606013303974150000000,
+            "cutGain": 1463793775600980000
+        },
+        {
+            "level": 872,
+            "levelUpCost": 7667351796597930000000,
+            "cutGain": 1473896605308910000
+        },
+        {
+            "level": 873,
+            "levelUpCost": 7729113798239910000000,
+            "cutGain": 1484057474828850000
+        },
+        {
+            "level": 874,
+            "levelUpCost": 7791301742851440000000,
+            "cutGain": 1494276650601510000
+        },
+        {
+            "level": 875,
+            "levelUpCost": 7853918075561520000000,
+            "cutGain": 1504554399983910000
+        },
+        {
+            "level": 876,
+            "levelUpCost": 7916965252715360000000,
+            "cutGain": 1514890991251490000
+        },
+        {
+            "level": 877,
+            "levelUpCost": 7980445741912840000000,
+            "cutGain": 1525286693600150000
+        },
+        {
+            "level": 878,
+            "levelUpCost": 8044362022047170000000,
+            "cutGain": 1535741777148420000
+        },
+        {
+            "level": 879,
+            "levelUpCost": 8108716583343650000000,
+            "cutGain": 1546256512939540000
+        },
+        {
+            "level": 880,
+            "levelUpCost": 8173511927398400000000,
+            "cutGain": 1556831172943560000
+        },
+        {
+            "level": 881,
+            "levelUpCost": 8238750567217320000000,
+            "cutGain": 1567466030059470000
+        },
+        {
+            "level": 882,
+            "levelUpCost": 8304435027255060000000,
+            "cutGain": 1578161358117280000
+        },
+        {
+            "level": 883,
+            "levelUpCost": 8370567843454080000000,
+            "cutGain": 1588917431880190000
+        },
+        {
+            "level": 884,
+            "levelUpCost": 8437151563283800000000,
+            "cutGain": 1599734527046640000
+        },
+        {
+            "level": 885,
+            "levelUpCost": 8504188745779930000000,
+            "cutGain": 1610612920252480000
+        },
+        {
+            "level": 886,
+            "levelUpCost": 8571681961583690000000,
+            "cutGain": 1621552889073070000
+        },
+        {
+            "level": 887,
+            "levelUpCost": 8639633792981340000000,
+            "cutGain": 1632554712025440000
+        },
+        {
+            "level": 888,
+            "levelUpCost": 8708046833943670000000,
+            "cutGain": 1643618668570330000
+        },
+        {
+            "level": 889,
+            "levelUpCost": 8776923690165580000000,
+            "cutGain": 1654745039114440000
+        },
+        {
+            "level": 890,
+            "levelUpCost": 8846266979105800000000,
+            "cutGain": 1665934105012460000
+        },
+        {
+            "level": 891,
+            "levelUpCost": 8916079330026700000000,
+            "cutGain": 1677186148569270000
+        },
+        {
+            "level": 892,
+            "levelUpCost": 8986363384034110000000,
+            "cutGain": 1688501453042020000
+        },
+        {
+            "level": 893,
+            "levelUpCost": 9057121794117370000000,
+            "cutGain": 1699880302642320000
+        },
+        {
+            "level": 894,
+            "levelUpCost": 9128357225189280000000,
+            "cutGain": 1711322982538380000
+        },
+        {
+            "level": 895,
+            "levelUpCost": 9200072354126340000000,
+            "cutGain": 1722829778857100000
+        },
+        {
+            "level": 896,
+            "levelUpCost": 9272269869808950000000,
+            "cutGain": 1734400978686280000
+        },
+        {
+            "level": 897,
+            "levelUpCost": 9344952473161720000000,
+            "cutGain": 1746036870076730000
+        },
+        {
+            "level": 898,
+            "levelUpCost": 9418122877193920000000,
+            "cutGain": 1757737742044430000
+        },
+        {
+            "level": 899,
+            "levelUpCost": 9491783807039960000000,
+            "cutGain": 1769503884572700000
+        },
+        {
+            "level": 900,
+            "levelUpCost": 9565938000000000000000,
+            "cutGain": 1781335588614320000
+        },
+        {
+            "level": 901,
+            "levelUpCost": 9640588205580640000000,
+            "cutGain": 1793233146093700000
+        },
+        {
+            "level": 902,
+            "levelUpCost": 9715737185535690000000,
+            "cutGain": 1805196849909120000
+        },
+        {
+            "level": 903,
+            "levelUpCost": 9791387713907060000000,
+            "cutGain": 1817226993934750000
+        },
+        {
+            "level": 904,
+            "levelUpCost": 9867542577065680000000,
+            "cutGain": 1829323873022920000
+        },
+        {
+            "level": 905,
+            "levelUpCost": 9944204573752600000000,
+            "cutGain": 1841487783006270000
+        },
+        {
+            "level": 906,
+            "levelUpCost": 10021376515120100000000,
+            "cutGain": 1853719020699870000
+        },
+        {
+            "level": 907,
+            "levelUpCost": 10099061224772900000000,
+            "cutGain": 1866017883903470000
+        },
+        {
+            "level": 908,
+            "levelUpCost": 10177261538809500000000,
+            "cutGain": 1878384671403630000
+        },
+        {
+            "level": 909,
+            "levelUpCost": 10255980305863800000000,
+            "cutGain": 1890819682975880000
+        },
+        {
+            "level": 910,
+            "levelUpCost": 10335220387146200000000,
+            "cutGain": 1903323219386970000
+        },
+        {
+            "level": 911,
+            "levelUpCost": 10414984656485500000000,
+            "cutGain": 1915895582396930000
+        },
+        {
+            "level": 912,
+            "levelUpCost": 10495276000370400000000,
+            "cutGain": 1928537074761420000
+        },
+        {
+            "level": 913,
+            "levelUpCost": 10576097317991600000000,
+            "cutGain": 1941248000233770000
+        },
+        {
+            "level": 914,
+            "levelUpCost": 10657451521283400000000,
+            "cutGain": 1954028663567230000
+        },
+        {
+            "level": 915,
+            "levelUpCost": 10739341534965500000000,
+            "cutGain": 1966879370517200000
+        },
+        {
+            "level": 916,
+            "levelUpCost": 10821770296585700000000,
+            "cutGain": 1979800427843350000
+        },
+        {
+            "level": 917,
+            "levelUpCost": 10904740756561200000000,
+            "cutGain": 1992792143311870000
+        },
+        {
+            "level": 918,
+            "levelUpCost": 10988255878221600000000,
+            "cutGain": 2005854825697620000
+        },
+        {
+            "level": 919,
+            "levelUpCost": 11072318637850800000000,
+            "cutGain": 2018988784786400000
+        },
+        {
+            "level": 920,
+            "levelUpCost": 11156932024729600000000,
+            "cutGain": 2032194331377080000
+        },
+        {
+            "level": 921,
+            "levelUpCost": 11242099041178000000000,
+            "cutGain": 2045471777283880000
+        },
+        {
+            "level": 922,
+            "levelUpCost": 11327822702598200000000,
+            "cutGain": 2058821435338530000
+        },
+        {
+            "level": 923,
+            "levelUpCost": 11414106037516800000000,
+            "cutGain": 2072243619392470000
+        },
+        {
+            "level": 924,
+            "levelUpCost": 11500952087628200000000,
+            "cutGain": 2085738644319100000
+        },
+        {
+            "level": 925,
+            "levelUpCost": 11588363907836900000000,
+            "cutGain": 2099306826015980000
+        },
+        {
+            "level": 926,
+            "levelUpCost": 11676344566300900000000,
+            "cutGain": 2112948481407080000
+        },
+        {
+            "level": 927,
+            "levelUpCost": 11764897144474600000000,
+            "cutGain": 2126663928444930000
+        },
+        {
+            "level": 928,
+            "levelUpCost": 11854024737152000000000,
+            "cutGain": 2140453486112880000
+        },
+        {
+            "level": 929,
+            "levelUpCost": 11943730452509900000000,
+            "cutGain": 2154317474427380000
+        },
+        {
+            "level": 930,
+            "levelUpCost": 12034017412151400000000,
+            "cutGain": 2168256214440130000
+        },
+        {
+            "level": 931,
+            "levelUpCost": 12124888751149200000000,
+            "cutGain": 2182270028240300000
+        },
+        {
+            "level": 932,
+            "levelUpCost": 12216347618089200000000,
+            "cutGain": 2196359238956880000
+        },
+        {
+            "level": 933,
+            "levelUpCost": 12308397175114300000000,
+            "cutGain": 2210524170760770000
+        },
+        {
+            "level": 934,
+            "levelUpCost": 12401040597967900000000,
+            "cutGain": 2224765148867100000
+        },
+        {
+            "level": 935,
+            "levelUpCost": 12494281076037600000000,
+            "cutGain": 2239082499537480000
+        },
+        {
+            "level": 936,
+            "levelUpCost": 12588121812399700000000,
+            "cutGain": 2253476550082200000
+        },
+        {
+            "level": 937,
+            "levelUpCost": 12682566023862600000000,
+            "cutGain": 2267947628862480000
+        },
+        {
+            "level": 938,
+            "levelUpCost": 12777616941011200000000,
+            "cutGain": 2282496065292750000
+        },
+        {
+            "level": 939,
+            "levelUpCost": 12873277808251100000000,
+            "cutGain": 2297122189842870000
+        },
+        {
+            "level": 940,
+            "levelUpCost": 12969551883852800000000,
+            "cutGain": 2311826334040350000
+        },
+        {
+            "level": 941,
+            "levelUpCost": 13066442439996100000000,
+            "cutGain": 2326608830472730000
+        },
+        {
+            "level": 942,
+            "levelUpCost": 13163952762814700000000,
+            "cutGain": 2341470012789680000
+        },
+        {
+            "level": 943,
+            "levelUpCost": 13262086152440700000000,
+            "cutGain": 2356410215705350000
+        },
+        {
+            "level": 944,
+            "levelUpCost": 13360845923049300000000,
+            "cutGain": 2371429775000620000
+        },
+        {
+            "level": 945,
+            "levelUpCost": 13460235402903500000000,
+            "cutGain": 2386529027525350000
+        },
+        {
+            "level": 946,
+            "levelUpCost": 13560257934399000000000,
+            "cutGain": 2401708311200650000
+        },
+        {
+            "level": 947,
+            "levelUpCost": 13660916874109300000000,
+            "cutGain": 2416967965021170000
+        },
+        {
+            "level": 948,
+            "levelUpCost": 13762215592830500000000,
+            "cutGain": 2432308329057320000
+        },
+        {
+            "level": 949,
+            "levelUpCost": 13864157475626700000000,
+            "cutGain": 2447729744457580000
+        },
+        {
+            "level": 950,
+            "levelUpCost": 13966745921875000000000,
+            "cutGain": 2463232553450830000
+        },
+        {
+            "level": 951,
+            "levelUpCost": 14069984345311200000000,
+            "cutGain": 2478817099348500000
+        },
+        {
+            "level": 952,
+            "levelUpCost": 14173876174074700000000,
+            "cutGain": 2494483726546950000
+        },
+        {
+            "level": 953,
+            "levelUpCost": 14278424850754700000000,
+            "cutGain": 2510232780529720000
+        },
+        {
+            "level": 954,
+            "levelUpCost": 14383633832435300000000,
+            "cutGain": 2526064607869820000
+        },
+        {
+            "level": 955,
+            "levelUpCost": 14489506590741300000000,
+            "cutGain": 2541979556232030000
+        },
+        {
+            "level": 956,
+            "levelUpCost": 14596046611884300000000,
+            "cutGain": 2557977974375150000
+        },
+        {
+            "level": 957,
+            "levelUpCost": 14703257396708400000000,
+            "cutGain": 2574060212154370000
+        },
+        {
+            "level": 958,
+            "levelUpCost": 14811142460736200000000,
+            "cutGain": 2590226620523450000
+        },
+        {
+            "level": 959,
+            "levelUpCost": 14919705334215100000000,
+            "cutGain": 2606477551537150000
+        },
+        {
+            "level": 960,
+            "levelUpCost": 15028949562163200000000,
+            "cutGain": 2622813358353420000
+        },
+        {
+            "level": 961,
+            "levelUpCost": 15138878704415900000000,
+            "cutGain": 2639234395235770000
+        },
+        {
+            "level": 962,
+            "levelUpCost": 15249496335672200000000,
+            "cutGain": 2655741017555520000
+        },
+        {
+            "level": 963,
+            "levelUpCost": 15360806045541100000000,
+            "cutGain": 2672333581794180000
+        },
+        {
+            "level": 964,
+            "levelUpCost": 15472811438588300000000,
+            "cutGain": 2689012445545700000
+        },
+        {
+            "level": 965,
+            "levelUpCost": 15585516134382900000000,
+            "cutGain": 2705777967518800000
+        },
+        {
+            "level": 966,
+            "levelUpCost": 15698923767544100000000,
+            "cutGain": 2722630507539270000
+        },
+        {
+            "level": 967,
+            "levelUpCost": 15813037987788100000000,
+            "cutGain": 2739570426552330000
+        },
+        {
+            "level": 968,
+            "levelUpCost": 15927862459975200000000,
+            "cutGain": 2756598086624880000
+        },
+        {
+            "level": 969,
+            "levelUpCost": 16043400864156800000000,
+            "cutGain": 2773713850947920000
+        },
+        {
+            "level": 970,
+            "levelUpCost": 16159656895622600000000,
+            "cutGain": 2790918083838770000
+        },
+        {
+            "level": 971,
+            "levelUpCost": 16276634264947700000000,
+            "cutGain": 2808211150743450000
+        },
+        {
+            "level": 972,
+            "levelUpCost": 16394336698040200000000,
+            "cutGain": 2825593418239000000
+        },
+        {
+            "level": 973,
+            "levelUpCost": 16512767936188700000000,
+            "cutGain": 2843065254035830000
+        },
+        {
+            "level": 974,
+            "levelUpCost": 16631931736109700000000,
+            "cutGain": 2860627026980030000
+        },
+        {
+            "level": 975,
+            "levelUpCost": 16751831869995100000000,
+            "cutGain": 2878279107055720000
+        },
+        {
+            "level": 976,
+            "levelUpCost": 16872472125560600000000,
+            "cutGain": 2896021865387330000
+        },
+        {
+            "level": 977,
+            "levelUpCost": 16993856306092900000000,
+            "cutGain": 2913855674242070000
+        },
+        {
+            "level": 978,
+            "levelUpCost": 17115988230497900000000,
+            "cutGain": 2931780907032120000
+        },
+        {
+            "level": 979,
+            "levelUpCost": 17238871733348800000000,
+            "cutGain": 2949797938317080000
+        },
+        {
+            "level": 980,
+            "levelUpCost": 17362510664934400000000,
+            "cutGain": 2967907143806330000
+        },
+        {
+            "level": 981,
+            "levelUpCost": 17486908891307000000000,
+            "cutGain": 2986108900361300000
+        },
+        {
+            "level": 982,
+            "levelUpCost": 17612070294330900000000,
+            "cutGain": 3004403585997820000
+        },
+        {
+            "level": 983,
+            "levelUpCost": 17737998771731100000000,
+            "cutGain": 3022791579888580000
+        },
+        {
+            "level": 984,
+            "levelUpCost": 17864698237141500000000,
+            "cutGain": 3041273262365420000
+        },
+        {
+            "level": 985,
+            "levelUpCost": 17992172620153800000000,
+            "cutGain": 3059849014921630000
+        },
+        {
+            "level": 986,
+            "levelUpCost": 18120425866365900000000,
+            "cutGain": 3078519220214480000
+        },
+        {
+            "level": 987,
+            "levelUpCost": 18249461937431400000000,
+            "cutGain": 3097284262067380000
+        },
+        {
+            "level": 988,
+            "levelUpCost": 18379284811107900000000,
+            "cutGain": 3116144525472430000
+        },
+        {
+            "level": 989,
+            "levelUpCost": 18509898481306200000000,
+            "cutGain": 3135100396592630000
+        },
+        {
+            "level": 990,
+            "levelUpCost": 18641306958139800000000,
+            "cutGain": 3154152262764400000
+        },
+        {
+            "level": 991,
+            "levelUpCost": 18773514267973700000000,
+            "cutGain": 3173300512499850000
+        },
+        {
+            "level": 992,
+            "levelUpCost": 18906524453474100000000,
+            "cutGain": 3192545535489180000
+        },
+        {
+            "level": 993,
+            "levelUpCost": 19040341573657500000000,
+            "cutGain": 3211887722603120000
+        },
+        {
+            "level": 994,
+            "levelUpCost": 19174969703940600000000,
+            "cutGain": 3231327465895200000
+        },
+        {
+            "level": 995,
+            "levelUpCost": 19310412936189700000000,
+            "cutGain": 3250865158604230000
+        },
+        {
+            "level": 996,
+            "levelUpCost": 19446675378770500000000,
+            "cutGain": 3270501195156650000
+        },
+        {
+            "level": 997,
+            "levelUpCost": 19583761156598000000000,
+            "cutGain": 3290235971168930000
+        },
+        {
+            "level": 998,
+            "levelUpCost": 19721674411186600000000,
+            "cutGain": 3310069883449930000
+        },
+        {
+            "level": 999,
+            "levelUpCost": 19860419300699600000000,
+            "cutGain": 3310069883449930000
+        }
+    ]
+}

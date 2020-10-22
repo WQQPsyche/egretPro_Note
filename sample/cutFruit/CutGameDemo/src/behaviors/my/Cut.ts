@@ -36,6 +36,8 @@ export class Cut extends Behaviour{
             cutPointRoot.destroy();
             cutPointRoot = EngineFactory.createGameEntity3D("cutPointRoot");
         }
+        // console.log(this.entity);
+        
 
         // 获取实体的
         const meshFilter = this.entity.getComponent(MeshFilter);
@@ -266,7 +268,8 @@ export class Cut extends Behaviour{
         // cut_down.getComponent(MeshRenderer).material = this.faceMaterial;
         const cut_down = EngineFactory.createGameEntity3D("cut_down" + cutTime );
         const cut_downMeshFilter = cut_down.addComponent(MeshFilter);
-        cut_down.addComponent(MeshRenderer).material = testMaterial;
+        // cut_down.addComponent(MeshRenderer).material = testMaterial;
+        cut_down.addComponent(MeshRenderer).material = this.faceMaterial;
         cut_down.parent = downBox;
         
         if (cutPoint.length > 2) {

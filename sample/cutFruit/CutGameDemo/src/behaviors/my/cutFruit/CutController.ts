@@ -6,10 +6,11 @@ import { Material, Mesh, MeshFilter, MeshNeedUpdate, MeshRenderer } from "@egret
 import { Cut } from "../Cut";
 import { CutEntityAttributesFactory, MyMeshAttributes } from "./CutEntityAttributesFacetory";
 import { CutFlySystem } from "./CutFlySystem";
-import { CutFruit } from "./CutFruit";
 import { TweenLite, Tween } from "@egret/tween";
 import { CutFlyEntityPool } from "./CutFlyEntityPool";
 import { CutFillFacePool } from "./CutFillFacePool";
+import { DataManager } from "./data/DataManager";
+import { LoadData } from "./data/LoadData";
 
 
 @component()
@@ -47,6 +48,11 @@ export class CutController extends Behaviour{
 
     private _knifePos:Vector3;
     private _scale:Vector3;
+
+    private startPos:number;
+    private endPos:number;
+    private _isLoadComplete:boolean = false;
+
     async onStart(){
 
        
@@ -54,40 +60,50 @@ export class CutController extends Behaviour{
         this.isMoving = true;
         this.lastCutTime = Date.now();
 
-
-
-
+        
         Application.instance.systemManager.registerSystem(CutFlySystem);
 
-        await CutEntityAttributesFactory.instance.initAllPrefabMeshInfomation();
+        // 加载数据
+        await LoadData.Instance.startLoad();
+
+        // await CutEntityAttributesFactory.instance.initAllPrefabMeshInfomation();
         
         //1、初始化第一个被切割的实体
-        this.setCutTargetAttribute(CutEntityAttributesFactory.instance.getRandomMesh() ,this.targetEntity);
-        //2.设置刀的位置
-        this._knifePos = this.targetEntity.transform.position;
-        this._scale = this.targetEntity.transform.localScale;
-        this.knifeModel.transform.setLocalPosition(this._knifePos.x+ this._scale.x/2,this._knifePos.y+ this._scale.y/2,this._knifePos.z);
-        
+        // this.setCutTargetAttribute(CutEntityAttributesFactory.instance.getRandomMesh() ,this.targetEntity);
+        this.setCutFoodModel(CutEntityAttributesFactory.instance.getRandomFoodMesh(),this.targetEntity);
+        //2、设置刀
+        this.changeKnife();
 
+        
+        
+        //2.设置刀的位置
+        // this._knifePos = this.targetEntity.transform.position;
+        // this._scale = this.targetEntity.transform.localScale;
+        // this.knifeModel.transform.setLocalPosition(this._knifePos.x+ this._scale.x/2,this._knifePos.y+ this._scale.y/2,this._knifePos.z);
+        
+        this._isLoadComplete = true;
         
     }
 
     onUpdate(){
+        if (!this._isLoadComplete) {
+            return;
+        }
+        
+        // this._knifePos = this.targetEntity.transform.position;
+        // this._scale = this.targetEntity.transform.localScale;  
+        //当刀切到了最后 
+        if (this.knifeModel.transform.position.y <= this.endPos) {
+                // 下一个切割对象
+                this.targetEntity.removeComponent(Cut);
+                this.targetEntity.getComponent(MeshFilter).mesh = null;
+                this.setCutFoodModel(CutEntityAttributesFactory.instance.getRandomFoodMesh(),this.targetEntity);
 
-        this._knifePos = this.targetEntity.transform.position;
-        this._scale = this.targetEntity.transform.localScale;   ``
-        if (this.knifeModel.transform.position.y < this._knifePos.y-this._scale.y/2) {
-           
+                //重新设置刀片的位置
+                this.knifeModel.transform.setPosition(0,this.startPos,0);
             
             
-            //重新设置刀片的位置
-            this.knifeModel.transform.setLocalPosition(this._knifePos.x+ this._scale.x/2,this._knifePos.y+ this._scale.y/2,this._knifePos.z);
-             // 产生以下切割对象
-            this.targetEntity.removeComponent(Cut);
-
-            this.targetEntity.getComponent(MeshFilter).mesh = null;
-            
-             this.setCutTargetAttribute(CutEntityAttributesFactory.instance.getRandomMesh() ,this.targetEntity);
+            //  this.setCutTargetAttribute(CutEntityAttributesFactory.instance.getRandomMesh() ,this.targetEntity);
 
              
         }
@@ -133,7 +149,7 @@ export class CutController extends Behaviour{
         /** */
         targetMesh.needUpdate(MeshNeedUpdate.All);
 
-        console.log(targetMesh);
+        // console.log(targetMesh);
         
 
         this.cutMeshAttribute.vertice = vertices;
@@ -143,11 +159,70 @@ export class CutController extends Behaviour{
         
     }
 
+    // 设置切割对象模型
+    private setCutFoodModel(foodMesh: MyMeshAttributes, targetEntity: GameEntity){
+
+        let targetMesh = targetEntity.getComponent(MeshFilter).mesh;
+
+        if (!targetMesh) {
+            targetMesh = Mesh.create(1000 * 3, 1500 * 3);
+            targetEntity.getComponent(MeshFilter).mesh = targetMesh;
+        }
+
+        // const meshAttributes = CutEntityAttributesFactory.instance.prefabMeshAttributesMaps[prefabUrl];
+
+        const vertices = foodMesh.vertice.slice();
+        const oldNormal = foodMesh.normal.slice();
+        const oldUV = foodMesh.uv.slice();
+        const oldIndices = foodMesh.indices.slice();
+
+        this.faceMaterial = foodMesh.cutFaceMaterial;
+
+
+        targetMesh.setAttribute(AttributeSemantics.POSITION, vertices);
+        targetMesh.setAttribute(AttributeSemantics.NORMAL, oldNormal);
+        targetMesh.setAttribute(AttributeSemantics.TEXCOORD_0, oldUV);
+        targetMesh.setIndices(oldIndices);
+
+        targetEntity.getComponent(MeshRenderer).material = foodMesh.material;
+        this.targetEntity.transform.setPosition(
+            this.targetEntity.transform.position.x,
+            this.targetEntity.transform.position.y,
+            this.targetEntity.transform.position.z + ( 1-foodMesh.heigtStart)
+        );
+        
+        /** */
+        targetMesh.needUpdate(MeshNeedUpdate.All);
+
+        console.log(targetMesh);
+        
+        this.startPos = foodMesh.lengthStart;
+        this.endPos =  foodMesh.lengthEnd;
+        // this.cutMeshAttribute.vertice = vertices;
+        // this.cutMeshAttribute.normal = oldNormal;
+        // this.cutMeshAttribute.uv = oldUV;
+        // this.cutMeshAttribute.indices = oldIndices;        
+    }
+
+    // 设置切刀
+    private changeKnife(){
+        this.knifeModel.getComponent(MeshFilter).mesh = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeMesh;
+        this.knifeModel.getComponent(MeshRenderer).material = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeMaterial;
+        // this.knifeModel.transform.localEulerAngles = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeLocalEularAngle;
+        this.knifeModel.transform.localScale = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeLocalScale.multiplyScalar(30);
+        // this.knifeModel.transform.localPosition = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeLocalPosition
+        this.knifeModel.transform.setPosition(this.targetEntity.transform.position.x,this.targetEntity.transform.position.y,this.targetEntity.transform.position.z);
+        
+    }
+
     private cutTargetEntity(isClick:boolean) {
+        
        
         const cutTest = this.targetEntity.getOrAddComponent(Cut);
         // cutTest.point.set(0,this.entity.transform.position.y - this.targetEntity.transform.position.y,0);
         cutTest.point.set(0,this.knifeModel.transform.position.y,0)
+        // console.log(0,this.knifeModel.transform.position.y,0);
+        
         cutTest.normal.set(0,1,0);
         cutTest.addBoxFly = true;
         cutTest.cutPlaneControllerEntity = this.entity;

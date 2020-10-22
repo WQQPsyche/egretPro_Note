@@ -1,0 +1,85 @@
+{
+    "knife_type": [
+        {
+            "knife_type": 1,
+            "knife_name": "水果刀",
+            "knife_addPrecent": 5,
+            "knife_price": 2000,
+            "prefabUrl": "assets/prefabs/knife/knife1_out/knife1.gltf.prefab.json",
+            "picName": "knife1_avatar",
+            "moneyType": 1
+        },
+        {
+            "knife_type": 3,
+            "knife_name": "日本太刀",
+            "knife_addPrecent": 10,
+            "knife_price": 88743480,
+            "prefabUrl": "assets/prefabs/knife/knife5_out/knife5.gltf.prefab.json",
+            "picName": "knife5_avatar",
+            "moneyType": 1
+        },
+        {
+            "knife_type": 6,
+            "knife_name": "开山刀",
+            "knife_addPrecent": 15,
+            "knife_price": 749743480,
+            "prefabUrl": "assets/prefabs/knife/knife6_out/knife6.gltf.prefab.json",
+            "picName": "knife6_avatar",
+            "moneyType": 1
+        },
+        {
+            "knife_type": 9,
+            "knife_name": "中式唐刀",
+            "knife_addPrecent": 20,
+            "knife_price": 43108270140,
+            "prefabUrl": "assets/prefabs/knife/knife7_out/knife7.gltf.prefab.json",
+            "picName": "knife7_avatar",
+            "moneyType": 1
+        },
+        {
+            "knife_type": 15,
+            "knife_name": "登龙剑",
+            "knife_addPrecent": 25,
+            "knife_price": 100,
+            "prefabUrl": "assets/prefabs/knife/knife8_out/knife8.gltf.prefab.json",
+            "picName": "knife8_avatar",
+            "moneyType": 2
+        },
+        {
+            "knife_type": 18,
+            "knife_name": "船长の宝刀",
+            "knife_addPrecent": 35,
+            "knife_price": 33000000000000000,
+            "prefabUrl": "assets/prefabs/knife/knife9_out/knife9.gltf.prefab.json",
+            "picName": "knife9_avatar",
+            "moneyType": 1
+        },
+        {
+            "knife_type": 20,
+            "knife_name": "暗影之刃",
+            "knife_addPrecent": 40,
+            "knife_price": 200,
+            "prefabUrl": "assets/prefabs/knife/knife2_out/knife2.gltf.prefab.json",
+            "picName": "knife2_avatar",
+            "moneyType": 2
+        },
+        {
+            "knife_type": 30,
+            "knife_name": "海盗利刃",
+            "knife_addPrecent": 55,
+            "knife_price": 4374000000000000000,
+            "prefabUrl": "assets/prefabs/knife/knife3_out/knife3.gltf.prefab.json",
+            "picName": "knife3_avatar",
+            "moneyType": 1
+        },
+        {
+            "knife_type": 40,
+            "knife_name": "蛋刀",
+            "knife_addPrecent": 80,
+            "knife_price": 9565938000000000000000,
+            "prefabUrl": "assets/prefabs/knife/knife4_out/knife4.gltf.prefab.json",
+            "picName": "knife4_avatar",
+            "moneyType": 1
+        }
+    ]
+}
