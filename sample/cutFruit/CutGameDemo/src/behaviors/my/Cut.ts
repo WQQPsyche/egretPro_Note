@@ -9,6 +9,7 @@ import { MyMeshInfo } from "./MyMeshInfo";
 import {StartCut} from "./StartCut";
 import { CutController } from "./cutFruit/CutController";
 import { CutFly } from "./cutFruit/CutFly";
+import { Rigidbody } from "@egret/oimo";
 
 export let cutPointRoot: GameEntity = null;
 
@@ -178,10 +179,10 @@ export class Cut extends Behaviour{
         downBox.addComponent(MeshRenderer).material = oldMeshRenderer.material; */
 
 
-        const upBox = CutFlyEntityPool.Instance.getCutFlyEntity();    
+        const upBox :GameEntity= CutFlyEntityPool.Instance.getCutFlyEntity();    
         const upBoxMeshFilter = upBox.getComponent(MeshFilter);
         upBox.getComponent(MeshRenderer).material = oldMeshRenderer.material;
-
+       
         // const downBox = CutFlyEntityPool.Instance.getCutFlyEntity();
         // const downBoxMeshFilter = downBox.getComponent(MeshFilter);
         // downBox.getComponent(MeshRenderer).material = oldMeshRenderer.material; 

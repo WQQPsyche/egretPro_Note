@@ -11,6 +11,7 @@ import { CutFlyEntityPool } from "./CutFlyEntityPool";
 import { CutFillFacePool } from "./CutFillFacePool";
 import { DataManager } from "./data/DataManager";
 import { LoadData } from "./data/LoadData";
+import { GameSystem } from "../game/GameSystem";
 
 
 @component()
@@ -52,16 +53,19 @@ export class CutController extends Behaviour{
     private startPos:number;
     private endPos:number;
     private _isLoadComplete:boolean = false;
+    private cutpos:number;
 
     async onStart(){
 
-       
+        //注册系统
+        Application.instance.systemManager.registerSystem(GameSystem);
+
         //初始化一些参数
         this.isMoving = true;
         this.lastCutTime = Date.now();
 
         
-        Application.instance.systemManager.registerSystem(CutFlySystem);
+        // Application.instance.systemManager.registerSystem(CutFlySystem);
 
         // 加载数据
         await LoadData.Instance.startLoad();
@@ -81,8 +85,7 @@ export class CutController extends Behaviour{
         // this._scale = this.targetEntity.transform.localScale;
         // this.knifeModel.transform.setLocalPosition(this._knifePos.x+ this._scale.x/2,this._knifePos.y+ this._scale.y/2,this._knifePos.z);
         
-        this._isLoadComplete = true;
-        
+        this._isLoadComplete = true;  
     }
 
     onUpdate(){
@@ -93,19 +96,18 @@ export class CutController extends Behaviour{
         // this._knifePos = this.targetEntity.transform.position;
         // this._scale = this.targetEntity.transform.localScale;  
         //当刀切到了最后 
-        if (this.knifeModel.transform.position.y <= this.endPos) {
+        if (this.cutpos <= this.endPos) {
+            console.error("下一个~~~~~");
+            
                 // 下一个切割对象
                 this.targetEntity.removeComponent(Cut);
                 this.targetEntity.getComponent(MeshFilter).mesh = null;
                 this.setCutFoodModel(CutEntityAttributesFactory.instance.getRandomFoodMesh(),this.targetEntity);
 
                 //重新设置刀片的位置
-                this.knifeModel.transform.setPosition(0,this.startPos,0);
-            
-            
-            //  this.setCutTargetAttribute(CutEntityAttributesFactory.instance.getRandomMesh() ,this.targetEntity);
-
-             
+                this.knifeModel.transform.setPosition(-1,this.startPos,0.5);
+                this.knifeModel.transform.position = this.knifeModel.transform.position;
+            //  this.setCutTargetAttribute(CutEntityAttributesFactory.instance.getRandomMesh() ,this.targetEntity);    
         }
     
 
@@ -161,7 +163,8 @@ export class CutController extends Behaviour{
 
     // 设置切割对象模型
     private setCutFoodModel(foodMesh: MyMeshAttributes, targetEntity: GameEntity){
-
+        console.log(foodMesh);
+        
         let targetMesh = targetEntity.getComponent(MeshFilter).mesh;
 
         if (!targetMesh) {
@@ -194,10 +197,11 @@ export class CutController extends Behaviour{
         /** */
         targetMesh.needUpdate(MeshNeedUpdate.All);
 
-        console.log(targetMesh);
+        // console.log(targetMesh);
         
         this.startPos = foodMesh.lengthStart;
         this.endPos =  foodMesh.lengthEnd;
+        this.cutpos = this.startPos;
         // this.cutMeshAttribute.vertice = vertices;
         // this.cutMeshAttribute.normal = oldNormal;
         // this.cutMeshAttribute.uv = oldUV;
@@ -207,20 +211,22 @@ export class CutController extends Behaviour{
     // 设置切刀
     private changeKnife(){
         this.knifeModel.getComponent(MeshFilter).mesh = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeMesh;
-        this.knifeModel.getComponent(MeshRenderer).material = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeMaterial;
-        // this.knifeModel.transform.localEulerAngles = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeLocalEularAngle;
-        this.knifeModel.transform.localScale = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeLocalScale.multiplyScalar(30);
-        // this.knifeModel.transform.localPosition = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeLocalPosition
-        this.knifeModel.transform.setPosition(this.targetEntity.transform.position.x,this.targetEntity.transform.position.y,this.targetEntity.transform.position.z);
-        
+        this.knifeModel.getComponent(MeshRenderer).material = CutEntityAttributesFactory.instance.knifeInfosMaps[1].knifeMaterial;    
     }
-
+    
     private cutTargetEntity(isClick:boolean) {
         
-       
+        if(this.cutpos < this.endPos){
+            return;
+        }
+        this.cutpos -= 0.1;
+        this.knifeModel.transform.setLocalPosition(-1,this.cutpos,0.5);
+        
         const cutTest = this.targetEntity.getOrAddComponent(Cut);
         // cutTest.point.set(0,this.entity.transform.position.y - this.targetEntity.transform.position.y,0);
-        cutTest.point.set(0,this.knifeModel.transform.position.y,0)
+        // cutTest.point.set(0,this.knifeModel.transform.position.y,0)
+        cutTest.point.set(0,this.cutpos,0);
+        
         // console.log(0,this.knifeModel.transform.position.y,0);
         
         cutTest.normal.set(0,1,0);
@@ -238,14 +244,14 @@ export class CutController extends Behaviour{
         
         this.isPlayerKnifeAni = true;
         TweenLite.to(this.knifeModel.transform.localEulerAngles, 0.05, {
-            y: 45, onUpdate: () => {
+            y: -30, onUpdate: () => {
                 this.knifeModel.transform.localEulerAngles = this.knifeModel.transform.localEulerAngles;
             }, onComplete: () => {
-                TweenLite.to(this.knifeModel.transform.localEulerAngles, 0.02, {
-                    y: 0, onUpdate: () => {
+                TweenLite.to(this.knifeModel.transform.localEulerAngles, 0.05, {
+                    y:30, onUpdate: () => {
                         this.knifeModel.transform.localEulerAngles = this.knifeModel.transform.localEulerAngles;
                     }, onComplete: () => {   
-                        this.knifeModel.transform.translate(0,-0.1,0);
+                        // this.knifeModel.transform.;
                         this.isPlayerKnifeAni = false;
                     }
                 });

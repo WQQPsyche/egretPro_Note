@@ -17,10 +17,12 @@
 		"behaviour-tree",
 		"inspector",
 		"tween",
-		"audio"
+		"audio",
+		"oimo"
 	],
 	"egretModules": [
-		"egret"
+		"egret",
+		"oimo"
 	],
 	"currentScene": "assets/scenes/animations/test.scene.json",
 	"resourceRoot": "http://localhost:3000/resource/",
