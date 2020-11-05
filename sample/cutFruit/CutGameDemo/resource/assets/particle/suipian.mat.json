@@ -1,0 +1,155 @@
+{
+    "extensionsUsed": [
+        "KHR_techniques_webgl",
+        "egret"
+    ],
+    "extensionsRequired": [
+        "KHR_techniques_webgl",
+        "egret"
+    ],
+    "asset": {
+        "generator": "Unity plugin for egret",
+        "version": "2.0"
+    },
+    "materials": [
+        {
+            "name": "New Material 1",
+            "extensions": {
+                "KHR_techniques_webgl": {
+                    "technique": 0,
+                    "values": {
+                        "u_currentTime": [],
+                        "u_gravity": [],
+                        "u_worldPosition": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "u_worldRotation": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "u_startRotation3D": [],
+                        "u_scalingMode": [],
+                        "u_positionScale": [],
+                        "u_sizeScale": [],
+                        "u_lengthScale": [],
+                        "u_speeaScale": [],
+                        "u_simulationSpace": [],
+                        "u_spaceType": [],
+                        "u_velocityConst": [],
+                        "u_velocityCurveX[0]": [],
+                        "u_velocityCurveY[0]": [],
+                        "u_velocityCurveZ[0]": [],
+                        "u_velocityConstMax": [],
+                        "u_velocityCurveMaxX[0]": [],
+                        "u_velocityCurveMaxY[0]": [],
+                        "u_velocityCurveMaxZ[0]": [],
+                        "u_colorGradient[0]": [],
+                        "u_alphaGradient[0]": [],
+                        "u_colorGradientMax[0]": [],
+                        "u_alphaGradientMax[0]": [],
+                        "u_sizeCurve[0]": [],
+                        "u_sizeCurveMax[0]": [],
+                        "u_sizeCurveX[0]": [],
+                        "u_sizeCurveY[0]": [],
+                        "u_sizeCurveZ[0]": [],
+                        "u_sizeCurveMaxX[0]": [],
+                        "u_sizeCurveMaxY[0]": [],
+                        "u_sizeCurveMaxZ[0]": [],
+                        "u_rotationConst": [],
+                        "u_rotationConstMax": [],
+                        "u_rotationCurve[0]": [],
+                        "u_rotationCurveMax[0]": [],
+                        "u_rotationConstSeprarate": [],
+                        "u_rotationConstMaxSeprarate": [],
+                        "u_rotationCurveX[0]": [],
+                        "u_rotationCurveY[0]": [],
+                        "u_rotationCurveZ[0]": [],
+                        "u_rotationCurveW[0]": [],
+                        "u_rotationCurveMaxX[0]": [],
+                        "u_rotationCurveMaxY[0]": [],
+                        "u_rotationCurveMaxZ[0]": [],
+                        "u_rotationCurveMaxW[0]": [],
+                        "u_cycles": [],
+                        "u_subUV": [],
+                        "u_uvCurve[0]": [],
+                        "u_uvCurveMax[0]": [],
+                        "map": "assets/particle/texture/particle_xigua.png.image.json",
+                        "diffuse": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "opacity": 1
+                    }
+                }
+            }
+        }
+    ],
+    "extensions": {
+        "KHR_techniques_webgl": {
+            "techniques": [
+                {
+                    "states": {
+                        "enable": [
+                            3042,
+                            2929
+                        ],
+                        "functions": {
+                            "blendEquationSeparate": [
+                                32774,
+                                32774
+                            ],
+                            "blendFuncSeparate": [
+                                770,
+                                771,
+                                1,
+                                771
+                            ],
+                            "depthFunc": [
+                                515
+                            ],
+                            "depthMask": [
+                                false
+                            ]
+                        }
+                    },
+                    "uniforms": {},
+                    "attributes": {}
+                }
+            ]
+        },
+        "egret": {
+            "version": "5",
+            "minVersion": "5",
+            "assets": [
+                "builtin/particle.shader.json"
+            ],
+            "entities": [
+                {
+                    "uuid": "d6e71323-fc92-4dec-914d-8a84cb18d4fe",
+                    "__class": "@egret/core/AssetEntity",
+                    "components": [
+                        {
+                            "uuid": "3067fe62-7feb-4120-b3c6-83f2e46f990e"
+                        }
+                    ]
+                }
+            ],
+            "components": [
+                {
+                    "uuid": "3067fe62-7feb-4120-b3c6-83f2e46f990e",
+                    "__class": "@egret/render/Material",
+                    "glTF": 0,
+                    "renderQueue": 3000,
+                    "shader": {
+                        "__asset": 0
+                    }
+                }
+            ]
+        }
+    }
+}

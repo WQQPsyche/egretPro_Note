@@ -29,7 +29,12 @@ export class DataManager{
               obj.food_prefabUrl = foodData.prefabUrl;
               obj.food_picName = foodData.picName;
               obj.food_cutFaceMaterialUrl = foodData.cutFaceMaterialUrl;
+            //      粒子效果
               obj.food_particleMaterial = foodData.particleMaterial_suipianUrl;
+
+              const foodName = foodData.picName.replace("_avatar","");
+              obj.particleMaterial_zhishui1Url = "assets/particle/texture/zhishui/"+foodName+"_zhishui_big.png.image.json";
+              obj.particleMaterial_zhishui2Url = "assets/particle/texture/zhishui_small/" + foodName + "_zhishui_small.png.image.json"
               this.foodDatas[obj.food_type] = obj;
               this.foodKeys.push(obj.food_type);
           }

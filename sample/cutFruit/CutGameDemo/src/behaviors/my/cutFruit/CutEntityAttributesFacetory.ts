@@ -71,6 +71,8 @@ export class CutEntityAttributesFactory{
 
         const faceMaterial = await (await ResourceManager.instance.loadUri(foodData.food_cutFaceMaterialUrl)).data;
         foodMeshAttributes.cutFaceMaterial = faceMaterial;
+        
+        foodMeshAttributes.foodId = food_id;
         // ????
         foodMeshAttributes.lengthStart = mat.localBoundingBox.center.y + mat.localBoundingBox.size.y/2;
         foodMeshAttributes.lengthEnd = mat.localBoundingBox.center.y - mat.localBoundingBox.size.y/2;
@@ -123,6 +125,9 @@ export class CutEntityAttributesFactory{
     getRandomFoodMesh(){
         const random_id = Math.floor(Math.random()* DataManager.Instance.foodKeys.length);
         const food_key = DataManager.Instance.foodKeys[random_id];
+        let foodData = DataManager.Instance.foodDatas[food_key];
+        console.error(foodData.food_name);
+        
         return this.foodModelMeshAttributesMaps[food_key]
 
     }
@@ -157,6 +162,7 @@ export class CutEntityAttributesFactory{
 
 
 export class MyMeshAttributes {
+    foodId:number;
     vertice: number[] = [];
     uv: number[] = [];
     normal: number[] = [];

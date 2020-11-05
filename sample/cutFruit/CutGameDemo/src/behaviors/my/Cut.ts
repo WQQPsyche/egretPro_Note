@@ -49,6 +49,12 @@ export class Cut extends Behaviour{
         const oldNormal = cubeMesh.getAttribute("NORMAL");//网格的法向量
         const oldUV = cubeMesh.getAttribute("TEXCOORD_0");// uv
         const oldIndices = cubeMesh.getIndices();//获取顶点的索引数据
+        const s:Vector3 = cubeMesh.boundingBox.size
+        // console.error(s.x*s.y*s.z);
+        if(s.x*s.y*s.z<0.1){ 
+            this.cutPlaneControllerEntity.getComponent(CutController).isCutComplete = true;
+            return;
+        }
 
         //记录每个顶点是否在切面上
         let above: boolean[] = [];
@@ -96,12 +102,8 @@ export class Cut extends Behaviour{
             }
         }
         if (a.vertices.length == 0 || b.vertices.length == 0) {
-            console.error(a.vertices.length,b.vertices.length);
-            
             console.error("物体没有被切割,所有的点都在一侧");
-
-            let lastBox:GameEntity = CutFlyEntityPool.Instance.getCutFlyEntity();
-            lastBox.getComponent(MeshFilter).mesh = this.entity.getComponent(MeshFilter).mesh;
+            this.cutPlaneControllerEntity.getComponent(CutController).isCutComplete = true;
             return;
 
         }
@@ -264,14 +266,17 @@ export class Cut extends Behaviour{
         cut_up.getComponent(MeshRenderer).material = this.faceMaterial;
 
         //下补面实体
-        // const cut_down = CutFillFacePool.Instance.getCutFillFaceEntity();
-        // const cut_downMeshFilter = cut_down.getComponent(MeshFilter);
-        // cut_down.getComponent(MeshRenderer).material = this.faceMaterial;
-        const cut_down = EngineFactory.createGameEntity3D("cut_down" + cutTime );
-        const cut_downMeshFilter = cut_down.addComponent(MeshFilter);
-        // cut_down.addComponent(MeshRenderer).material = testMaterial;
-        cut_down.addComponent(MeshRenderer).material = this.faceMaterial;
-        cut_down.parent = downBox;
+        const cut_down = CutFillFacePool.Instance.getCutFillFaceEntity();
+        const cut_downMeshFilter = cut_down.getComponent(MeshFilter);
+        cut_down.getComponent(MeshRenderer).material = this.faceMaterial;
+
+       
+        
+        // const cut_down = EngineFactory.createGameEntity3D("cut_down" + cutTime );
+        // const cut_downMeshFilter = cut_down.addComponent(MeshFilter);
+        // // cut_down.addComponent(MeshRenderer).material = testMaterial;
+        // cut_down.addComponent(MeshRenderer).material = this.faceMaterial;
+        // cut_down.parent = downBox;
         
         if (cutPoint.length > 2) {
     
@@ -333,6 +338,10 @@ export class Cut extends Behaviour{
                 cut_mesh.setIndices(cut.indices);
                 cut_upMeshFilter.mesh = cut_mesh;
                 cut_up.getComponent(Transform).setParent(upBox.transform, true);
+
+                // cut_up.transform.localPosition = Vector3.ZERO;
+                // cut_up.transform.localEulerAngles = Vector3.ZERO;
+
             }
 
         //////////显示顶点/////////

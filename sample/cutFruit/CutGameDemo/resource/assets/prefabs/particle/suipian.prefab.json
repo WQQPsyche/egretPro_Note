@@ -1,0 +1,273 @@
+{
+  "assets": [
+    "assets/particle/suipian.mat.json"
+  ],
+  "entities": [
+    {
+      "uuid": "0",
+      "__class": "@egret/engine/GameEntity",
+      "components": [
+        {
+          "uuid": "2"
+        },
+        {
+          "uuid": "1"
+        },
+        {
+          "uuid": "3"
+        },
+        {
+          "uuid": "4"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "uuid": "2",
+      "__class": "@egret/engine/TreeNode",
+      "name": "suipian",
+      "tag": "Untagged",
+      "layer": 1
+    },
+    {
+      "uuid": "1",
+      "__class": "@egret/engine/Transform",
+      "isStatic": false,
+      "_localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "_localRotation": [
+        0.707107,
+        0.0,
+        0.0,
+        0.707107
+      ],
+      "_localScale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "uuid": "3",
+      "__class": "@egret/particle/ParticleComponent",
+      "main": {
+        "duration": 2.0,
+        "loop": true,
+        "startDelay": {
+          "mode": 0,
+          "constant": 0.0
+        },
+        "startLifetime": {
+          "mode": 0,
+          "constant": 1.0
+        },
+        "startSpeed": {
+          "mode": 0,
+          "constant": 3.0
+        },
+        "startSize3D": false,
+        "startSizeX": {
+          "mode": 0,
+          "constant": 0.15
+        },
+        "startSizeY": {
+          "mode": 0,
+          "constant": 0.15
+        },
+        "startSizeZ": {
+          "mode": 0,
+          "constant": 0.15
+        },
+        "_startRotation3D": false,
+        "startRotationX": {
+          "mode": 3,
+          "constantMin": 1.570796,
+          "constantMax": 0.0
+        },
+        "startRotationY": {
+          "mode": 3,
+          "constantMin": 1.570796,
+          "constantMax": 0.0
+        },
+        "startRotationZ": {
+          "mode": 3,
+          "constantMin": 1.570796,
+          "constantMax": 0.0
+        },
+        "startColor": {
+          "mode": 0,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "gravityModifier": {
+          "mode": 0,
+          "constant": 2.0
+        },
+        "_simulationSpace": 1,
+        "scaleMode": 2,
+        "playOnAwake": true,
+        "_maxParticles": 3
+      },
+      "emission": {
+        "rateOverTime": {
+          "mode": 0,
+          "constant": 0.0
+        },
+        "bursts": [
+          [
+            0.0,
+            0,
+            3,
+            1,
+            0.01
+          ]
+        ]
+      },
+      "shape": {
+        "shapeType": 4,
+        "angle": 60.0,
+        "length": 5.0,
+        "arcMode": 0,
+        "arc": 360.0,
+        "arcSpread": 0.0,
+        "radiusMode": 0,
+        "radius": 0.1,
+        "radiusSpread": 0.0,
+        "box": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "randomDirection": false,
+        "spherizeDirection": false,
+        "arcSpeed": {
+          "mode": 0,
+          "constant": 1.0
+        }
+      },
+      "sizeOverLifetime": {
+        "_separateAxes": false,
+        "_size": {
+          "mode": 1,
+          "curve": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.333333,
+              1.319996
+            ],
+            [
+              0.666667,
+              1.410235
+            ],
+            [
+              0.995026,
+              0.005262
+            ]
+          ]
+        },
+        "_x": {
+          "mode": 1,
+          "curve": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.333333,
+              1.319996
+            ],
+            [
+              0.666667,
+              1.410235
+            ],
+            [
+              0.995026,
+              0.005262
+            ]
+          ]
+        },
+        "_y": {
+          "mode": 1,
+          "curve": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.333333,
+              0.333333
+            ],
+            [
+              0.666667,
+              0.666667
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "_z": {
+          "mode": 1,
+          "curve": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.333333,
+              0.333333
+            ],
+            [
+              0.666667,
+              0.666667
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      "rotationOverLifetime": {
+        "_separateAxes": true,
+        "_x": {
+          "mode": 0,
+          "constant": 0.0
+        },
+        "_y": {
+          "mode": 0,
+          "constant": 0.0
+        },
+        "_z": {
+          "mode": 0,
+          "constant": 6.283185
+        }
+      }
+    },
+    {
+      "uuid": "4",
+      "__class": "@egret/particle/ParticleRenderer",
+      "velocityScale": 0.02,
+      "lengthScale": 1.0,
+      "renderMode": 0,
+      "materials": [
+        {
+          "__asset": 0
+        }
+      ]
+    }
+  ],
+  "version": "5"
+}

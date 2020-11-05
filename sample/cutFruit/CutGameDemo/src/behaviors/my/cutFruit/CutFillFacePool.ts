@@ -1,3 +1,4 @@
+import { BoxCollider, Rigidbody } from "@egret/oimo";
 import { Application, EngineFactory, GameEntity, Transform } from "@egret/engine";
 import { Mesh, MeshFilter, MeshRenderer } from "@egret/render";
 import { CutFillFace } from "./CutFillFace";
@@ -16,9 +17,10 @@ export class CutFillFacePool{
 
     public entityCount:number = 0;
 
-    public getCutFillFaceEntity(){
+    public getCutFillFaceEntity():GameEntity{
         let _entity = null;
         if (this._pool.length>0) {
+            console.error("fillface回收池中的");
             _entity = this._pool.pop();
             _entity.enabled = true;
             _entity.transform.position.set(0,0,0);
@@ -41,7 +43,13 @@ export class CutFillFacePool{
     public returnPool(entity:GameEntity) {
         entity.parent = Application.instance.sceneManager.activeScene.root.entity;
         entity.enabled = false;
-        this._pool.push(entity);
+        // entity.removeComponent(MeshFilter);
+        // entity.addComponent(MeshFilter).mesh = Mesh.create(1600*3,2400*3);
+        // entity.removeComponent(MeshRenderer);
+        // entity.addComponent(MeshRenderer);
+        // entity.removeComponent(Rigidbody);
+        // entity.removeComponent(BoxCollider);
+        // this._pool.push(entity);
     }
 
     /**
